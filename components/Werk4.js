@@ -3,6 +3,7 @@ import { Container, Row, Col, Carousel, Button, Modal } from "react-bootstrap";
 import Image from "next/image";
 import { Nav } from "react-bootstrap";
 import Link from "next/link";
+import { MdDoubleArrow } from "react-icons/md";
 const Werk4 = () => {
 	const [products, setProducts] = useState([
 		"/assets/1.jpeg",
@@ -83,6 +84,25 @@ const Werk4 = () => {
 					controls={true}
 					interval={null}
 					pause={false}
+					nextIcon={
+						<MdDoubleArrow
+							style={{
+								fontSize: "4rem",
+								color: "orange",
+								backgroundColor: "black",
+							}}
+						/>
+					}
+					prevIcon={
+						<MdDoubleArrow
+							style={{
+								fontSize: "4rem",
+								color: "orange",
+								backgroundColor: "black",
+								rotate: "180deg",
+							}}
+						/>
+					}
 					variant="dark"
 				>
 					{products
@@ -102,7 +122,7 @@ const Werk4 = () => {
 											<Image
 												width={250}
 												height={350}
-												className="d-block w-100 img-hover"
+												className="d-block w-100 img-hover p-4"
 												src={product}
 												alt={`Product ${index * productsPerSlide + idx}`}
 												style={{ cursor: "pointer" }}

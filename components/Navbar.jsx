@@ -6,13 +6,10 @@ import Navbar from "react-bootstrap/Navbar";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 
-import { AiOutlineShopping } from "react-icons/ai";
-
 import { useRouter } from "next/router";
-import { useStateContext } from "@/context/StateContext.js";
 
 import imageUrlBuilder from "@sanity/image-url";
-import { AiFillCloseCircle } from "react-icons/ai";
+
 const NavbarComp = ({ toggleTheme }) => {
 	const router = useRouter();
 

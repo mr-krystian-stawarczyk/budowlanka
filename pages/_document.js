@@ -7,7 +7,7 @@ export default function Document() {
 			<Head>
 				<meta name="description" content="" />
 				<meta name="keywords" content="" />
-				<meta name="theme-color" content="#000000" />
+
 				<link rel="icon" href="/assets/logo50x50.png" />
 			</Head>
 			<body>
