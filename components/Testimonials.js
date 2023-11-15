@@ -76,26 +76,35 @@ function Testimonials() {
 	// Dane recenzji z ocenami
 	const testimonialsData = [
 		{
-			name: "Janusz",
+			name: "Sophie van der Meer",
 			rating: 4.5,
-			review: "Supe dfg fdg fd gdfg dfggfgfd r sdaaaaaaaaaaaaaaaaa",
+			review:
+				"Jestem pod wrażeniem profesjonalizmu firmy w zakresie montażu okien. Ich zespół był niezwykle rzetelny i dokładny, a efekt końcowy przeszedł moje oczekiwania. Teraz mój dom zyskał zupełnie nowy wygląd i lepszą izolację. Polecam z całego serca!",
 		},
 		{
-			name: "Marian",
+			name: "Luuk Janssen",
 			rating: 5,
-			review: "Supgdfgfdfgdfdgdgfd fgd fdgf gdf fg dg fdg gdfger",
+			review:
+				"Usługi tynkarskie świadczone przez tę firmę przerosły moje oczekiwania. Ich kreatywność w wykończeniu fasady była imponująca, a dokładność wykonania zadziwiła mnie pozytywnie. Teraz mój dom prezentuje się doskonale i zyskał zupełnie nowy charakter!",
 		},
-		{ name: "Czeslaw", rating: 5, review: "Super sadasdasdsada fd gf gdfg" },
+		{
+			name: "Eva De Vries",
+			rating: 5,
+			review:
+				"Prace ogólnobudowlane wykonane przez tę firmę były niezwykle solidne i terminowe. Ich zespół wykazał się profesjonalizmem i troską o każdy detal. Efekt końcowy przekroczył moje oczekiwania, dzięki czemu teraz mogę cieszyć się kompletnie odświeżonym wnętrzem!",
+		},
 	];
 
 	return (
 		<Container
 			fluid
-			className={`d-flex bg-color text-dark py-5 align-items-center justify-content-center py-5 my-5`}
+			className={`d-flex bg-light text-dark py-5 align-items-center justify-content-center py-5 my-5 shadow-lg`}
 		>
 			<Row className="justify-content-center  align-items-center flex-column">
 				<Col className="text-center">
-					<h1 className="text-uppercase">Sprawdz Opinie Naszych Klientów</h1>
+					<h1 className="text-uppercase text-bold">
+						Sprawdz Opinie Naszych Klientów
+					</h1>
 				</Col>
 				<Col className="mx-auto my-2">
 					<Carousel
@@ -108,7 +117,7 @@ function Testimonials() {
 							<Carousel.Item key={index}>
 								<Card className="border-0 bg-transparent text-center">
 									<Card.Body>
-										<h1 className="text-bold my-2">{testimonial.name}</h1>
+										<h3 className="text-bold my-2">{testimonial.name}</h3>
 										<div
 											style={{
 												display: "flex",
@@ -118,7 +127,7 @@ function Testimonials() {
 										>
 											{generateStars(testimonial.rating)}
 										</div>
-										<Card.Text className="my-2 text-bold">
+										<Card.Text className="my-2 ">
 											{testimonial.review}
 										</Card.Text>
 									</Card.Body>

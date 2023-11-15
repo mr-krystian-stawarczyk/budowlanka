@@ -73,50 +73,50 @@ function Header4() {
 		}
 	}, [inView, controls, animateIn, animateOut]);
 
-	const sectionPaths = {
-		contact: "contact", // Mapuj wybór do odpowiednich ścieżek
-		about: "about",
-		blog: "blog",
-		werk: "werk",
-		dienste: "dienste",
-	};
-
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Tynki Dla Twojego Domu</h1>
-								<Card.Text>Najpeszy sprzet</Card.Text>
-								<Card.Text>Szybka Realizacja</Card.Text>
-								<Card.Text>Gwarancja </Card.Text>
-								<div className="text-center">
-									<Link href="tynki" className="m-1">
-										<Button className="btn-nav btn-lg">Tynki</Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/tynki2.jpg"
-							width={400}
-							height={400}
-							className="responsive-image rounded shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className={`d-flex py-3 align-items-center bg-white text-dark justify-content-center ${
+				isMobile ? "min-vh-100" : "vh-100"
+			}`}
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold"> Tynki Dla Twojego Domu</h1>
+							<Card.Text>
+								Oferujemy kompleksowe usługi tynkowania, które obejmują szeroki
+								zakres prac związanych z wykończeniem ścian zarówno wewnątrz,
+								jak i na zewnątrz budynków. Nasz doświadczony zespół
+								specjalistów gwarantuje precyzję wykonania oraz wysoką jakość
+								świadczonych usług. Dzięki różnorodności technik i materiałów,
+								których używamy, jesteśmy w stanie sprostać różnym oczekiwaniom
+								klientów, dostosowując się zarówno do tradycyjnych, jak i
+								nowoczesnych preferencji w aranżacji wnętrz. Dbamy nie tylko o
+								estetykę wykończenia, ale również o trwałość i funkcjonalność
+								naszych tynków, aby zapewnić długotrwałe efekty i zadowolenie
+								naszych klientów.
+							</Card.Text>
+							<div className="text-center">
+								<Link href="tynki" className="m-1">
+									<Button className="btn-nav btn-lg">Tynki</Button>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/tynki3.jpg"
+						width={400}
+						height={400}
+						className="responsive-image rounded shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

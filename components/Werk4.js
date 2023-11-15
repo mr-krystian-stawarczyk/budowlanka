@@ -51,9 +51,9 @@ const Werk4 = () => {
 	};
 
 	return (
-		<Container fluid className="bg-light py-5" id="realizacje">
+		<Container fluid className="blur-bg py-5" id="realizacje">
 			<Row className="justify-content-center align-items-center text-center text-dark py-5">
-				<h1 className="hover2"> Okna </h1>
+				<h1 className="text-uppercase text-bold"> Okna </h1>
 			</Row>
 
 			{mobileView ? (

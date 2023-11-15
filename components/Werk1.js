@@ -74,45 +74,43 @@ function Dienste1() {
 	}, [inView, controls, animateIn, animateOut]);
 
 	return (
-		<motion.div ref={ref} animate={controls}>
-			<Container
-				fluid
-				className={`d-flex py-5 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold">
-									{" "}
-									Przedstawiamy Nasze Najnowsze Realizacje
-								</h1>
-								<Card.Text>Profesjonalnie</Card.Text>
-								<Card.Text>Kompleksowo</Card.Text>
-								<Card.Text>Zawsze na czas</Card.Text>
-								<div className="text-center">
-									<Link href="#realizacje" className="m-1">
-										<Button className="btn-nav btn-lg">Realizacje</Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						{" "}
-						<Image
-							src="/assets/werk1.jpg"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg rounded "
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className={`d-flex py-5 bg-light text-dark align-items-center justify-content-center ${
+				isMobile ? "min-vh-100" : "vh-100"
+			}`}
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold">
+								{" "}
+								Przedstawiamy Nasze Najnowsze Realizacje
+							</h1>
+							<Card.Text>Profesjonalnie</Card.Text>
+							<Card.Text>Kompleksowo</Card.Text>
+							<Card.Text>Zawsze na czas</Card.Text>
+							<div className="text-center">
+								<Link href="#realizacje" className="m-1">
+									<Button className="btn-nav btn-lg">Realizacje</Button>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					{" "}
+					<Image
+						src="/assets/werk1.jpg"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg rounded "
+						alt="Sanity Image"
+					/>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

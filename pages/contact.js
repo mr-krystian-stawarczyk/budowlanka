@@ -13,8 +13,6 @@ function contact() {
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Contact1 />
-
-			<Contact2 />
 		</div>
 	);
 }

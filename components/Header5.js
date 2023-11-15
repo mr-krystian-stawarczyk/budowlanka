@@ -83,41 +83,47 @@ function Header5() {
 	};
 
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/glazura2.jpg"
-							width={400}
-							height={400}
-							className="responsive-image rounded shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold">Przepiekna Glazura</h1>
-								<Card.Text>Lata Doswiadczenia</Card.Text>
-								<Card.Text>Najlepsza Jakosc</Card.Text>
-								<Card.Text>Szybkie Terminy</Card.Text>
-								<div className="text-center">
-									<Link href="glazura" className="m-1">
-										<Button className="btn-nav btn-lg">Glazura</Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className={`d-flex py-3 align-items-center bg-light text-dark justify-content-center ${
+				isMobile ? "min-vh-100" : "vh-100"
+			}`}
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/glazura3.jpg"
+						width={400}
+						height={400}
+						className="responsive-image rounded shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold">Przepiekna Glazura</h1>
+							<Card.Text>
+								Bez względu na wielkość powierzchni czy specyfikę projektu,
+								podejmujemy się zarówno prostych jak i bardziej wymagających
+								zadań związanych z glazurowaniem. Dzięki zastosowaniu
+								najlepszych materiałów i technik układania, zapewniamy nie tylko
+								estetyczne i eleganckie wykończenie, ale także trwałość i
+								solidność wykonania. Naszym celem jest nie tylko zadowolenie
+								klienta, lecz także dostarczenie rozwiązań, które spełnią
+								oczekiwania estetyczne i funkcjonalne, tworząc powierzchnię
+								wyjątkową pod względem wyglądu i jakości.
+							</Card.Text>
+							<div className="text-center">
+								<Link href="glazura" className="m-1">
+									<Button className="btn-nav btn-lg">Glazura</Button>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

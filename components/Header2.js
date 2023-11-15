@@ -74,50 +74,49 @@ function Header2() {
 		}
 	}, [inView, controls, animateIn, animateOut]);
 
-	const sectionPaths = {
-		contact: "contact", // Mapuj wybór do odpowiednich ścieżek
-		about: "about",
-		blog: "blog",
-		werk: "werk",
-		dienste: "dienste",
-	};
-
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Oferujemy Profesjonalne Okna</h1>
-								<Card.Text>Sprzedaz</Card.Text>
-								<Card.Text>Montaz</Card.Text>
-								<Card.Text>Gwarancja</Card.Text>
-								<div className="text-center">
-									<Link href="okna" className="m-1">
-										<Button className="btn-nav btn-lg">Okna</Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/okna2.jpg"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg rounded"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			id="header2"
+			className={`d-flex  align-items-center bg-white  text-dark justify-content-center ${
+				isMobile ? "min-vh-100" : "vh-100"
+			}`}
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold"> Oferujemy Profesjonalne Okna</h1>
+							<Card.Text>
+								Nasi doświadczeni specjaliści służą fachowym doradztwem na
+								każdym etapie wyboru i instalacji okien. Dzięki naszemu
+								zaangażowaniu w jakość i precyzję wykonania, możesz mieć
+								pewność, że otrzymasz nie tylko wysokiej klasy produkty, ale
+								także profesjonalną obsługę. Dbamy o każdy detal, aby zapewnić
+								naszym klientom nie tylko doskonałą funkcjonalność, ale także
+								trwałość i estetykę na lata. Z nami wymiana okien to nie tylko
+								inwestycja w komfort Twojego domu, ale również w jego wartość.
+							</Card.Text>
+
+							<div className="text-center">
+								<Link href="okna" className="m-1">
+									<Button className="btn-nav btn-lg">Okna</Button>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/okna3.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg rounded"
+						alt="Sanity Image"
+					/>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

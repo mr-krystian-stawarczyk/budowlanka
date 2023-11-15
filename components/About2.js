@@ -120,7 +120,7 @@ function About2() {
 	return (
 		<Container
 			fluid
-			className={`d-flex flex-column  justify-content-center align-items-center min-vh-100`}
+			className={`d-flex flex-column bg-white text-dark  justify-content-center align-items-center min-vh-100`}
 		>
 			<Row className="text-center d-row my-2">
 				<h1>Proces Realizacji</h1>
@@ -138,7 +138,19 @@ function About2() {
 							<Card.Body>
 								<h1>1</h1>
 								<Card.Text className="text-bold">Kontakt</Card.Text>
-								<Card.Text>sadsad</Card.Text>
+								<Card.Text>
+									Kontaktujesz się z nami: Zadzwoń, napisz e-mail lub skorzystaj
+									z formularza kontaktowego na stronie.
+								</Card.Text>
+								<Card.Text>
+									Spotykamy się, by poznać Twoje potrzeby: Umów się na
+									spotkanie, podczas którego szczegółowo omówimy Twoje
+									oczekiwania odnośnie usług.
+								</Card.Text>
+								<Card.Text>
+									Rozpoczynamy dialog: Chcemy zrozumieć Twoje preferencje i
+									wypracować najlepsze rozwiązania dla Twojego projektu.
+								</Card.Text>
 							</Card.Body>
 						</Card>
 					</motion.div>
@@ -153,8 +165,23 @@ function About2() {
 						<Card className="border-0 bg-transparent ">
 							<Card.Body>
 								<h1>2</h1>
-								<Card.Text className="text-bold">Ustalenia Cenowe</Card.Text>
-								<Card.Text>sadasdsda</Card.Text>
+								<Card.Text className="text-bold">
+									Planowanie i Realizacja
+								</Card.Text>
+								<Card.Text>
+									Przygotowujemy spersonalizowaną ofertę: Analizujemy Twoje
+									wymagania i przygotowujemy dopasowaną ofertę, uwzględniającą
+									wszystkie aspekty prac.
+								</Card.Text>
+								<Card.Text>
+									Koordynujemy harmonogram prac: Po zaakceptowaniu oferty
+									planujemy terminy i dostosowujemy harmonogram prac do Twoich
+									preferencji.
+								</Card.Text>
+								<Card.Text>
+									Zapewniamy klarowność i jasność: Jesteśmy otwarci na Twoje
+									sugestie i dbamy o transparentność w procesie planowania.
+								</Card.Text>
 							</Card.Body>
 						</Card>
 					</motion.div>
@@ -169,8 +196,23 @@ function About2() {
 						<Card className="border-0 bg-transparent ">
 							<Card.Body>
 								<h1>3</h1>
-								<Card.Text className="text-bold">Koncowe Poprawki</Card.Text>
-								<Card.Text>dfgfdgdfg</Card.Text>
+								<Card.Text className="text-bold">
+									Realizacja i Satysfakcja
+								</Card.Text>
+								<Card.Text>
+									Rzetelnie wykonujemy prace: Nasz doświadczony zespół
+									przystępuje do realizacji, dbając o każdy szczegół.
+								</Card.Text>
+								<Card.Text>
+									Sprawdzamy finalne efekty: Po zakończeniu prac dokładnie
+									weryfikujemy rezultaty, aby upewnić się, że spełniają Twoje
+									oczekiwania.
+								</Card.Text>
+								<Card.Text>
+									Zależy nam na Twojej satysfakcji: Jesteśmy gotowi na dialog i
+									zawsze dążymy do zapewnienia pełnej satysfakcji z naszych
+									usług.
+								</Card.Text>
 							</Card.Body>
 						</Card>{" "}
 					</motion.div>

@@ -16,6 +16,7 @@ import Werk2 from "@/components/Werk2";
 import Header10 from "@/components/Header10";
 import Testimonials from "@/components/Testimonials";
 import Header9 from "@/components/Header9";
+import Testowy from "@/components/Testowy";
 
 export default function Home() {
 	const { theme } = useTheme();
@@ -28,7 +29,7 @@ export default function Home() {
 			</Head>
 
 			<Header1 />
-
+			<Testowy />
 			<Header10 />
 
 			<Header2 />

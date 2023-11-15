@@ -52,7 +52,7 @@ const Werk2 = () => {
 	return (
 		<Container fluid className="bg-light py-5">
 			<Row className="justify-content-center align-items-center text-center text-dark py-5">
-				<h1>Nasze Ostatnie Realizacje</h1>
+				<h1 className="text-bold text-uppercase">Nasze Ostatnie Realizacje</h1>
 			</Row>
 
 			{mobileView ? (

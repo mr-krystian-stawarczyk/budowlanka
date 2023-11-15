@@ -51,7 +51,7 @@ function Header3() {
 	const animateIn = {
 		opacity: 1,
 		transition: {
-			duration: 1,
+			duration: 0.1,
 			ease: "easeInOut",
 		},
 	};
@@ -74,50 +74,45 @@ function Header3() {
 		}
 	}, [inView, controls, animateIn, animateOut]);
 
-	const sectionPaths = {
-		contact: "contact", // Mapuj wybór do odpowiednich ścieżek
-		about: "about",
-		blog: "blog",
-		werk: "werk",
-		dienste: "dienste",
-	};
-
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/termo2.jpg"
-							width={400}
-							height={400}
-							className="responsive-image rounded shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Profesjonalna Termoizolacja</h1>
-								<Card.Text>Szybko</Card.Text>
-								<Card.Text>Profesjonalnie</Card.Text>
-								<Card.Text>Na Lata</Card.Text>
-								<div className="text-center">
-									<Link href="termo" className="m-1">
-										<Button className="btn-nav btn-lg">Termo</Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className={`d-flex py-3 align-items-center bg-light text-dark justify-content-center ${
+				isMobile ? "min-vh-100" : "vh-100"
+			}`}
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/thermo3.jpg"
+						width={400}
+						height={400}
+						className="responsive-image rounded shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold"> Profesjonalna Termoizolacja</h1>
+							<Card.Text>
+								Dzięki naszym produktom można cieszyć się równomiernie rozłożoną
+								temperaturą w pomieszczeniach, co ma znaczący wpływ na codzienne
+								samopoczucie domowników. Ponadto, doskonała termoizolacja
+								redukuje również kondensację wilgoci na szybach, co jest istotne
+								dla utrzymania odpowiednich warunków wewnętrznych i zapobiegania
+								powstawaniu szkodliwego pleśnia czy grzybów.
+							</Card.Text>
+							<div className="text-center">
+								<Link href="termo" className="m-1">
+									<Button className="btn-nav btn-lg">Termo</Button>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

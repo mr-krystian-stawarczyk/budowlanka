@@ -17,12 +17,14 @@ const Header1 = () => {
 						className="image"
 						alt="webentwicklung-nettetal-fragen1"
 					/>
-					<Carousel.Caption className="header-bg text-dark rounded shadow-lg p-3 m-1">
-						<h1 className="text-uppercase">Okna Montaż</h1>
-						<h2>Nulla vitae elit libero, a pharetra augue mollis interdum.</h2>
-						<Button href="/okna" className="btn-nav">
+					<Carousel.Caption className="bg-light text-dark rounded shadow-lg p-3 m-1">
+						<h2 className="text-uppercase text-bold">Okna Montaż</h2>
+						<h3 className="text-bold">
+							Nulla vitae elit libero, a pharetra augue mollis interdum.
+						</h3>
+						<Button href="/okna" className="btn-nav ">
 							{" "}
-							Okna
+							<span className="text-bold">Okna</span>
 						</Button>
 					</Carousel.Caption>
 				</Carousel.Item>
@@ -35,11 +37,13 @@ const Header1 = () => {
 						className="image"
 						alt="webentwicklung-nettetal-fragen1"
 					/>
-					<Carousel.Caption className="header-bg text-dark rounded shadow-lg p-3 m-1">
-						<h1>Termo Izolacja</h1>
-						<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+					<Carousel.Caption className="bg-light text-dark rounded shadow-lg p-3 m-1">
+						<h2 className="text-bold">Termo Izolacja</h2>
+						<h3 className="text-bold">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</h3>
 						<Button href="/termo" className="btn-nav">
-							Termo
+							<span className="text-bold">Termo</span>
 						</Button>
 					</Carousel.Caption>
 				</Carousel.Item>
@@ -52,13 +56,13 @@ const Header1 = () => {
 						className="image"
 						alt="webentwicklung-nettetal-fragen1"
 					/>
-					<Carousel.Caption className="header-bg text-dark rounded shadow-lg p-3 m-1">
-						<h1>Tynki</h1>
-						<h2>
+					<Carousel.Caption className="bg-light text-dark rounded shadow-lg p-3 m-1">
+						<h2 className="text-bold">Tynki</h2>
+						<h3 className="text-bold">
 							Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-						</h2>
+						</h3>
 						<Button href="/tynki" className="btn-nav">
-							Tynki{" "}
+							<span className="text-bold">Tynki</span>
 						</Button>
 					</Carousel.Caption>
 				</Carousel.Item>
@@ -71,13 +75,13 @@ const Header1 = () => {
 						className="image"
 						alt="webentwicklung-nettetal-fragen1"
 					/>
-					<Carousel.Caption className="header-bg text-dark rounded shadow-lg p-3 m-1">
-						<h1>Glazura</h1>
-						<h2>
+					<Carousel.Caption className="bg-light text-dark rounded shadow-lg p-3 m-1">
+						<h2 className="text-bold">Glazura</h2>
+						<h3 className="text-bold">
 							Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-						</h2>
+						</h3>
 						<Button href="/glazura" className="btn-nav">
-							Tynki{" "}
+							<span className="text-bold">Glazura</span>
 						</Button>
 					</Carousel.Caption>
 				</Carousel.Item>
@@ -91,12 +95,12 @@ const Header1 = () => {
 						alt="webentwicklung-nettetal-fragen1"
 					/>
 					<Carousel.Caption className="header-bg text-dark rounded shadow-lg p-3 m-1">
-						<h1>Ogolnobudowlane</h1>
-						<h2>
+						<h2 className="text-bold">Ogolnobudowlane</h2>
+						<h3 className="text-bold">
 							Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-						</h2>
+						</h3>
 						<Button href="/ogolne" className="btn-nav">
-							Ogolne{" "}
+							<span className="text-bold">Ogolne</span>
 						</Button>
 					</Carousel.Caption>
 				</Carousel.Item>

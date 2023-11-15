@@ -10,14 +10,22 @@
 	color: black; /* Set the text color to white */
 }
 body {
-	scrollbar-width: none; /* Firefox */
-	-ms-overflow-style: none;
-	background-color: black !important;
-	color: white !important; /* IE and Edge */
+	scrollbar-width: none;
+	background-image: url("../public/assets/background.png");
+	background-size: contain; /* Ustawienie rozmiaru obrazka na auto */
+	background-repeat: no-repeat;
+	background-attachment: fixed; /* Obrazek tła będzie stały podczas przewijania */
+	/* Ustawienie obrazka na środku, na górze */
+	color: white !important;
+	/* Reszta Twojego kodu */
 }
 
 a {
 	text-decoration: none;
+}
+
+.blur-bg {
+	background-color: #ffffffda;
 }
 
 .image-container {
@@ -26,13 +34,19 @@ a {
 	overflow: hidden;
 }
 .image {
-	width: 100% !important;
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Dodaj tę właściwość */
 	position: relative !important;
 }
 
 @media (max-width: 768px) {
+	.image-container {
+		height: 100vh; /* Zmień wysokość na automatyczną, aby obraz został wyświetlony w pełnej wysokości */
+	}
 	.image {
-		object-fit: cover;
+		height: 100vh !important;
+		width: 100vw !important;
 	}
 }
 

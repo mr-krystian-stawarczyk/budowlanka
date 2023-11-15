@@ -13,7 +13,7 @@ function Contact2() {
 	};
 
 	return (
-		<Container className=" py-5 " fluid>
+		<Container className=" py-5 blur-bg text-dark" fluid>
 			<Row
 				className="justify-content-center text-center align-items-center"
 				style={{ minHeight: "70vh" }}

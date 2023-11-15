@@ -5,16 +5,33 @@ import Link from "next/link";
 import Navbar from "react-bootstrap/Navbar";
 import Image from "next/image";
 import { useTheme } from "next-themes";
-
+import { FiX } from "react-icons/fi";
 import { useRouter } from "next/router";
+import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 import imageUrlBuilder from "@sanity/image-url";
 
 const NavbarComp = ({ toggleTheme }) => {
 	const router = useRouter();
+	const [menuOpen, setMenuOpen] = useState(false);
 
+	const toggleMenu = () => {
+		setMenuOpen(!menuOpen); // Zmiana stanu otwarcia/zamknięcia menu
+	};
 	const [scrolled, setScrolled] = useState(false);
 	const [navbarColor, setNavbarColor] = useState("transparent");
+
+	useEffect(() => {
+		const handleRouteChange = () => {
+			setMenuOpen(false); // Zamknij menu po zmianie trasy
+		};
+
+		router.events.on("routeChangeStart", handleRouteChange);
+
+		return () => {
+			router.events.off("routeChangeStart", handleRouteChange);
+		};
+	}, [router.events]);
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -61,19 +78,25 @@ const NavbarComp = ({ toggleTheme }) => {
 				<Navbar.Toggle
 					aria-controls="responsive-navbar-nav"
 					aria-label="Toggle navigation"
-				></Navbar.Toggle>
+					onClick={toggleMenu}
+				>
+					{" "}
+					{menuOpen ? <FiX /> : <span>&#9776;</span>}
+				</Navbar.Toggle>
 				<Navbar.Collapse
 					id="basic-navbar-nav"
-					className=" rounded justify-content-end text-center  m-1  navbar-toggler border-0 "
+					className={`${
+						menuOpen ? "show" : ""
+					} rounded justify-content-end text-center m-1 navbar-toggler border-0`}
 				>
-					<Nav className="navbar-collapse justify-content-end text-center rounded ">
+					<Nav className="navbar-collapse py-3 justify-content-end align-items-center text-center rounded ">
 						<Nav.Link as={Link} href="/about" className="m-1">
 							<Button
 								className="btn-md py-2  border-0 shadow-md btn-nav"
 								variant="warning"
 							>
 								O Nas
-							</Button>{" "}
+							</Button>
 						</Nav.Link>
 						<NavDropdown
 							title="Usługi"
@@ -119,6 +142,32 @@ const NavbarComp = ({ toggleTheme }) => {
 								Kontakt
 							</Button>
 						</Nav.Link>
+
+						<Nav.Item className=" ">
+							<Dropdown className="border-0">
+								<Dropdown.Toggle
+									style={{ backgroundColor: "green" }}
+									id="dropdown-basic"
+									className="border-0"
+								>
+									<MdOutlinePhoneInTalk /> Szybki Kontakt
+								</Dropdown.Toggle>
+
+								<Dropdown.Menu className="border-0">
+									<Dropdown.Item className="my-2 hover">
+										<span className="text-bold">Grzesiek: +31684665722</span>
+									</Dropdown.Item>
+									<Dropdown.Item className="my-2 hover">
+										<span className="text-bold">Darek: +31615968284</span>
+									</Dropdown.Item>
+									<Dropdown.Item className="my-2 hover">
+										<span className="text-bold">
+											E-mail: dgbouwgroep@gmail.com
+										</span>
+									</Dropdown.Item>
+								</Dropdown.Menu>
+							</Dropdown>
+						</Nav.Item>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

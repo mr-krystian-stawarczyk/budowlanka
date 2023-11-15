@@ -8,6 +8,7 @@ import Werk5 from "@/components/Werk5";
 import Werk6 from "@/components/Werk6";
 import Werk7 from "@/components/Werk7";
 import Werk8 from "@/components/Werk8";
+import Testimonials from "@/components/Testimonials";
 
 function werk() {
 	return (
@@ -23,6 +24,7 @@ function werk() {
 			<Werk6 />
 			<Werk7 />
 			<Werk8 />
+			<Testimonials />
 		</div>
 	);
 }
