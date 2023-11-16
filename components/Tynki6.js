@@ -8,7 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import imageUrlBuilder from "@sanity/image-url";
 
-function Tynki3() {
+function Tynki6() {
 	const [windowWidth, setWindowWidth] = useState(0);
 	useEffect(() => {
 		const handleResize = () => {
@@ -77,43 +77,48 @@ function Tynki3() {
 	return (
 		<Container
 			fluid
-			className="d-flex py-3 bg-white text-dark align-items-center justify-content-center "
+			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Hoe werkt pleister spuiten</h1>
+							<h1>Spuitpleister prijs</h1>
 							<Card.Text>
-								Voordat de stukadoor met het pleisteren kan beginnen, moet de
-								ondergrond worden voorbereid. Het grote voordeel van spuitwerk
-								is dat er niet veel voorbereidingen hoeven worden gemaakt.
-								Vooral de naden tussen gipsplaten of zwakkere stukken in de
-								nieuwbouwwoningen moeten worden verstevigd. De ondergrond zelf
-								maakt weinig uit, of deze nu van gasbeton, gips, andere soorten
-								beton of metselwerk is. Pleister spuiten De pleister brengen de
-								vakmensen aan door middel van een spuitmachine die met hoge druk
-								werkt. Dit gaan een stuk sneller dan het handmatig doen,
-								waardoor je snel de pleisterlaag kunt aanbrengen. Wel is het
-								belangrijk dat ramen, kozijnen en andere delen eerst worden
-								afgeplakt. De pleister wordt onverdund in een egale laag
-								gespoten, waarna het glad wordt gestreken met speciale
-								pleistermessen en het kan drogen. Eindresultaat Na deze eerste
-								laag spuitpleister heb je behangklare wanden die mooi glad zijn.
-								Soms wordt er hier nog een tweede laag voor gebruikt om het
-								beste resultaat te krijgen. Voor nieuwbouw wordt vaak nog spack
-								spuitwerk op het plafond aangebracht. De muren zijn nu klaar
-								voor behang of latex verf, maar kunnen ook nog worden afgewerkt
-								met een grove structuur of fijne structuur korrel.
+								Pleister spuiten is een van de goedkoopste soorten stucwerk.
+								Gemiddeld zul je tussen de €15 en €25 per vierkante meter kwijt
+								zijn voor dit type stucwerk op een plafond of wand. De plek
+								waarop het aangebracht moet worden zal weinig verschil in de
+								prijs geven. Je kunt het nog goedkoper maken als je geen
+								stukadoor inschakelt, maar dan moet je wel het benodigde
+								materieel hebben. Helemaal als je de plafonds in huis wilt laten
+								spuiten, is het echt slimmer om iemand in te huren. Vergelijking
+								met andere soorten Voor spuitpleister heb je al een relatief
+								egale ondergrond nodig. Als er grote oneffenheden zijn, zoals
+								vaker gebeurd in een huis dat gerenoveerd moet worden, zal er
+								eerder voor raapwerk worden gekozen. Dit egaliseert de wanden en
+								plafonds erg goed, maar deze soort stucwerk wordt in een dikke
+								laag van tot wel 5 cm aangebracht door de stukadoor. Hierna moet
+								de afwerking nog glad worden gemaakt. Je hebt dan dus niet
+								meteen behangklare wanden. Door de extra dikte kan raapwerk €15
+								tot €35 per vierkante meter kosten. Speciaal stucwerk
+								Sierpleister geeft een mooie, maar redelijk standaard afwerking.
+								De gladde wanden en plafonds, of juist met structuur van
+								spackspuitwerk, passen in bijna elke stijl. Maar als je iets
+								unieks wilt, is dat natuurlijk ook mogelijk. Door eerst een laag
+								spuitpleister aan te brengen en daarna bijvoorbeeld beton ciré
+								op de wanden te laten plaatsen, krijg je een unieke uitstraling.
+								Maar daar betaal je ook wel voor. Dit soort betonstuc begint
+								vanaf €80 per vierkante meter.
 							</Card.Text>
 							<Card.Text></Card.Text>
 						</Card.Body>
 					</Card>
-				</Col>
+				</Col>{" "}
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					{" "}
 					<Image
-						src="/assets/tynki6.png"
+						src="/assets/tynki8.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
@@ -125,4 +130,4 @@ function Tynki3() {
 	);
 }
 
-export default Tynki3;
+export default Tynki6;

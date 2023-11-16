@@ -80,33 +80,48 @@ function Tynki4() {
 			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
 		>
 			<Row className="justify-content-center  align-items-center">
-				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
-						<Card.Body>
-							<h1 className="text-bold"> Tynki cementowo wapienne</h1>
-							<Card.Text>
-								Wyróżniają się wysoką wodoodpornością, tak więc bez obaw można
-								je stosować w łazienkach, łaźniach, suszarniach itp. Bardzo
-								dobra wytrzymałość mechaniczna, paro przepuszczalność oraz
-								mrozoodporność mają tu również bardzo istotne znaczenie. Główną
-								wadą tego rodzaju tynku, jest przede wszystkich chropowata
-								struktura, (którą można jednak maksymalnie zminimalizować
-								stosując zacieraczkę do tynków), oraz duża ilość wody niezbędna
-								do odparowania gotowego tynku.
-							</Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-						</Card.Body>
-					</Card>
-				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
+					{" "}
 					<Image
-						src="/assets/knauf4.png"
+						src="/assets/tynki7.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
 						alt="Sanity Image"
 					/>
+				</Col>{" "}
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1>Meest voordelige afwerking</h1>
+							<Card.Text>
+								Zoals je ziet, is pleister spuiten geen ingewikkelde klus voor
+								een stukadoor. Hierdoor is het een stuk goedkoper dan andere
+								soorten stucwerk, omdat je minder voor de arbeid hoeft te
+								betalen. Pleisterwerk is een glad stucwerk met een stevig
+								eindresultaat, waardoor het veel wordt gebruikt in nieuwbouw.
+								Ook is het makkelijk om na het drogen je eigen stijl toe te
+								passen, bijvoorbeeld door behang aanbrengen of latex spuiten.
+								Het hele huis Je kunt pleisterwerk door het hele huis toepassen.
+								Het verstevigt de naden van de plafonds en wanden en maakt deze
+								glad, zodat je een mooie afwerking krijgt. Vroeger was er een
+								kans dat een nieuwbouwwoning tot 5 jaar na de bouw nog kon
+								uitzetten, waardoor er scheurtjes in de muren, plafonds en
+								pleisterwerk konden ontstaan. Hierdoor werd pleister spuiten
+								vaak afgeraden in deze eerste jaren, ook al is spuitpleister erg
+								makkelijk bij te werken indien nodig. Plafonds en muren
+								Tegenwoordig is dit risico een stuk minder, waardoor de pleister
+								gewoon kan worden aangebracht op de plafonds en muren na het
+								bouwen. Soms kan het aanbrengen van spuitpleister zelfs deze
+								beschadigingen voorkomen. Er is maar een dunne laag van het
+								spuitpleister nodig op het plafond en de muur om de voordelen
+								hiervan te krijgen. Ook hierdoor is dit pleisterwerk een van de
+								meest voordelige keuzes voor de afwerking van plafonds en muren,
+								omdat je weinig materiaal nodig hebt.
+							</Card.Text>
+							<Card.Text></Card.Text>
+						</Card.Body>
+					</Card>
 				</Col>
 			</Row>
 		</Container>

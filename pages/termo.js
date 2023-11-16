@@ -7,23 +7,79 @@ import Termo4 from "@/components/Termo4";
 import Testimonials from "@/components/Testimonials";
 import Termo5 from "@/components/Termo5";
 import Header3 from "@/components/Header3";
-
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import Link from "next/link";
+import Image from "next/image";
+Image;
 function termo() {
 	return (
-		<div className="">
-			<Head>
-				<title>Termo</title>
-				<meta name="" content="" />
-				<meta name="robots" content="index, follow" />
-			</Head>
-			<Header3 />
-			<Termo1 />
-			<Termo2 />
-			<Termo3 />
-			<Termo4 />
-			<Testimonials />
-			<Termo5 />
-		</div>
+		<Container
+			fluid
+			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={4} className="mx-auto my-2 text-center ">
+					{" "}
+					<Image
+						src="/assets/termo2.jpg"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>{" "}
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1>Izolacja Dach</h1>
+
+							<Card.Text></Card.Text>
+						</Card.Body>{" "}
+						<Link href="izodach">
+							<Button>IZO Dach</Button>
+						</Link>
+					</Card>
+				</Col>{" "}
+				<Col lg={4} className="mx-auto my-2 text-center ">
+					{" "}
+					<Image
+						src="/assets/termo3.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>{" "}
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1>Izolacja wew</h1>
+
+							<Card.Text></Card.Text>
+						</Card.Body>{" "}
+						<Link href="izowew">
+							<Button>IZO Wew</Button>
+						</Link>
+					</Card>
+				</Col>{" "}
+				<Col lg={4} className="mx-auto my-2 text-center ">
+					{" "}
+					<Image
+						src="/assets/termo4.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>{" "}
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1>Izolacja zew</h1>
+
+							<Card.Text></Card.Text>
+						</Card.Body>
+						<Link href="izozew">
+							<Button>IZO ZEW</Button>
+						</Link>
+					</Card>
+				</Col>{" "}
+			</Row>
+		</Container>
 	);
 }
 
