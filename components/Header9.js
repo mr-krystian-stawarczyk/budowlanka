@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { MdDoubleArrow } from "react-icons/md";
 
 import Link from "next/link";
 
@@ -108,8 +109,18 @@ function Header9() {
 								oczekiwaniom naszych klientów.
 							</Card.Text>
 							<div className="text-center">
-								<Link href="ogolne" className="m-1">
-									<Button className="btn-nav btn-lg">Ogolnobudowlane</Button>
+								<Link href="#ogolne2" className="m-1">
+									<Button className="btn-nav btn-lg">
+										{" "}
+										<MdDoubleArrow
+											style={{
+												fontSize: "2rem",
+												color: "black",
+												backgroundColor: "transparent",
+												rotate: "90deg",
+											}}
+										/>
+									</Button>
 								</Link>
 							</div>
 						</Card.Body>

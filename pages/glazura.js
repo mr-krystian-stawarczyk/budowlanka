@@ -6,6 +6,7 @@ import Glazura3 from "@/components/Glazura3";
 import Glazura4 from "@/components/Glazura4";
 import Testimonials from "@/components/Testimonials";
 import Glazura5 from "@/components/Glazura5";
+import Header5 from "@/components/Header5";
 
 function glazura() {
 	return (
@@ -15,6 +16,7 @@ function glazura() {
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>
+			<Header5 />
 			<Glazura1 />
 			<Glazura2 />
 			<Glazura3 />

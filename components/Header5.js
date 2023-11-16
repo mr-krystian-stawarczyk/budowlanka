@@ -7,7 +7,7 @@ import Link from "next/link";
 
 import Image from "next/image";
 import imageUrlBuilder from "@sanity/image-url";
-
+import { MdDoubleArrow } from "react-icons/md";
 function Header5() {
 	const [windowWidth, setWindowWidth] = useState(0);
 	useEffect(() => {
@@ -115,8 +115,18 @@ function Header5() {
 								wyjątkową pod względem wyglądu i jakości.
 							</Card.Text>
 							<div className="text-center">
-								<Link href="glazura" className="m-1">
-									<Button className="btn-nav btn-lg">Glazura</Button>
+								<Link href="#glazura2" className="m-1">
+									<Button className="btn-nav btn-lg">
+										{" "}
+										<MdDoubleArrow
+											style={{
+												fontSize: "2rem",
+												color: "black",
+												backgroundColor: "transparent",
+												rotate: "90deg",
+											}}
+										/>
+									</Button>
 								</Link>
 							</div>
 						</Card.Body>

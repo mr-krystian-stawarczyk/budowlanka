@@ -10,10 +10,10 @@ function Okna5() {
 	const [backgroundColor, setBackgroundColor] = useState("#ffffff");
 
 	return (
-		<Container className="  py-5" fluid id="web-design-faq">
+		<Container className="bg-light  py-5" fluid id="web-design-faq">
 			<Row className="justify-content-center align-items-center">
 				<Col lg={4} md={6} xs={12} className="py-5 text-center">
-					<h1 className="text-white text-uppercase">
+					<h1 className="text-dark text-uppercase">
 						Najczęsciej Zadawane Pytania : Okna
 					</h1>
 				</Col>

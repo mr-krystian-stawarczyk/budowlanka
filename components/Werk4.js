@@ -122,7 +122,7 @@ const Werk4 = () => {
 											<Image
 												width={250}
 												height={350}
-												className="d-block w-100 img-hover p-4"
+												className="d-block w-100  "
 												src={product}
 												alt={`Product ${index * productsPerSlide + idx}`}
 												style={{ cursor: "pointer" }}

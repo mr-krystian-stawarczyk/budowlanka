@@ -13,16 +13,16 @@ import Image from "next/image";
 import imageUrlBuilder from "@sanity/image-url";
 function About2() {
 	const [ref1, inView1] = useInView({
-		threshold: 0.5,
+		threshold: 0.4,
 		triggerOnce: false,
 	});
 
 	const [ref2, inView2] = useInView({
-		threshold: 0.5,
+		threshold: 0.3,
 		triggerOnce: false,
 	});
 	const [ref3, inView3] = useInView({
-		threshold: 0.5,
+		threshold: 0.2,
 		triggerOnce: false,
 	});
 
@@ -191,7 +191,7 @@ function About2() {
 						ref={ref3}
 						animate={controls3}
 						initial={{ opacity: 0 }}
-						transition={{ delay: 1 }}
+						transition={{ delay: 0.1 }}
 					>
 						<Card className="border-0 bg-transparent ">
 							<Card.Body>

@@ -8,6 +8,7 @@ import { useTheme } from "next-themes";
 import { FiX } from "react-icons/fi";
 import { useRouter } from "next/router";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
+import { MdHome } from "react-icons/md";
 
 import imageUrlBuilder from "@sanity/image-url";
 
@@ -68,11 +69,14 @@ const NavbarComp = ({ toggleTheme }) => {
 				<Navbar.Brand
 					as={Link}
 					href="/"
-					className=" rounded  py-0 d-flex align-items-center shadow-lg"
+					className=" rounded  py-0 d-flex align-items-center blur"
 				>
 					<Image src="/assets/logo1.png" alt="logo" width={50} height={50} />
 					<span className={scrolled ? "logo" : "logo1"}>
-						<span className="mx-2 nazwa-firmy text-bold">DG BOUWGROEP</span>
+						<span className="mx-2 nazwa-firmy text-bold">
+							<span style={{ color: "#C4E6F6" }}>DG </span>
+							<span style={{ color: "orange" }}>BOUWGROEP</span>
+						</span>
 					</span>
 				</Navbar.Brand>
 				<Navbar.Toggle
@@ -90,6 +94,14 @@ const NavbarComp = ({ toggleTheme }) => {
 					} rounded justify-content-end text-center m-1 navbar-toggler border-0`}
 				>
 					<Nav className="navbar-collapse py-3 justify-content-end align-items-center text-center rounded ">
+						<Nav.Link as={Link} href="/" className="m-1">
+							<Button
+								className="btn-md py-1  border-0 shadow-md btn-nav"
+								variant="warning"
+							>
+								<MdHome />
+							</Button>
+						</Nav.Link>
 						<Nav.Link as={Link} href="/about" className="m-1">
 							<Button
 								className="btn-md py-2  border-0 shadow-md btn-nav"

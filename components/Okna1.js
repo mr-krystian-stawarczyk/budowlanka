@@ -75,41 +75,105 @@ function Okna1() {
 	}, [inView, controls, animateIn, animateOut]);
 
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Okna 1</h1>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<div className="text-center">
-									<Link href="/" className="m-1">
-										<Button className="btn-nav btn-lg"></Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
+		<Container
+			fluid
+			id="okna2"
+			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center "
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent align-items-center justify-content-center">
 						<Image
-							src="/assets/11.png"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg"
+							src="/assets/okna-pla.png"
+							width={200}
+							height={200}
+							className="responsive-image shadow-lg "
 							alt="Sanity Image"
 						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+						<Card.Body>
+							<h1 className="text-bold"> Okna Plastikowe</h1>
+							<Card.Text>
+								<span className="text-bold">Izolacja termiczna: </span>Okna
+								plastikowe charakteryzują się doskonałą izolacją termiczną,
+								utrzymując optymalną temperaturę w pomieszczeniach i redukując
+								straty ciepła.
+							</Card.Text>
+							<Card.Text>
+								<span className="text-bold">Energooszczędność:</span> Dzięki
+								doskonałej izolacji, okna te mogą znacząco zmniejszyć koszty
+								ogrzewania poprzez minimalizację utraty ciepła.
+							</Card.Text>
+							<Card.Text>
+								<span className="text-bold">
+									Trwałość i łatwość konserwacji:
+								</span>{" "}
+								Są odporne na warunki atmosferyczne i nie wymagają
+								specjalistycznej konserwacji. Łatwość w utrzymaniu czystości
+								sprawia, że są wygodne w użytkowaniu.
+							</Card.Text>
+							<Card.Text>
+								<span className="text-bold">
+									Dostępność różnych kolorów i wzorów:
+								</span>{" "}
+								Oferują różnorodność w kwestii designu i kolorów, co pozwala
+								dopasować je do różnych stylów architektonicznych.
+							</Card.Text>
+							<Card.Text>
+								<span className="text-bold">
+									{" "}
+									Odporność na korozję i wilgoć:{" "}
+								</span>{" "}
+								Plastikowe okna są odporne na korozję, co czyni je doskonałym
+								wyborem w obszarach o wysokiej wilgotności.
+							</Card.Text>
+						</Card.Body>
+					</Card>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent align-items-center justify-content-center">
+						<Image
+							src="/assets/okna-alu.png"
+							width={200}
+							height={200}
+							className="responsive-image shadow-lg "
+							alt="Sanity Image"
+						/>
+						<Card.Body>
+							<h1 className="text-bold"> Okna Aluminiowe</h1>
+							<Card.Text>
+								<span className="text-bold">Wytrzymałość i lekkość:</span>
+								Aluminiowe okna są lekkie, ale jednocześnie bardzo wytrzymałe i
+								odporne na odkształcenia czy uszkodzenia mechaniczne.
+							</Card.Text>
+							<Card.Text>
+								<span className="text-bold">Estetyka i elegancja:</span>Mają
+								elegancki wygląd, który dodaje nowoczesności i stylu do
+								architektury budynków, zwłaszcza w dużych przeszkleniach.
+							</Card.Text>
+							<Card.Text>
+								<span className="text-bold">
+									Odporność na warunki atmosferyczne:{" "}
+								</span>
+								Są odporne na działanie warunków zewnętrznych, w tym na korozję,
+								co sprawia, że są trwałe i nadają się do wielu różnych klimatów.
+							</Card.Text>
+							<Card.Text>
+								<span className="text-bold">Wielkoformatowe przeszklenia:</span>
+								Możliwość wykonania dużych przeszkleń bez konieczności
+								dodatkowych wzmocnień, co umożliwia stworzenie efektownych,
+								panoramicznych widoków.
+							</Card.Text>
+							<Card.Text>
+								<span className="text-bold">Ekologiczność:</span>Aluminiowe
+								profile są w dużej mierze odnawialne i nadają się do recyklingu,
+								co sprawia, że są bardziej ekologiczne niż niektóre inne
+								materiały budowlane.
+							</Card.Text>
+						</Card.Body>
+					</Card>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

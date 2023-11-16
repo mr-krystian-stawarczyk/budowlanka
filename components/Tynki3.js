@@ -75,41 +75,41 @@ function Tynki3() {
 	}, [inView, controls, animateIn, animateOut]);
 
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Tynki3</h1>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<div className="text-center">
-									<Link href="/" className="m-1">
-										<Button className="btn-nav btn-lg"></Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/11.png"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className="d-flex py-3 bg-white text-dark align-items-center justify-content-center "
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/knauf3.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold"> AQUASTUC GIPSPLEISTER</h1>
+							<Card.Text>
+								Gipspleister speciaal voor natte ruimtes AquaStuc gipspleister
+								is een gehydrofobeerde gipspleister die beter bestand is tegen
+								spatwater dan een standaard gipspleister. Deze basis- en
+								afwerkpleister is ideaal voor wanden in natte ruimtes die niet
+								of gedeeltelijk worden betegeld. Denk aan badkamers, keukens,
+								toiletten en garages. Je hoeft wanden zonder tegels niet apart
+								af te werken. Hierdoor geniet je klant sneller van zijn ideale
+								badkamer.
+							</Card.Text>
+							<Card.Text></Card.Text>
+							<Card.Text></Card.Text>
+						</Card.Body>
+					</Card>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

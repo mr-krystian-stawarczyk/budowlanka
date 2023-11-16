@@ -75,41 +75,41 @@ function Tynki4() {
 	}, [inView, controls, animateIn, animateOut]);
 
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Tynki4</h1>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<div className="text-center">
-									<Link href="/" className="m-1">
-										<Button className="btn-nav btn-lg"></Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/11.png"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold"> Tynki cementowo wapienne</h1>
+							<Card.Text>
+								Wyróżniają się wysoką wodoodpornością, tak więc bez obaw można
+								je stosować w łazienkach, łaźniach, suszarniach itp. Bardzo
+								dobra wytrzymałość mechaniczna, paro przepuszczalność oraz
+								mrozoodporność mają tu również bardzo istotne znaczenie. Główną
+								wadą tego rodzaju tynku, jest przede wszystkich chropowata
+								struktura, (którą można jednak maksymalnie zminimalizować
+								stosując zacieraczkę do tynków), oraz duża ilość wody niezbędna
+								do odparowania gotowego tynku.
+							</Card.Text>
+							<Card.Text></Card.Text>
+							<Card.Text></Card.Text>
+						</Card.Body>
+					</Card>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/knauf4.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

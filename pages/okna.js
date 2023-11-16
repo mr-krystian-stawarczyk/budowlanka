@@ -6,6 +6,9 @@ import Okna3 from "@/components/Okna3";
 import Okna4 from "@/components/Okna4";
 import Testimonials from "@/components/Testimonials";
 import Okna5 from "@/components/Okna5";
+import Header2 from "@/components/Header2";
+import Okna2n from "@/components/Okna2n";
+import Okna6 from "@/components/Okna6";
 
 function okna() {
 	return (
@@ -15,11 +18,13 @@ function okna() {
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>
+			<Header2 />
+
 			<Okna1 />
-			<Okna2 />
-			<Okna3 />
-			<Okna4 />
+
+			<Okna2n />
 			<Testimonials />
+			<Okna6 />
 			<Okna5 />
 		</div>
 	);

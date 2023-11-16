@@ -75,41 +75,51 @@ function Termo1() {
 	}, [inView, controls, animateIn, animateOut]);
 
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Termo1</h1>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<div className="text-center">
-									<Link href="/" className="m-1">
-										<Button className="btn-nav btn-lg"></Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/11.png"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className="d-flex bg-light text-dark py-3 align-items-center justify-content-center"
+			id="termo2"
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold"> Isoleren van een schuin dak</h1>
+							<Card.Text>
+								Is je huidige dak nog niet voorzien van isolatie? In dat geval
+								is het isoleren van je dak een interessante stap om mee te
+								beginnen. Er zijn verschillende opties om je dak te isoleren.
+								Dit kan bijvoorbeeld aan de buitenkant van het dakbeschot en aan
+								de binnenkant van het dakbeschot. De beste methode om je dak te
+								isoleren is aan de buitenkant van het dakbeschot. Bij deze
+								methode zijn echter wel een aantal belangrijke aandachtspunten
+								en randvoorwaarden. Als je besluit om de binnenkant van het
+								(schuine) dak te isoleren dien je de juiste folies te
+								gebruiken. Vraag de factsheet aan voor meer informatie over de
+								aandachtspunten, randvoorwaarden, kosten en opbrengsten bij
+								dakisolatie. 
+							</Card.Text>
+							<Card.Text></Card.Text>
+							<Card.Text></Card.Text>
+							<div className="text-center">
+								<Link href="/" className="m-1">
+									<Button className="btn-nav btn-lg"></Button>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/termo3.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

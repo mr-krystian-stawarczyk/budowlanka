@@ -62,8 +62,8 @@ function Contact1() {
 						>
 							<Card.Body>
 								<HiOutlineLocationMarker style={{ fontSize: "4rem" }} />
-								<Card.Title>Adresse</Card.Title>
-								<Card.Text>fdsdf 10</Card.Text>
+								<Card.Title>Adres</Card.Title>
+								<Card.Text>Jean Monnetstraat Heemskerk, Holandia</Card.Text>
 								<Button
 									className="border-0 btn-nav"
 									onClick={() => {

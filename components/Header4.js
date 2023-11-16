@@ -7,6 +7,7 @@ import Link from "next/link";
 
 import Image from "next/image";
 import imageUrlBuilder from "@sanity/image-url";
+import { MdDoubleArrow } from "react-icons/md";
 
 function Header4() {
 	const [windowWidth, setWindowWidth] = useState(0);
@@ -98,13 +99,23 @@ function Header4() {
 								naszych tynków, aby zapewnić długotrwałe efekty i zadowolenie
 								naszych klientów.
 							</Card.Text>
-							<div className="text-center">
-								<Link href="tynki" className="m-1">
-									<Button className="btn-nav btn-lg">Tynki</Button>
-								</Link>
-							</div>
 						</Card.Body>
 					</Card>
+					<div className="text-center">
+						<Link href="#tynki2" className="m-1">
+							<Button className="btn-nav btn-lg">
+								{" "}
+								<MdDoubleArrow
+									style={{
+										fontSize: "2rem",
+										color: "black",
+										backgroundColor: "transparent",
+										rotate: "90deg",
+									}}
+								/>
+							</Button>
+						</Link>
+					</div>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image

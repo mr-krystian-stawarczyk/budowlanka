@@ -75,41 +75,57 @@ function Termo4() {
 	}, [inView, controls, animateIn, animateOut]);
 
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Termo4</h1>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<div className="text-center">
-									<Link href="/" className="m-1">
-										<Button className="btn-nav btn-lg"></Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/11.png"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className="d-flex bg-light text-dark py-3 align-items-center justify-content-center"
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/termo6.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold"> Termo4</h1>
+							<Card.Text>
+								Kies een isolatiemateriaal met een hoge isolatiewaarde die goed
+								bestand is tegen vocht, schimmels en inzakken. Met name
+								isolatieplaten werken gemakkelijk en snel. Probeer een zo hoog
+								mogelijke isolatiewaarde te behalen. Een nieuwbouwwoning heeft
+								op dit moment een dak met een isolatiewaarde (Rc-waarde) van
+								6.0; Let er in de toekomst op dat je niet onnodig gaten in het
+								dak gaat boren. Hiermee doorboor je hoogstwaarschijnlijk ook de
+								dampdichte folie; Zorg er tijdens het isoleren voor dat de
+								isolatieplaten of het isolatiemateriaal naadloos op elkaar zijn
+								aangesloten, mochten er toch nog wat naden en kieren tussen de
+								isolatie bevinden, zorg er dan voor dat deze naden en kieren
+								goed afgedicht, afgeplakt of opgevuld worden; Voorkom ten allen
+								tijde dat de isolatie vóór de uitvoering en/of na de uitvoering
+								vochtig wordt. Wanneer het isolatiemateriaal namelijk nat of
+								vochtig wordt, vermindert dit de isolerende werking; Isoleren
+								zorgt in veel gevallen voor een stuk minder (natuurlijke)
+								ventilatie. Let er daarom op dat je voldoende blijft ventileren.
+								Schaf eventueel een CO2 meter aan om goed en bewust te
+								ventileren.
+							</Card.Text>
+							<Card.Text></Card.Text>
+							<Card.Text></Card.Text>
+							<div className="text-center">
+								<Link href="/" className="m-1">
+									<Button className="btn-nav btn-lg"></Button>
+								</Link>
+							</div>
+						</Card.Body>
+					</Card>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

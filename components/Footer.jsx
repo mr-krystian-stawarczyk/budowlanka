@@ -47,10 +47,10 @@ function Footer() {
 			ref={sectionRef}
 			id="contact"
 		>
-			<Row className=" justify-content-center align-items-top text-center  mt-2  border-bottom text-dark">
-				<Col lg={3} sm={6} className=" mx-auto">
+			<Row className="justify-content-center align-items-top text-center  mt-2  border-bottom text-dark">
+				<Col lg={3} sm={6} className=" mx-auto ">
 					<Card
-						style={{ width: "20rem" }}
+						style={{ maxWidth: "21rem" }}
 						className="bg-white rounded shadow-sm border-sm  "
 					>
 						<Card.Body className="">
@@ -66,11 +66,7 @@ function Footer() {
 									Kontakt
 								</Card.Text>
 							</Link>
-							<Link href="/blog" className="footer-links">
-								<Card.Text className="py-2 hover text-decoration-underline">
-									Usługi
-								</Card.Text>
-							</Link>
+
 							<Link href="/contact" className="footer-links">
 								<Card.Text className="py-2 hover text-decoration-underline">
 									Pytania
@@ -87,7 +83,7 @@ function Footer() {
 				</Col>
 				<Col lg={3} sm={6} className="mx-auto my-1">
 					<Card
-						style={{ width: "20rem" }}
+						style={{ maxWidth: "21rem" }}
 						className="bg-white rounded shadow-sm border-sm   "
 					>
 						<Card.Body className="">
@@ -128,7 +124,7 @@ function Footer() {
 				<Col lg={3} sm={6} className=" mx-auto my-1">
 					<Card
 						className="bg-white rounded shadow-sm border-sm   pt-3 "
-						style={{ width: "20rem" }}
+						style={{ maxWidth: "21rem" }}
 					>
 						<h3 className="my-3 text-bold">Kontakt</h3>
 						<a onClick={handleEmailClick} className="footer-links ">
@@ -146,7 +142,7 @@ function Footer() {
 				</Col>
 				<Col lg={3} sm={6} className=" mx-auto">
 					<Card
-						style={{ width: "20rem" }}
+						style={{ maxWidth: "21rem" }}
 						className="bg-white rounded shadow-sm border-sm   "
 					>
 						<Card.Body className="">

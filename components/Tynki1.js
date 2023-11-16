@@ -75,41 +75,62 @@ function Tynki1() {
 	}, [inView, controls, animateIn, animateOut]);
 
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Tynki1</h1>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<div className="text-center">
-									<Link href="/" className="m-1">
-										<Button className="btn-nav btn-lg"></Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/11.png"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className="bg-white text-dark py-3 align-items-center justify-content-center"
+			id="tynki2"
+		>
+			<Row className="text-center">
+				<h1 className="text-bold text-uppercase">Rodzaje Tynków</h1>
+			</Row>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold"> Tynki gipsowe</h1>
+							<Card.Text>
+								Gips należy do najstarszych materiałów budowlanych ludzkości.
+								Niezależnie od stylów i trendów w architekturze pozostawał przez
+								wieki innowacyjnym materiałem budowlanym z licznymi
+								możliwościami zastosowania. Współcześnie gips znajdujemy głównie
+								w materiałach przeznaczonych do wykańczania wnętrz: w płytach
+								gipsowo-kartonowych i tynkach wewnętrznych. Gips jest materiałem
+								bardzo przyjaznym dla zdrowia człowieka. Dzięki właściwościom
+								higroskopijnym chłonie we wnętrzach nadmiar wilgoci i oddaje ją,
+								kiedy powietrze staje się zbyt suche. Tym samym reguluje
+								stężenie wilgoci w powietrzu, które staje się najbardziej
+								korzystne dla ludzi. We wnętrzach wykończonych materiałami
+								gipsowymi panuje optymalny klimat. Cechują się przede wszystkim
+								dobrą izolacyjnością cieplną i akustyczną wyróżniającym się
+								utrzymaniem odpowiedniego mikroklimatu przyjaznego dla człowieka
+								(gips wchłania nadmiar wilgoci, i oddaje ją gdy w pomieszczeniu
+								jest zbyt sucho) Tynki gipsowe to doskonałe podłoże pod
+								malowanie bądź tapety jak również okładziny ceramiczne. Zaletą
+								tynków gipsowych jest również fakt, że nie odpryskują podczas
+								wiercenia w nich otworów czy wbijaniu gwoździ. Nie można tez
+								zapomnieć o właściwościach ognioodpornych wynikających przede
+								wszystkim ze struktury materiału jakim jest gips. (zawartość
+								cząsteczek wody, które pod działaniem wysokiej temperatury
+								przechodzi w parę wodną co w znaczny sposób spowalnia
+								nagrzewanie się tynku i elementów konstrukcyjnych budynku). 
+							</Card.Text>
+							<Card.Text></Card.Text>
+							<Card.Text></Card.Text>
+						</Card.Body>
+					</Card>
+				</Col>
+
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/knauf1.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

@@ -4,6 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import Link from "next/link";
+import { MdDoubleArrow } from "react-icons/md";
 
 import Image from "next/image";
 import imageUrlBuilder from "@sanity/image-url";
@@ -103,9 +104,20 @@ function Header3() {
 								dla utrzymania odpowiednich warunków wewnętrznych i zapobiegania
 								powstawaniu szkodliwego pleśnia czy grzybów.
 							</Card.Text>
+
 							<div className="text-center">
-								<Link href="termo" className="m-1">
-									<Button className="btn-nav btn-lg">Termo</Button>
+								<Link href="#termo2" className="m-1">
+									<Button className="btn-nav btn-lg">
+										{" "}
+										<MdDoubleArrow
+											style={{
+												fontSize: "2rem",
+												color: "black",
+												backgroundColor: "transparent",
+												rotate: "90deg",
+											}}
+										/>
+									</Button>
 								</Link>
 							</div>
 						</Card.Body>

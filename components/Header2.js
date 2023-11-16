@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import Link from "next/link";
-
+import { MdDoubleArrow } from "react-icons/md";
 import Image from "next/image";
 import imageUrlBuilder from "@sanity/image-url";
 
@@ -97,10 +97,25 @@ function Header2() {
 								trwałość i estetykę na lata. Z nami wymiana okien to nie tylko
 								inwestycja w komfort Twojego domu, ale również w jego wartość.
 							</Card.Text>
+							<Card.Text className="text-center">
+								<span className="text-uppercase text-bold ">
+									SPRZEDAZ MONTAZ DORADZTWO
+								</span>
+							</Card.Text>
 
 							<div className="text-center">
-								<Link href="okna" className="m-1">
-									<Button className="btn-nav btn-lg">Okna</Button>
+								<Link href="#okna2" className="m-1">
+									<Button className="btn-nav btn-lg">
+										{" "}
+										<MdDoubleArrow
+											style={{
+												fontSize: "2rem",
+												color: "black",
+												backgroundColor: "transparent",
+												rotate: "90deg",
+											}}
+										/>
+									</Button>
 								</Link>
 							</div>
 						</Card.Body>

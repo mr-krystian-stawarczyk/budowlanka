@@ -6,6 +6,7 @@ import Ogolne3 from "@/components/Ogolne3";
 import Ogolne4 from "@/components/Ogolne4";
 import Testimonials from "@/components/Testimonials";
 import Ogolne5 from "@/components/Ogolne5";
+import Header9 from "@/components/Header9";
 
 function ogolne() {
 	return (
@@ -15,6 +16,7 @@ function ogolne() {
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>
+			<Header9 />
 			<Ogolne1 />
 			<Ogolne2 />
 			<Ogolne3 />

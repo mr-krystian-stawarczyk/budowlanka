@@ -32,11 +32,6 @@ export default function Home() {
 			<Testowy />
 			<Header10 />
 
-			<Header2 />
-			<Header3 />
-			<Header4 />
-			<Header5 />
-			<Header9 />
 			<Testimonials />
 			<Werk2 />
 			<Header6 />

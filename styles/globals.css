@@ -24,6 +24,17 @@ a {
 	text-decoration: none;
 }
 
+.my-card {
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.blue-bg {
+	background-color: #c4e6f6 !important;
+}
+
 .blur-bg {
 	background-color: #ffffffda;
 }
@@ -47,6 +58,9 @@ a {
 	.image {
 		height: 100vh !important;
 		width: 100vw !important;
+	}
+	body {
+		background-size: cover;
 	}
 }
 
@@ -196,7 +210,7 @@ a {
 
 .btn-nav {
 	border: none !important;
-	background-color: #f9b200 !important;
+	background-color: #c4e6f6 !important;
 	color: #000000 !important;
 }
 
@@ -245,7 +259,7 @@ a {
 }
 
 .btn-nav-drop {
-	background-color: #f9b200 !important;
+	background-color: #c4e6f6 !important;
 }
 
 .nazwa-firmy {
