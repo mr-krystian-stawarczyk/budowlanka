@@ -83,47 +83,46 @@ function Termo3() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold"> Termo3</h1>
+							<h1 className="text-bold">
+								Het isoleren van de binnenzijde van een schuin dak{" "}
+							</h1>
 							<Card.Text>
-								Het isoleren van de binnenzijde van een schuin dak brengt
-								diverse aandachtspunten met zich mee. De belangrijkste
-								aandachtspunten zijn: Omdat bij het isoleren van een dak aan de
-								binnenzijde de isolatie zich aan de warme kant bevindt, komen
-								veel vochtproblemen voor bij een onjuiste opbouw. Let er daarom
-								op dat er aan de buitenzijde, onder de dakpannen, geen
-								dampremmende folie, asfaltpapier of isolatielaag (PUR) aanwezig
-								is. Is dit wel het geval, dan is de kans groot dat er
-								condensvorming gaat optreden, omdat de waterdamp op deze manier
-								de woning niet uit kan wanneer je aan de binnenzijde gaat
+								De belangrijkste aandachtspunten zijn: Omdat bij het isoleren
+								van een dak aan de binnenzijde de isolatie zich aan de warme
+								kant bevindt, komen veel vochtproblemen voor bij een onjuiste
+								opbouw. Let er daarom op dat er aan de buitenzijde, onder de
+								dakpannen, geen dampremmende folie, asfaltpapier of isolatielaag
+								(PUR) aanwezig is. Is dit wel het geval, dan is de kans groot
+								dat er condensvorming gaat optreden, omdat de waterdamp op deze
+								manier de woning niet uit kan wanneer je aan de binnenzijde gaat
 								isoleren. Maak in dit geval gebruik van een speciale
-								(vochtregulerende) klimaatfolie. In de winter is de buitenlucht
-								koud en voorkomt de klimaatfolie dat het vocht vanuit de woning
-								in de constructie trekt. In de zomer zorgt de folie er juist
-								voor dat eventueel opgesloten vocht kan ontsnappen uit de
-								isolatielaag en constructie; Wanneer je de dakpan omhoog schuift
-								kan je vaak goed zien of het dakbeschot aan de buitenzijde kaal
-								is of bedekt met een folie of isolatieschuim; Het is verstandig
-								om aan de buitenzijde, net onder de dakpannen een
-								dampdoorlatende folie te bevestigen die tevens waterkerend is.
-								Op deze manier kan er geen vocht van buitenaf de woning in
-								komen, maar kan de damp van binnen wel naar buiten; Een mens
-								produceert circa 1 tot 2,5 liter vocht per dag in een woning
-								(o.a. door te ademen, transpireren, douchen en koken). Het vocht
-								dat een mens produceert komt als waterdamp in de woning terecht.
-								Deze geproduceerde waterdamp zal door middel van diffusie een
-								uitweg gaan zoeken naar koudere lucht buiten. Let er daarom op
-								dat de isolatie wordt voorzien de juiste folie. Een
+								(vochtregulerende) klimaatfolie.
+							</Card.Text>
+							<Card.Text>
+								In de winter is de buitenlucht koud en voorkomt de klimaatfolie
+								dat het vocht vanuit de woning in de constructie trekt. In de
+								zomer zorgt de folie er juist voor dat eventueel opgesloten
+								vocht kan ontsnappen uit de isolatielaag en constructie; Wanneer
+								je de dakpan omhoog schuift kan je vaak goed zien of het
+								dakbeschot aan de buitenzijde kaal is of bedekt met een folie of
+								isolatieschuim; Het is verstandig om aan de buitenzijde, net
+								onder de dakpannen een dampdoorlatende folie te bevestigen die
+								tevens waterkerend is. Op deze manier kan er geen vocht van
+								buitenaf de woning in komen, maar kan de damp van binnen wel
+								naar buiten; Een mens produceert circa 1 tot 2,5 liter vocht per
+								dag in een woning (o.a. door te ademen, transpireren, douchen en
+								koken).
+							</Card.Text>
+							<Card.Text>
+								{" "}
+								Het vocht dat een mens produceert komt als waterdamp in de
+								woning terecht. Deze geproduceerde waterdamp zal door middel van
+								diffusie een uitweg gaan zoeken naar koudere lucht buiten. Let
+								er daarom op dat de isolatie wordt voorzien de juiste folie. Een
 								dampremmende- of klimaatfolie die er voor zorgt dat het vocht
 								niet bij de isolatie komt. Bij sommige isolatieproducten is het
 								materiaal al voorzien van een dergelijke (aluminium) laag;
 							</Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
 						</Card.Body>
 					</Card>
 				</Col>

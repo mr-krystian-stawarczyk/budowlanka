@@ -96,28 +96,23 @@ function Tynki2() {
 						<Card.Body>
 							<h1>Spuit pleisterwerk</h1>
 							<Card.Text>
-								Wat is spuitpleister Spuitpleister, of pleisterwerk, is een
-								soort stucwerk waarbij een dun laagje gips op de gewenste
-								ondergrond wordt gespoten. Hiermee kun je de wanden glad
-								afwerken en klaar maken voor de volgende laag. Of deze laag nou
-								bestaat uit verven, spack aanbrengen of behangen, je kunt alle
-								kanten op met pleisterwerk. Voordelen spuitpleister Er zijn veel
-								voordelen aan spuitpleister aanbrengen, waardoor dit een
-								veelgekozen afwerking van plafonds, wanden en meer is. Het is
-								een van de meest voordelige soorten stucwerk, waardoor het een
-								fijne keuze voor de portemonnee is. Ook zijn scheurtjes
-								makkelijk te repareren en hoef je oneffenheden niet van tevoren
-								te herstellen. Hierdoor is pleister spuiten erg
-								onderhoudsvriendelijk. Afwerking Spuitpleister is in elke
-								gewenste kleur aan te brengen en te verven, waardoor het altijd
-								naar jouw wensen kan worden aangepast. Ook kun je voor een
-								verschillende afwerking van de pleisterlaag kiezen. Je kunt
-								naderhand met latex spuiten voor het aanbrengen van een mooie
-								kleur. Het is ook mogelijk om met spack een korrelstructuur op
-								de muur te spuiten. Je kunt hiervoor kiezen tussen een grove
-								structuur en een fijne structuur.
+								Spuitpleister, ook wel pleisterwerk genoemd, is een dunne laag
+								gips die op de ondergrond wordt gespoten. Het zorgt voor een
+								gladde afwerking van wanden, waardoor deze gereed zijn voor
+								verdere behandeling zoals verven, spack aanbrengen of behangen.
+								Het heeft diverse voordelen, zoals kostenefficiëntie,
+								gemakkelijke reparatie van scheurtjes en de mogelijkheid om
+								oneffenheden niet vooraf te hoeven herstellen, waardoor het
+								onderhoudsvriendelijk is.
 							</Card.Text>
-							<Card.Text></Card.Text>
+							<Card.Text>
+								Bovendien kan spuitpleister in elke gewenste kleur worden
+								aangebracht en geverfd, waardoor het aan jouw voorkeuren kan
+								worden aangepast. Ook biedt het de mogelijkheid om verschillende
+								afwerkingen te kiezen, zoals een gladde verflaag met latex of
+								een korrelige structuur met spack, waarbij je kunt variëren
+								tussen grove en fijne structuren.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>

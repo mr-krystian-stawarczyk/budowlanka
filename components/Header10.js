@@ -40,6 +40,7 @@ const Header10 = () => {
 							<h4>Zadowoleni klienci:</h4>
 							{isVisible && (
 								<Col className="display-3">
+									+
 									<CountUp
 										key={resetKey}
 										start={400}
@@ -61,6 +62,7 @@ const Header10 = () => {
 							<h4>Realizacje:</h4>
 							{isVisible && (
 								<Col className="display-3">
+									+
 									<CountUp
 										key={resetKey}
 										start={300}

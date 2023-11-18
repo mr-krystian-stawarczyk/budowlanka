@@ -85,33 +85,23 @@ function Tynki6() {
 						<Card.Body>
 							<h1>Spuitpleister prijs</h1>
 							<Card.Text>
-								Pleister spuiten is een van de goedkoopste soorten stucwerk.
-								Gemiddeld zul je tussen de €15 en €25 per vierkante meter kwijt
-								zijn voor dit type stucwerk op een plafond of wand. De plek
-								waarop het aangebracht moet worden zal weinig verschil in de
-								prijs geven. Je kunt het nog goedkoper maken als je geen
-								stukadoor inschakelt, maar dan moet je wel het benodigde
-								materieel hebben. Helemaal als je de plafonds in huis wilt laten
-								spuiten, is het echt slimmer om iemand in te huren. Vergelijking
-								met andere soorten Voor spuitpleister heb je al een relatief
-								egale ondergrond nodig. Als er grote oneffenheden zijn, zoals
-								vaker gebeurd in een huis dat gerenoveerd moet worden, zal er
-								eerder voor raapwerk worden gekozen. Dit egaliseert de wanden en
-								plafonds erg goed, maar deze soort stucwerk wordt in een dikke
-								laag van tot wel 5 cm aangebracht door de stukadoor. Hierna moet
-								de afwerking nog glad worden gemaakt. Je hebt dan dus niet
-								meteen behangklare wanden. Door de extra dikte kan raapwerk €15
-								tot €35 per vierkante meter kosten. Speciaal stucwerk
-								Sierpleister geeft een mooie, maar redelijk standaard afwerking.
-								De gladde wanden en plafonds, of juist met structuur van
-								spackspuitwerk, passen in bijna elke stijl. Maar als je iets
-								unieks wilt, is dat natuurlijk ook mogelijk. Door eerst een laag
-								spuitpleister aan te brengen en daarna bijvoorbeeld beton ciré
-								op de wanden te laten plaatsen, krijg je een unieke uitstraling.
-								Maar daar betaal je ook wel voor. Dit soort betonstuc begint
-								vanaf €80 per vierkante meter.
+								Pleister spuiten is een van de goedkoopste stucwerkopties,
+								doorgaans tussen €15 en €25 per vierkante meter voor plafonds of
+								wanden. De locatie van toepassing heeft weinig invloed op de
+								prijs. Zelf doen kan goedkoper zijn, maar als het om plafonds
+								gaat, is het raadzaam een professional in te huren. Bij ernstige
+								oneffenheden wordt vaak voor raapwerk gekozen, waarbij tot wel
+								€15 tot €35 per vierkante meter kan worden berekend voor een
+								dikkere laag en extra afwerking.
 							</Card.Text>
-							<Card.Text></Card.Text>
+							<Card.Text>
+								Speciale opties, zoals sierpleister of unieke afwerkingen zoals
+								beton ciré na een laag spuitpleister, bieden weliswaar een
+								unieke uitstraling, maar zijn duurder. Betonstuc begint
+								bijvoorbeeld vanaf €80 per vierkante meter, terwijl standaard
+								spuitpleister een meer gebruikelijke, kostenefficiënte keuze
+								blijft.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>{" "}

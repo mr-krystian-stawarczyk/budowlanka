@@ -83,21 +83,31 @@ function Ogolne4() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">Ogolne4</h1>
+							<h1 className="text-bold">
+								Gdzie Innowacja Spotyka Tradycję w Twoim Domu
+							</h1>
+							<Card.Text>
+								W DG BOUWGROEP kładziemy nacisk na harmonię pomiędzy
+								nowoczesnymi technologiami a tradycyjnym rzemiosłem. Każdy
+								projekt, nad którym pracujemy, to mieszanka innowacji i
+								klasycznego stylu, tworząca niepowtarzalne wnętrza. Nasza pasja
+								do doskonałości oznacza, że nie zostawiamy miejsca na
+								przypadkowość.
+							</Card.Text>
+							<Card.Text>
+								Nasz zespol to ludzie zafascynowani sztuką tworzenia
+								przestrzeni, które nie tylko zachwycają wizualnie, ale przede
+								wszystkim funkcjonalnie odpowiadają Twoim potrzebom. Pozwól nam
+								być częścią procesu tworzenia - od koncepcji po finalne
+								wykończenie - i razem odkryjmy potencjał Twojego domu.
+							</Card.Text>
 							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
 						</Card.Body>
 					</Card>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/11.png"
+						src="/assets/ogolne8.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"

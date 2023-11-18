@@ -95,31 +95,24 @@ function Tynki4() {
 						<Card.Body>
 							<h1>Meest voordelige afwerking</h1>
 							<Card.Text>
-								Zoals je ziet, is pleister spuiten geen ingewikkelde klus voor
-								een stukadoor. Hierdoor is het een stuk goedkoper dan andere
-								soorten stucwerk, omdat je minder voor de arbeid hoeft te
-								betalen. Pleisterwerk is een glad stucwerk met een stevig
-								eindresultaat, waardoor het veel wordt gebruikt in nieuwbouw.
-								Ook is het makkelijk om na het drogen je eigen stijl toe te
-								passen, bijvoorbeeld door behang aanbrengen of latex spuiten.
-								Het hele huis Je kunt pleisterwerk door het hele huis toepassen.
-								Het verstevigt de naden van de plafonds en wanden en maakt deze
-								glad, zodat je een mooie afwerking krijgt. Vroeger was er een
-								kans dat een nieuwbouwwoning tot 5 jaar na de bouw nog kon
-								uitzetten, waardoor er scheurtjes in de muren, plafonds en
-								pleisterwerk konden ontstaan. Hierdoor werd pleister spuiten
-								vaak afgeraden in deze eerste jaren, ook al is spuitpleister erg
-								makkelijk bij te werken indien nodig. Plafonds en muren
-								Tegenwoordig is dit risico een stuk minder, waardoor de pleister
-								gewoon kan worden aangebracht op de plafonds en muren na het
-								bouwen. Soms kan het aanbrengen van spuitpleister zelfs deze
-								beschadigingen voorkomen. Er is maar een dunne laag van het
-								spuitpleister nodig op het plafond en de muur om de voordelen
-								hiervan te krijgen. Ook hierdoor is dit pleisterwerk een van de
-								meest voordelige keuzes voor de afwerking van plafonds en muren,
-								omdat je weinig materiaal nodig hebt.
+								Pleister spuiten is voordelig vanwege minder arbeidskosten en
+								het levert stevig en glad pleisterwerk op, waardoor het veel
+								wordt gebruikt in nieuwbouw. Na droging kun je gemakkelijk je
+								eigen stijl toepassen, bijvoorbeeld met behang of latex.
 							</Card.Text>
-							<Card.Text></Card.Text>
+							<Card.Text>
+								Het kan in het hele huis worden toegepast, verstevigt naden van
+								plafonds en wanden voor een mooie afwerking. Vroeger kon
+								nieuwbouw nog tot 5 jaar na de bouw uitzetten, wat scheurtjes
+								veroorzaakte, maar tegenwoordig is dit risico minder, waardoor
+								spuitpleister direct na bouw kan worden aangebracht, soms zelfs
+								om beschadigingen te voorkomen.
+							</Card.Text>
+							<Card.Text>
+								Slechts een dunne laag is nodig voor de voordelen ervan,
+								waardoor het een kostenefficiënte keuze is voor plafond- en
+								muurafwerking, vanwege het minimale materiaalgebruik.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>

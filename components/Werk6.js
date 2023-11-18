@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col, Carousel, Button, Modal } from "react-bootstrap";
+import {
+	Container,
+	Row,
+	Col,
+	Carousel,
+	Button,
+	Modal,
+	Card,
+} from "react-bootstrap";
 import Image from "next/image";
 import { Nav } from "react-bootstrap";
 import Link from "next/link";
@@ -53,7 +61,15 @@ const Werk6 = () => {
 	return (
 		<Container fluid className="blur-bg py-5" id="realizacje">
 			<Row className="justify-content-center align-items-center text-center text-dark py-5">
-				<h1 className="text-uppercase text-bold">Tynki </h1>
+				<Card.Img
+					src="/assets/plaster.png"
+					style={{
+						width: "6rem",
+						height: "6rem",
+					}}
+					className="my-1"
+				/>{" "}
+				<h1 className="text-uppercase text-bold">Tynki </h1>{" "}
 			</Row>
 
 			{mobileView ? (

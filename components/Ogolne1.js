@@ -81,29 +81,39 @@ function Ogolne1() {
 			id="ogolne2"
 		>
 			<Row className="justify-content-center  align-items-center">
-				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
-						<Card.Body>
-							<h1 className="text-bold">Ogolne1</h1>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
-						</Card.Body>
-					</Card>
-				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/11.png"
+						src="/assets/ogolne7.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
 						alt="Sanity Image"
 					/>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold">
+								Zmień swoje przestrzenie w prawdziwe dzieła sztuki
+							</h1>
+							<Card.Text>
+								Chcesz, aby Twój dom był nie tylko miejscem zamieszkania, ale
+								prawdziwym odzwierciedleniem Twojej osobowości? W DG BOUWGROEP
+								wierzymy, że każde wnętrze ma potencjał, by stać się wyjątkowym
+								dziełem sztuki. To, co nas wyróżnia, to pasja do tworzenia.
+							</Card.Text>
+							<Card.Text>
+								Nasz zespół doświadczonych fachowców łączy swoją wiedzę i
+								kreatywność, by przekształcić nawet najmniejsze detale w
+								wyjątkowe elementy. Od prostych napraw po kompleksowe remonty,
+								każde zadanie traktujemy jako szansę na stworzenie przestrzeni,
+								która zachwyca nie tylko swoim wyglądem, lecz także
+								funkcjonalnością. Niech Twoje marzenia o idealnym domu stają się
+								naszym wspólnym celem.
+							</Card.Text>
+							<Card.Text></Card.Text>
+						</Card.Body>
+					</Card>
 				</Col>
 			</Row>
 		</Container>

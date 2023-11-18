@@ -84,21 +84,25 @@ function Glazura1() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">Glazura1</h1>
+							<h1 className="text-bold">Glazura Mistrzostwo Detalu</h1>
+							<Card.Text>
+								Nasi mistrzowie glazurnictwa to artyści w swoim fachu. Ich praca
+								to nie tylko ułożenie kafelków - to tworzenie kompozycji, w
+								których detale nabierają życia. Każdy krok w procesie układania
+								glazury jest dla nas niezwykle istotny. Dbamy o doskonałość
+								wykonania, by efekt końcowy był nie tylko estetyczny, ale też
+								funkcjonalny. Z DG BOUWGROEP otrzymujesz usługę, w której
+								precyzja i staranność idą w parze z pasją do tworzenia
+								przestrzeni, które wyróżniają się niepowtarzalnym charakterem.
+							</Card.Text>
 							<Card.Text></Card.Text>
 							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
 						</Card.Body>
 					</Card>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/11.png"
+						src="/assets/glazura7.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"

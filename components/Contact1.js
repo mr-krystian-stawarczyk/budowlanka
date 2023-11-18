@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import Image from "next/image";
 
 function Contact1() {
 	const handleCall = () => {
@@ -55,14 +56,19 @@ function Contact1() {
 							</Card.Body>
 						</Card>
 					</Col>
+
 					<Col lg={5} md={8} sm={8} className="my-3 mx-auto">
 						<Card
 							style={{ minWidth: "18rem" }}
 							className="bg-light border-0 shadow-lg"
 						>
 							<Card.Body>
-								<HiOutlineLocationMarker style={{ fontSize: "4rem" }} />
-								<Card.Title>Adres</Card.Title>
+								<Image src="/assets/kontakt1.png" height={200} width={200} />
+
+								<Card.Title>
+									{" "}
+									<HiOutlineLocationMarker style={{ fontSize: "4rem" }} />
+								</Card.Title>
 								<Card.Text>Jean Monnetstraat Heemskerk, Holandia</Card.Text>
 								<Button
 									className="border-0 btn-nav"

@@ -83,21 +83,27 @@ function Glazura3() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">Glazura3</h1>
+							<h1 className="text-bold">Glazura Bez Kompromisów</h1>
+							<Card.Text>
+								Nasza praca to nie tylko układanie kafelków - to wyjątkowy
+								proces, w którym dbamy o każdy detal. Nasz zespół to nie tylko
+								fachowcy, lecz pasjonaci, którzy wkładają serce w każdy projekt.
+								Rozumiemy, że glazura to nie tylko element wykończenia, ale
+								kluczowy składnik, który nadaje charakter pomieszczeniom.
+								Dlatego nasze podejście opiera się na solidności,
+								profesjonalizmie i nieustannej trosce o jakość wykonania. Z DG
+								BOUWGROEP otrzymujesz nie tylko usługę, lecz prawdziwe dzieło
+								sztuki rzemieślniczej, które odzwierciedla Twoje oczekiwania i
+								nadaje unikalny charakter Twoim przestrzeniom.
+							</Card.Text>
 							<Card.Text></Card.Text>
 							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
 						</Card.Body>
 					</Card>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/11.png"
+						src="/assets/glazura5.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"

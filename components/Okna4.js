@@ -74,50 +74,52 @@ function Okna4() {
 		}
 	}, [inView, controls, animateIn, animateOut]);
 
-	const sectionPaths = {
-		contact: "contact", // Mapuj wybór do odpowiednich ścieżek
-		about: "about",
-		blog: "blog",
-		werk: "werk",
-		dienste: "dienste",
-	};
-
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex bg-light text-dark py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Okna 4</h1>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<div className="text-center">
-									<Link href="/" className="m-1">
-										<Button className="btn-nav btn-lg"></Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/11.png"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className="d-flex bg-white text-dark py-3 align-items-center justify-content-center"
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/okna44.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>{" "}
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold">Kunststof kozijnen</h1>
+							<Card.Text>
+								Een aantal jaar geleden waren houten kozijnen de meest verkochte
+								kozijnen in Nederland. Inmiddels zijn de houten kozijnen
+								ingehaald door de kunststof kozijnen. De laatste jaren
+								ondervinden de kunststof kozijnen een enorme opmars. Kunststof
+								is een materiaal met een aantal belangrijke eigenschappen. Het
+								materiaal is niet elektrostatisch wat tot gevolg heeft dat
+								stofdeeltjes en vuildeeltjes niet worden aangetrokken. Daarnaast
+								heeft het materiaal een goede isolatiewaarde. Een kunststof
+								kozijn in combinatie met de juiste beglazing kan er tevens voor
+								zorgen dat uw energierekening flink om laag gaat. De voordelen
+								van kunststof kozijnen
+							</Card.Text>
+							<Card.Text>
+								- Zeer onderhoudsarm en tevens onderhoudsvriendelijk
+							</Card.Text>
+							<Card.Text>- Goed isolerend vermogen</Card.Text>
+							<Card.Text>- Brandveilig</Card.Text>
+							<Card.Text>- In veel verschillende kleuren mogelijk</Card.Text>
+							<Card.Text>- Lange levensduur</Card.Text>
+							<Card.Text>- Relatief goedkoop</Card.Text>
+							<Card.Text>- Kindvriendelijk</Card.Text>
+						</Card.Body>
+					</Card>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

@@ -85,28 +85,29 @@ function Tynki3() {
 						<Card.Body>
 							<h1>Hoe werkt pleister spuiten</h1>
 							<Card.Text>
-								Voordat de stukadoor met het pleisteren kan beginnen, moet de
-								ondergrond worden voorbereid. Het grote voordeel van spuitwerk
-								is dat er niet veel voorbereidingen hoeven worden gemaakt.
-								Vooral de naden tussen gipsplaten of zwakkere stukken in de
-								nieuwbouwwoningen moeten worden verstevigd. De ondergrond zelf
-								maakt weinig uit, of deze nu van gasbeton, gips, andere soorten
-								beton of metselwerk is. Pleister spuiten De pleister brengen de
-								vakmensen aan door middel van een spuitmachine die met hoge druk
-								werkt. Dit gaan een stuk sneller dan het handmatig doen,
-								waardoor je snel de pleisterlaag kunt aanbrengen. Wel is het
-								belangrijk dat ramen, kozijnen en andere delen eerst worden
-								afgeplakt. De pleister wordt onverdund in een egale laag
-								gespoten, waarna het glad wordt gestreken met speciale
-								pleistermessen en het kan drogen. Eindresultaat Na deze eerste
-								laag spuitpleister heb je behangklare wanden die mooi glad zijn.
-								Soms wordt er hier nog een tweede laag voor gebruikt om het
-								beste resultaat te krijgen. Voor nieuwbouw wordt vaak nog spack
-								spuitwerk op het plafond aangebracht. De muren zijn nu klaar
-								voor behang of latex verf, maar kunnen ook nog worden afgewerkt
-								met een grove structuur of fijne structuur korrel.
+								Voordat het pleisteren begint, is voorbereiding van de
+								ondergrond nodig, hoewel spuitpleister het voordeel heeft dat er
+								minder voorbereiding vereist is. Belangrijk is vooral het
+								verstevigen van naden tussen gipsplaten of zwakkere plekken in
+								nieuwbouwwoningen. De ondergrond kan variëren van gasbeton,
+								gips, verschillende betonsoorten tot metselwerk.
 							</Card.Text>
-							<Card.Text></Card.Text>
+							<Card.Text>
+								Pleister wordt aangebracht door vakmensen met een spuitmachine
+								onder hoge druk, wat aanzienlijk sneller gaat dan handmatig
+								aanbrengen. Vooraf dienen ramen, kozijnen en andere delen
+								afgeplakt te worden. De pleister wordt onverdund in een egale
+								laag gespoten en vervolgens gladgestreken met speciale
+								pleistermessen voordat het droogt.
+							</Card.Text>
+							<Card.Text>
+								Na deze eerste laag spuitpleister zijn de wanden gereed voor
+								behang en hebben ze een gladde afwerking. Soms wordt er nog een
+								tweede laag aangebracht voor een optimaal resultaat. In
+								nieuwbouw wordt vaak spack spuitwerk op het plafond toegepast.
+								De muren zijn dan klaar voor behang of latexverf, maar kunnen
+								ook afgewerkt worden met een grove of fijne korrelstructuur.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>

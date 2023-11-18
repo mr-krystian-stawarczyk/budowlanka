@@ -80,29 +80,34 @@ function Glazura4() {
 			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
 		>
 			<Row className="justify-content-center  align-items-center">
-				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
-						<Card.Body>
-							<h1 className="text-bold">Glazura4</h1>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
-						</Card.Body>
-					</Card>
-				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/11.png"
+						src="/assets/glazura6.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
 						alt="Sanity Image"
 					/>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold">Glazurnictwo na Najwyższym Poziomie</h1>
+							<Card.Text>
+								Kiedy mówimy o glazurze, myślimy o doskonałości w każdym detalu.
+								Nasz zespół to nie tylko profesjonaliści w swojej dziedzinie,
+								lecz pasjonaci, którzy przekształcają pracę w sztukę. Dla nas
+								układanie kafelków to nie tylko technika, to możliwość wyrażenia
+								kreatywności i umiejętności. Nasze podejście opiera się na
+								staranności, by każdy kafelek znalazł się we właściwym miejscu,
+								tworząc harmonijną całość. Z DG BOUWGROEP otrzymujesz nie tylko
+								usługę, lecz doświadczenie, które wykracza poza oczekiwania, by
+								Twoje pomieszczenia stały się prawdziwymi dziełami sztuki.
+							</Card.Text>
+							<Card.Text></Card.Text>
+							<Card.Text></Card.Text>
+						</Card.Body>
+					</Card>
 				</Col>
 			</Row>
 		</Container>

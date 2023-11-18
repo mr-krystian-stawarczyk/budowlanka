@@ -88,9 +88,18 @@ function Dienste1() {
 								{" "}
 								Przedstawiamy Nasze Najnowsze Realizacje
 							</h1>
-							<Card.Text>Profesjonalnie</Card.Text>
-							<Card.Text>Kompleksowo</Card.Text>
-							<Card.Text>Zawsze na czas</Card.Text>
+							<Card.Text>
+								Mamy przyjemność zaprezentować nasze najnowsze realizacje,
+								których jesteśmy niezmiernie dumni. Każdy projekt, który
+								oddajemy do Państwa rąk, to efekt naszej pasji, zaangażowania i
+								nieustającej pracy naszego zespołu. Stawiamy na innowacyjność i
+								jakość, starając się przekraczać oczekiwania poprzez kreatywne
+								podejście i dbałość o każdy szczegół. Każda z naszych
+								najnowszych osiągnięć jest rezultatem wysiłku, determinacji i
+								współpracy, co sprawia, że z dumą prezentujemy Państwu nasze
+								najnowsze dzieła.
+							</Card.Text>
+
 							<div className="text-center">
 								<Link href="#realizacje" className="m-1">
 									<Button className="btn-nav btn-lg">Realizacje</Button>

@@ -74,50 +74,55 @@ function Okna3() {
 		}
 	}, [inView, controls, animateIn, animateOut]);
 
-	const sectionPaths = {
-		contact: "contact", // Mapuj wybór do odpowiednich ścieżek
-		about: "about",
-		blog: "blog",
-		werk: "werk",
-		dienste: "dienste",
-	};
-
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex bg-white text-dark py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Okna 3</h1>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<div className="text-center">
-									<Link href="/" className="m-1">
-										<Button className="btn-nav btn-lg"></Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/11.png"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className="d-flex bg-white text-dark py-3 align-items-center justify-content-center"
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold">Z nami wymiana sie oplaca</h1>
+							<Card.Text>
+								De kosten voor het vervangen van kozijnen in combinatie met het
+								vervangen van glas zijn van zeer veel factoren afhankelijk. Laat
+								de kozijnen ter plaatse inmeten voor de definitieve opdracht. De
+								belangrijkste invloed factoren op de prijs zijn onder andere het
+								type materiaal van het kozijn (hout, kunststof of aluminium),
+								type beglazing (HR++ of HR+++ glas), ventilatievoorzieningen in
+								het kozijn, schuifpui, vaste of draaiende delen en uiteraard de
+								afmeting van het kozijn. In de praktijk zien we daarnaast ook
+								grote verschillen tussen aanbieders in prijs.{" "}
+							</Card.Text>
+							<Card.Text>
+								Over het algemeen is het daarom niet mogelijk een eenduidige
+								vaste vierkante meter prijs aan te geven. Wij zien inmiddels
+								vaak een bandbreedte van circa € 800,- tot € 1200,- per
+								vierkante meter kozijnoppervlak uitgaande van toepassing van
+								HR++ glas. Echter, wanneer je nu voor de keuze staat om de
+								kozijnen te vervangen adviseren wij ten zeerste om de kozijnen
+								met HR+++ glas (triple glas) uit te voeren. De meerkosten
+								hiervan liggen rond de 20%, maar hierdoor is een extra besparing
+								van 25% mogelijk op de stookkosten ten opzichte van HR++ glas.Om
+								te anticiperen op strengere regelgeving op het gebied van
+								isolatie en de woning tevens geschikt te maken om van het
+								aardgas af te sluiten adviseren wij triple glas toe te passen.
+							</Card.Text>
+						</Card.Body>
+					</Card>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/okna34.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

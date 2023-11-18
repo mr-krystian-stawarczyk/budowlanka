@@ -19,12 +19,15 @@ function okna() {
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Header2 />
+			<Okna2 />
+			<Okna3 />
+			<Okna4 />
 
 			<Okna1 />
 
 			<Okna2n />
 			<Testimonials />
-			<Okna6 />
+
 			<Okna5 />
 		</div>
 	);

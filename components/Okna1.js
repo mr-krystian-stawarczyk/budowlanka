@@ -77,7 +77,6 @@ function Okna1() {
 	return (
 		<Container
 			fluid
-			id="okna2"
 			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center "
 		>
 			<Row className="justify-content-center  align-items-center">

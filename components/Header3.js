@@ -97,12 +97,26 @@ function Header3() {
 						<Card.Body>
 							<h1 className="text-bold"> Profesjonalna Termoizolacja</h1>
 							<Card.Text>
-								Dzięki naszym produktom można cieszyć się równomiernie rozłożoną
-								temperaturą w pomieszczeniach, co ma znaczący wpływ na codzienne
-								samopoczucie domowników. Ponadto, doskonała termoizolacja
-								redukuje również kondensację wilgoci na szybach, co jest istotne
-								dla utrzymania odpowiednich warunków wewnętrznych i zapobiegania
-								powstawaniu szkodliwego pleśnia czy grzybów.
+								Nasza firma to zaawansowany zespół specjalistów, którzy
+								specjalizują się w profesjonalnych izolacjach dachów. Od lat
+								zapewniamy klientom niezrównaną jakość i precyzję w dziedzinie
+								termoizolacji.
+							</Card.Text>
+							<Card.Text>
+								Nasze usługi opierają się na zastosowaniu innowacyjnych
+								technologii oraz wysokiej jakości materiałów, co gwarantuje
+								skuteczną ochronę przed utratą ciepła, wilgocią i innymi
+								czynnikami atmosferycznymi. Niezależnie od rodzaju dachu czy
+								jego wielkości, nasz zespół podejmuje każde zadanie z pełnym
+								zaangażowaniem, dbając o to, by izolacja była nie tylko
+								funkcjonalna, ale także trwała i estetyczna.
+							</Card.Text>
+
+							<Card.Text>
+								wansowane techniki izolacyjne, których używamy, są kluczowym
+								elementem naszej działalności. Nasz zespół nie tylko dba o
+								profesjonalne wykonanie izolacji dachów, ale także oferuje
+								szeroki wybór materiałów do konkretnych potrzeb każdego klienta.
 							</Card.Text>
 
 							<div className="text-center">

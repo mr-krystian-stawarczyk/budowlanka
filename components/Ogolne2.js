@@ -83,21 +83,31 @@ function Ogolne2() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">Ogolne2</h1>
+							<h1 className="text-bold">
+								Odkryj Potencjał Twojego Domu z Naszymi Remontami
+							</h1>
+							<Card.Text>
+								Twój dom jest miejscem, które powinno odzwierciedlać Twoje
+								unikalne życie i styl. W DG BOUWGROEP doskonale rozumiemy tę
+								potrzebę. Nasza praca nie polega jedynie na remontach czy
+								malowaniu ścian. To historia każdego projektu, w której
+								odnajdujemy niepowtarzalność i potencjał.
+							</Card.Text>
+							<Card.Text>
+								Dlatego nasz zespół specjalistów angażuje się w każdy etap prac,
+								zawsze kierując się troską o Twoje potrzeby. Nasza precyzja
+								wykonania idzie w parze z nieustannym poszukiwaniem najlepszych
+								rozwiązań. Pozwól nam wprowadzić zmiany, które nie tylko
+								odświeżą wygląd Twojego domu, ale także sprawią, że będzie on
+								idealnie dopasowany do Twojego życia.
+							</Card.Text>
 							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
 						</Card.Body>
 					</Card>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/11.png"
+						src="/assets/ogolne5.jpg"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"

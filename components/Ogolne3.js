@@ -80,29 +80,40 @@ function Ogolne3() {
 			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
 		>
 			<Row className="justify-content-center  align-items-center">
-				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
-						<Card.Body>
-							<h1 className="text-bold">Ogolne3</h1>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
-						</Card.Body>
-					</Card>
-				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/11.png"
+						src="/assets/ogolne6.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
 						alt="Sanity Image"
 					/>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold">
+								Poznaj Naszą Siłę: Doskonałość w Budowie Twoich Marzeń
+							</h1>
+							<Card.Text>
+								Każdy dom jest jak pusta kartka, gotowa na nowe historie. DG
+								BOUWGROEP to nie tylko firma budowlana - to zespół pasjonatów,
+								którzy zarażają się Twoją wizją. Z naszej strony otrzymasz
+								więcej niż standardową usługę. Oferujemy zaangażowanie, które
+								sprawia, że Twój dom staje się projektem życiowym dla nas. Nasza
+								solidność i precyzja to fundamenty, na których budujemy każdy
+								projekt.
+							</Card.Text>
+							<Card.Text>
+								Niezależnie od tego, czy chcesz zbudować nowy dom od podstaw,
+								czy odświeżyć obecne wnętrza, nasza determinacja i zaangażowanie
+								są niezmienne. Zaufaj nam, by razem stworzyć wnętrza, które
+								opowiedzą historię o Twoich marzeniach i spełnią Twoje
+								oczekiwania w pełni.
+							</Card.Text>
+							<Card.Text></Card.Text>
+						</Card.Body>
+					</Card>
 				</Col>
 			</Row>
 		</Container>

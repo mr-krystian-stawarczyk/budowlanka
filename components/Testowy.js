@@ -98,9 +98,12 @@ function Testowy() {
 
 								<Card.Body>
 									<h4 className="text-bold">Profesjonalne Okna</h4>
-									<Card.Text>Sprzedaz</Card.Text>
-									<Card.Text>Montaz</Card.Text>
-									<Card.Text>Gwarancja</Card.Text>
+									<Card.Text>
+										Zapewniamy nie tylko wysokiej jakości okna, ale również
+										kompleksowy montaż, gwarantując doskonałe rozwiązania i
+										pełne zadowolenie naszych klientów.
+									</Card.Text>
+
 									<div className="text-center">
 										<Link href="okna" className="m-1">
 											<Button className="btn-nav btn-sm">
@@ -127,9 +130,13 @@ function Testowy() {
 
 								<Card.Body>
 									<h4 className="text-bold"> Profesjonalna Termoizolacja</h4>
-									<Card.Text>Szybko</Card.Text>
-									<Card.Text>Profesjonalnie</Card.Text>
-									<Card.Text>Na Lata</Card.Text>
+									<Card.Text>
+										Oferujemy profesjonalne usługi termoizolacji, które nie
+										tylko zapewniają oszczędność energii, ale także komfort
+										termiczny, dbając o efektywność każdego projektu
+										budowlanego.
+									</Card.Text>
+
 									<div className="text-center">
 										<Link href="termo" className="m-1">
 											<Button className="btn-nav btn-sm">
@@ -156,9 +163,12 @@ function Testowy() {
 
 								<Card.Body>
 									<h4 className="text-bold"> Tynki Dla Twojego Domu</h4>
-									<Card.Text>Najpeszy sprzet</Card.Text>
-									<Card.Text>Szybka Realizacja</Card.Text>
-									<Card.Text>Gwarancja </Card.Text>
+									<Card.Text>
+										Stwórz wyjątkowy klimat w swoim domu dzięki naszym wysokiej
+										jakości tynkom, które nie tylko nadadzą unikalny charakter
+										wnętrzom, lecz także zapewnią trwałość i estetykę na lata.
+									</Card.Text>
+
 									<div className="text-center">
 										<Link href="tynki" className="m-1">
 											<Button className="btn-nav btn-sm">
@@ -185,9 +195,12 @@ function Testowy() {
 								/>
 								<Card.Body>
 									<h4 className="text-bold">Przepiekna Glazura </h4>
-									<Card.Text>Lata Doswiadczenia</Card.Text>
-									<Card.Text>Najlepsza Jakosc</Card.Text>
-									<Card.Text>Szybkie Terminy</Card.Text>
+									<Card.Text>
+										Nadaj swoim przestrzeniom osobisty charakter dzięki naszym
+										różnorodnym wzorom i wysokiej jakości glazurze, która dodaje
+										wyjątkowego uroku każdemu pomieszczeniu.
+									</Card.Text>
+
 									<div className="text-center">
 										<Link href="glazura" className="m-1">
 											<Button className="btn-nav btn-sm">
@@ -213,9 +226,13 @@ function Testowy() {
 								/>
 								<Card.Body>
 									<h4 className="text-bold">Wszystko Dla Twojego Domu</h4>
-									<Card.Text>Lata Praktyki</Card.Text>
-									<Card.Text>Setki zadowolonych klientów</Card.Text>
-									<Card.Text>Przekonaj sie sam</Card.Text>
+									<Card.Text>
+										Oferujemy kompleksowe usługi ogólnobudowlane, zapewniając
+										nie tylko solidność konstrukcji, ale także dbałość o każdy
+										detal, by stworzyć wymarzone wnętrza zgodnie z oczekiwaniami
+										naszych klientów.
+									</Card.Text>
+
 									<div className="text-center">
 										<Link href="ogolne" className="m-1">
 											<Button className="btn-nav btn-sm">

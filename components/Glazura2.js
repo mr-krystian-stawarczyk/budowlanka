@@ -80,29 +80,33 @@ function Glazura2() {
 			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
 		>
 			<Row className="justify-content-center  align-items-center">
-				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
-						<Card.Body>
-							<h1 className="text-bold">Glazura2</h1>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
-						</Card.Body>
-					</Card>
-				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/11.png"
+						src="/assets/glazura6.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
 						alt="Sanity Image"
 					/>
+				</Col>
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold">Precyzyjne Układanie Glazury</h1>
+							<Card.Text>
+								Nasz zespół to doświadczeni glazurnicy, dla których praca to
+								wyraz pasji. Nieustannie dążymy do perfekcji, by zapewnić nie
+								tylko najwyższą jakość usług, ale także stworzyć wnętrza, które
+								zachwycają swoją estetyką. Każdy detal jest dla nas ważny, a
+								precyzja i troska o detale to fundamenty, na których budujemy
+								nasze projekty. Pozwól nam nadać Twoim pomieszczeniom
+								niepowtarzalny wygląd, który w pełni odzwierciedli Twój gust i
+								styl życia.
+							</Card.Text>
+							<Card.Text></Card.Text>
+							<Card.Text></Card.Text>
+						</Card.Body>
+					</Card>
 				</Col>
 			</Row>
 		</Container>

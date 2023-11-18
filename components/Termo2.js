@@ -92,39 +92,36 @@ function Termo2() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold"> Termo2</h1>
+							<h1 className="text-bold"> il je graag een gasloze woning? </h1>
 							<Card.Text>
-								il je graag een gasloze woning? Dan adviseren wij je om bij de
-								dakisolatie voor hoge isolatiewaarden te kiezen. Met de keuze
-								voor hoogwaardige isolatiewaarden beperk je de energievraag in
-								de woning. Hierdoor kan je op termijn ook met lagere
-								temperaturen de woning comfortabel krijgen. Bij
-								nieuwbouwwoningen wordt inmiddels een isolatiewaarde (Rc-waarde)
-								van 6.0 aangehouden. Bij het isoleren van een schuin dak is het
-								zeer belangrijk dat je geen vocht opsluit in de constructie.
-								Controleer of er een dampdichte of dampremmende laag in de
-								constructie aanwezig. Dit kan een dun laagje pur zijn aan de
-								buitenzijde van het dakbeschot of een (plastic) laag. Til een
-								dakpan op om dit te controleren en/of controleer de
-								bouwtekeningen van de woning. Indien er een dampdicht materiaal
-								aanwezig is, dan adviseren wij om te werken met een speciale
-								klimaatfolie Er zijn verschillende producten die toegepast
-								kunnen worden als isolatiemateriaal. Hierbij kan je denken aan
-								een minerale (glas of steen)wol, hardschuim isolatieplaten (PIR)
-								of een natuurlijk alternatief zoals vlas- of hennep wol. Let
-								hierbij op de Rd-waarde (isolatiewaarde) van het
-								isolatiemateriaal. Met het ene materiaal heb je minder
-								centimeters dikte nodig om tot eenzelfde isolatiewaarde te komen
-								dan bij een ander materiaal. Uiteraard is er ook een
-								prijsverschil tussen de verschillende materialen
+								Dan adviseren wij je om bij de dakisolatie voor hoge
+								isolatiewaarden te kiezen. Met de keuze voor hoogwaardige
+								isolatiewaarden beperk je de energievraag in de woning. Hierdoor
+								kan je op termijn ook met lagere temperaturen de woning
+								comfortabel krijgen. Bij nieuwbouwwoningen wordt inmiddels een
+								isolatiewaarde (Rc-waarde) van 6.0 aangehouden.
 							</Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
+							<Card.Text>
+								Bij het isoleren van een schuin dak is het zeer belangrijk dat
+								je geen vocht opsluit in de constructie. Controleer of er een
+								dampdichte of dampremmende laag in de constructie aanwezig. Dit
+								kan een dun laagje pur zijn aan de buitenzijde van het
+								dakbeschot of een (plastic) laag. Til een dakpan op om dit te
+								controleren en/of controleer de bouwtekeningen van de woning.
+							</Card.Text>
+							<Card.Text>
+								{" "}
+								Indien er een dampdicht materiaal aanwezig is, dan adviseren wij
+								om te werken met een speciale klimaatfolie Er zijn verschillende
+								producten die toegepast kunnen worden als isolatiemateriaal.
+								Hierbij kan je denken aan een minerale (glas of steen)wol,
+								hardschuim isolatieplaten (PIR) of een natuurlijk alternatief
+								zoals vlas- of hennep wol. Let hierbij op de Rd-waarde
+								(isolatiewaarde) van het isolatiemateriaal. Met het ene
+								materiaal heb je minder centimeters dikte nodig om tot eenzelfde
+								isolatiewaarde te komen dan bij een ander materiaal. Uiteraard
+								is er ook een prijsverschil tussen de verschillende materialen.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>

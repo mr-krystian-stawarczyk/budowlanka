@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import Link from "next/link";
-
+import { MdDoubleArrow } from "react-icons/md";
 import Image from "next/image";
 import imageUrlBuilder from "@sanity/image-url";
 
@@ -19,8 +19,22 @@ function ExpandableText({ text, maxWords }) {
 		<div>
 			<Card.Text>{displayText}</Card.Text>
 			{isExpandable && (
-				<Button onClick={() => setExpanded(!expanded)}>
-					{expanded ? "Mniej" : "Więcej"}
+				<Button onClick={() => setExpanded(!expanded)} className="btn-nav">
+					{expanded ? (
+						<MdDoubleArrow
+							style={{
+								fontSize: "1rem",
+								rotate: "-90deg",
+							}}
+						/>
+					) : (
+						<MdDoubleArrow
+							style={{
+								fontSize: "1rem",
+								rotate: "90deg",
+							}}
+						/>
+					)}
 				</Button>
 			)}
 		</div>
@@ -101,7 +115,7 @@ function Tynki1() {
 			<Row className="text-center">
 				<h1 className="text-bold text-uppercase">Rodzaje Tynków</h1>
 			</Row>
-			<Row className="justify-content-center  align-items-center">
+			<Row className="justify-content-center  align-items-top">
 				<Col lg={3} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
@@ -113,8 +127,7 @@ function Tynki1() {
 								className="responsive-image shadow-lg"
 								alt="Sanity Image"
 							/>
-							<h1> Tynki gipsowe</h1>
-							<Card.Text> </Card.Text>{" "}
+							<h1> Tynki gipsowe Knauf</h1>
 							<ExpandableText
 								text={
 									"Niezależnie od stylów i trendów w architekturze pozostawał przez wieki innowacyjnym materiałem budowlanym z licznymi możliwościami zastosowania. Współcześnie gips znajdujemy głównie w materiałach przeznaczonych do wykańczania wnętrz: w płytach gipsowo-kartonowych i tynkach wewnętrznych. Gips jest materiałem bardzo przyjaznym dla zdrowia człowieka. Dzięki właściwościom higroskopijnym chłonie we wnętrzach nadmiar wilgoci i oddaje ją, kiedy powietrze staje się zbyt suche. Tym samym reguluje stężenie wilgoci w powietrzu, które staje się najbardziej korzystne dla ludzi. We wnętrzach wykończonych materiałami gipsowymi panuje optymalny klimat. Cechują się przede wszystkim dobrą izolacyjnością cieplną i akustyczną wyróżniającym się utrzymaniem odpowiedniego mikroklimatu przyjaznego dla człowieka (gips wchłania nadmiar wilgoci, i oddaje ją gdy w pomieszczeniu jest zbyt sucho) Tynki gipsowe to doskonałe podłoże pod malowanie bądź tapety jak również okładziny ceramiczne. Zaletą tynków gipsowych jest również fakt, że nie odpryskują podczas wiercenia w nich otworów czy wbijaniu gwoździ. Nie można tez zapomnieć o właściwościach ognioodpornych wynikających przede wszystkim ze struktury materiału jakim jest gips. (zawartość cząsteczek wody, które pod działaniem wysokiej temperatury przechodzi w parę wodną co w znaczny sposób spowalnia nagrzewanie się tynku i elementów konstrukcyjnych budynku"

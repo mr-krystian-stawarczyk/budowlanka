@@ -83,41 +83,53 @@ function Okna2() {
 	};
 
 	return (
-		<motion.div ref={ref} animate={controls} id="header2">
-			<Container
-				fluid
-				className={`d-flex bg-white text-dark py-3 align-items-center justify-content-center ${
-					isMobile ? "min-vh-100" : "vh-100"
-				}`}
-			>
-				<Row className="justify-content-center  align-items-center">
-					<Col lg={5} className="mx-auto my-2 ">
-						<Card className="border-0 bg-transparent ">
-							<Card.Body>
-								<h1 className="text-bold"> Okna 2</h1>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<Card.Text></Card.Text>
-								<div className="text-center">
-									<Link href="/" className="m-1">
-										<Button className="btn-nav btn-lg"></Button>
-									</Link>
-								</div>
-							</Card.Body>
-						</Card>
-					</Col>
-					<Col lg={5} className="mx-auto my-2 text-center ">
-						<Image
-							src="/assets/11.png"
-							width={400}
-							height={400}
-							className="responsive-image shadow-lg"
-							alt="Sanity Image"
-						/>
-					</Col>
-				</Row>
-			</Container>
-		</motion.div>
+		<Container
+			fluid
+			className="d-flex bg-white text-dark py-3 align-items-center justify-content-center"
+			id="okna2"
+		>
+			<Row className="justify-content-center  align-items-center">
+				<Col lg={5} className="mx-auto my-2 text-center ">
+					<Image
+						src="/assets/okna33.png"
+						width={400}
+						height={400}
+						className="responsive-image shadow-lg"
+						alt="Sanity Image"
+					/>
+				</Col>{" "}
+				<Col lg={5} className="mx-auto my-2 ">
+					<Card className="border-0 bg-transparent ">
+						<Card.Body>
+							<h1 className="text-bold">
+								{" "}
+								Is dit de juiste stap om mee te beginnen?
+							</h1>
+							<Card.Text>
+								Of het vervangen van de kozijnen de juiste stap is om mee te
+								beginnen is afhankelijk van een aantal factoren. Wij raden het
+								aan om de kozijnen direct te vervangen op het moment dat je nog
+								in het bezit bent van oude kozijnen met enkele beglazing. Je
+								gaat dit gelijk merken in het comfort en op de energienota.
+								Daarnaast zorgt het ook voor een betere woningwaarde. Als de
+								kozijnen nog in een goede staat zijn adviseren wij om eerst te
+								kijken naar andere isolerende maatregelen of enkel het vervangen
+								van de beglazing.
+							</Card.Text>
+							<Card.Text>
+								Met het oog op een gasloze woning adviseren wij om te kiezen
+								voor kozijnen met driedubbele beglazing. Met de keuze voor
+								drievoudige beglazing beperk je de energievraag in de woning.
+								Dit zorgt er voor dat je minder energie nodig hebt om de woning
+								op de juiste temperatuur te krijgen. Een goed geïsoleerde woning
+								zorgt er voor dat je op termijn ook met lagere temperaturen de
+								woning kan verwarmen. 
+							</Card.Text>
+						</Card.Body>
+					</Card>
+				</Col>
+			</Row>
+		</Container>
 	);
 }
 

@@ -90,22 +90,19 @@ function Termo1() {
 								is het isoleren van je dak een interessante stap om mee te
 								beginnen. Er zijn verschillende opties om je dak te isoleren.
 								Dit kan bijvoorbeeld aan de buitenkant van het dakbeschot en aan
-								de binnenkant van het dakbeschot. De beste methode om je dak te
-								isoleren is aan de buitenkant van het dakbeschot. Bij deze
-								methode zijn echter wel een aantal belangrijke aandachtspunten
-								en randvoorwaarden. Als je besluit om de binnenkant van het
-								(schuine) dak te isoleren dien je de juiste folies te
-								gebruiken. Vraag de factsheet aan voor meer informatie over de
-								aandachtspunten, randvoorwaarden, kosten en opbrengsten bij
-								dakisolatie. 
+								de binnenkant van het dakbeschot.
 							</Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
-							<div className="text-center">
-								<Link href="/" className="m-1">
-									<Button className="btn-nav btn-lg"></Button>
-								</Link>
-							</div>
+							<Card.Text>
+								De beste methode om je dak te isoleren is aan de buitenkant van
+								het dakbeschot. Bij deze methode zijn echter wel een aantal
+								belangrijke aandachtspunten en randvoorwaarden.  
+							</Card.Text>
+							<Card.Text>
+								Als je besluit om de binnenkant van het (schuine) dak te
+								isoleren dien je de juiste folies te gebruiken. Vraag de
+								factsheet aan voor meer informatie over de aandachtspunten,
+								randvoorwaarden, kosten en opbrengsten bij dakisolatie.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
