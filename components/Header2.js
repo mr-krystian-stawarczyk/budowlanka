@@ -82,7 +82,7 @@ function Header2() {
 				isMobile ? "min-vh-100" : "vh-100"
 			}`}
 		>
-			<Row className="justify-content-center  align-items-center">
+			<Row className="justify-content-center mt-5 align-items-center">
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>

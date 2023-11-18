@@ -55,7 +55,7 @@ function TermoGlowny() {
 				<Col lg={4} className="mx-auto my-2 text-center ">
 					{" "}
 					<Image
-						src="/assets/termo3.png"
+						src="/assets/termowew2.png"
 						width={300}
 						height={300}
 						className="responsive-image shadow-lg termo-hover"
@@ -75,7 +75,7 @@ function TermoGlowny() {
 				<Col lg={4} className="mx-auto my-2 text-center ">
 					{" "}
 					<Image
-						src="/assets/termo4.png"
+						src="/assets/termozew2.png"
 						width={300}
 						height={300}
 						className="responsive-image shadow-lg termo-hover"

@@ -25,12 +25,10 @@ function Policy() {
 				<h2 className="py-3">Politik & Cookies</h2>
 			</Row>
 
-			{policyData.map((item) => (
-				<Row key={item._id} className="mx-auto my-2">
-					<h4 className="my-2">{item.title}</h4>
-					<h5>{item.description}</h5>
-				</Row>
-			))}
+			<Row className="mx-auto my-2">
+				<h4 className="my-2">Tutaj Wszystkie Prawne Aspekty</h4>
+				<h5>Wszystko </h5>
+			</Row>
 		</Container>
 	);
 }

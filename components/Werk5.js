@@ -65,7 +65,7 @@ const Werk5 = () => {
 					src="/assets/termoplus1.png"
 					style={{
 						width: "6rem",
-						height: "6rem",
+						height: "4rem",
 					}}
 					className="my-1"
 				/>{" "}

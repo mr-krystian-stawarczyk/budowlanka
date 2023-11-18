@@ -65,7 +65,7 @@ const Werk8 = () => {
 					src="/assets/house.png"
 					style={{
 						width: "6rem",
-						height: "6rem",
+						height: "4rem",
 					}}
 					className="my-1"
 				/>{" "}
