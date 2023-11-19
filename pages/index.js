@@ -17,6 +17,7 @@ import Header10 from "@/components/Header10";
 import Testimonials from "@/components/Testimonials";
 import Header9 from "@/components/Header9";
 import Testowy from "@/components/Testowy";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
 	const { theme } = useTheme();
@@ -27,8 +28,7 @@ export default function Home() {
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>
-
-			<Header1 />
+			<ContactForm />
 			<Testowy />
 			<Header10 />
 

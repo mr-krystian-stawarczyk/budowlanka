@@ -25,6 +25,10 @@ body {
 	transition: 0.3s ease-in-out;
 }
 
+.logo {
+	background-color: white;
+}
+
 a {
 	text-decoration: none;
 }
@@ -294,8 +298,6 @@ a {
 	}
 
 	#basic-navbar-nav {
-		backdrop-filter: blur(10px) !important;
-		background: transparent !important;
 	}
 }
 

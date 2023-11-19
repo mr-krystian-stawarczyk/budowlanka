@@ -43,39 +43,30 @@ function Footer() {
 	return (
 		<Container
 			fluid
-			className="overflow-hidden shadow-md blur-bg"
+			className="overflow-hidden shadow-md bg-white"
 			ref={sectionRef}
 			id="contact"
 		>
-			<Row className="justify-content-center align-items-top text-center  mt-2  border-bottom text-dark">
+			<Row className="aling-items-center justify-content-center"></Row>
+			<Row className="justify-content-center align-items-top text-center  border-bottom text-dark">
+				<Col lg={12}>
+					<Image src="/assets/logo-footer.png" width={410} height={70} />
+				</Col>{" "}
 				<Col lg={3} sm={6} className=" mx-auto ">
-					<Card
-						style={{ maxWidth: "21rem" }}
-						className="bg-white rounded shadow-sm border-sm  "
-					>
+					<Card style={{ maxWidth: "21rem" }} className=" rounded  border-0  ">
 						<Card.Body className="">
 							<h3 className="my-3 text-bold">Nasza Firma</h3>
 							<Link href="/about" className="footer-links">
-								<Card.Text className="py-2 hover text-decoration-underline">
-									{" "}
-									O Nas
-								</Card.Text>
+								<Card.Text className="py-2 hover "> O Nas</Card.Text>
 							</Link>
 							<Link href="/contact" className="footer-links">
-								<Card.Text className="py-2 hover text-decoration-underline">
-									Kontakt
-								</Card.Text>
+								<Card.Text className="py-2 hover ">Kontakt</Card.Text>
 							</Link>
 
 							<Link href="/contact" className="footer-links">
-								<Card.Text className="py-2 hover text-decoration-underline">
-									Pytania
-								</Card.Text>
+								<Card.Text className="py-2 hover ">Pytania</Card.Text>
 							</Link>
-							<Link
-								href="werk"
-								className="footer-links text-decoration-underline"
-							>
+							<Link href="werk" className="footer-links ">
 								<Card.Text className="py-2 hover">Realizacje</Card.Text>
 							</Link>
 						</Card.Body>
@@ -84,46 +75,32 @@ function Footer() {
 				<Col lg={3} sm={6} className="mx-auto my-1">
 					<Card
 						style={{ maxWidth: "21rem" }}
-						className="bg-white rounded shadow-sm border-sm   "
+						className="bg-white rounded border-0   "
 					>
 						<Card.Body className="">
 							<h3 className="my-3 text-bold">Usługi</h3>
 
 							<Link href="okna" className="footer-links">
-								<Card.Text className="py-2 hover text-decoration-underline">
-									Okna
-								</Card.Text>
+								<Card.Text className="py-2 hover ">Okna</Card.Text>
 							</Link>
 							<Link href="tynki" className="footer-links">
-								<Card.Text className="py-2 hover text-decoration-underline">
-									Tynki
-								</Card.Text>
+								<Card.Text className="py-2 hover ">Tynki</Card.Text>
 							</Link>
-							<Link
-								href="glazura"
-								className="footer-links text-decoration-underline"
-							>
+							<Link href="glazura" className="footer-links ">
 								<Card.Text className="py-2 hover">Glazura</Card.Text>
 							</Link>
-							<Link
-								href="termo"
-								className="footer-links text-decoration-underline"
-							>
+							<Link href="termo" className="footer-links ">
 								<Card.Text className="py-2 hover">Izolacja</Card.Text>
 							</Link>
-							<Link
-								href="ogolne"
-								className="footer-links text-decoration-underline"
-							>
+							<Link href="ogolne" className="footer-links ">
 								<Card.Text className="py-2 hover">Ogolne</Card.Text>
 							</Link>
 						</Card.Body>
 					</Card>
 				</Col>
-
 				<Col lg={3} sm={6} className=" mx-auto my-1">
 					<Card
-						className="bg-white rounded shadow-sm border-sm   pt-3 "
+						className="bg-white rounded border-0   pt-3 "
 						style={{ maxWidth: "21rem" }}
 					>
 						<h3 className="my-3 text-bold">Kontakt</h3>
@@ -143,7 +120,7 @@ function Footer() {
 				<Col lg={3} sm={6} className=" mx-auto">
 					<Card
 						style={{ maxWidth: "21rem" }}
-						className="bg-white rounded shadow-sm border-sm   "
+						className="bg-white rounded border-0   "
 					>
 						<Card.Body className="">
 							<h3 className="my-3 text-bold">Znajdz Nas Na Social Media </h3>

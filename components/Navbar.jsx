@@ -20,7 +20,7 @@ const NavbarComp = ({ toggleTheme }) => {
 		setMenuOpen(!menuOpen); // Zmiana stanu otwarcia/zamknięcia menu
 	};
 	const [scrolled, setScrolled] = useState(false);
-	const [navbarColor, setNavbarColor] = useState("transparent");
+	const [navbarColor, setNavbarColor] = useState("#fff");
 
 	useEffect(() => {
 		const handleRouteChange = () => {
@@ -33,24 +33,6 @@ const NavbarComp = ({ toggleTheme }) => {
 			router.events.off("routeChangeStart", handleRouteChange);
 		};
 	}, [router.events]);
-
-	useEffect(() => {
-		const handleScroll = () => {
-			if (window.scrollY > 0) {
-				setScrolled(true);
-				setNavbarColor("#ffffff");
-			} else {
-				setScrolled(false);
-				setNavbarColor("transparent");
-			}
-		};
-
-		window.addEventListener("scroll", handleScroll);
-
-		return () => {
-			window.removeEventListener("scroll", handleScroll);
-		};
-	}, []);
 
 	return (
 		<Navbar
@@ -72,7 +54,7 @@ const NavbarComp = ({ toggleTheme }) => {
 					className=" rounded  py-0 d-flex align-items-center blur"
 				>
 					<Image src="/assets/logo1.png" alt="logo" width={50} height={50} />
-					<span className={scrolled ? "logo" : "logo1"}>
+					<span>
 						<span className="mx-2 nazwa-firmy text-bold">
 							<span style={{ color: "#C4E6F6" }}>DG </span>
 							<span style={{ color: "orange" }}>BOUWGROEP</span>
@@ -95,62 +77,61 @@ const NavbarComp = ({ toggleTheme }) => {
 				>
 					<Nav className="navbar-collapse py-3 justify-content-end align-items-center text-center rounded ">
 						<Nav.Link as={Link} href="/" className="m-1">
-							<Button
-								className="btn-md py-1  border-0 shadow-md btn-nav"
-								variant="warning"
-							>
-								<MdHome />
+							<Button className="btn-md py-1 bg-transparent text-black   border-0 shadow-md ">
+								<MdHome className="mb-1" />
 							</Button>
 						</Nav.Link>
 						<Nav.Link as={Link} href="/about" className="m-1">
-							<Button
-								className="btn-md py-2  border-0 shadow-md btn-nav"
-								variant="warning"
-							>
+							<Button className="btn-md py-2 bg-transparent text-black  border-0 shadow-md ">
 								O Nas
 							</Button>
 						</Nav.Link>
 						<NavDropdown
 							title="Usługi"
 							id="basic-nav-dropdown"
-							className="btn-md shadow-md btn-nav-drop rounded  m-1 p-1 "
+							className="btn-md shadow-md -drop rounded text-black  p-1 "
 							menuVariant="light"
+							style={{ fontSize: "1.1rem" }}
 						>
 							<NavDropdown.Item as={Link} href="/okna">
-								<Button className="w-100 border-0 btn-nav ">Okna</Button>
+								<Button className="w-100 border-0  bg-transparent text-black ">
+									Okna
+								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/termo">
-								<Button className="w-100 border-0 btn-nav ">Termo</Button>
+								<Button className="w-100 border-0  bg-transparent text-black ">
+									Termo
+								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/tynki">
-								<Button className="w-100 border-0 btn-nav ">Tynki</Button>
+								<Button className="w-100 border-0  bg-transparent text-black ">
+									Tynki
+								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/glazura">
-								<Button className="w-100 border-0 btn-nav ">Glazura</Button>
+								<Button className="w-100 border-0  bg-transparent text-black ">
+									Glazura
+								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/ogolne">
-								<Button className="w-100 border-0 btn-nav ">Ogolne</Button>
+								<Button className="w-100 border-0 bg-transparent text-black  ">
+									Ogolne
+								</Button>
 							</NavDropdown.Item>
 						</NavDropdown>
 
 						<Nav.Link as={Link} href="/werk">
-							<Button
-								className="btn-md py-2  border-0 shadow-md btn-nav"
-								variant="warning"
-							>
+							<Button className="btn-md py-2 bg-transparent text-black   border-0 shadow-md ">
 								Realizacje
 							</Button>
 						</Nav.Link>
 
 						<Nav.Link as={Link} href="/contact" className="m-1">
-							<Button
-								className="btn-md py-2 border-0 shadow-md btn-nav"
-								variant="warning"
-							>
+							<Button className="btn-md py-2 border-0 bg-transparent text-black  shadow-md ">
 								Kontakt
 							</Button>
 						</Nav.Link>
