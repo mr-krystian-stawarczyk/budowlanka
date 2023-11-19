@@ -25,7 +25,7 @@ const ContactForm = () => {
 	return (
 		<div className="mt-5 pt-5">
 			{!submitted ? (
-				<form onSubmit={handleSubmit}>
+				<form name="contact" netlify onSubmit={handleSubmit}>
 					<input type="hidden" name="access_key" value={accessKey} />
 
 					<input type="text" name="name" required />
