@@ -11,7 +11,7 @@ const ContactForm = ({ onSubmit }) => {
 				{!formSubmitted ? (
 					<Col>
 						{" "}
-						<Form>
+						<Form netlify>
 							<h3 className="pt-3 border-bottom">Contact Me</h3>
 							<Row>
 								<Col>

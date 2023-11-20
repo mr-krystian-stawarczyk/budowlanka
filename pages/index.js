@@ -23,7 +23,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>DB BOUWGROEP</title>
+				<title>DG BOUWGROEP</title>
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>
