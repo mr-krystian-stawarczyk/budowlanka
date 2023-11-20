@@ -48,6 +48,78 @@ a {
 	background-color: #ffffffda;
 }
 
+.card-imgs {
+	min-width: 20rem;
+	min-height: 21rem;
+}
+
+@media screen and (min-width: 1368px) {
+	.card-imgs {
+		min-width: 35rem; /* Możesz dostosować szerokość według potrzeb */
+		min-height: 30rem; /* Możesz dostosować wysokość według potrzeb */
+	}
+}
+
+.card-imgs h2 {
+	position: relative;
+	z-index: 2; /* Ustawienie z-index wyżej niż tła */
+	opacity: 1; /* Pełna widoczność */
+	transition: opacity 0.3s ease; /* Dodatkowy efekt przejścia */
+}
+
+/* Styl dla zdjęcia (początkowy) */
+
+.card-1::before {
+	background-image: url("/assets/okna2.jpg");
+}
+.card-2::before {
+	background-image: url("/assets/termo2.jpg");
+}
+.card-3::before {
+	background-image: url("/assets/tynki2.jpg");
+}
+.card-4::before {
+	background-image: url("/assets/glazura2.jpg");
+}
+.card-5::before {
+	background-image: url("/assets/ogolne2.jpg");
+}
+.card-6::before {
+	background-image: url("/assets/ogrzewanie1.png");
+}
+
+.card-imgs::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	opacity: 0.5; /* Przezroczystość - zmień według potrzeb */
+	transition: opacity 0.3s ease;
+}
+
+.card-imgs::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black; /* Czarny kolor nakładki */
+	opacity: 0.5; /* Przezroczystość nakładki - zmień według potrzeb */
+	transition: opacity 0.3s ease;
+}
+
+/* Pokazanie zdjęcia po najechaniu kursorem */
+.card-imgs:hover::before {
+	opacity: 1;
+}
+
 .image-container {
 	width: 100%;
 	height: 100vh;
@@ -70,6 +142,12 @@ a {
 	}
 	body {
 		background-size: cover;
+	}
+
+	.footer-logo-mobile {
+		max-width: 300px; /* Dowolny maksymalny rozmiar obrazka */
+
+		margin: 0 auto; /* Wyśrodkowanie obrazka */
 	}
 }
 

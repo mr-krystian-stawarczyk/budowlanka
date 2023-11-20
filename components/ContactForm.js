@@ -5,24 +5,6 @@ import { init } from "@emailjs/browser";
 init(process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_USER_ID);
 
 const ContactForm = ({ onSubmit }) => {
-	const [formData, setFormData] = useState({
-		email: "",
-		name: "", // Zmienione z "firstName" na "name"
-		phone: "", // Dodane pole "phone"
-		description: "", // Zmienione z "message" na "description"
-	});
-	const [formSubmitted, setFormSubmitted] = useState(false);
-
-	const handleChange = (e) =>
-		setFormData({ ...formData, [e.target.id]: e.target.value });
-
-	const sendEmail = (e) => {
-		e.preventDefault();
-		onSubmit(formData);
-		setFormSubmitted(true);
-		// Dodaj logikę do wysyłania maila z EmailJS tutaj
-	};
-
 	return (
 		<Container fluid className="pt-5 mt-5 border border-dark rounded bg-dark">
 			<Col lg={6}>

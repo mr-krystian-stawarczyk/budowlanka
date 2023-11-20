@@ -19,37 +19,6 @@ import Testowy from "@/components/Testowy";
 import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
-	const [alertContent, setAlertContent] = useState({});
-	const [showAlert, setShowAlert] = useState(false);
-
-	const handleFormSubmit = (formData) => {
-		emailjs
-			.send(
-				process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_SERVICE_ID,
-				process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_TEMPLATE_ID,
-				formData,
-				process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_USER_ID,
-				process.env.NEXT_PUBLIC_REACT_APP_PUBLIC_KEY
-			)
-			.then(
-				(result) => {
-					// Handle success
-					setAlertContent({
-						heading: "Thank you for contacting me.",
-						message: "I will respond to your message as soon as I can.",
-					});
-					setShowAlert(true);
-				},
-				(error) => {
-					// Handle error
-					setAlertContent({
-						heading: "Something went wrong.",
-						message: error.text,
-					});
-					setShowAlert(true);
-				}
-			);
-	};
 	const { theme } = useTheme();
 	return (
 		<>
@@ -65,7 +34,6 @@ export default function Home() {
 			<Testimonials />
 			<Werk2 />
 			<Header6 />
-			<ContactForm onSubmit={handleFormSubmit} />
 		</>
 	);
 }

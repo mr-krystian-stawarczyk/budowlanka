@@ -121,6 +121,12 @@ const NavbarComp = ({ toggleTheme }) => {
 								<Button className="w-100 border-0 bg-transparent text-black  ">
 									Ogolne
 								</Button>
+							</NavDropdown.Item>{" "}
+							<NavDropdown.Divider />
+							<NavDropdown.Item as={Link} href="/ogrzewanie">
+								<Button className="w-100 border-0 bg-transparent text-black  ">
+									Ogrzewanie
+								</Button>
 							</NavDropdown.Item>
 						</NavDropdown>
 
@@ -135,32 +141,6 @@ const NavbarComp = ({ toggleTheme }) => {
 								Kontakt
 							</Button>
 						</Nav.Link>
-
-						<Nav.Item className=" ">
-							<Dropdown className="border-0">
-								<Dropdown.Toggle
-									style={{ backgroundColor: "green" }}
-									id="dropdown-basic"
-									className="border-0"
-								>
-									<MdOutlinePhoneInTalk /> Szybki Kontakt
-								</Dropdown.Toggle>
-
-								<Dropdown.Menu className="border-0">
-									<Dropdown.Item className="my-2 hover">
-										<span className="text-bold">Grzesiek: +31684665722</span>
-									</Dropdown.Item>
-									<Dropdown.Item className="my-2 hover">
-										<span className="text-bold">Darek: +31615968284</span>
-									</Dropdown.Item>
-									<Dropdown.Item className="my-2 hover">
-										<span className="text-bold">
-											E-mail: dgbouwgroep@gmail.com
-										</span>
-									</Dropdown.Item>
-								</Dropdown.Menu>
-							</Dropdown>
-						</Nav.Item>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
