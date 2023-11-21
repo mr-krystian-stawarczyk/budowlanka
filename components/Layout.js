@@ -21,8 +21,8 @@ const Layout = ({ children, pageProps }) => {
 	const handleFormSubmit = (formData) => {
 		emailjs
 			.send(
-				process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_SERVICE_ID,
-				process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_TEMPLATE_ID,
+				"service_y1k37xn",
+				"template_i4ptcrc",
 				formData,
 				process.env.NEXT_PUBLIC_REACT_APP_PUBLIC_KEY
 			)

@@ -247,7 +247,7 @@ const Footer = ({ onSubmit }) => {
 						Design
 						<a href="https://pixel-genie.de/">
 							<Image
-								src="/assets/pixel-genie webdesign logo.png"
+								src="/assets/pixel-genie-logo.png"
 								width={50}
 								height={50}
 								className="p-2"
