@@ -13,7 +13,7 @@ function izodach() {
 	return (
 		<div className="">
 			<Head>
-				<title>Izo Dach</title>
+				<title>Dakisolatie</title>
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>

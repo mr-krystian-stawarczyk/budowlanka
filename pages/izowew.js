@@ -18,7 +18,7 @@ function izowew() {
 	return (
 		<div className="">
 			<Head>
-				<title>Izo Wew</title>
+				<title>Binnenisolatie</title>
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>

@@ -12,11 +12,11 @@ function About3() {
 	return (
 		<Container
 			fluid
-			className=" py-5 bg-light text-dark overflow-hidden"
+			className="py-5 bg-light text-dark overflow-hidden"
 			id="story"
 		>
-			<Row className="text-center ">
-				<h1 className="py-3">Odkryj Nasza Historie</h1>
+			<Row className="text-center">
+				<h1 className="py-3">Ontdek Onze Geschiedenis</h1>
 			</Row>
 			<VerticalTimeline lineColor="rgb(250, 179, 0)" className="text-dark">
 				<VerticalTimelineElement
@@ -29,10 +29,10 @@ function About3() {
 						borderRight: `#fff 7px solid`,
 					}}
 				>
-					<h5>Rozpoczęcie Działalności</h5>
+					<h5>Start van de Activiteiten</h5>
 					<p>
-						Pierwsze zlecenia i rozpoczęcie pracy nad montażem okien oraz
-						prostych prac ogólnobudowlanych.
+						Eerste opdrachten en start van het werk aan raaminstallaties en
+						eenvoudige algemene bouwwerkzaamheden.
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
@@ -45,10 +45,11 @@ function About3() {
 						borderRight: `#fff 7px solid`,
 					}}
 				>
-					<h5>Rozbudowa Oferty</h5>
-					<p>Poszerzenie oferty o usługi tynkarskie.</p>
+					<h5>Uitbreiding van het Aanbod</h5>
+					<p>Uitbreiding van het aanbod met pleisterwerk diensten.</p>
 					<p>
-						Pierwsze większe projekty związane z tynkowaniem fasad i wnętrz.
+						Eerste grotere projecten met betrekking tot het pleisteren van
+						gevels en interieurs.
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
@@ -61,14 +62,14 @@ function About3() {
 						borderRight: `#fff 7px solid`,
 					}}
 				>
-					<h5>Nagrody i Wyróżnienia</h5>
+					<h5>Prijzen en Erkenningen</h5>
 					<p>
-						Otrzymanie nagrody za innowacyjne podejście do montażu
-						energooszczędnych okien.
+						Ontvangen van een prijs voor innovatieve benadering van de
+						installatie van energiezuinige ramen.
 					</p>
 					<p>
-						Zdobywanie pozytywnych opinii od klientów, co przyczyniło się do
-						renomy firmy.
+						Verkrijgen van positieve klantbeoordelingen, wat heeft bijgedragen
+						aan de reputatie van het bedrijf.
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
@@ -81,11 +82,13 @@ function About3() {
 						borderRight: `#fff 7px solid`,
 					}}
 				>
-					<h5>Ekspansja Regionalna</h5>
-					<p>Rozszerzenie działalności na sąsiednie regiony lub miasta.</p>
+					<h5>Regionale Uitbreiding</h5>
 					<p>
-						Realizacja większych kontraktów budowlanych i montażowych poza
-						dotychczasowym obszarem działania.
+						Uitbreiding van de activiteiten naar aangrenzende regio's of steden.
+					</p>
+					<p>
+						Uitvoering van grotere bouw- en installatiecontracten buiten het
+						bestaande werkgebied.
 					</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
@@ -98,15 +101,9 @@ function About3() {
 						borderRight: `#fff 7px solid`,
 					}}
 				>
-					<h5>Partnerstwo Zawodowe</h5>
-					<p>
-						Nawiązanie partnerskiej współpracy z renomowanymi producentami
-						okien.
-					</p>
-					<p>
-						Rozszerzenie zakresu oferowanych usług o nowoczesne rozwiązania
-						energetyczne.
-					</p>
+					<h5>Professionele Samenwerking</h5>
+					<p>Aangaan van een partnerschap met gerenommeerde raamproducenten.</p>
+					<p>Uitbreiding van het aanbod met moderne energieoplossingen.</p>
 				</VerticalTimelineElement>
 				<VerticalTimelineElement
 					date={2023}
@@ -118,14 +115,15 @@ function About3() {
 						borderRight: `#fff 7px solid`,
 					}}
 				>
-					<h5>Nowe Technologie i Inwestycje</h5>
+					<h5>Nieuwe Technologieën en Investeringen</h5>
 					<p>
-						Wprowadzenie innowacyjnych rozwiązań technologicznych w procesie
-						montażu okien.
+						Introductie van innovatieve technologische oplossingen in het
+						raaminstallatieproces.
 					</p>
 					<p>
-						Inwestycje w rozwój działalności, rozbudowa zespołu oraz poszerzenie
-						oferty o bardziej zaawansowane prace ogólnobudowlane.
+						Investeringen in bedrijfsontwikkeling, uitbreiding van het team en
+						verbreding van het aanbod met meer geavanceerde algemene
+						bouwwerkzaamheden.
 					</p>
 				</VerticalTimelineElement>
 			</VerticalTimeline>

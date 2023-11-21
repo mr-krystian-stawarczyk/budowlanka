@@ -84,25 +84,24 @@ function Dienste1() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">
-								{" "}
-								Przedstawiamy Nasze Najnowsze Realizacje
-							</h1>
+							<h1 className="text-bold">We presenteren onze nieuwste werk</h1>
 							<Card.Text>
-								Mamy przyjemność zaprezentować nasze najnowsze realizacje,
-								których jesteśmy niezmiernie dumni. Każdy projekt, który
-								oddajemy do Państwa rąk, to efekt naszej pasji, zaangażowania i
-								nieustającej pracy naszego zespołu. Stawiamy na innowacyjność i
-								jakość, starając się przekraczać oczekiwania poprzez kreatywne
-								podejście i dbałość o każdy szczegół. Każda z naszych
-								najnowszych osiągnięć jest rezultatem wysiłku, determinacji i
-								współpracy, co sprawia, że z dumą prezentujemy Państwu nasze
-								najnowsze dzieła.
+								Met genoegen laten we onze nieuwste prestaties zien waar we
+								buitengewoon trots op zijn. Elk project dat we aan u
+								overhandigen, is het resultaat van onze passie, toewijding en
+								voortdurende inspanningen van ons team.
+							</Card.Text>
+							<Card.Text>
+								We streven naar innovatie en kwaliteit, en proberen
+								verwachtingen te overtreffen door een creatieve benadering en
+								aandacht voor elk detail. Elk van onze recente prestaties is het
+								resultaat van inspanning, vastberadenheid en samenwerking, wat
+								maakt dat we met trots onze nieuwste werken aan u presenteren.
 							</Card.Text>
 
 							<div className="text-center">
 								<Link href="#realizacje" className="m-1">
-									<Button className="btn-nav btn-lg">Realizacje</Button>
+									<Button className="btn-nav btn-lg">Werk</Button>
 								</Link>
 							</div>
 						</Card.Body>

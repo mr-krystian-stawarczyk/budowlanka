@@ -25,7 +25,7 @@ const Header10 = () => {
 				<Col md={6} className="mx-auto">
 					<Card className="bg-dark m-5 mx-auto bg-transparent border-0 text-dark">
 						<h2 className="text-uppercase text-bold ">
-							Dołącz do grona naszych zadowolonych klientów!
+							Sluit u aan bij onze tevreden klanten!
 						</h2>
 					</Card>
 				</Col>
@@ -37,7 +37,7 @@ const Header10 = () => {
 						className="btn-nav-drop m-5 mx-auto   border-lgtext-uppercase text-dark"
 					>
 						<Card.Body className="shadow-lg">
-							<h4>Zadowoleni klienci:</h4>
+							<h4>Tevreden klanten:</h4>
 							{isVisible && (
 								<Col className="display-3">
 									+
@@ -59,7 +59,7 @@ const Header10 = () => {
 						className="btn-nav-drop m-5 mx-auto  border-lg text-uppercase text-dark"
 					>
 						<Card.Body className="shadow-lg">
-							<h4>Realizacje:</h4>
+							<h4>Projecten:</h4>
 							{isVisible && (
 								<Col className="display-3">
 									+

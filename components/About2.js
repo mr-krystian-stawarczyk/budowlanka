@@ -120,13 +120,13 @@ function About2() {
 	return (
 		<Container
 			fluid
-			className={`d-flex flex-column bg-white text-dark  justify-content-center align-items-center min-vh-100`}
+			className={`d-flex flex-column bg-white text-dark justify-content-center align-items-center min-vh-100`}
 		>
 			<Row className="text-center d-row my-2">
-				<h1>Proces Realizacji</h1>
-				<h3>Zapewniamy obsluge od poczatku do konca</h3>
+				<h1>Uitvoeringsproces</h1>
+				<h3>Wij bieden service van begin tot eind</h3>
 			</Row>
-			<Row className=" text-center  ">
+			<Row className="text-center">
 				<Col lg={3} className="mx-auto">
 					<motion.div
 						ref={ref1}
@@ -134,22 +134,22 @@ function About2() {
 						initial={{ opacity: 0 }}
 						transition={{ delay: 1 }}
 					>
-						<Card className="border-0 bg-transparent ">
+						<Card className="border-0 bg-transparent">
 							<Card.Body>
 								<h1>1</h1>
-								<Card.Text className="text-bold">Kontakt</Card.Text>
+								<Card.Text className="text-bold">Contact</Card.Text>
 								<Card.Text>
-									Kontaktujesz się z nami: Zadzwoń, napisz e-mail lub skorzystaj
-									z formularza kontaktowego na stronie.
+									Neem contact met ons op: Bel ons, stuur een e-mail of gebruik
+									het contactformulier op de website.
 								</Card.Text>
 								<Card.Text>
-									Spotykamy się, by poznać Twoje potrzeby: Umów się na
-									spotkanie, podczas którego szczegółowo omówimy Twoje
-									oczekiwania odnośnie usług.
+									We ontmoeten elkaar om uw behoeften te begrijpen: Maak een
+									afspraak waarbij we uw verwachtingen met betrekking tot onze
+									diensten gedetailleerd bespreken.
 								</Card.Text>
 								<Card.Text>
-									Rozpoczynamy dialog: Chcemy zrozumieć Twoje preferencje i
-									wypracować najlepsze rozwiązania dla Twojego projektu.
+									We beginnen een dialoog: We willen uw voorkeuren begrijpen en
+									de beste oplossingen voor uw project uitwerken.
 								</Card.Text>
 							</Card.Body>
 						</Card>
@@ -162,59 +162,60 @@ function About2() {
 						initial={{ opacity: 0 }}
 						transition={{ delay: 1 }}
 					>
-						<Card className="border-0 bg-transparent ">
+						<Card className="border-0 bg-transparent">
 							<Card.Body>
 								<h1>2</h1>
 								<Card.Text className="text-bold">
-									Planowanie i Realizacja
+									Planning en Uitvoering
 								</Card.Text>
 								<Card.Text>
-									Przygotowujemy spersonalizowaną ofertę: Analizujemy Twoje
-									wymagania i przygotowujemy dopasowaną ofertę, uwzględniającą
-									wszystkie aspekty prac.
+									We stellen een gepersonaliseerd aanbod op: We analyseren uw
+									vereisten en stellen een passend aanbod op dat alle aspecten
+									van het werk omvat.
 								</Card.Text>
 								<Card.Text>
-									Koordynujemy harmonogram prac: Po zaakceptowaniu oferty
-									planujemy terminy i dostosowujemy harmonogram prac do Twoich
-									preferencji.
+									We coördineren het werkschema: Na acceptatie van het aanbod
+									plannen we data en passen we het werkschema aan naar uw
+									voorkeuren.
 								</Card.Text>
 								<Card.Text>
-									Zapewniamy klarowność i jasność: Jesteśmy otwarci na Twoje
-									sugestie i dbamy o transparentność w procesie planowania.
+									We zorgen voor duidelijkheid en helderheid: We staan open voor
+									uw suggesties en zorgen voor transparantie in het
+									planningsproces.
 								</Card.Text>
 							</Card.Body>
 						</Card>
 					</motion.div>
 				</Col>
-				<Col lg={3} className="mx-auto ">
+				<Col lg={3} className="mx-auto">
 					<motion.div
 						ref={ref3}
 						animate={controls3}
 						initial={{ opacity: 0 }}
 						transition={{ delay: 0.1 }}
 					>
-						<Card className="border-0 bg-transparent ">
+						<Card className="border-0 bg-transparent">
 							<Card.Body>
 								<h1>3</h1>
 								<Card.Text className="text-bold">
-									Realizacja i Satysfakcja
+									Uitvoering en Tevredenheid
 								</Card.Text>
 								<Card.Text>
-									Rzetelnie wykonujemy prace: Nasz doświadczony zespół
-									przystępuje do realizacji, dbając o każdy szczegół.
+									We voeren het werk nauwgezet uit: Ons ervaren team gaat aan de
+									slag met oog voor elk detail.
 								</Card.Text>
 								<Card.Text>
-									Sprawdzamy finalne efekty: Po zakończeniu prac dokładnie
-									weryfikujemy rezultaty, aby upewnić się, że spełniają Twoje
-									oczekiwania.
+									We controleren de eindresultaten: Na afronding van het werk
+									verifiëren we de resultaten zorgvuldig om ervoor te zorgen dat
+									ze aan uw verwachtingen voldoen.
 								</Card.Text>
 								<Card.Text>
-									Zależy nam na Twojej satysfakcji: Jesteśmy gotowi na dialog i
-									zawsze dążymy do zapewnienia pełnej satysfakcji z naszych
-									usług.
+									We hechten waarde aan uw tevredenheid: We staan open voor
+									dialoog en streven altijd naar volledige tevredenheid met onze
+									diensten.
 								</Card.Text>
 							</Card.Body>
-						</Card>{" "}
+						</Card>
 					</motion.div>
 				</Col>
 			</Row>

@@ -10,14 +10,12 @@ import {
 } from "react-bootstrap";
 import { useSpring, animated } from "react-spring";
 import { useRouter } from "next/router";
-import { useTranslation } from "react-i18next";
 
 import Link from "next/link";
 
 function Okna2n() {
 	const router = useRouter();
 	const { id } = router.query;
-	const { t } = useTranslation();
 
 	const sectionRef = useRef(null);
 	const [animate, setAnimate] = useState(false);

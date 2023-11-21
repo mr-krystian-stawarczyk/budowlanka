@@ -52,7 +52,7 @@ const Werk2 = () => {
 	return (
 		<Container fluid className="bg-light py-5">
 			<Row className="justify-content-center align-items-center text-center text-dark py-5">
-				<h1 className="text-bold text-uppercase">Nasze Ostatnie Realizacje</h1>
+				<h1 className="text-bold text-uppercase">ONZE RECENTE PROJECTEN</h1>
 			</Row>
 
 			{mobileView ? (
@@ -120,7 +120,7 @@ const Werk2 = () => {
 				<Col md={4} className="py-5">
 					<Nav.Link as={Link} href="/werk">
 						<Button className="btn-md py-2  border-0 shadow-md btn-nav">
-							<span className="text-bold">Realizacje</span>
+							<span className="text-bold">Werk</span>
 						</Button>
 					</Nav.Link>
 				</Col>
@@ -154,7 +154,7 @@ const Werk2 = () => {
 							className="btn-md py-2 btn-nav  border-0 shadow-md btn-nav text-bold"
 							style={{ width: "200px", fontWeight: "bold" }}
 						>
-							Realizacje
+							Werk
 						</Button>
 					</Nav.Link>
 					<Button
@@ -162,7 +162,7 @@ const Werk2 = () => {
 						style={{ width: "200px", fontWeight: "bold" }}
 						onClick={handleModalClose}
 					>
-						Close
+						Sluiten
 					</Button>
 				</Modal.Footer>
 			</Modal>

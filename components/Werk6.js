@@ -69,7 +69,7 @@ const Werk6 = () => {
 					}}
 					className="my-1"
 				/>{" "}
-				<h1 className="text-uppercase text-bold">Tynki </h1>{" "}
+				<h1 className="text-uppercase text-bold">Pleisterwerk </h1>{" "}
 			</Row>
 
 			{mobileView ? (
@@ -180,7 +180,7 @@ const Werk6 = () => {
 						style={{ width: "200px", fontWeight: "bold" }}
 						onClick={handleModalClose}
 					>
-						Close
+						Sluiten
 					</Button>
 				</Modal.Footer>
 			</Modal>

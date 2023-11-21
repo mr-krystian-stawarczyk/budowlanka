@@ -88,14 +88,29 @@ function About1() {
 							<Card.Body>
 								<h1 className="text-bold">
 									{" "}
-									Nasza Firma Opiera Sie na Zaufaniu
+									Ons Bedrijf Vertrouwt op Vertrouwen
 								</h1>
-								<Card.Text>Historia Firmy</Card.Text>
-								<Card.Text>Osiagniecia</Card.Text>
-								<Card.Text>Grono Zadowolonych Klientow</Card.Text>
+
+								<Card.Text>
+									Al tientallen jaren leveren we hoogwaardige bouw, renovatie en
+									afwerkingsdiensten. Gestart als een bescheiden familiebedrijf
+									zijn we uitgegroeid tot een betrouwbare marktleider, waarbij
+									we klanttevredenheid en de kwaliteit van onze diensten hoog in
+									het vaandel dragen.
+								</Card.Text>
+								<Card.Text>
+									Door de jaren heen hebben we veel bereikt, waarbij we talloze
+									projecten met de grootste zorg hebben voltooid en erkenning
+									hebben gekregen van klanten en zakelijke partners.
+								</Card.Text>
+								<Card.Text>
+									Met trots kunnen we zeggen dat ons netwerk van tevreden
+									klanten voortdurend groeit. Voor ons is dit de belangrijkste
+									aanbeveling en een bevestiging van de kwaliteit van ons werk.
+								</Card.Text>
 								<div className="text-center">
 									<Link href="#story" className="m-1">
-										<Button className="btn-nav btn-lg">Historia</Button>
+										<Button className="btn-nav btn-lg">Geschiedenis</Button>
 									</Link>
 								</div>
 							</Card.Body>

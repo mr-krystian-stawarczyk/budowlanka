@@ -79,11 +79,11 @@ const Footer = ({ onSubmit }) => {
 						/>
 					</div>
 				</Col>
-				<Col lg={3} sm={6} className=" mx-auto my-3 ">
+				<Col lg={3} sm={6} className=" mx-auto my-3 parent-container">
 					{!formSubmitted ? (
 						<Col>
 							{" "}
-							<h3 className="my-3 text-bold ">Formularz</h3>
+							<h3 className="my-3 text-bold ">Snel Kontakt</h3>
 							<Form className="px-2" onSubmit={sendEmail}>
 								{" "}
 								<Row>
@@ -91,7 +91,7 @@ const Footer = ({ onSubmit }) => {
 										<Form.Group className="mb-3" controlId="name">
 											<Form.Control
 												type="text"
-												placeholder="Name"
+												placeholder="Naam"
 												value={formData.name}
 												onChange={handleChange}
 											/>
@@ -101,7 +101,7 @@ const Footer = ({ onSubmit }) => {
 										<Form.Group className="mb-3" controlId="phone">
 											<Form.Control
 												type="text"
-												placeholder="Phone"
+												placeholder="Telefoon"
 												onChange={handleChange}
 												value={formData.phone}
 											/>
@@ -112,7 +112,7 @@ const Footer = ({ onSubmit }) => {
 									<Form.Group className="mb-3" controlId="email">
 										<Form.Control
 											type="email"
-											placeholder="name@example.com"
+											placeholder="E-mail"
 											onChange={handleChange}
 											value={formData.email}
 										/>
@@ -122,7 +122,7 @@ const Footer = ({ onSubmit }) => {
 									<Form.Group className="mb-3" controlId="description">
 										<Form.Control
 											as="textarea"
-											placeholder="Description"
+											placeholder="Beschrijving"
 											onChange={handleChange}
 											value={formData.description}
 										/>
@@ -135,14 +135,14 @@ const Footer = ({ onSubmit }) => {
 										type="submit"
 										onClick={(e) => sendEmail(e)}
 									>
-										Send
+										Stuur
 									</Button>
 								</Row>
 							</Form>
 						</Col>
 					) : (
 						<div>
-							<h3>Thank you for contacting us!</h3>
+							<h3>Bedankt dat u contact met ons opneemt!</h3>
 							{/* Display additional content or redirect users */}
 						</div>
 					)}
@@ -153,25 +153,25 @@ const Footer = ({ onSubmit }) => {
 						className="bg-white rounded border-0   "
 					>
 						<Card.Body className="">
-							<h3 className="my-3 text-bold">Usługi</h3>
-
+							<h3 className="my-3 text-bold">Diensten</h3>
+							<Link href="termo" className="footer-links ">
+								<Card.Text className="py-2 hover">Warmte Isolatie</Card.Text>
+							</Link>
 							<Link href="okna" className="footer-links">
-								<Card.Text className="py-2 hover ">Okna</Card.Text>
+								<Card.Text className="py-2 hover ">Ramen</Card.Text>
 							</Link>
 							<Link href="tynki" className="footer-links">
-								<Card.Text className="py-2 hover ">Tynki</Card.Text>
+								<Card.Text className="py-2 hover ">Pleister</Card.Text>
 							</Link>
 							<Link href="glazura" className="footer-links ">
-								<Card.Text className="py-2 hover">Glazura</Card.Text>
+								<Card.Text className="py-2 hover">Glazuur</Card.Text>
 							</Link>
-							<Link href="termo" className="footer-links ">
-								<Card.Text className="py-2 hover">Izolacja</Card.Text>
-							</Link>
+
 							<Link href="ogolne" className="footer-links ">
-								<Card.Text className="py-2 hover">Ogolne</Card.Text>
+								<Card.Text className="py-2 hover">Bouwwerkzaamheden</Card.Text>
 							</Link>
 							<Link href="ogrzewanie" className="footer-links ">
-								<Card.Text className="py-2 hover">Ogrzewanie</Card.Text>
+								<Card.Text className="py-2 hover">Vloerverwarming</Card.Text>
 							</Link>
 						</Card.Body>
 					</Card>
@@ -179,19 +179,19 @@ const Footer = ({ onSubmit }) => {
 				<Col lg={3} sm={6} className=" mx-auto ">
 					<Card style={{ maxWidth: "21rem" }} className=" rounded  border-0  ">
 						<Card.Body className="">
-							<h3 className="my-3 text-bold">Nasza Firma</h3>
+							<h3 className="my-3 text-bold">Ons Bedrijf</h3>
 							<Link href="/about" className="footer-links">
-								<Card.Text className="py-2 hover "> O Nas</Card.Text>
+								<Card.Text className="py-2 hover ">Over Ons</Card.Text>
 							</Link>
 							<Link href="/contact" className="footer-links">
 								<Card.Text className="py-2 hover ">Kontakt</Card.Text>
 							</Link>
 
 							<Link href="/contact" className="footer-links">
-								<Card.Text className="py-2 hover ">Pytania</Card.Text>
+								<Card.Text className="py-2 hover ">Vragen</Card.Text>
 							</Link>
 							<Link href="werk" className="footer-links ">
-								<Card.Text className="py-2 hover">Realizacje</Card.Text>
+								<Card.Text className="py-2 hover">Werk</Card.Text>
 							</Link>
 						</Card.Body>
 						<Card.Text className="footer-links contact-links">
@@ -233,13 +233,13 @@ const Footer = ({ onSubmit }) => {
 			<Row className="text-center my-2 align-items-center">
 				<Col>
 					<h6 className="text-black">
-						2023 DB BOUWGROEP Wszystkie Prawa Zastrzezone
+						2023 DG BOUWGROEP Alle rechten voorbehouden
 					</h6>
 				</Col>
 
 				<Col>
 					<Link href="/policy" className="footer-links ">
-						<h6 className="hover">Politik & Impressium</h6>
+						<h6 className="hover">Politiek & Impressium</h6>
 					</Link>
 				</Col>
 				<Col className="hover">

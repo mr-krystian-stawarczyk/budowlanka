@@ -14,7 +14,7 @@ function okna() {
 	return (
 		<div className="">
 			<Head>
-				<title>Okna</title>
+				<title>Ramen</title>
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>

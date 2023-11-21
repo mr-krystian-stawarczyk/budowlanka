@@ -60,7 +60,7 @@ a {
 	}
 }
 
-.card-imgs h2 {
+.card-imgs h3 {
 	position: relative;
 	z-index: 2; /* Ustawienie z-index wyżej niż tła */
 	opacity: 1; /* Pełna widoczność */
@@ -294,7 +294,12 @@ a {
 	opacity: 0;
 	transition: opacity 300ms;
 }
-
+.parent-container {
+	display: flex;
+	align-items: center; /* Wyśrodkowanie w pionie */
+	justify-content: center; /* Wyśrodkowanie w poziomie */
+	/* Dodatkowe style dotyczące rozmiaru, wypełnienia, marginesów itp. */
+}
 .btn-nav {
 	border: none !important;
 	background-color: #c4e6f6 !important;

@@ -79,19 +79,19 @@ function Testimonials() {
 			name: "Sophie van der Meer",
 			rating: 4.5,
 			review:
-				"Jestem pod wrażeniem profesjonalizmu firmy w zakresie montażu okien. Ich zespół był niezwykle rzetelny i dokładny, a efekt końcowy przeszedł moje oczekiwania. Teraz mój dom zyskał zupełnie nowy wygląd i lepszą izolację. Polecam z całego serca!",
+				"Ik ben onder de indruk van het professionalisme van het bedrijf als het gaat om het plaatsen van ramen. Hun team was uiterst betrouwbaar en nauwkeurig, en het eindresultaat overtrof mijn verwachtingen. Mijn huis heeft nu een geheel nieuwe uitstraling en betere isolatie. Ik beveel ze van harte aan.",
 		},
 		{
 			name: "Luuk Janssen",
 			rating: 5,
 			review:
-				"Usługi tynkarskie świadczone przez tę firmę przerosły moje oczekiwania. Ich kreatywność w wykończeniu fasady była imponująca, a dokładność wykonania zadziwiła mnie pozytywnie. Teraz mój dom prezentuje się doskonale i zyskał zupełnie nowy charakter!",
+				"De stukadoorsdiensten die door dit bedrijf worden geleverd, overtroffen mijn verwachtingen. Hun creativiteit in het afwerken van de gevel was indrukwekkend, en de nauwkeurigheid van het werk verraste me positief. Mijn huis ziet er nu perfect uit en heeft een compleet nieuwe uitstraling gekregen.",
 		},
 		{
 			name: "Eva De Vries",
 			rating: 5,
 			review:
-				"Prace ogólnobudowlane wykonane przez tę firmę były niezwykle solidne i terminowe. Ich zespół wykazał się profesjonalizmem i troską o każdy detal. Efekt końcowy przekroczył moje oczekiwania, dzięki czemu teraz mogę cieszyć się kompletnie odświeżonym wnętrzem!",
+				"Het algemene bouwwerk dat door dit bedrijf is uitgevoerd, was uiterst solide en punctueel. Hun team toonde professionaliteit en aandacht voor elk detail. Het eindresultaat overtrof mijn verwachtingen, waardoor ik nu kan genieten van een volledig vernieuwd interieur!",
 		},
 	];
 
@@ -103,7 +103,7 @@ function Testimonials() {
 			<Row className="justify-content-center  align-items-center flex-column">
 				<Col className="text-center">
 					<h1 className="text-uppercase text-bold">
-						Sprawdz Opinie Naszych Klientów
+						Bekijk de mening van onze klanten
 					</h1>
 				</Col>
 				<Col className="mx-auto my-2">

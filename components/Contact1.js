@@ -11,9 +11,6 @@ function Contact1() {
 		phoneLink.click();
 	};
 
-	const adresPrzycisk =
-		"https://www.google.com/maps/place/Jean+Monnetstraat,+Heemskerk,+Holandia/@52.5170484,4.6785595,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5f0a9d4bb0c8b:0x20f6e1a2748063e!8m2!3d52.5170484!4d4.6811344!16s%2Fg%2F1tfsm59d?entry=ttu";
-
 	const telefonPrzycisk = " +31684665722";
 
 	const handleEmailClick = () => {
@@ -32,11 +29,11 @@ function Contact1() {
 						>
 							<Card.Body>
 								<AiOutlinePhone style={{ fontSize: "4rem" }} />
-								<Card.Title>Telefon</Card.Title>
+								<Card.Title>Telefoon</Card.Title>
 								<Card.Text>Grzesiek: +31684665722</Card.Text>
 								<Card.Text>Darek: +31615968284</Card.Text>
 								<Button className="border-0 btn-nav" onClick={handleCall}>
-									Zadzwon
+									Bellen
 								</Button>
 							</Card.Body>
 						</Card>
@@ -51,7 +48,7 @@ function Contact1() {
 								<Card.Title>E-mail</Card.Title>
 								<Card.Text>dgbouwgroep@gmail.com</Card.Text>
 								<Button className="border-0 btn-nav" onClick={handleEmailClick}>
-									E-Mail Wyslij
+									E-Mail Stuuren
 								</Button>
 							</Card.Body>
 						</Card>
@@ -66,21 +63,18 @@ function Contact1() {
 								<Image src="/assets/kontakt1.png" height={200} width={200} />
 
 								<Card.Title>
-									{" "}
 									<HiOutlineLocationMarker style={{ fontSize: "4rem" }} />
 								</Card.Title>
-								<Card.Text>Jean Monnetstraat Heemskerk, Holandia</Card.Text>
+								<Card.Text>Jean Monnetstraat Heemskerk, Nederland</Card.Text>
 								<Button
 									className="border-0 btn-nav"
 									onClick={() => {
 										window.open(
-											`https://www.google.com/maps/place/${encodeURIComponent(
-												adresPrzycisk
-											)}`
+											"https://www.google.com/maps/place/Jean+Monnetstraat,+Heemskerk,+Holandia/@52.5170484,4.6785595,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5f0a9d4bb0c8b:0x20f6e1a2748063e!8m2!3d52.5170484!4d4.6811344!16s%2Fg%2F1tfsm59d?entry=ttu"
 										);
 									}}
 								>
-									Adresse
+									Locatie
 								</Button>
 							</Card.Body>
 						</Card>

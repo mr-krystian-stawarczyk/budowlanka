@@ -89,9 +89,9 @@ function Testowy() {
 								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-1 cards">
 									{/* Zdjęcie jako tło */}
 
-									<h2 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Profesjonalne Okna
-									</h2>
+									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+										Installatie en verkoop van ramen
+									</h3>
 								</Card>{" "}
 							</Link>
 						</Col>
@@ -103,9 +103,9 @@ function Testowy() {
 							{" "}
 							<Link href="termo" className="">
 								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-2 cards">
-									<h2 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Termoizolacja
-									</h2>
+									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+										Thermische isolatie van uw woning
+									</h3>
 								</Card>{" "}
 							</Link>
 						</Col>
@@ -117,9 +117,9 @@ function Testowy() {
 							{" "}
 							<Link href="tynki" className="">
 								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-3 cards">
-									<h2 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Tynki
-									</h2>
+									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+										Professionele pleister diensten
+									</h3>
 								</Card>{" "}
 							</Link>
 						</Col>
@@ -132,9 +132,9 @@ function Testowy() {
 							{" "}
 							<Link href="glazura" className="">
 								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-4 cards">
-									<h2 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Glazura
-									</h2>
+									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+										Glazuur op het hoogste niveau
+									</h3>
 								</Card>{" "}
 							</Link>
 						</Col>
@@ -145,9 +145,9 @@ function Testowy() {
 						<Col className="">
 							<Link href="ogolne" className="">
 								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-5 cards">
-									<h2 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Ogolne
-									</h2>
+									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+										Jarenlange ervaring in bouwwerkzaamheden
+									</h3>
 								</Card>{" "}
 							</Link>
 						</Col>
@@ -158,9 +158,9 @@ function Testowy() {
 						<Col className="">
 							<Link href="ogrzewanie" className="">
 								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-6 cards">
-									<h2 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Ogrzewanie
-									</h2>
+									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+										Elektrische vloerverwarming
+									</h3>
 								</Card>{" "}
 							</Link>
 						</Col>

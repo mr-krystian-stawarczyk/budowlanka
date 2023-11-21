@@ -82,62 +82,71 @@ const NavbarComp = ({ toggleTheme }) => {
 							</Button>
 						</Nav.Link>
 						<Nav.Link as={Link} href="/about" className="m-1">
-							<Button className="btn-md py-2 bg-transparent text-black  border-0 shadow-md ">
-								O Nas
+							<Button
+								className="btn-md py-2 bg-transparent text-black  border-0 shadow-md "
+								style={{ textTransform: "capitalize" }}
+							>
+								Over ons
 							</Button>
 						</Nav.Link>
 						<NavDropdown
-							title="Usługi"
+							title="Diensten"
 							id="basic-nav-dropdown"
 							className="btn-md shadow-md -drop rounded text-black  p-1 "
 							menuVariant="light"
 							style={{ fontSize: "1.1rem" }}
 						>
 							<NavDropdown.Item as={Link} href="/okna">
-								<Button className="w-100 border-0  bg-transparent text-black ">
-									Okna
+								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
+									Ramen
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/termo">
-								<Button className="w-100 border-0  bg-transparent text-black ">
-									Termo
+								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
+									Warmte isolatie
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/tynki">
-								<Button className="w-100 border-0  bg-transparent text-black ">
-									Tynki
+								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
+									Pleisterwerk
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/glazura">
-								<Button className="w-100 border-0  bg-transparent text-black ">
-									Glazura
+								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
+									Glazuur
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/ogolne">
-								<Button className="w-100 border-0 bg-transparent text-black  ">
-									Ogolne
+								<Button className="w-100 border-0 bg-transparent text-black  text-capitalize">
+									Bouwwerkzaamheden
 								</Button>
 							</NavDropdown.Item>{" "}
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/ogrzewanie">
-								<Button className="w-100 border-0 bg-transparent text-black  ">
-									Ogrzewanie
+								<Button className="w-100 border-0 bg-transparent text-black  text-capitalize">
+									Vloerverwarming
 								</Button>
 							</NavDropdown.Item>
 						</NavDropdown>
 
 						<Nav.Link as={Link} href="/werk">
-							<Button className="btn-md py-2 bg-transparent text-black   border-0 shadow-md ">
-								Realizacje
+							<Button
+								className="btn-md py-2 bg-transparent text-black   border-0 shadow-md "
+								style={{ textTransform: "capitalize" }}
+							>
+								Werk
 							</Button>
 						</Nav.Link>
 
 						<Nav.Link as={Link} href="/contact" className="m-1">
-							<Button className="btn-md py-2 border-0 bg-transparent text-black  shadow-md ">
+							<Button
+								className="btn-md py-2 border-0 bg-transparent text-black  shadow-md "
+								style={{ textTransform: "capitalize" }}
+							>
 								Kontakt
 							</Button>
 						</Nav.Link>
