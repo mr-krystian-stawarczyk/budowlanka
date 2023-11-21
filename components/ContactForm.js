@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { Container, Form, Row, Col, Button } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
-import { init } from "@emailjs/browser";
-init(process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_USER_ID);
 
 const ContactForm = ({ onSubmit }) => {
 	return (

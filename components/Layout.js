@@ -6,11 +6,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useEffect } from "react";
 import { Poppins } from "next/font/google";
 import CookieConsent from "./CookieConsent";
-{
-	/* 	import ContactForm from "./ContactForm";  */
-}
-import Footer from "./Footer";
 
+import Footer from "./Footer";
+init(process.env.NEXT_PUBLIC_REACT_APP_PUBLIC_KEY);
 const poppins = Poppins({
 	weight: ["400", "700"],
 	subsets: ["latin"],
@@ -26,7 +24,6 @@ const Layout = ({ children, pageProps }) => {
 				process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_SERVICE_ID,
 				process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_TEMPLATE_ID,
 				formData,
-				process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_USER_ID,
 				process.env.NEXT_PUBLIC_REACT_APP_PUBLIC_KEY
 			)
 			.then(

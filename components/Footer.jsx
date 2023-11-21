@@ -10,8 +10,6 @@ import { RiMailSendLine } from "react-icons/ri";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 
 import emailjs from "@emailjs/browser";
-import { init } from "@emailjs/browser";
-init(process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_USER_ID);
 
 import { BsSnapchat } from "react-icons/bs";
 const Footer = ({ onSubmit }) => {
@@ -86,7 +84,7 @@ const Footer = ({ onSubmit }) => {
 						<Col>
 							{" "}
 							<h3 className="my-3 text-bold ">Formularz</h3>
-							<Form className="px-2">
+							<Form className="px-2" onSubmit={sendEmail}>
 								{" "}
 								<Row>
 									<Col>
