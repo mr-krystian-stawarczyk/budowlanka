@@ -83,7 +83,9 @@ function Okna3() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">Z nami wymiana sie oplaca</h1>
+							<h1 className="text-bold">
+								Bij ons is de uitwisseling de moeite waard
+							</h1>
 							<Card.Text>
 								De kosten voor het vervangen van kozijnen in combinatie met het
 								vervangen van glas zijn van zeer veel factoren afhankelijk. Laat

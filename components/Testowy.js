@@ -80,92 +80,114 @@ function Testowy() {
 			fluid
 			className=" mt-5 pt-1 align-items-center bg-light justify-content-center "
 		>
-			<Row className="align-items-center justify-content-center text-center mt-4  text-dark">
-				<Col lg={4} className=" mb-3 ">
-					<Row className="justify-content-center  align-items-center">
-						<Col className="">
-							{" "}
-							<Link href="okna" className="">
-								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-1 cards">
-									{/* Zdjęcie jako tło */}
+			<Row className="text-dark text-center my-3 align-items-center  justify-content-center ">
+				<h1 className="text-bold my-3">DG Bouwgroep</h1>
+				<h4 className="py-1 text-bold">
+					Ongeacht of je een renovatie, afwerking, huis of gebouwconstructie
+					plant, binnen onze groep vind je specialisten die je zullen helpen bij
+					de realisatie van jouw project.
+				</h4>
+				<h4 className="py-1 text-bold">
+					DG Bouwgroep is een initiatief van lokale bedrijven die zich hebben
+					verenigd in de bouwsector, samen met ondersteunende bedrijven.
+				</h4>
+				<h4 className="py-1 text-bold">
+					Wij opereren met een allesomvattende aanpak voor investeringen vanaf
+					de fase van hun ontstaan. Betrouwbaarheid, een hoge standaard van
+					dienstverlening en de kwaliteit van aangeboden producten zijn de
+					leidende principes van de partners van DG Bouwgroep.
+				</h4>
+			</Row>
+			<Row className="align-items-center justify-content-center text-center text-dark">
+				<Row className="align-items-center justify-content-center text-center text-dark">
+					{" "}
+					<Col lg={4} className=" mb-3 ">
+						<Row className="justify-content-center  align-items-center">
+							<Col className="">
+								{" "}
+								<Link href="okna" className="">
+									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-1 cards">
+										{/* Zdjęcie jako tło */}
 
-									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Installatie en verkoop van ramen
-									</h3>
-								</Card>{" "}
-							</Link>
-						</Col>
-					</Row>
-				</Col>
-				<Col lg={4} className=" mb-3 ">
-					<Row className="justify-content-center  align-items-center">
-						<Col className="">
-							{" "}
-							<Link href="termo" className="">
-								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-2 cards">
-									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Thermische isolatie van uw woning
-									</h3>
-								</Card>{" "}
-							</Link>
-						</Col>
-					</Row>
-				</Col>
-				<Col lg={4} className=" mb-3  ">
-					<Row className="justify-content-center  align-items-center">
-						<Col className="">
-							{" "}
-							<Link href="tynki" className="">
-								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-3 cards">
-									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Professionele pleister diensten
-									</h3>
-								</Card>{" "}
-							</Link>
-						</Col>
-					</Row>
-				</Col>
-
-				<Col lg={4} className="mb-3 ">
-					<Row className="justify-content-center  align-items-center">
-						<Col className="">
-							{" "}
-							<Link href="glazura" className="">
-								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-4 cards">
-									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Glazuur op het hoogste niveau
-									</h3>
-								</Card>{" "}
-							</Link>
-						</Col>
-					</Row>
-				</Col>
-				<Col lg={4} className=" mb-3 ">
-					<Row className="justify-content-center  align-items-center">
-						<Col className="">
-							<Link href="ogolne" className="">
-								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-5 cards">
-									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Jarenlange ervaring in bouwwerkzaamheden
-									</h3>
-								</Card>{" "}
-							</Link>
-						</Col>
-					</Row>
-				</Col>
-				<Col lg={4} className=" mb-3  ">
-					<Row className="justify-content-center  align-items-center">
-						<Col className="">
-							<Link href="ogrzewanie" className="">
-								<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-6 cards">
-									<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
-										Elektrische vloerverwarming
-									</h3>
-								</Card>{" "}
-							</Link>
-						</Col>
-					</Row>
-				</Col>
+										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+											Installatie en verkoop van ramen
+										</h3>
+									</Card>{" "}
+								</Link>
+							</Col>
+						</Row>
+					</Col>
+					<Col lg={4} className=" mb-3 ">
+						<Row className="justify-content-center  align-items-center">
+							<Col className="">
+								{" "}
+								<Link href="termo" className="">
+									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-2 cards">
+										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+											Thermische isolatie van uw woning
+										</h3>
+									</Card>{" "}
+								</Link>
+							</Col>
+						</Row>
+					</Col>
+					<Col lg={4} className=" mb-3  ">
+						<Row className="justify-content-center  align-items-center">
+							<Col className="">
+								{" "}
+								<Link href="tynki" className="">
+									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-3 cards">
+										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+											Professionele pleister diensten
+										</h3>
+									</Card>{" "}
+								</Link>
+							</Col>
+						</Row>
+					</Col>
+				</Row>
+				<Row className="align-items-center justify-content-center text-center text-dark">
+					<Col lg={4} className="mb-3 ">
+						<Row className="justify-content-center  align-items-center">
+							<Col className="">
+								{" "}
+								<Link href="glazura" className="">
+									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-4 cards">
+										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+											Glazuur op het hoogste niveau
+										</h3>
+									</Card>{" "}
+								</Link>
+							</Col>
+						</Row>
+					</Col>
+					<Col lg={4} className=" mb-3 ">
+						<Row className="justify-content-center  align-items-center">
+							<Col className="">
+								<Link href="ogolne" className="">
+									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-5 cards">
+										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+											Jarenlange ervaring in bouwwerkzaamheden
+										</h3>
+									</Card>{" "}
+								</Link>
+							</Col>
+						</Row>
+					</Col>
+					<Col lg={4} className=" mb-3  ">
+						<Row className="justify-content-center  align-items-center">
+							<Col className="">
+								<Link href="ogrzewanie" className="">
+									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-6 cards">
+										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
+											Infrarood vloerverwarming
+										</h3>
+									</Card>{" "}
+								</Link>
+							</Col>
+						</Row>
+					</Col>
+				</Row>
 			</Row>
 		</Container>
 	);

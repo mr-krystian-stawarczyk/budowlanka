@@ -19,16 +19,16 @@ function TermoGlowny() {
 		>
 			<Row className="text-center mt-5 pt-5">
 				<h1 className="text-bold text-uppercase">
-					Jesteśmy Specjalistami od Izolacji
+					Wij zijn isolatiespecialisten
 				</h1>
 				<h5 className="py-3">
-					{" "}
-					Dzięki naszym produktom można cieszyć się równomiernie rozłożoną
-					temperaturą w pomieszczeniach, co ma znaczący wpływ na codzienne
-					samopoczucie domowników. Ponadto, doskonała termoizolacja redukuje
-					również kondensację wilgoci na szybach, co jest istotne dla utrzymania
-					odpowiednich warunków wewnętrznych i zapobiegania powstawaniu
-					szkodliwego pleśnia czy grzybów.
+					Dankzij onze producten kunt u genieten van een gelijkmatig verdeelde
+					temperatuur in de kamers, wat een aanzienlijke impact heeft op het
+					dagelijkse welzijn van de leden van het huishouden. Bovendien
+					vermindert de uitstekende thermische isolatie ook de condensatie van
+					vocht op het glas, wat belangrijk is voor het handhaven van de juiste
+					interne omstandigheden en het voorkomen van de vorming van schadelijke
+					schimmels.
 				</h5>
 			</Row>
 			<Row className="justify-content-center py-3  align-items-center">
@@ -43,12 +43,12 @@ function TermoGlowny() {
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Izolacja Dach</h1>
+							<h1>Dakisolatie</h1>
 
 							<Card.Text></Card.Text>
 						</Card.Body>{" "}
 						<Link href="izodach">
-							<Button className="btn-nav ">IZO Dach</Button>
+							<Button className="btn-nav ">Dakisolatie</Button>
 						</Link>
 					</Card>
 				</Col>{" "}
@@ -63,12 +63,12 @@ function TermoGlowny() {
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Izolacja wew</h1>
+							<h1>Binnenisolatie</h1>
 
 							<Card.Text></Card.Text>
 						</Card.Body>{" "}
 						<Link href="izowew">
-							<Button className="btn-nav ">IZO Wew</Button>
+							<Button className="btn-nav ">Binnenisolatie</Button>
 						</Link>
 					</Card>
 				</Col>{" "}
@@ -83,12 +83,12 @@ function TermoGlowny() {
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Izolacja zew</h1>
+							<h1>Buitenisolatie</h1>
 
 							<Card.Text></Card.Text>
 						</Card.Body>
 						<Link href="izozew">
-							<Button className="btn-nav ">IZO ZEW</Button>
+							<Button className="btn-nav ">Buitenisolatie</Button>
 						</Link>
 					</Card>
 				</Col>{" "}

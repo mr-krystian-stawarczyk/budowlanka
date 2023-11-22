@@ -86,20 +86,21 @@ function Header2() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold"> Oferujemy Profesjonalne Okna</h1>
+							<h1 className="text-bold"> Professionele Ramen</h1>
 							<Card.Text>
-								Nasi doświadczeni specjaliści służą fachowym doradztwem na
-								każdym etapie wyboru i instalacji okien. Dzięki naszemu
-								zaangażowaniu w jakość i precyzję wykonania, możesz mieć
-								pewność, że otrzymasz nie tylko wysokiej klasy produkty, ale
-								także profesjonalną obsługę. Dbamy o każdy detal, aby zapewnić
-								naszym klientom nie tylko doskonałą funkcjonalność, ale także
-								trwałość i estetykę na lata. Z nami wymiana okien to nie tylko
-								inwestycja w komfort Twojego domu, ale również w jego wartość.
+								Onze ervaren specialisten bieden deskundig advies in elke fase
+								van het kiezen en installeren van ramen. Dankzij onze toewijding
+								aan kwaliteit en precisie in uitvoering, kun je er zeker van
+								zijn dat je niet alleen producten van topklasse ontvangt, maar
+								ook professionele service. We zorgen voor elk detail om onze
+								klanten niet alleen uitstekende functionaliteit te bieden, maar
+								ook duurzaamheid en esthetiek voor jaren. Met ons is het
+								vervangen van ramen niet alleen een investering in het comfort
+								van je huis, maar ook in de waarde ervan.
 							</Card.Text>
 							<Card.Text className="text-center">
 								<span className="text-uppercase text-bold ">
-									SPRZEDAZ MONTAZ DORADZTWO
+									VERKOOP INSTALLATIE ADVIES{" "}
 								</span>
 							</Card.Text>
 

@@ -74,16 +74,15 @@ function Okna2n() {
 					justifyContent: "center",
 				}}
 			>
-				{" "}
 				<Row className="py-3 text-center ">
 					<Col>
-						{" "}
-						<h1 className="my-5 text-bold">Zalety stosowania naszych Okien</h1>
+						<h1 className="my-5 text-bold">
+							Voordelen van het gebruik van onze Ramen
+						</h1>
 					</Col>
 				</Row>{" "}
 				<Row className="text-center justify-content-center align-items-center align-self-center">
 					<Row className="justify-content-center align-items-center">
-						{" "}
 						<Col lg={4} className="mx-auto">
 							{" "}
 							<animated.div style={animationProps}>
@@ -110,17 +109,17 @@ function Okna2n() {
 									<Card.Body>
 										<Card.Title>
 											<span className="text-bold">
-												Innowacyjne rozwiązania okienne
+												Innovatieve raamoplossingen
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Nasza firma oferuje szeroki asortyment innowacyjnych
-											okien, wyprodukowanych z zastosowaniem najnowszych
-											technologii. Oprócz eleganckiego designu, nasze okna
-											charakteryzują się doskonałą izolacją termiczną i
-											akustyczną. Ich wysoka jakość zapewnia nie tylko estetykę,
-											ale także wyjątkowy komfort w domu, redukując straty
-											ciepła i hałasu z zewnątrz.
+											Ons bedrijf biedt een breed scala aan innovatieve ramen,
+											vervaardigd met behulp van de nieuwste technologieën.
+											Naast het elegante ontwerp kenmerken onze ramen zich door
+											uitstekende thermische en akoestische isolatie. Hun hoge
+											kwaliteit garandeert niet alleen esthetiek, maar ook
+											uitzonderlijk comfort in huis, door warmteverlies en
+											geluid van buitenaf te verminderen.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -150,16 +149,15 @@ function Okna2n() {
 									/>
 									<Card.Body>
 										<Card.Title>
-											<span className="text-bold">Profesjonalny montaż</span>
+											<span className="text-bold">Professionele montage</span>
 										</Card.Title>
 										<Card.Text>
-											Nasz zespół montażowy składa się z doświadczonych
-											fachowców, którzy nie tylko dokładają wszelkich starań,
-											aby okna były właściwie zamontowane, ale także dbają o
-											szczegóły, zapewniając perfekcyjne dopasowanie i izolację.
-											Profesjonalny montaż gwarantuje nie tylko długotrwałą
-											trwałość okien, ale także ich optymalną wydajność
-											energetyczną.
+											Ons montage team bestaat uit ervaren vakmensen, die niet
+											alleen hun best doen om ramen correct te monteren, maar
+											ook oog hebben voor detail, waardoor perfecte pasvorm en
+											isolatie wordt gegarandeerd. Professionele montage
+											garandeert niet alleen langdurige duurzaamheid van ramen,
+											maar ook hun optimale energieprestaties.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -187,17 +185,17 @@ function Okna2n() {
 									<Card.Body>
 										<Card.Title>
 											<span className="text-bold">
-												Dostosowanie do indywidualnych potrzeb
+												Aanpassing aan individuele behoeften
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Jesteśmy świadomi różnorodności oczekiwań klientów.
-											Dlatego oferujemy szeroki wachlarz opcji personalizacji
-											okien, od różnych rodzajów profili i kolorów po różnorodne
-											rozwiązania funkcjonalne. Dzięki temu każdy klient może
-											dopasować okna do swoich indywidualnych preferencji
-											estetycznych i funkcjonalnych, zapewniając unikalny
-											charakter swojego domu.
+											Wij zijn ons bewust van de diverse verwachtingen van
+											klanten. Daarom bieden wij een breed scala aan
+											personalisatie-opties voor ramen, van verschillende
+											profieltypes en kleuren tot diverse functionele
+											oplossingen. Hierdoor kan elke klant ramen aanpassen aan
+											hun individuele esthetische en functionele voorkeuren,
+											waardoor een uniek karakter aan hun huis wordt gegeven.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -230,17 +228,17 @@ function Okna2n() {
 									<Card.Body>
 										<Card.Title className="bold">
 											<span className="text-bold">
-												Energooszczędność i oszczędności:
+												Energiezuinigheid en besparingen:
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Nasze okna są zaprojektowane z myślą o oszczędności
-											energii. Dzięki zastosowaniu innowacyjnych technologii,
-											zapewniają doskonałą izolację, redukując straty ciepła i
-											minimalizując zużycie energii potrzebnej do ogrzewania
-											domu. To nie tylko przekłada się na niższe rachunki za
-											energię, ale także wspiera środowisko poprzez ograniczenie
-											emisji dwutlenku węgla.
+											Onze ramen zijn ontworpen met het oog op energiebesparing.
+											Door het gebruik van innovatieve technologieën bieden ze
+											uitstekende isolatie, waardoor warmteverlies wordt
+											verminderd en het energieverbruik voor het verwarmen van
+											het huis wordt geminimaliseerd. Dit resulteert niet alleen
+											in lagere energierekeningen, maar ondersteunt ook het
+											milieu door de uitstoot van kooldioxide te verminderen.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -269,17 +267,18 @@ function Okna2n() {
 									/>
 									<Card.Body>
 										<Card.Title className="bold">
-											<span className="text-bold">Gwarancja jakości</span>
+											<span className="text-bold">Kwaliteitsgarantie</span>
 										</Card.Title>
 										<Card.Text>
-											Nasze produkty są objęte długoterminową gwarancją, co
-											świadczy o naszym zaufaniu do jakości oferowanych okien.
-											Dodatkowo, zapewniamy klientom fachowy serwis oraz
-											wsparcie po montażu, aby zapewnić długotrwałą satysfakcję
-											z naszych produktów. Ekspertyza i doradztwo: Nasz zespół
-											składa się z wykwalifikowanych ekspertów, gotowych służyć
-											wsparciem i fachową wiedzą na każdym etapie procesu zakupu
-											i montażu okien.
+											Onze producten worden gedekt door een
+											langetermijngarantie, wat getuigt van ons vertrouwen in de
+											kwaliteit van de aangeboden ramen. Daarnaast bieden wij
+											klanten professionele service en ondersteuning na
+											installatie, om langdurige tevredenheid met onze producten
+											te garanderen. Expertise en advies: Ons team bestaat uit
+											gekwalificeerde experts, klaar om ondersteuning en
+											professionele kennis te bieden in elke fase van het
+											aankoop- en installatieproces van ramen.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -308,15 +307,15 @@ function Okna2n() {
 									/>
 									<Card.Body>
 										<Card.Title>
-											<span className="text-bold">Ekspertyza i doradztwo</span>
+											<span className="text-bold">Expertise en advies</span>
 										</Card.Title>
 										<Card.Text>
-											Nasz zespół składa się z wykwalifikowanych ekspertów,
-											gotowych służyć wsparciem i fachową wiedzą na każdym
-											etapie procesu zakupu i montażu okien. Dzięki
-											indywidualnemu podejściu i precyzyjnemu doradztwu, nasi
-											klienci mogą podejmować najlepsze decyzje, dostosowane do
-											ich potrzeb i oczekiwań.
+											Ons team bestaat uit gekwalificeerde experts, klaar om
+											ondersteuning en professionele kennis te bieden in elke
+											fase van het aankoop- en installatieproces van ramen.
+											Dankzij een individuele aanpak en nauwkeurig advies kunnen
+											onze klanten de beste beslissingen nemen die aansluiten
+											bij hun behoeften en verwachtingen.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}

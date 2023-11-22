@@ -79,94 +79,95 @@ function Okna1() {
 			fluid
 			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center "
 		>
-			<Row className="justify-content-center  align-items-center">
-				<Col lg={5} className="mx-auto my-2 ">
+			<Row className="justify-content-center align-items-center">
+				<Col lg={5} className="mx-auto my-2">
 					<Card className="border-0 bg-transparent align-items-center justify-content-center">
 						<Image
 							src="/assets/okna-pla.png"
 							width={200}
 							height={200}
-							className="responsive-image shadow-lg "
+							className="responsive-image shadow-lg"
 							alt="Sanity Image"
 						/>
 						<Card.Body>
-							<h1 className="text-bold"> Okna Plastikowe</h1>
+							<h1 className="text-bold">Kunststof Ramen</h1>
 							<Card.Text>
-								<span className="text-bold">Izolacja termiczna: </span>Okna
-								plastikowe charakteryzują się doskonałą izolacją termiczną,
-								utrzymując optymalną temperaturę w pomieszczeniach i redukując
-								straty ciepła.
+								<span className="text-bold">Thermische isolatie:</span>{" "}
+								Kunststof ramen staan bekend om hun uitstekende thermische
+								isolatie, waardoor ze een optimale temperatuur in ruimtes
+								behouden en warmteverlies verminderen.
 							</Card.Text>
 							<Card.Text>
-								<span className="text-bold">Energooszczędność:</span> Dzięki
-								doskonałej izolacji, okna te mogą znacząco zmniejszyć koszty
-								ogrzewania poprzez minimalizację utraty ciepła.
-							</Card.Text>
-							<Card.Text>
-								<span className="text-bold">
-									Trwałość i łatwość konserwacji:
-								</span>{" "}
-								Są odporne na warunki atmosferyczne i nie wymagają
-								specjalistycznej konserwacji. Łatwość w utrzymaniu czystości
-								sprawia, że są wygodne w użytkowaniu.
+								<span className="text-bold">Energiezuinigheid:</span> Dankzij de
+								uitstekende isolatie kunnen deze ramen de verwarmingskosten
+								aanzienlijk verlagen door warmteverlies te minimaliseren.
 							</Card.Text>
 							<Card.Text>
 								<span className="text-bold">
-									Dostępność różnych kolorów i wzorów:
+									Duurzaamheid en onderhoudsgemak:
 								</span>{" "}
-								Oferują różnorodność w kwestii designu i kolorów, co pozwala
-								dopasować je do różnych stylów architektonicznych.
+								Ze zijn bestand tegen weersinvloeden en vereisen geen specifiek
+								onderhoud. Het gemak van schoonmaken maakt ze
+								gebruiksvriendelijk.
 							</Card.Text>
 							<Card.Text>
 								<span className="text-bold">
-									{" "}
-									Odporność na korozję i wilgoć:{" "}
+									Verscheidenheid aan kleuren en ontwerpen:
 								</span>{" "}
-								Plastikowe okna są odporne na korozję, co czyni je doskonałym
-								wyborem w obszarach o wysokiej wilgotności.
+								Ze bieden diversiteit qua design en kleuren, waardoor ze passen
+								bij verschillende architecturale stijlen.
+							</Card.Text>
+							<Card.Text>
+								<span className="text-bold">
+									Weerstand tegen corrosie en vocht:
+								</span>{" "}
+								Kunststof ramen zijn bestand tegen corrosie, wat ze tot een
+								uitstekende keuze maakt in vochtige gebieden.
 							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
-				<Col lg={5} className="mx-auto my-2 ">
+				<Col lg={5} className="mx-auto my-2">
 					<Card className="border-0 bg-transparent align-items-center justify-content-center">
 						<Image
 							src="/assets/okna-alu.png"
 							width={200}
 							height={200}
-							className="responsive-image shadow-lg "
+							className="responsive-image shadow-lg"
 							alt="Sanity Image"
 						/>
 						<Card.Body>
-							<h1 className="text-bold"> Okna Aluminiowe</h1>
+							<h1 className="text-bold">Aluminium Ramen</h1>
 							<Card.Text>
-								<span className="text-bold">Wytrzymałość i lekkość:</span>
-								Aluminiowe okna są lekkie, ale jednocześnie bardzo wytrzymałe i
-								odporne na odkształcenia czy uszkodzenia mechaniczne.
+								<span className="text-bold">Sterkte en lichtheid:</span>{" "}
+								Aluminium ramen zijn licht van gewicht, maar tegelijkertijd zeer
+								sterk en bestand tegen vervorming of mechanische schade.
 							</Card.Text>
 							<Card.Text>
-								<span className="text-bold">Estetyka i elegancja:</span>Mają
-								elegancki wygląd, który dodaje nowoczesności i stylu do
-								architektury budynków, zwłaszcza w dużych przeszkleniach.
+								<span className="text-bold">Esthetiek en elegantie:</span> Ze
+								hebben een elegante uitstraling die moderniteit en stijl
+								toevoegt aan de architectuur van gebouwen, vooral in grote
+								glasoppervlakken.
 							</Card.Text>
 							<Card.Text>
 								<span className="text-bold">
-									Odporność na warunki atmosferyczne:{" "}
-								</span>
-								Są odporne na działanie warunków zewnętrznych, w tym na korozję,
-								co sprawia, że są trwałe i nadają się do wielu różnych klimatów.
+									Weerstand tegen weersinvloeden:
+								</span>{" "}
+								Ze zijn bestand tegen externe omstandigheden, inclusief
+								corrosie, waardoor ze duurzaam zijn en geschikt voor
+								verschillende klimaten.
 							</Card.Text>
 							<Card.Text>
-								<span className="text-bold">Wielkoformatowe przeszklenia:</span>
-								Możliwość wykonania dużych przeszkleń bez konieczności
-								dodatkowych wzmocnień, co umożliwia stworzenie efektownych,
-								panoramicznych widoków.
+								<span className="text-bold">Grote glasoppervlakken:</span>{" "}
+								Mogelijkheid om grote glasoppervlakken te creëren zonder extra
+								versterkingen, waardoor indrukwekkende panoramische uitzichten
+								mogelijk zijn.
 							</Card.Text>
 							<Card.Text>
-								<span className="text-bold">Ekologiczność:</span>Aluminiowe
-								profile są w dużej mierze odnawialne i nadają się do recyklingu,
-								co sprawia, że są bardziej ekologiczne niż niektóre inne
-								materiały budowlane.
+								<span className="text-bold">Milieuvriendelijkheid:</span>{" "}
+								Aluminium profielen zijn grotendeels recyclebaar en geschikt
+								voor hergebruik, waardoor ze milieuvriendelijker zijn dan
+								sommige andere bouwmaterialen.
 							</Card.Text>
 						</Card.Body>
 					</Card>

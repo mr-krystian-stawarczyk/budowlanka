@@ -56,7 +56,7 @@ const NavbarComp = ({ toggleTheme }) => {
 					<Image src="/assets/logo1.png" alt="logo" width={50} height={50} />
 					<span>
 						<span className="mx-2 nazwa-firmy text-bold">
-							<span style={{ color: "#C4E6F6" }}>DG </span>
+							<span style={{ color: "#004E7D" }}>DG </span>
 							<span style={{ color: "orange" }}>BOUWGROEP</span>
 						</span>
 					</span>

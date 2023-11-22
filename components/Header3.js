@@ -95,28 +95,29 @@ function Header3() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold"> Profesjonalna Termoizolacja</h1>
+							<h1 className="text-bold">Professionele Thermische Isolatie</h1>
 							<Card.Text>
-								Nasza firma to zaawansowany zespół specjalistów, którzy
-								specjalizują się w profesjonalnych izolacjach dachów. Od lat
-								zapewniamy klientom niezrównaną jakość i precyzję w dziedzinie
-								termoizolacji.
+								Ons bedrijf is een geavanceerd team van specialisten
+								gespecialiseerd in professionele dakisolatie. Al jarenlang
+								bieden we onze klanten ongeëvenaarde kwaliteit en precisie op
+								het gebied van thermische isolatie.
 							</Card.Text>
 							<Card.Text>
-								Nasze usługi opierają się na zastosowaniu innowacyjnych
-								technologii oraz wysokiej jakości materiałów, co gwarantuje
-								skuteczną ochronę przed utratą ciepła, wilgocią i innymi
-								czynnikami atmosferycznymi. Niezależnie od rodzaju dachu czy
-								jego wielkości, nasz zespół podejmuje każde zadanie z pełnym
-								zaangażowaniem, dbając o to, by izolacja była nie tylko
-								funkcjonalna, ale także trwała i estetyczna.
+								Onze diensten zijn gebaseerd op het gebruik van innovatieve
+								technologieën en hoogwaardige materialen, wat effectieve
+								bescherming biedt tegen warmteverlies, vocht en andere
+								weersinvloeden. Ongeacht het type dak of de grootte ervan, ons
+								team neemt elke taak met volledige toewijding aan, met oog voor
+								isolatie die niet alleen functioneel is, maar ook duurzaam en
+								esthetisch verantwoord.
 							</Card.Text>
 
 							<Card.Text>
-								wansowane techniki izolacyjne, których używamy, są kluczowym
-								elementem naszej działalności. Nasz zespół nie tylko dba o
-								profesjonalne wykonanie izolacji dachów, ale także oferuje
-								szeroki wybór materiałów do konkretnych potrzeb każdego klienta.
+								De geavanceerde isolatietechnieken die we gebruiken, vormen een
+								essentieel onderdeel van onze activiteiten. Ons team zorgt niet
+								alleen voor professionele dakisolatie, maar biedt ook een breed
+								scala aan materialen die voldoen aan de specifieke behoeften van
+								elke klant.
 							</Card.Text>
 
 							<div className="text-center">

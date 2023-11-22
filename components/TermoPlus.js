@@ -79,7 +79,7 @@ function TermoPlus() {
 					<Col>
 						{" "}
 						<h1 className="my-5 text-bold">
-							Zalety stosowania naszych Izolacji
+							Voordelen van het gebruik van onze isolatie
 						</h1>
 					</Col>
 				</Row>{" "}
@@ -112,16 +112,15 @@ function TermoPlus() {
 									<Card.Body>
 										<Card.Title>
 											<span className="text-bold">
-												Izolacja termiczna dachu
+												Thermische isolatie van het dak
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Nasze rozwiązania izolacyjne dla dachu gwarantują
-											utrzymanie optymalnej temperatury wewnątrz budynku przez
-											cały rok. Dzięki nim unikasz strat ciepła zimą i
-											nadmiernego nagrzewania się pomieszczeń latem, co
-											przekłada się na obniżenie kosztów ogrzewania i
-											klimatyzacji.
+											Onze isolatieoplossingen voor daken garanderen het behoud
+											van optimale binnentemperaturen gedurende het hele jaar.
+											Hiermee vermijdt u warmteverlies in de winter en
+											oververhitting van ruimtes in de zomer, wat resulteert in
+											lagere kosten voor verwarming en airconditioning.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -152,14 +151,14 @@ function TermoPlus() {
 									<Card.Body>
 										<Card.Title>
 											<span className="text-bold">
-												Izolacja ścian zewnętrznych
+												Isolatie van buitenmuren
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Nasza izolacja ścian zewnętrznych zapewnia nie tylko
-											redukcję strat ciepła, ale także doskonałą ochronę przed
-											warunkami atmosferycznymi. To oznacza wyższy komfort
-											mieszkalny oraz potencjalne oszczędności energetyczne.
+											Onze isolatie voor externe muren biedt niet alleen een
+											vermindering van warmteverlies, maar ook uitstekende
+											bescherming tegen weersomstandigheden. Dit betekent een
+											hoger woongenot en potentieel energiebesparing.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -186,14 +185,14 @@ function TermoPlus() {
 									/>
 									<Card.Body>
 										<Card.Title>
-											<span className="text-bold">Izolacja wewnętrzna</span>
+											<span className="text-bold">Interne isolatie</span>
 										</Card.Title>
 										<Card.Text>
-											Poprzez zastosowanie wysokiej jakości izolacji
-											wewnętrznej, oferujemy możliwość skutecznego oddzielenia
-											pomieszczeń od siebie, eliminując niepożądane dźwięki i
-											zapewniając prywatność. Dodatkowo, izolacja wewnętrzna
-											może również poprawić efektywność energetyczną wnętrza.
+											Door hoogwaardige interne isolatie toe te passen, bieden
+											we de mogelijkheid om ruimtes effectief van elkaar te
+											scheiden, ongewenst geluid te verminderen en privacy te
+											garanderen. Bovendien kan interne isolatie de
+											energie-efficiëntie van een ruimte verbeteren.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -226,14 +225,14 @@ function TermoPlus() {
 									<Card.Body>
 										<Card.Title className="bold">
 											<span className="text-bold">
-												Ochrona przed wilgocią i pleśnią
+												Bescherming tegen vocht en schimmel
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Nasze rozwiązania izolacyjne zapewniają skuteczną barierę
-											przed wilgocią, zmniejszając ryzyko powstawania pleśni i
-											grzybów. To istotne dla utrzymania zdrowego środowiska
-											wewnętrznego.
+											Onze isolatieoplossingen bieden een effectieve barrière
+											tegen vocht, waardoor het risico op schimmel- en
+											schimmelvorming wordt verminderd. Dit is belangrijk voor
+											het behoud van een gezonde binnenomgeving.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -263,15 +262,15 @@ function TermoPlus() {
 									<Card.Body>
 										<Card.Title className="bold">
 											<span className="text-bold">
-												Zwiększenie wartości nieruchomości
+												Verhoging van de vastgoedwaarde
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Dzięki profesjonalnej izolacji domu, możesz zwiększyć
-											wartość swojej nieruchomości. Efektywne rozwiązania
-											izolacyjne są często postrzegane jako znak wysokiej
-											jakości budowy, co przekłada się na atrakcyjność na rynku
-											nieruchomości.
+											Door professionele isolatie van uw huis kunt u de waarde
+											van uw onroerend goed verhogen. Effectieve
+											isolatieoplossingen worden vaak gezien als een teken van
+											hoogwaardige bouw, wat resulteert in aantrekkelijkheid op
+											de vastgoedmarkt.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}
@@ -301,14 +300,14 @@ function TermoPlus() {
 									<Card.Body>
 										<Card.Title>
 											<span className="text-bold">
-												Redukcja emisji dwutlenku węgla
+												Verlaging van de koolstofdioxide uitstoot
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Poprzez zmniejszenie zużycia energii potrzebnej do
-											ogrzewania lub chłodzenia budynku, nasza izolacja
-											przyczynia się do ograniczenia emisji dwutlenku węgla, co
-											jest korzystne dla środowiska naturalnego.
+											Door het verminderen van het energieverbruik dat nodig is
+											voor het verwarmen of koelen van een gebouw, draagt onze
+											isolatie bij aan het verminderen van de uitstoot van
+											kooldioxide, wat gunstig is voor het natuurlijke milieu.
 										</Card.Text>
 									</Card.Body>{" "}
 								</Card>{" "}

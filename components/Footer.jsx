@@ -12,26 +12,8 @@ import { MdOutlinePhoneInTalk } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 
 import { BsSnapchat } from "react-icons/bs";
-const Footer = ({ onSubmit }) => {
+const Footer = () => {
 	const sectionRef = useRef(null);
-
-	const [formData, setFormData] = useState({
-		email: "",
-		name: "", // Zmienione z "firstName" na "name"
-		phone: "", // Dodane pole "phone"
-		description: "", // Zmienione z "message" na "description"
-	});
-	const [formSubmitted, setFormSubmitted] = useState(false);
-
-	const handleChange = (e) =>
-		setFormData({ ...formData, [e.target.id]: e.target.value });
-
-	const sendEmail = (e) => {
-		e.preventDefault();
-		onSubmit(formData);
-		setFormSubmitted(true);
-		// Dodaj logikę do wysyłania maila z EmailJS tutaj
-	};
 
 	const [ref, inView] = useInView({
 		threshold: 0.5,
@@ -72,81 +54,14 @@ const Footer = ({ onSubmit }) => {
 				<Col lg={12} xs={12} className="text-center">
 					<div className="d-flex justify-content-center align-items-center">
 						<Image
-							src="/assets/logo-footer.png"
-							width={410}
-							height={70}
+							src="/assets/logo-footer1.png"
+							width={400}
+							height={50}
 							className="footer-logo-mobile" // Dodaj klasę do obrazka dla urządzeń mobilnych
 						/>
 					</div>
 				</Col>
-				<Col lg={3} sm={6} className=" mx-auto my-3 parent-container">
-					{!formSubmitted ? (
-						<Col>
-							{" "}
-							<h3 className="my-3 text-bold ">Snel Kontakt</h3>
-							<Form className="px-2" onSubmit={sendEmail}>
-								{" "}
-								<Row>
-									<Col>
-										<Form.Group className="mb-3" controlId="name">
-											<Form.Control
-												type="text"
-												placeholder="Naam"
-												value={formData.name}
-												onChange={handleChange}
-											/>
-										</Form.Group>
-									</Col>
-									<Col>
-										<Form.Group className="mb-3" controlId="phone">
-											<Form.Control
-												type="text"
-												placeholder="Telefoon"
-												onChange={handleChange}
-												value={formData.phone}
-											/>
-										</Form.Group>
-									</Col>
-								</Row>
-								<Row>
-									<Form.Group className="mb-3" controlId="email">
-										<Form.Control
-											type="email"
-											placeholder="E-mail"
-											onChange={handleChange}
-											value={formData.email}
-										/>
-									</Form.Group>
-								</Row>
-								<Row>
-									<Form.Group className="mb-3" controlId="description">
-										<Form.Control
-											as="textarea"
-											placeholder="Beschrijving"
-											onChange={handleChange}
-											value={formData.description}
-										/>
-									</Form.Group>
-								</Row>
-								<Row className="align-items-center justify-content-center">
-									<Button
-										className="btn-nav w-50"
-										size="sm"
-										type="submit"
-										onClick={(e) => sendEmail(e)}
-									>
-										Stuur
-									</Button>
-								</Row>
-							</Form>
-						</Col>
-					) : (
-						<div>
-							<h3>Bedankt dat u contact met ons opneemt!</h3>
-							{/* Display additional content or redirect users */}
-						</div>
-					)}
-				</Col>
+
 				<Col lg={3} sm={6} className="mx-auto my-1">
 					<Card
 						style={{ maxWidth: "21rem" }}
@@ -216,17 +131,17 @@ const Footer = ({ onSubmit }) => {
 						style={{ maxWidth: "21rem" }}
 					>
 						<h3 className="my-3 text-bold">Kontakt</h3>
+						<h4 className="py-3 footer-links hover">
+							<MdOutlinePhoneInTalk /> Greg: +31 684665722
+						</h4>
+						<h4 className="py-3 hover">
+							<MdOutlinePhoneInTalk /> Darek: +31 615968284
+						</h4>{" "}
 						<a onClick={handleEmailClick} className="footer-links ">
 							<h5 className="py-3 hover">
 								<RiMailSendLine /> dgbouwgroep@gmail.com
 							</h5>
 						</a>
-						<h5 className="py-3 footer-links hover">
-							<MdOutlinePhoneInTalk /> +31684665722
-						</h5>
-						<h5 className="py-3 hover">
-							<MdOutlinePhoneInTalk /> +31615968284
-						</h5>
 					</Card>
 				</Col>
 			</Row>

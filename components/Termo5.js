@@ -13,9 +13,7 @@ function Termo5() {
 		<Container className="bg-light text-dark  py-5" fluid>
 			<Row className="justify-content-center align-items-center">
 				<Col lg={4} md={6} xs={12} className="py-5 text-center">
-					<h1 className="text-bold text-uppercase">
-						Najczęsciej Zadawane Pytania : Izolacja
-					</h1>
+					<h1 className="text-bold text-uppercase">Meest Gestelde Vragen</h1>
 				</Col>
 			</Row>
 			<Row className="justify-content-center align-items-center">
@@ -23,145 +21,151 @@ function Termo5() {
 					<Accordion className="shadow-lg" defaultActiveKey="0">
 						<Accordion.Item eventKey="0">
 							<Accordion.Header>
-								Czym jest termoizolacja zewnętrzna domu?
+								Wat is de buitenisolatie van een huis?
 							</Accordion.Header>
 							<Accordion.Body>
-								Termoizolacja zewnętrzna to kompleksowy proces, który polega na
-								aplikacji warstwy izolacyjnej na zewnętrznych ścianach budynku.
-								Jej głównym celem jest ograniczenie strat ciepła poprzez
-								tworzenie warstwy ochronnej, zapobiegającej wnikaniu zimna z
-								zewnątrz oraz utracie ciepła z wnętrza. Stosuje się różnorodne
-								materiały izolacyjne, takie jak styropian, wełna mineralna czy
-								płyty izolacyjne, a następnie pokrywa się je wykończeniem
-								zewnętrznym, dostosowanym do estetyki domu.
+								Buitenisolatie is een uitgebreid proces waarbij een isolatielaag
+								wordt aangebracht op de buitenmuren van een gebouw. Het
+								hoofddoel is om warmteverlies te beperken door een beschermende
+								laag te creëren die voorkomt dat kou van buiten naar binnen
+								dringt en warmte van binnen naar buiten ontsnapt. Verschillende
+								isolatiematerialen worden gebruikt, zoals piepschuim, minerale
+								wol of isolatieplaten, gevolgd door een afwerking die past bij
+								de esthetiek van het huis.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="1">
 							<Accordion.Header>
-								Jaki jest główny cel montażu termoizolacji w domu?
+								Wat is het belangrijkste doel van het installeren van isolatie
+								in een huis?
 							</Accordion.Header>
 							<Accordion.Body>
-								Głównym celem montażu termoizolacji jest stworzenie warstwy
-								ochronnej, która minimalizuje utratę ciepła z budynku oraz
-								zwiększa jego efektywność energetyczną. Poprzez izolację ścian
-								zewnętrznych i dachu, termoizolacja tworzy barierę termiczną,
-								zapobiegającą wnikaniu zimna z zewnątrz oraz ograniczającą
-								przegrzewanie się domu w cieplejszych miesiącach. To nie tylko
-								wpływa na redukcję rachunków za ogrzewanie i klimatyzację, ale
-								także na ogólny komfort życia mieszkańców, eliminując wahania
-								temperatury wewnątrz pomieszczeń.
+								Het belangrijkste doel van het installeren van isolatie is het
+								creëren van een beschermende laag die warmteverlies
+								minimaliseert en de energie-efficiëntie van het gebouw
+								verbetert. Door de isolatie van de buitenmuren en het dak
+								creëert isolatie een thermische barrière die voorkomt dat kou
+								van buiten naar binnen dringt en het oververhitten van het huis
+								in warmere maanden beperkt. Dit heeft niet alleen invloed op de
+								vermindering van de verwarmings- en koelingskosten, maar ook op
+								het algemene comfort van de bewoners door
+								temperatuurschommelingen in de kamers te elimineren.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="2">
 							<Accordion.Header>
-								Czy termoizolacja zewnętrzna wpływa na wygląd zewnętrzny
-								budynku?
+								Beïnvloedt buitenisolatie het uiterlijk van een gebouw?
 							</Accordion.Header>
 							<Accordion.Body>
-								Tak, montaż termoizolacji zewnętrznej może zmienić wygląd
-								zewnętrzny domu, ale istnieje wiele możliwości dostosowania
-								izolacji do preferencji estetycznych. Dostępne są różnorodne
-								wykończenia, kolory i tekstury tynków, co umożliwia dopasowanie
-								izolacji do architektury budynku. W efekcie termoizolacja nie
-								tylko poprawia wydajność energetyczną, ale również może
-								odświeżyć lub zmienić wizerunek zewnętrzny budynku.
+								Ja, het installeren van buitenisolatie kan het uiterlijk van een
+								huis veranderen, maar er zijn veel opties om de isolatie aan te
+								passen aan esthetische voorkeuren. Er zijn verschillende
+								afwerkingen, kleuren en texturen van pleisterwerk beschikbaar,
+								waardoor de isolatie kan worden aangepast aan de architectuur
+								van het gebouw. Als gevolg hiervan verbetert isolatie niet
+								alleen de energie-efficiëntie, maar kan het ook het uiterlijk
+								van het gebouw verfraaien of veranderen.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="3">
 							<Accordion.Header>
-								Jakie są korzyści z termoizolacji wewnętrznej?
+								Wat zijn de voordelen van interne isolatie?
 							</Accordion.Header>
 							<Accordion.Body>
-								Termoizolacja wewnętrzna ma wiele zalet, poza zmniejszeniem
-								rachunków za ogrzewanie. Zapewnia ona kontrolę temperatury w
-								poszczególnych pomieszczeniach, eliminując obszary odczuwalnie
-								chłodne lub ciepłe, co przekłada się na równomierny komfort
-								cieplny w całym domu. Ponadto, poprawia izolację akustyczną,
-								ograniczając przenikanie dźwięków między pomieszczeniami, co
-								może być istotne dla osób szukających spokoju i prywatności.
+								Interne isolatie heeft veel voordelen, naast het verlagen van
+								verwarmingskosten. Het zorgt voor temperatuurregeling in
+								verschillende kamers, waardoor koude of warme gebieden worden
+								geëlimineerd en een gelijkmatig thermisch comfort in het hele
+								huis wordt geboden. Bovendien verbetert het de geluidsisolatie
+								door geluidsoverdracht tussen kamers te beperken, wat belangrijk
+								kan zijn voor mensen op zoek naar rust en privacy.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="4">
 							<Accordion.Header>
-								Czy istnieje różnica między izolacją termiczną a akustyczną?
+								Is er een verschil tussen thermische en akoestische isolatie?
 							</Accordion.Header>
 							<Accordion.Body>
-								Tak, istnieje wyraźna różnica między izolacją termiczną a
-								akustyczną. Izolacja termiczna koncentruje się głównie na
-								zatrzymywaniu ciepła wewnątrz budynku lub zapobieganiu jego
-								utracie na zewnątrz. Natomiast izolacja akustyczna ma na celu
-								redukcję przenikania dźwięków między pomieszczeniami, co może
-								być istotne zwłaszcza w przypadku budynków zlokalizowanych w
-								hałaśliwych miejscach.
+								Ja, er is een duidelijk verschil tussen thermische en
+								akoestische isolatie. Thermische isolatie richt zich
+								voornamelijk op het behouden van warmte binnen een gebouw of het
+								voorkomen van warmteverlies naar buiten. Akoestische isolatie
+								daarentegen heeft tot doel het binnendringen van geluiden tussen
+								kamers te verminderen, wat vooral belangrijk kan zijn voor
+								gebouwen die zich bevinden in lawaaierige gebieden.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="5">
 							<Accordion.Header>
-								Jakie materiały są używane do termoizolacji domów?
+								Welke materialen worden gebruikt voor het isoleren van huizen?
 							</Accordion.Header>
 							<Accordion.Body>
-								Istnieje wiele różnych materiałów stosowanych do termoizolacji
-								domów, w tym styropian, wełna mineralna, pianka poliuretanowa
-								czy płyty izolacyjne wykonane z różnych materiałów w zależności
-								od potrzeb i warunków klimatycznych. Każdy z tych materiałów ma
-								swoje własne cechy, takie jak właściwości izolacyjne, odporność
-								na wilgoć czy odporność ogniowa, co pozwala dostosować izolację
-								do konkretnych wymagań budynku.
+								Er zijn veel verschillende materialen die worden gebruikt voor
+								het isoleren van huizen, zoals piepschuim, minerale wol,
+								polyurethaanschuim of isolatiepanelen gemaakt van verschillende
+								materialen, afhankelijk van de behoeften en klimatologische
+								omstandigheden. Elk van deze materialen heeft zijn eigen
+								kenmerken, zoals isolerende eigenschappen, vochtbestendigheid of
+								brandwerendheid, waardoor isolatie kan worden aangepast aan
+								specifieke gebouweisen.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="6">
 							<Accordion.Header>
-								Czy termoizolacja jest trwała?
+								Is de thermische isolatie duurzaam?
 							</Accordion.Header>
 							<Accordion.Body>
-								Odpowiednio zainstalowana termoizolacja może być trwała przez
-								wiele lat. Jednak jej trwałość może zależeć od kilku czynników,
-								takich jak jakość materiałów izolacyjnych, profesjonalizm
-								wykonawców oraz warunki atmosferyczne, którym jest wystawiona.
-								Regularne przeglądy stanu izolacji mogą być pomocne w
-								zapewnieniu, że spełnia ona swoje funkcje przez długi czas.
+								Correct geïnstalleerde thermische isolatie kan vele jaren
+								meegaan. De duurzaamheid ervan kan echter afhangen van
+								verschillende factoren, zoals de kwaliteit van de
+								isolatiematerialen, de professionaliteit van de installateurs en
+								de weersomstandigheden waaraan het is blootgesteld. Regelmatige
+								inspecties van de staat van de isolatie kunnen helpen om ervoor
+								te zorgen dat het gedurende lange tijd zijn functie vervult.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="7">
 							<Accordion.Header>
-								Czy montaż termoizolacji jest skomplikowany?
+								Is de installatie van thermische isolatie ingewikkeld?
 							</Accordion.Header>
 							<Accordion.Body>
-								Montaż termoizolacji może być złożonym procesem, który wymaga
-								wiedzy technicznej oraz doświadczenia. Różne metody instalacji
-								oraz różnorodność materiałów mogą sprawić, że proces ten może
-								być bardziej wymagający. Dlatego zaleca się skorzystanie z usług
-								profesjonalistów, którzy posiadają niezbędne umiejętności i
-								doświadczenie, aby zapewnić właściwe wykonanie termoizolacji.
+								Het installeren van thermische isolatie kan een complex proces
+								zijn dat technische kennis en ervaring vereist. Verschillende
+								installatiemethoden en de diversiteit aan materialen kunnen het
+								proces uitdagender maken. Daarom wordt het aanbevolen om gebruik
+								te maken van de diensten van professionals die de nodige
+								vaardigheden en ervaring hebben om de thermische isolatie
+								correct uit te voeren.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="8">
 							<Accordion.Header>
-								Czy termoizolacja wymaga regularnej konserwacji?
+								Vereist thermische isolatie regelmatig onderhoud?
 							</Accordion.Header>
 							<Accordion.Body>
-								Ogólnie rzecz biorąc, termoizolacja nie wymaga regularnej
-								konserwacji. Niemniej jednak, zaleca się regularne przeglądy,
-								zwłaszcza po długotrwałych warunkach atmosferycznych, aby
-								upewnić się, że izolacja nie uległa uszkodzeniom ani degradacji.
-								Konserwacja może obejmować naprawę ewentualnych uszkodzeń lub
-								nieszczelności, co może zapobiec pogorszeniu się efektywności
-								energetycznej budynku.
+								Over het algemeen heeft isolatie geen regelmatig onderhoud
+								nodig. Het wordt echter aanbevolen om regelmatig inspecties uit
+								te voeren, vooral na langdurige weersomstandigheden, om ervoor
+								te zorgen dat de isolatie niet beschadigd is geraakt of
+								verslechterd is. Onderhoud kan reparaties van eventuele schade
+								of lekken omvatten, wat kan voorkomen dat de energie-efficiëntie
+								van het gebouw afneemt.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="9">
 							<Accordion.Header>
-								Czy termoizolacja wpływa na wartość nieruchomości?
+								Heeft thermische isolatie invloed op de waarde van onroerend
+								goed?
 							</Accordion.Header>
 							<Accordion.Body>
-								Skutecznie zainstalowana termoizolacja może zwiększyć wartość
-								nieruchomości. Poprawa efektywności energetycznej budynku, co
-								przekłada się na niższe koszty eksploatacji oraz komfort
-								mieszkania, może być atrakcyjna dla potencjalnych nabywców lub
-								najemców. Jednakże wpływ termoizolacji na wartość nieruchomości
-								może również zależeć od innych czynników, takich jak
-								lokalizacja, stan techniczny budynku czy obecne trendy na rynku
-								nieruchomości.
+								Goed geïnstalleerde thermische isolatie kan de waarde van
+								onroerend goed verhogen. De verbetering van de
+								energie-efficiëntie van het gebouw, wat resulteert in lagere
+								exploitatiekosten en een beter woongenot, kan aantrekkelijk zijn
+								voor potentiële kopers of huurders. De invloed van isolatie op
+								de waarde van onroerend goed kan echter ook afhangen van andere
+								factoren, zoals locatie, de technische staat van het gebouw en
+								de huidige trends op de vastgoedmarkt.
 							</Accordion.Body>
 						</Accordion.Item>
 					</Accordion>

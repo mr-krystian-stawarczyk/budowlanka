@@ -8,7 +8,7 @@ export default function Document() {
 				<meta name="description" content="" />
 				<meta name="keywords" content="" />
 
-				<link rel="icon" href="/assets/logo50x50.png" />
+				<link rel="icon" href="/assets/1logo50x50.png" />
 			</Head>
 			<body>
 				<Main />

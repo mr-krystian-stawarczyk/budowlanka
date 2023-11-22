@@ -93,22 +93,22 @@ function Termozew4() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold"> Oszczednosci</h1>
+							<h1 className="text-bold">Besparingen</h1>
 							<Card.Text>
-								{" "}
-								izolacja domu przynosi znaczne oszczędności energetyczne, które
-								przekładają się na obniżenie rachunków za ogrzewanie i
-								chłodzenie. Dzięki profesjonalnej izolacji dachu, jaką
-								oferujemy, możemy znacząco zmniejszyć ucieczkę ciepła z wnętrza
-								budynku podczas zimowych miesięcy oraz ograniczyć dostęp
-								promieniowania słonecznego latem. To oznacza mniejsze zużycie
-								energii do utrzymania optymalnej temperatury w domu przez cały
-								rok. Nasze rozwiązania izolacyjne tworzą barierę ochronną, która
-								skutecznie redukuje straty ciepła, umożliwiając osiągnięcie
-								lepszej efektywności energetycznej. Poprawa izolacji dachu może
-								przynieść znaczące korzyści finansowe poprzez zmniejszenie
-								zużycia energii i kosztów związanych z utrzymaniem komfortowej
-								temperatury w domu.
+								Het isoleren van een huis resulteert in aanzienlijke
+								energiebesparingen, wat zich vertaalt naar lagere verwarmings-
+								en koelingskosten. Dankzij het professioneel isoleren van het
+								dak, dat we aanbieden, kunnen we aanzienlijk warmteverlies
+								vanuit het gebouw tijdens de wintermaanden verminderen en de
+								blootstelling aan zonnestraling in de zomer beperken. Dit
+								betekent minder energieverbruik om het hele jaar door een
+								optimale temperatuur in huis te behouden. Onze
+								isolatieoplossingen vormen een beschermende barrière die
+								warmteverliezen effectief vermindert en een betere
+								energie-efficiëntie mogelijk maakt. Het verbeteren van de
+								isolatie van het dak kan aanzienlijke financiële voordelen
+								opleveren door het verminderen van energieverbruik en kosten
+								voor het handhaven van een comfortabele temperatuur in huis.
 							</Card.Text>
 						</Card.Body>
 					</Card>

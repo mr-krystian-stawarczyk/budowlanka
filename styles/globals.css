@@ -49,14 +49,14 @@ a {
 }
 
 .card-imgs {
-	min-width: 20rem;
-	min-height: 21rem;
+	min-width: 12rem;
+	min-height: 10rem;
 }
 
 @media screen and (min-width: 1368px) {
 	.card-imgs {
-		min-width: 35rem; /* Możesz dostosować szerokość według potrzeb */
-		min-height: 30rem; /* Możesz dostosować wysokość według potrzeb */
+		min-width: 20rem; /* Możesz dostosować szerokość według potrzeb */
+		min-height: 20rem; /* Możesz dostosować wysokość według potrzeb */
 	}
 }
 
@@ -70,13 +70,13 @@ a {
 /* Styl dla zdjęcia (początkowy) */
 
 .card-1::before {
-	background-image: url("/assets/okna2.jpg");
+	background-image: url("/assets/okna10.jpg");
 }
 .card-2::before {
-	background-image: url("/assets/termo2.jpg");
+	background-image: url("/assets/termo10.jpg");
 }
 .card-3::before {
-	background-image: url("/assets/tynki2.jpg");
+	background-image: url("/assets/tynki6.png");
 }
 .card-4::before {
 	background-image: url("/assets/glazura2.jpg");
@@ -85,7 +85,7 @@ a {
 	background-image: url("/assets/ogolne2.jpg");
 }
 .card-6::before {
-	background-image: url("/assets/ogrzewanie1.png");
+	background-image: url("/assets/ogrzewanie10.jpg");
 }
 
 .card-imgs::before {
@@ -146,7 +146,7 @@ a {
 
 	.footer-logo-mobile {
 		max-width: 300px; /* Dowolny maksymalny rozmiar obrazka */
-
+		max-height: 37px;
 		margin: 0 auto; /* Wyśrodkowanie obrazka */
 	}
 }
