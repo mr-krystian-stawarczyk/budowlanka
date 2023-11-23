@@ -44,27 +44,25 @@ const CookieConsent = (props) => {
 							<Col className="fixed bottom-0 left-0 right-0  flex items-center justify-between px-4 py-2 bg-gray-100">
 								<Row className="overflow-auto">
 									<h6 className="text-black text-base ">
-										Ta strona używa plików cookie. Pliki cookie są niezbędne do
-										zapewnienia poprawnego działania strony internetowej,
-										personalizowania treści, dostosowania reklam oraz
-										analizowania ruchu na stronie. Korzystając z naszej strony
-										internetowej, zgadzasz się na używanie plików cookie zgodnie
-										z naszą polityką prywatności.
+										Deze website maakt gebruik van cookies. Cookies zijn nodig
+										om de juiste werking van de website te garanderen, inhoud te
+										personaliseren, advertenties aan te passen en verkeer op de
+										site te analyseren. Door gebruik te maken van onze website
+										stem je in met het gebruik van cookies volgens ons
+										privacybeleid.
 									</h6>
 									<h6 className="text-black text-base py-1">
-										Możesz zmienić ustawienia plików cookie w swojej
-										przeglądarce lub użyć narzędzi do zarządzania plikami
-										cookie, aby zablokować lub usunąć pliki cookie. Zauważ
-										jednak, że wyłączenie plików cookie może wpłynąć na
-										działanie niektórych funkcji i usług na naszej stronie
-										internetowej.
+										Je kunt de cookie-instellingen in je browser wijzigen of
+										cookiebeheertools gebruiken om cookies te blokkeren of te
+										verwijderen. Merk echter op dat het uitschakelen van cookies
+										van invloed kan zijn op de werking van sommige functies en
+										diensten op onze website.
 									</h6>
 									<h6 className="text-black text-base ">
-										Dodatkowe informacje na temat plików cookie i naszej
-										polityki prywatności znajdziesz na naszej stronie
-										internetowej. Klikając „Akceptuj” lub kontynuując
-										korzystanie z strony, zgadzasz się na używanie plików
-										cookie.
+										Meer informatie over cookies en ons privacybeleid vind je op
+										onze website. Door op "Accepteren" te klikken of door
+										gebruik te blijven maken van de site, ga je akkoord met het
+										gebruik van cookies.
 									</h6>
 								</Row>
 
