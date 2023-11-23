@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 function error() {
 	return (
-		<Container className="mt-5 pt-5 bg-white">
+		<Container fluid className="mt-5 pt-5 bg-white">
 			<Head>
 				<title>404 Error </title>
 				<meta
@@ -15,9 +15,11 @@ function error() {
 			</Head>
 			<Row className="text-center align-items-center justify-content-center">
 				<Col lg={6}>
-					<h1>Error</h1>
-					<Link href="">
-						<Button className="btn-nav text-dark">Home</Button>
+					<h1 className="text-dark">Error</h1>
+					<Link href="/">
+						<Button className="btn-nav ">
+							<h5 className="text-dark">Huis</h5>
+						</Button>
 					</Link>
 				</Col>
 				<Col lg={6}>
