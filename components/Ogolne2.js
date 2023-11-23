@@ -84,34 +84,35 @@ function Ogolne2() {
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
 							<h1 className="text-bold">
-								Odkryj Potencjał Twojego Domu z Naszymi Remontami
+								Ontdek het Potentieel van Jouw Huis met Onze Renovaties
 							</h1>
 							<Card.Text>
-								Twój dom jest miejscem, które powinno odzwierciedlać Twoje
-								unikalne życie i styl. W DG BOUWGROEP doskonale rozumiemy tę
-								potrzebę. Nasza praca nie polega jedynie na remontach czy
-								malowaniu ścian. To historia każdego projektu, w której
-								odnajdujemy niepowtarzalność i potencjał.
+								Jouw huis moet een plek zijn die jouw unieke leven en stijl
+								weerspiegelt. Bij DG BOUWGROEP begrijpen we die behoefte heel
+								goed. Ons werk gaat niet alleen over renovaties of het
+								schilderen van muren. Het is het verhaal van elk project waarin
+								we uniciteit en potentieel vinden.
 							</Card.Text>
 							<Card.Text>
-								Dlatego nasz zespół specjalistów angażuje się w każdy etap prac,
-								zawsze kierując się troską o Twoje potrzeby. Nasza precyzja
-								wykonania idzie w parze z nieustannym poszukiwaniem najlepszych
-								rozwiązań. Pozwól nam wprowadzić zmiany, które nie tylko
-								odświeżą wygląd Twojego domu, ale także sprawią, że będzie on
-								idealnie dopasowany do Twojego życia.
+								Daarom betrekt ons team van specialisten zich bij elke fase van
+								het werk, altijd met zorg voor jouw behoeften. Onze precisie
+								gaat hand in hand met het voortdurend zoeken naar de beste
+								oplossingen. Laat ons veranderingen aanbrengen die niet alleen
+								de uitstraling van jouw huis vernieuwen, maar er ook voor zorgen
+								dat het perfect past bij jouw leven.
 							</Card.Text>
 							<Card.Text></Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
+
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogolne5.jpg"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="bouw3"
 					/>
 				</Col>
 			</Row>

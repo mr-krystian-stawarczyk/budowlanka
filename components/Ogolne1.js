@@ -78,7 +78,7 @@ function Ogolne1() {
 		<Container
 			fluid
 			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
-			id="ogolne2"
+			id="bouwwerkzaamheden2"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 text-center ">
@@ -87,29 +87,30 @@ function Ogolne1() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="bouw2"
 					/>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
 							<h1 className="text-bold">
-								Zmień swoje przestrzenie w prawdziwe dzieła sztuki
+								Verander uw ruimtes in ware kunstwerken
 							</h1>
 							<Card.Text>
-								Chcesz, aby Twój dom był nie tylko miejscem zamieszkania, ale
-								prawdziwym odzwierciedleniem Twojej osobowości? W DG BOUWGROEP
-								wierzymy, że każde wnętrze ma potencjał, by stać się wyjątkowym
-								dziełem sztuki. To, co nas wyróżnia, to pasja do tworzenia.
+								Wil je dat jouw huis niet alleen een woonplek is, maar een ware
+								weerspiegeling van jouw persoonlijkheid? Bij DG BOUWGROEP
+								geloven we dat elke ruimte het potentieel heeft om een uniek
+								kunstwerk te worden. Wat ons onderscheidt, is de passie voor
+								creatie.
 							</Card.Text>
 							<Card.Text>
-								Nasz zespół doświadczonych fachowców łączy swoją wiedzę i
-								kreatywność, by przekształcić nawet najmniejsze detale w
-								wyjątkowe elementy. Od prostych napraw po kompleksowe remonty,
-								każde zadanie traktujemy jako szansę na stworzenie przestrzeni,
-								która zachwyca nie tylko swoim wyglądem, lecz także
-								funkcjonalnością. Niech Twoje marzenia o idealnym domu stają się
-								naszym wspólnym celem.
+								Ons team van ervaren vakmensen bundelt hun kennis en
+								creativiteit om zelfs de kleinste details om te zetten in
+								bijzondere elementen. Van eenvoudige reparaties tot uitgebreide
+								renovaties zien we elk project als een kans om ruimtes te
+								creëren die niet alleen esthetisch zijn, maar ook functioneel.
+								Laten jouw dromen van het perfecte huis ons gezamenlijke doel
+								worden.
 							</Card.Text>
 							<Card.Text></Card.Text>
 						</Card.Body>

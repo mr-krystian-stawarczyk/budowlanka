@@ -86,30 +86,30 @@ function Ogolne3() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="bouw6"
 					/>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
 							<h1 className="text-bold">
-								Poznaj Naszą Siłę: Doskonałość w Budowie Twoich Marzeń
+								Ontdek Onze Kracht Uitmuntendheid in het Bouwen van Jouw Dromen
 							</h1>
 							<Card.Text>
-								Każdy dom jest jak pusta kartka, gotowa na nowe historie. DG
-								BOUWGROEP to nie tylko firma budowlana - to zespół pasjonatów,
-								którzy zarażają się Twoją wizją. Z naszej strony otrzymasz
-								więcej niż standardową usługę. Oferujemy zaangażowanie, które
-								sprawia, że Twój dom staje się projektem życiowym dla nas. Nasza
-								solidność i precyzja to fundamenty, na których budujemy każdy
-								projekt.
+								Elk huis is als een leeg vel papier, klaar voor nieuwe verhalen.
+								DG BOUWGROEP is niet alleen een bouwbedrijf - het is een team
+								van enthousiastelingen die zich laten inspireren door jouw
+								visie. Bij ons krijg je meer dan alleen een standaard service.
+								We bieden betrokkenheid die jouw huis tot een levensproject
+								maakt voor ons. Onze betrouwbaarheid en precisie vormen de basis
+								voor elk project dat we uitvoeren.
 							</Card.Text>
 							<Card.Text>
-								Niezależnie od tego, czy chcesz zbudować nowy dom od podstaw,
-								czy odświeżyć obecne wnętrza, nasza determinacja i zaangażowanie
-								są niezmienne. Zaufaj nam, by razem stworzyć wnętrza, które
-								opowiedzą historię o Twoich marzeniach i spełnią Twoje
-								oczekiwania w pełni.
+								Of je nu een nieuw huis vanaf nul wilt bouwen of je huidige
+								interieur wilt vernieuwen, onze vastberadenheid en betrokkenheid
+								blijven onveranderd. Vertrouw op ons om samen ruimtes te creëren
+								die het verhaal van jouw dromen vertellen en volledig aan jouw
+								verwachtingen voldoen.
 							</Card.Text>
 							<Card.Text></Card.Text>
 						</Card.Body>

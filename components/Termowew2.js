@@ -87,7 +87,7 @@ function Termowew2() {
 						width={400}
 						height={400}
 						className="responsive-image "
-						alt="Sanity Image"
+						alt="binnenisolatie2"
 					/>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 ">

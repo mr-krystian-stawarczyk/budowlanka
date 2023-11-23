@@ -84,34 +84,35 @@ function Ogolne4() {
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
 							<h1 className="text-bold">
-								Gdzie Innowacja Spotyka Tradycję w Twoim Domu
+								Waar Innovatie de Traditie Ontmoet in Jouw Huis
 							</h1>
 							<Card.Text>
-								W DG BOUWGROEP kładziemy nacisk na harmonię pomiędzy
-								nowoczesnymi technologiami a tradycyjnym rzemiosłem. Każdy
-								projekt, nad którym pracujemy, to mieszanka innowacji i
-								klasycznego stylu, tworząca niepowtarzalne wnętrza. Nasza pasja
-								do doskonałości oznacza, że nie zostawiamy miejsca na
-								przypadkowość.
+								Bij DG BOUWGROEP leggen we de nadruk op harmonie tussen moderne
+								technologieën en traditioneel vakmanschap. Elk project waar we
+								aan werken is een mix van innovatie en klassieke stijl, wat
+								unieke interieurs creëert. Onze passie voor perfectie betekent
+								dat we geen ruimte laten voor willekeurigheid.
 							</Card.Text>
 							<Card.Text>
-								Nasz zespol to ludzie zafascynowani sztuką tworzenia
-								przestrzeni, które nie tylko zachwycają wizualnie, ale przede
-								wszystkim funkcjonalnie odpowiadają Twoim potrzebom. Pozwól nam
-								być częścią procesu tworzenia - od koncepcji po finalne
-								wykończenie - i razem odkryjmy potencjał Twojego domu.
+								Ons team bestaat uit mensen die gepassioneerd zijn over het
+								creëren van ruimtes die niet alleen visueel aantrekkelijk zijn,
+								maar bovenal functioneel aansluiten bij jouw behoeften. Sta ons
+								toe deel uit te maken van het creatieproces - van concept tot
+								het laatste detail - en laten we samen het potentieel van jouw
+								huis ontdekken.
 							</Card.Text>
 							<Card.Text></Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
+
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogolne8.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="bouw8"
 					/>
 				</Col>
 			</Row>

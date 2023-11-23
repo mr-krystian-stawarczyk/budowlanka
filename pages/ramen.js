@@ -8,9 +8,8 @@ import Testimonials from "@/components/Testimonials";
 import Okna5 from "@/components/Okna5";
 import Header2 from "@/components/Header2";
 import Okna2n from "@/components/Okna2n";
-import Okna6 from "@/components/Okna6";
 
-function okna() {
+function ramen() {
 	return (
 		<div className="">
 			<Head>
@@ -33,4 +32,4 @@ function okna() {
 	);
 }
 
-export default okna;
+export default ramen;

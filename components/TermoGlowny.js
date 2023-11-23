@@ -39,7 +39,7 @@ function TermoGlowny() {
 						width={300}
 						height={300}
 						className="responsive-image shadow-lg termo-hover"
-						alt="Sanity Image"
+						alt="termoisolatie2"
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
@@ -47,7 +47,7 @@ function TermoGlowny() {
 
 							<Card.Text></Card.Text>
 						</Card.Body>{" "}
-						<Link href="izodach">
+						<Link href="dakisolatie">
 							<Button className="btn-nav ">Dakisolatie</Button>
 						</Link>
 					</Card>
@@ -59,7 +59,7 @@ function TermoGlowny() {
 						width={300}
 						height={300}
 						className="responsive-image shadow-lg termo-hover"
-						alt="Sanity Image"
+						alt="binnenisolatie2"
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
@@ -67,7 +67,7 @@ function TermoGlowny() {
 
 							<Card.Text></Card.Text>
 						</Card.Body>{" "}
-						<Link href="izowew">
+						<Link href="binnenisolatie">
 							<Button className="btn-nav ">Binnenisolatie</Button>
 						</Link>
 					</Card>
@@ -79,7 +79,7 @@ function TermoGlowny() {
 						width={300}
 						height={300}
 						className="responsive-image shadow-lg termo-hover"
-						alt="Sanity Image"
+						alt="buitenisolatie"
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
@@ -87,7 +87,7 @@ function TermoGlowny() {
 
 							<Card.Text></Card.Text>
 						</Card.Body>
-						<Link href="izozew">
+						<Link href="buitenisolatie">
 							<Button className="btn-nav ">Buitenisolatie</Button>
 						</Link>
 					</Card>

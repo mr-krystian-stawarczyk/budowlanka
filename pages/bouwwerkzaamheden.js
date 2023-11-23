@@ -8,11 +8,11 @@ import Testimonials from "@/components/Testimonials";
 import Ogolne5 from "@/components/Ogolne5";
 import Header9 from "@/components/Header9";
 
-function ogolne() {
+function bouwwerkzaamheden() {
 	return (
 		<div className="">
 			<Head>
-				<title>Ogolne</title>
+				<title>Bouwwerkzaamheden</title>
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>
@@ -27,4 +27,4 @@ function ogolne() {
 	);
 }
 
-export default ogolne;
+export default bouwwerkzaamheden;

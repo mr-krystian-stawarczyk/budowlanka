@@ -9,11 +9,11 @@ import Tynki5 from "@/components/Tynki5";
 import Header4 from "@/components/Header4";
 import Tynki6 from "@/components/Tynki6";
 
-function tynki() {
+function pleisterwerk() {
 	return (
 		<div className="">
 			<Head>
-				<title>Tynki</title>
+				<title>Pleisterwerk</title>
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>
@@ -31,4 +31,4 @@ function tynki() {
 	);
 }
 
-export default tynki;
+export default pleisterwerk;

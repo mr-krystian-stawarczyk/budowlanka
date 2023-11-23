@@ -78,22 +78,23 @@ function Glazura1() {
 		<Container
 			fluid
 			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
-			id="glazura2"
+			id="glazuur"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
+					<Card className="border-0 bg-transparent">
 						<Card.Body>
-							<h1 className="text-bold">Glazura Mistrzostwo Detalu</h1>
+							<h1 className="text-bold">Tegelwerk van Vakmanschap</h1>
 							<Card.Text>
-								Nasi mistrzowie glazurnictwa to artyści w swoim fachu. Ich praca
-								to nie tylko ułożenie kafelków - to tworzenie kompozycji, w
-								których detale nabierają życia. Każdy krok w procesie układania
-								glazury jest dla nas niezwykle istotny. Dbamy o doskonałość
-								wykonania, by efekt końcowy był nie tylko estetyczny, ale też
-								funkcjonalny. Z DG BOUWGROEP otrzymujesz usługę, w której
-								precyzja i staranność idą w parze z pasją do tworzenia
-								przestrzeni, które wyróżniają się niepowtarzalnym charakterem.
+								Onze tegelmeesters zijn ware kunstenaars in hun vak. Hun werk is
+								niet alleen het leggen van tegels, maar het creëren van
+								composities waarin details tot leven komen. Elke stap in het
+								tegelzetten is uiterst belangrijk voor ons. We streven naar
+								perfectie in uitvoering, zodat het eindresultaat niet alleen
+								esthetisch, maar ook functioneel is. Met DG BOUWGROEP krijg je
+								een service waar precisie en zorg hand in hand gaan met de
+								passie voor het creëren van ruimtes die zich onderscheiden door
+								hun unieke karakter.
 							</Card.Text>
 							<Card.Text></Card.Text>
 							<Card.Text></Card.Text>
@@ -106,7 +107,7 @@ function Glazura1() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="glazuur1"
 					/>
 				</Col>
 			</Row>

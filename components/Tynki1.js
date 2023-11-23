@@ -113,52 +113,49 @@ function Tynki1() {
 			className="bg-white text-dark py-3 align-items-center justify-content-center"
 		>
 			<Row className="text-center">
-				<h1 className="text-bold text-uppercase">Rodzaje Tynków</h1>
+				<h1 className="text-bold text-uppercase">Soorten Pleisters</h1>
 			</Row>
-			<Row className="justify-content-center  align-items-top">
-				<Col lg={3} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
+			<Row className="justify-content-center align-items-top">
+				<Col lg={3} className="mx-auto my-2">
+					<Card className="border-0 bg-transparent">
 						<Card.Body>
-							{" "}
 							<Image
 								src="/assets/knauf1.png"
 								width={200}
 								height={200}
 								className="responsive-image shadow-lg"
-								alt="Sanity Image"
+								alt="knauf1"
 							/>
-							<h1> Tynki gipsowe Knauf</h1>
+							<h1>Pleistergips Knauf</h1>
 							<ExpandableText
 								text={
-									"Niezależnie od stylów i trendów w architekturze pozostawał przez wieki innowacyjnym materiałem budowlanym z licznymi możliwościami zastosowania. Współcześnie gips znajdujemy głównie w materiałach przeznaczonych do wykańczania wnętrz: w płytach gipsowo-kartonowych i tynkach wewnętrznych. Gips jest materiałem bardzo przyjaznym dla zdrowia człowieka. Dzięki właściwościom higroskopijnym chłonie we wnętrzach nadmiar wilgoci i oddaje ją, kiedy powietrze staje się zbyt suche. Tym samym reguluje stężenie wilgoci w powietrzu, które staje się najbardziej korzystne dla ludzi. We wnętrzach wykończonych materiałami gipsowymi panuje optymalny klimat. Cechują się przede wszystkim dobrą izolacyjnością cieplną i akustyczną wyróżniającym się utrzymaniem odpowiedniego mikroklimatu przyjaznego dla człowieka (gips wchłania nadmiar wilgoci, i oddaje ją gdy w pomieszczeniu jest zbyt sucho) Tynki gipsowe to doskonałe podłoże pod malowanie bądź tapety jak również okładziny ceramiczne. Zaletą tynków gipsowych jest również fakt, że nie odpryskują podczas wiercenia w nich otworów czy wbijaniu gwoździ. Nie można tez zapomnieć o właściwościach ognioodpornych wynikających przede wszystkim ze struktury materiału jakim jest gips. (zawartość cząsteczek wody, które pod działaniem wysokiej temperatury przechodzi w parę wodną co w znaczny sposób spowalnia nagrzewanie się tynku i elementów konstrukcyjnych budynku"
+									"Ongeacht de stijlen en trends in de architectuur, blijft gips al eeuwenlang een innovatief bouwmateriaal met tal van toepassingsmogelijkheden. Tegenwoordig vinden we gips voornamelijk in materialen die bedoeld zijn voor de afwerking van interieurs: in gipsplaten en binnenpleisters. Gips is een materiaal dat zeer vriendelijk is voor de gezondheid van de mens. Dankzij de hygroscopische eigenschappen absorbeert het overtollig vocht in de ruimte en geeft het dit weer af wanneer de lucht te droog wordt. Hierdoor reguleert het de vochtigheidsgraad in de lucht, wat het meest gunstig is voor mensen. Ruimtes afgewerkt met gipsmaterialen hebben een optimaal klimaat. Ze kenmerken zich vooral door goede thermische en akoestische isolatie, met behoud van een microklimaat dat gunstig is voor mensen (gips absorbeert overtollig vocht en geeft dit af wanneer de ruimte te droog is). Gipspleisters vormen een uitstekende ondergrond voor schilderen, behangen en keramische bekledingen. Een voordeel van gipspleisters is ook dat ze niet afbrokkelen bij het boren van gaten of het slaan van spijkers. Ook mogen we de brandwerende eigenschappen niet vergeten, voortkomend uit de structuur van het materiaal gips (watermoleculen die bij hoge temperaturen verdampen en daardoor de opwarming van de pleister en de constructie van het gebouw aanzienlijk vertragen)."
 								}
 								maxWords={40}
 							/>
 						</Card.Body>
 					</Card>
 				</Col>
-				<Col lg={3} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
+				<Col lg={3} className="mx-auto my-2">
+					<Card className="border-0 bg-transparent">
 						<Card.Body>
-							{" "}
 							<Image
 								src="/assets/knauf2.png"
 								width={200}
 								height={200}
 								className="responsive-image shadow-lg"
-								alt="Sanity Image"
+								alt="knauf2"
 							/>
-							<h1> Tynki gipsowe utwardzane</h1>
+							<h1>Verhardende Gipspleisters</h1>
 							<ExpandableText
 								text={
-									"DLA WYMAGA JĄCYCH INWESTORÓW MP 75 DIAMANT Kiedy przychodzi czas wykańczania pomieszczeń i decydowania odnośnie właściwego tynku, na którym znajdzie się później wybrana tapeta lub farba, okazuje się często, że ciężko jest ustalić, który rodzaj materiału będzie najlepszy. Każdy rodzaj ma bowiem swoje zalety i wady. Do wyboru są tynki gipsowe i tynki cementowo – wapienne. Jedne i drugie należą do tynków wewnętrznych, posiadających dwie podstawowe funkcje: osłonową i dekoracyjną. Najważniejsze jednak aby charakteryzowały się wysoką trwałością i wytrzymałością na uszkodzenia, czy też zawilgocenia. O tynkach gipsowych mówi się również, że mają niską odporność na uszkodzenia mechaniczne. Ten zarzut ciężko odeprzeć, ponieważ faktycznie tynki gipsowe niskiej jakości bardzo źle się sprawdzają w przypadku uderzeń i zarysowań. Można jednak zastosować tynk Knauf MP 75 Diamant, który jest znacznie twardszy od tradycyjnych tynków gipsowych, oraz bardziej odporny na ściskanie, przez co spokojnie może konkurować nawet z najlepszymi tynkami cynkowo-wapiennymi. Ponadto do innych zalet tego tynku należy jego wysoka elastyczność i stabilność, jak również łatwość nanoszenia na wybrane powierzchnie. Aby nasze domy były trwałe, ładne i zdrowe. Zastosowanie takich tynków jak Knauf MP 75 Diamant to nie tylko gładkość ścian, odporność na zadrapania, ich zabezpieczenie przed pleśniami i grzybem oraz uzyskanie odpowiedniej powierzchni pod wszelkiego rodzaju zdobienia, ale również spora oszczędność czasu i pieniędzy. Nawet jeśli zakup dobrej jakości tynku wydaje nam się sporym kosztem, warto pamiętać że jest to inwestycja na długie lata. Kupując „byle co” krótkotrwale może nam się wydawać że ubiliśmy interes życia. Jednak po pierwszych uszkodzeniach, i problemach nasza frustracja będzie wielka. W końcu nikt nie lubi wykonywać 2 razy tej samej pracy (i 2 razy za nią płacić!). Tynk gipsowy Diamant spełnia oczekiwania najbardziej wymagających inwestorów, którzy chcą mieć tynki odporne na uszkodzenia mechaniczne i jednocześnie takie, które tworzyć będą we wnętrzach klimat przyjazny i zdrowy dla użytkowników.  Knauf MP 75 Diamant wyróżnia wysoka trwałość i wytrzymałość na uderzenia. Sprawdzi się w każdym domu, nawet w garażu. Z uwagi na swoje właściwości zalecany jest także do budynków publicznych, szkół, szpitali, urzędów, na klatki schodowe w budownictwie wielorodzinnym itp."
+									"VOOR VEELEISENDE INVESTEERDERS MP 75 DIAMANT Wanneer het tijd is om ruimtes af te werken en te beslissen over de juiste pleister waarop later het gekozen behang of verf zal worden aangebracht, blijkt vaak dat het moeilijk is om te bepalen welk type materiaal het beste is. Elk type heeft namelijk zijn eigen voor- en nadelen. Je kunt kiezen tussen gipspleisters en cementkalkpleisters. Beide behoren tot binnenpleisters en hebben twee basisfuncties: beschermend en decoratief. Belangrijk is echter dat ze worden gekenmerkt door een hoge duurzaamheid en bestendigheid tegen beschadigingen of vochtigheid. Over gipspleisters wordt ook gezegd dat ze een lage weerstand hebben tegen mechanische beschadigingen. Deze kritiek is moeilijk te weerleggen, omdat gipspleisters van lage kwaliteit inderdaad slecht presteren bij stoten en krassen. Je kunt echter de Knauf MP 75 Diamant pleister gebruiken, die veel harder is dan traditionele gipspleisters en beter bestand is tegen samendrukking, waardoor het zelfs kan concurreren met de beste cement-kalkpleisters. Bovendien heeft deze pleister andere voordelen zoals hoge elasticiteit en stabiliteit, evenals gemakkelijke toepassing op geselecteerde oppervlakken. Om ervoor te zorgen dat onze huizen duurzaam, mooi en gezond zijn. Het gebruik van dergelijke pleisters zoals Knauf MP 75 Diamant betekent niet alleen gladde muren, weerstand tegen krassen, bescherming tegen schimmels en meeldauw en het verkrijgen van het juiste oppervlak voor allerlei decoraties, maar ook aanzienlijke tijds- en geldbesparing. Zelfs als de aankoop van een kwaliteitspleister als een grote kostenpost wordt beschouwd, is het de moeite waard eraan te denken dat het een investering is voor vele jaren. Door 'zomaar iets' te kopen, lijkt het misschien alsof we een geweldige deal hebben gesloten op korte termijn. Maar na de eerste beschadigingen en problemen zal onze frustratie groot zijn. Uiteindelijk houdt niemand ervan om twee keer hetzelfde werk te doen (en er twee keer voor te betalen!). Diamant gips voldoet aan de verwachtingen van de meest veeleisende investeerders die pleisters willen die bestand zijn tegen mechanische beschadigingen en tegelijkertijd een vriendelijk en gezond binnenklimaat voor de gebruikers creëren. Knauf MP 75 Diamant onderscheidt zich door zijn hoge duurzaamheid en bestendigheid tegen stoten. Het zal in elk huis werken, zelfs in de garage. Vanwege zijn eigenschappen wordt het ook aanbevolen voor openbare gebouwen, scholen, ziekenhuizen, kantoren, in trappenhuizen van appartementsgebouwen, enz."
 								}
 								maxWords={40}
-							/>{" "}
+							/>
 						</Card.Body>
 					</Card>
 				</Col>
-
 				<Col lg={3} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						{" "}
@@ -167,10 +164,10 @@ function Tynki1() {
 							width={200}
 							height={200}
 							className="responsive-image shadow-lg"
-							alt="Sanity Image"
+							alt="knauf3"
 						/>
 						<Card.Body>
-							<h1> AQUASTUC GIPSPLEISTER</h1>
+							<h1> Aquastuc Gipspleister</h1>
 							<ExpandableText
 								text={
 									"Gipspleister speciaal voor natte ruimtes AquaStuc gipspleister is een gehydrofobeerde gipspleister die beter bestand is tegen spatwater dan een standaard gipspleister. Deze basis- en afwerkpleister is ideaal voor wanden in natte ruimtes die niet of gedeeltelijk worden betegeld. Denk aan badkamers, keukens, toiletten en garages. Je hoeft wanden zonder tegels niet apart af te werken. Hierdoor geniet je klant sneller van zijn ideale badkamer."
@@ -183,24 +180,23 @@ function Tynki1() {
 						</Card.Body>
 					</Card>
 				</Col>
-				<Col lg={3} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
-						{" "}
+				<Col lg={3} className="mx-auto my-2">
+					<Card className="border-0 bg-transparent">
 						<Image
 							src="/assets/knauf4.png"
 							width={200}
 							height={200}
 							className="responsive-image shadow-lg"
-							alt="Sanity Image"
+							alt="knauf4"
 						/>
 						<Card.Body>
-							<h1> Tynki cementowo wapienne</h1>
+							<h1>Kalk cementpleisters</h1>
 							<ExpandableText
 								text={
-									"Wyróżniają się wysoką wodoodpornością, tak więc bez obaw można je stosować w łazienkach, łaźniach, suszarniach itp. Bardzo dobra wytrzymałość mechaniczna, paro przepuszczalność oraz mrozoodporność mają tu również bardzo istotne znaczenie. Główną wadą tego rodzaju tynku, jest przede wszystkich chropowata struktura, (którą można jednak maksymalnie zminimalizować stosując zacieraczkę do tynków), oraz duża ilość wody niezbędna do odparowania gotowego tynku."
+									"Ze onderscheiden zich door hun hoge waterbestendigheid, dus ze kunnen zonder zorgen worden gebruikt in badkamers, doucheruimtes, enzovoort. Ze hebben ook een zeer goede mechanische weerstand, dampdoorlaatbaarheid en vorstbestendigheid, wat hier van groot belang is. Het belangrijkste nadeel van dit type pleister is vooral de ruwe structuur (die echter tot een minimum kan worden beperkt door een pleistermessen te gebruiken) en de grote hoeveelheid water die nodig is voor het verdampen van de aangebrachte pleister."
 								}
 								maxWords={40}
-							/>{" "}
+							/>
 							<Card.Text></Card.Text>
 							<Card.Text></Card.Text>
 							<Card.Text></Card.Text>

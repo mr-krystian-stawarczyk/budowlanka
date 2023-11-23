@@ -10,11 +10,11 @@ function Tynki5() {
 	const [backgroundColor, setBackgroundColor] = useState("#ffffff");
 
 	return (
-		<Container className="bg-white text-dark  py-5" fluid id="web-design-faq">
+		<Container className="bg-white text-dark py-5" fluid id="web-design-faq">
 			<Row className="justify-content-center align-items-center">
 				<Col lg={4} md={6} xs={12} className="py-5 text-center">
 					<h1 className="text-dark text-uppercase text-bold">
-						Najczęsciej Zadawane Pytania : Tynki
+						Meest Gestelde Vragen
 					</h1>
 				</Col>
 			</Row>
@@ -22,79 +22,78 @@ function Tynki5() {
 				<Col lg={9} className="mx-auto">
 					<Accordion className="shadow-lg" defaultActiveKey="0">
 						<Accordion.Item eventKey="0">
-							<Accordion.Header>
-								Tynkowanie jako podstawa wykończenia
-							</Accordion.Header>
+							<Accordion.Header>Pleisteren als basisafwerking</Accordion.Header>
 							<Accordion.Body>
-								Tynkowanie jest kluczowym etapem wykończenia powierzchni
-								zewnętrznych i wewnętrznych budynków. Zapewnia nie tylko
-								estetyczny wygląd, ale także dodatkową ochronę przed warunkami
-								atmosferycznymi i uszkodzeniami mechanicznymi.
+								Pleisteren is een cruciale fase in de afwerking van zowel
+								externe als interne oppervlakken van gebouwen. Het biedt niet
+								alleen een esthetische uitstraling, maar ook extra bescherming
+								tegen weersinvloeden en mechanische beschadigingen.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="1">
 							<Accordion.Header>
-								Rodzaje tynków dostosowane do potrzeb
+								Soorten pleisters aangepast aan behoeften
 							</Accordion.Header>
 							<Accordion.Body>
-								Istnieje wiele rodzajów tynków, w tym tradycyjne tynki
-								cementowo-wapienne, tynki gipsowe czy tynki mozaikowe. Wybór
-								rodzaju tynku może być uzależniony od konkretnych potrzeb,
-								estetyki, a także warunków, w jakich będzie on zastosowany.
+								Er zijn veel soorten pleisters, waaronder traditionele
+								kalk-cementpleisters, gipspleisters en mozaïekpleisters. De
+								keuze van het type pleister kan afhangen van specifieke
+								behoeften, esthetiek en ook de omstandigheden waarin het zal
+								worden toegepast.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="2">
 							<Accordion.Header>
-								Przygotowanie podłoża przed tynkowaniem
+								Voorbereiding van de ondergrond voor pleisteren
 							</Accordion.Header>
 							<Accordion.Body>
-								Skuteczne tynkowanie wymaga odpowiedniego przygotowania podłoża.
-								To kluczowy krok, ponieważ warunkuje trwałość oraz estetykę
-								wykonanej pracy. Oczyszczenie, wyrównanie i odpowiednie
-								gruntowanie podłoża są niezwykle istotne.
+								Effectief pleisteren vereist een juiste voorbereiding van de
+								ondergrond. Dit is een cruciale stap, omdat het de duurzaamheid
+								en esthetiek van het werk bepaalt. Het reinigen, egaliseren en
+								adequaat primeren van de ondergrond is buitengewoon belangrijk.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="3">
 							<Accordion.Header>
-								Tynkowanie tradycyjne vs. tynki maszynowe
+								Traditioneel pleisterwerk vs. machinaal pleisteren
 							</Accordion.Header>
 							<Accordion.Body>
-								Tynki tradycyjne, nakładane ręcznie, są jednym z podejść do
-								tynkowania, podczas gdy tynki maszynowe wykorzystują maszyny do
-								szybszego i równomierniejszego rozprowadzenia tynku. Oba sposoby
-								mają swoje zalety i mogą być stosowane w zależności od skali i
-								specyfiki projektu.
+								Traditioneel pleisterwerk, met de hand aangebracht, is een
+								benadering van pleisteren, terwijl machinaal pleisteren machines
+								gebruikt om de pleister sneller en gelijkmatiger aan te brengen.
+								Beide methoden hebben hun voordelen en kunnen worden toegepast
+								afhankelijk van de schaal en specificiteit van het project.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="4">
 							<Accordion.Header>
-								Funkcjonalność estetyczna i ochronna
+								Esthetische en beschermende functionaliteit
 							</Accordion.Header>
 							<Accordion.Body>
-								Tynkowanie nie tylko nadaje estetykę, ale także pełni funkcję
-								ochronną dla ścian budynku. Odpowiednio dobrany tynk może
-								dodatkowo zabezpieczać przed wilgocią, grzybami, a także ma
-								wpływ na termoizolację.
+								Pleisteren dient niet alleen voor esthetiek, maar heeft ook een
+								beschermende functie voor de wanden van het gebouw. Een goed
+								gekozen pleister kan ook beschermen tegen vocht, schimmels en
+								heeft invloed op de thermische isolatie.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="5">
 							<Accordion.Header>
-								Doradztwo i dopasowanie do potrzeb klienta
+								Advies en afstemming op klantbehoeften
 							</Accordion.Header>
 							<Accordion.Body>
-								Profesjonaliści oferują doradztwo w wyborze odpowiedniego tynku,
-								biorąc pod uwagę indywidualne preferencje klienta, rodzaj
-								budynku oraz specyfikę otoczenia, w którym się znajduje.
+								Professionals bieden advies bij het kiezen van de juiste
+								pleister, rekening houdend met de individuele voorkeuren van de
+								klant, het type gebouw en de specifieke omgeving waarin het zich
+								bevindt.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="6">
-							<Accordion.Header>Wykończenia i kolory</Accordion.Header>
+							<Accordion.Header>Afwerkingen en kleuren</Accordion.Header>
 							<Accordion.Body>
-								Tynki pozwalają na różnorodne wykończenia, zarówno pod względem
-								struktury, jak i kolorów. Istnieje szeroka gama możliwości, od
-								gładkich powierzchni po struktury imitujące naturalne materiały,
-								co umożliwia dopasowanie do wyjątkowych wymagań estetycznych
-								klienta.
+								Pleisters bieden verschillende afwerkingen, zowel qua structuur
+								als kleuren. Er zijn veel mogelijkheden, van gladde oppervlakken
+								tot structuren die natuurlijke materialen imiteren, waardoor aan
+								unieke esthetische eisen van de klant kan worden voldaan.
 							</Accordion.Body>
 						</Accordion.Item>
 					</Accordion>

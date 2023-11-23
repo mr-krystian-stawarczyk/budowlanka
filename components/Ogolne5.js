@@ -14,7 +14,7 @@ function Ogolne5() {
 			<Row className="justify-content-center align-items-center">
 				<Col lg={4} md={6} xs={12} className="py-5 text-center">
 					<h1 className="text-dark text-bold text-uppercase">
-						Najczęsciej Zadawane Pytania : Ogolne
+						Meest Gestelde Vragen
 					</h1>
 				</Col>
 			</Row>
@@ -23,91 +23,96 @@ function Ogolne5() {
 					<Accordion className="shadow-lg" defaultActiveKey="0">
 						<Accordion.Item eventKey="0">
 							<Accordion.Header>
-								Jakie są korzyści z inwestowania w prace ogólnobudowlane w moim
-								domu?
+								Wat zijn de voordelen van investeren in algemene
+								bouwwerkzaamheden in mijn huis?
 							</Accordion.Header>
 							<Accordion.Body>
-								Prace ogólnobudowlane przynoszą liczne korzyści, w tym możliwość
-								dostosowania domu do zmieniających się potrzeb, poprawę
-								funkcjonalności przestrzeni, zwiększenie wartości nieruchomości
-								oraz szansę na wykorzystanie nowoczesnych technologii i
-								materiałów, które poprawiają jakość życia.
+								Algemene bouwwerkzaamheden bieden vele voordelen, waaronder de
+								mogelijkheid om het huis aan te passen aan veranderende
+								behoeften, het verbeteren van de functionaliteit van de ruimte,
+								het verhogen van de waarde van het onroerend goed en de kans om
+								gebruik te maken van moderne technologieën en materialen die de
+								kwaliteit van leven verbeteren.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="1">
 							<Accordion.Header>
-								Jak często powinienem planować prace remontowe w moim domu?
+								Hoe vaak moet ik renovatiewerkzaamheden plannen voor mijn huis?
 							</Accordion.Header>
 							<Accordion.Body>
-								Częstotliwość prac remontowych zależy od wielu czynników, takich
-								jak wiek budynku, rodzaj materiałów użytych przy budowie czy
-								częstotliwość konserwacji. Zaleca się regularne przeglądy i
-								konserwację, a większe prace remontowe można planować w
-								zależności od potrzeb co kilka lat.
+								De frequentie van renovatiewerkzaamheden is afhankelijk van
+								verschillende factoren, zoals de leeftijd van het gebouw, het
+								type gebruikte materialen bij de constructie en de regelmaat van
+								onderhoud. Reguliere inspecties en onderhoud worden aanbevolen,
+								terwijl grotere renovatiewerkzaamheden kunnen worden gepland
+								afhankelijk van de behoeften, eens in de paar jaar.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="2">
 							<Accordion.Header>
-								Jakie są różnice między remontem a renowacją?
+								Wat zijn de verschillen tussen renovatie en verbouwing?
 							</Accordion.Header>
 							<Accordion.Body>
-								Remont to szerokie pojęcie obejmujące prace modernizacyjne,
-								które zmieniają wygląd lub funkcjonalność pomieszczeń. Renowacja
-								koncentruje się na przywróceniu pierwotnego stanu lub odnowieniu
-								powierzchni bez większych zmian w strukturze.
+								Verbouwing is een breed begrip dat moderniseringswerkzaamheden
+								omvat die de uitstraling of functionaliteit van de ruimte
+								veranderen. Renovatie richt zich op het herstellen van de
+								oorspronkelijke staat of het vernieuwen van oppervlakken zonder
+								ingrijpende veranderingen in de structuur.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="3">
 							<Accordion.Header>
-								Jakie kroki obejmuje proces przeprowadzania prac
-								ogólnobudowlanych?
+								Welke stappen omvat het proces van algemene bouwwerkzaamheden?
 							</Accordion.Header>
 							<Accordion.Body>
-								Proces prac ogólnobudowlanych zwykle rozpoczyna się od oceny
-								potrzeb klienta, planowania prac, uzyskania niezbędnych
-								pozwoleń, a następnie wykonania prac zgodnie z ustalonymi
-								specyfikacjami. Etapy mogą obejmować rozbiórkę, prace
-								wykończeniowe, instalacyjne i wyposażeniowe.
+								Het proces van algemene bouwwerkzaamheden begint meestal met de
+								beoordeling van de behoeften van de klant, het plannen van de
+								werkzaamheden, het verkrijgen van de vereiste vergunningen en
+								vervolgens het uitvoeren van de werkzaamheden volgens de
+								vastgestelde specificaties. De stappen kunnen sloopwerk,
+								afwerkings-, installatie- en uitrustingswerkzaamheden omvatten.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="4">
 							<Accordion.Header>
-								Czy prace ogólnobudowlane mogą poprawić efektywność energetyczną
-								mojego domu?
+								Kunnen algemene bouwwerkzaamheden de energie-efficiëntie van
+								mijn huis verbeteren?
 							</Accordion.Header>
 							<Accordion.Body>
-								Tak, prace ogólnobudowlane mogą znacząco poprawić efektywność
-								energetyczną domu. Modyfikacje strukturalne, nowe materiały
-								izolacyjne czy instalacje energooszczędnych urządzeń mogą
-								zmniejszyć zużycie energii i obniżyć rachunki za ogrzewanie lub
-								chłodzenie.
+								Ja, algemene bouwwerkzaamheden kunnen aanzienlijk de
+								energie-efficiëntie van een huis verbeteren. Structurele
+								wijzigingen, nieuwe isolatiematerialen of de installatie van
+								energiezuinige apparaten kunnen het energieverbruik verminderen
+								en de kosten voor verwarming of koeling verlagen.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="5">
 							<Accordion.Header>
-								Jak mogę oszacować koszty związane z pracami ogólnobudowlanymi?
+								Hoe kan ik de kosten voor algemene bouwwerkzaamheden schatten?
 							</Accordion.Header>
 							<Accordion.Body>
-								Koszty prac ogólnobudowlanych mogą się różnić w zależności od
-								skali, zakresu i wybranych materiałów. Ważne jest sporządzenie
-								szczegółowego planu prac i konsultacja z profesjonalistami, aby
-								uzyskać dokładne oszacowanie kosztów. Również porównanie ofert
-								różnych wykonawców może pomóc w znalezieniu najlepszego
-								rozwiązania kosztowego.
+								Kosten voor algemene bouwwerkzaamheden kunnen variëren op basis
+								van de omvang, reikwijdte en gekozen materialen. Het is
+								belangrijk om een gedetailleerd plan van de werkzaamheden op te
+								stellen en advies in te winnen bij professionals voor een
+								nauwkeurige schatting van de kosten. Het vergelijken van
+								offertes van verschillende aannemers kan ook helpen om de meest
+								kosteneffectieve oplossing te vinden.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="6">
 							<Accordion.Header>
-								Czy firma oferuje gwarancję na wykonane prace?
+								Biedt het bedrijf garantie op uitgevoerde werkzaamheden?
 							</Accordion.Header>
 							<Accordion.Body>
-								Tak, nasza firma oferuje gwarancję na jakość wykonanych prac.
-								Zapewniamy gwarancję na nasze usługi oraz stosowane materiały.
-								Po zakończeniu prac jesteśmy gotowi służyć pomocą i wsparciem w
-								razie jakichkolwiek problemów czy pytań związanych z wykonanymi
-								pracami ogólnobudowlanymi. Naszym celem jest zapewnienie
-								satysfakcji klienta i solidności naszych usług nawet po
-								zakończeniu projektu.
+								Ja, ons bedrijf biedt garantie op de kwaliteit van de
+								uitgevoerde werkzaamheden. We bieden garantie op onze diensten
+								en de gebruikte materialen. Na de voltooiing van het werk staan
+								we klaar om hulp en ondersteuning te bieden bij eventuele
+								problemen of vragen met betrekking tot de uitgevoerde algemene
+								bouwwerkzaamheden. Ons doel is om klanttevredenheid te
+								waarborgen en betrouwbare diensten te leveren, zelfs na de
+								voltooiing van het project.
 							</Accordion.Body>
 						</Accordion.Item>
 					</Accordion>

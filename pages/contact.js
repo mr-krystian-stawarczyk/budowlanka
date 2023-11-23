@@ -4,7 +4,7 @@ import { init } from "@emailjs/browser";
 import React from "react";
 import Head from "next/head";
 import { useState, useEffect } from "react";
-import Contact2 from "@/components/Contact2";
+
 init(process.env.NEXT_PUBLIC_REACT_APP_PUBLIC_KEY);
 function contact() {
 	const [alertContent, setAlertContent] = useState({});
@@ -40,7 +40,7 @@ function contact() {
 	return (
 		<div className="">
 			<Head>
-				<title>Kontakt</title>
+				<title>Contact</title>
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>

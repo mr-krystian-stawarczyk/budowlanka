@@ -15,7 +15,7 @@ const Header1 = () => {
 						width={1366}
 						height={768}
 						className="image"
-						alt="webentwicklung-nettetal-fragen1"
+						alt="bouw1"
 					/>
 					<Carousel.Caption className="bg-light text-dark rounded shadow-lg p-3 m-1">
 						<h2 className="text-uppercase text-bold">Okna Montaż</h2>
@@ -35,7 +35,7 @@ const Header1 = () => {
 						width={1366}
 						height={768}
 						className="image"
-						alt="webentwicklung-nettetal-fragen1"
+						alt="bouw2"
 					/>
 					<Carousel.Caption className="bg-light text-dark rounded shadow-lg p-3 m-1">
 						<h2 className="text-bold">Termo Izolacja</h2>
@@ -54,7 +54,7 @@ const Header1 = () => {
 						width={1366}
 						height={768}
 						className="image"
-						alt="webentwicklung-nettetal-fragen1"
+						alt="bouw3"
 					/>
 					<Carousel.Caption className="bg-light text-dark rounded shadow-lg p-3 m-1">
 						<h2 className="text-bold">Tynki</h2>
@@ -73,7 +73,7 @@ const Header1 = () => {
 						width={1366}
 						height={768}
 						className="image"
-						alt="webentwicklung-nettetal-fragen1"
+						alt="bouw4"
 					/>
 					<Carousel.Caption className="bg-light text-dark rounded shadow-lg p-3 m-1">
 						<h2 className="text-bold">Glazura</h2>
@@ -92,7 +92,7 @@ const Header1 = () => {
 						width={1366}
 						height={768}
 						className="image"
-						alt="webentwicklung-nettetal-fragen1"
+						alt="bouw5"
 					/>
 					<Carousel.Caption className="header-bg text-dark rounded shadow-lg p-3 m-1">
 						<h2 className="text-bold">Ogolnobudowlane</h2>

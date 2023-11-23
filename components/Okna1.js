@@ -87,7 +87,7 @@ function Okna1() {
 							width={200}
 							height={200}
 							className="responsive-image shadow-lg"
-							alt="Sanity Image"
+							alt="ramen-pla"
 						/>
 						<Card.Body>
 							<h1 className="text-bold">Kunststof Ramen</h1>
@@ -134,7 +134,7 @@ function Okna1() {
 							width={200}
 							height={200}
 							className="responsive-image shadow-lg"
-							alt="Sanity Image"
+							alt="ramen-alu"
 						/>
 						<Card.Body>
 							<h1 className="text-bold">Aluminium Ramen</h1>

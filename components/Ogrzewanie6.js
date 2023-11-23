@@ -79,7 +79,7 @@ function Ogrzewanie6() {
 					<Col>
 						{" "}
 						<h1 className="my-5 text-bold">
-							ZALETY KORZYSTANIA Z MAT GRZEWCZYCH
+							VOORDELEN VAN HET GEBRUIK VAN VLOERVERWARMINGSMATTEN
 						</h1>
 					</Col>
 				</Row>{" "}
@@ -112,15 +112,14 @@ function Ogrzewanie6() {
 									<Card.Body>
 										<Card.Title>
 											<span className="text-bold">
-												Niezawodność i żywotność systemu
+												Betrouwbaarheid en levensduur van het systeem
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Oferowane przez TERMOFOL maty elektryczne podłogowe to
-											rozwiązania najwyższej klasy, na które udzielmy aż
-											25-letniej gwarancji.
+											De elektrische vloermatten van TERMOFOL zijn eersteklas
+											oplossingen waarop we maar liefst 25 jaar garantie geven.
 										</Card.Text>
-									</Card.Body>{" "}
+									</Card.Body>
 								</Card>{" "}
 							</animated.div>{" "}
 						</Col>
@@ -149,17 +148,19 @@ function Ogrzewanie6() {
 									<Card.Body>
 										<Card.Title>
 											<span className="text-bold">
-												Tanie ogrzewanie pomieszczeń
+												Voordelige ruimteverwarming
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Wszystkim tym, którzy preferują tanie ogrzewanie podłogowe
-											mata grzewcza pozwoli obniżyć nakłady na inwestycje w
-											podłogówkę – system instalowany jest wyłącznie w miejscach
-											użytkowanych przez domowników – nie ma potrzeby
-											rozkładania maty na całej powierzchni posadzki.
+											Voor degenen die de voorkeur geven aan voordelige
+											vloerverwarming, zal een verwarmingsmat helpen bij het
+											verminderen van de investeringskosten in de
+											vloerverwarming - het systeem wordt alleen geïnstalleerd
+											op plaatsen die door de bewoners worden gebruikt - er is
+											geen noodzaak om de mat over het hele vloeroppervlak te
+											verspreiden.
 										</Card.Text>
-									</Card.Body>{" "}
+									</Card.Body>
 								</Card>{" "}
 							</animated.div>{" "}
 						</Col>
@@ -185,17 +186,17 @@ function Ogrzewanie6() {
 									<Card.Body>
 										<Card.Title>
 											<span className="text-bold">
-												Ekologiczna instalacja cieplna
+												Milieuvriendelijke verwarmingssysteem
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Jeśli na posadzce położona zostanie mata podłogowa
-											ogrzewanie stanie się przyjazne dla środowiska oraz
-											domowników. Brak kurzu, alergenów czy roztoczy to tylko
-											niektóre powody, dla których jest to rozwiązanie dosłownie
-											dla każdego.
+											Als er een vloerverwarmingsmat wordt geplaatst, wordt de
+											verwarming milieuvriendelijk en vriendelijk voor zowel het
+											milieu als de bewoners. Het ontbreken van stof, allergenen
+											en mijten zijn slechts enkele redenen waarom dit een
+											oplossing is die letterlijk voor iedereen geschikt is.
 										</Card.Text>
-									</Card.Body>{" "}
+									</Card.Body>
 								</Card>{" "}
 							</animated.div>{" "}
 						</Col>{" "}
@@ -226,17 +227,18 @@ function Ogrzewanie6() {
 									<Card.Body>
 										<Card.Title className="bold">
 											<span className="text-bold">
-												Niższa temperatura w instalacji
+												Lagere temperatuur in het systeem
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Nasze maty grzejne pozwalają na obniżenie temperatury na
-											głównym źródle ciepła (kocioł C.O., pompa ciepła) o kilka
-											stopni, bez obniżania komfortu cieplnego. Dzięki temu
-											znacząco spadną koszty zawiązane z zakupem opału oraz
-											eksploatacją domowej instalacji centralnego ogrzewania.
+											Onze verwarmingsmatten maken het mogelijk om de
+											temperatuur van de hoofdverwarming (CV-ketel, warmtepomp)
+											met enkele graden te verlagen zonder het thermisch comfort
+											te verminderen. Hierdoor zullen de kosten voor de aanschaf
+											van brandstof en het gebruik van het huishoudelijke
+											centrale verwarmingssysteem aanzienlijk dalen.
 										</Card.Text>
-									</Card.Body>{" "}
+									</Card.Body>
 								</Card>{" "}
 							</animated.div>{" "}
 						</Col>{" "}
@@ -263,14 +265,14 @@ function Ogrzewanie6() {
 									/>
 									<Card.Body>
 										<Card.Title className="bold">
-											<span className="text-bold">Oszczędność energii</span>
+											<span className="text-bold">Energiebesparing</span>
 										</Card.Title>
 										<Card.Text>
-											Ogrzewanie podłogowe matą pozwala zmniejszyć
-											zapotrzebowanie na energię cieplną z instalacji C.O. nawet
-											o 20%.
+											Het gebruik van vloerverwarming met een verwarmingsmat kan
+											het thermische energieverbruik van het CV-systeem zelfs
+											met 20% verminderen.
 										</Card.Text>
-									</Card.Body>{" "}
+									</Card.Body>
 								</Card>{" "}
 							</animated.div>{" "}
 						</Col>
@@ -298,16 +300,16 @@ function Ogrzewanie6() {
 									<Card.Body>
 										<Card.Title>
 											<span className="text-bold">
-												Nieograniczone możliwości aranżacyjne
+												Onbeperkte mogelijkheden voor interieurontwerp
 											</span>
 										</Card.Title>
 										<Card.Text>
-											Cały system grzewczy ukryty jest pod podłogą, więc jego
-											elementy nie ograniczają przestrzeni (w przeciwieństwie do
-											grzejników), którą można dowolnie urządzić i
-											zagospodarować według własnych preferencji.
+											Het hele verwarmingssysteem is verborgen onder de vloer,
+											dus de elementen ervan beperken de ruimte niet (in
+											tegenstelling tot radiatoren), waardoor je de ruimte
+											volledig naar eigen wens kunt inrichten en gebruiken.
 										</Card.Text>
-									</Card.Body>{" "}
+									</Card.Body>
 								</Card>{" "}
 							</animated.div>{" "}
 						</Col>

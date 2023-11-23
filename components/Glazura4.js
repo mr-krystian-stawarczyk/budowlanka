@@ -90,19 +90,20 @@ function Glazura4() {
 					/>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
+					<Card className="border-0 bg-transparent">
 						<Card.Body>
-							<h1 className="text-bold">Glazurnictwo na Najwyższym Poziomie</h1>
+							<h1 className="text-bold">Tegelwerk van Topniveau</h1>
 							<Card.Text>
-								Kiedy mówimy o glazurze, myślimy o doskonałości w każdym detalu.
-								Nasz zespół to nie tylko profesjonaliści w swojej dziedzinie,
-								lecz pasjonaci, którzy przekształcają pracę w sztukę. Dla nas
-								układanie kafelków to nie tylko technika, to możliwość wyrażenia
-								kreatywności i umiejętności. Nasze podejście opiera się na
-								staranności, by każdy kafelek znalazł się we właściwym miejscu,
-								tworząc harmonijną całość. Z DG BOUWGROEP otrzymujesz nie tylko
-								usługę, lecz doświadczenie, które wykracza poza oczekiwania, by
-								Twoje pomieszczenia stały się prawdziwymi dziełami sztuki.
+								Wanneer we het hebben over tegelwerk, denken we aan perfectie in
+								elk detail. Ons team bestaat niet alleen uit professionals in
+								hun vakgebied, maar uit gepassioneerde individuen die van werk
+								kunst maken. Voor ons is het leggen van tegels niet alleen een
+								techniek, maar een kans om creativiteit en vaardigheid uit te
+								drukken. Onze aanpak draait om zorgvuldigheid, waarbij elke
+								tegel op zijn juiste plek wordt geplaatst om een harmonieus
+								geheel te vormen. Met DG BOUWGROEP krijg je niet alleen een
+								service, maar een ervaring die de verwachtingen overstijgt,
+								waardoor jouw ruimtes ware kunstwerken worden.
 							</Card.Text>
 							<Card.Text></Card.Text>
 							<Card.Text></Card.Text>

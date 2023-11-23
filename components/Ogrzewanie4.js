@@ -83,45 +83,43 @@ function Ogrzewanie4() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">NIEOGRANICZONE MOŻLIWOŚCI</h1>
+							<h1 className="text-bold">ONBEPERKTE MOGELIJKHEDEN</h1>
 							<Card.Text>
-								Jeśli chodzi o urządzanie wnętrz, maty elektryczne podłogowe
-								dają wiele dodatkowych opcji aranżacyjnych. Decydując się na
-								tego typu rozwiązanie, można – bez konieczności dokonywania
-								skomplikowanych przeróbek instalacji grzewczej – stworzyć w
-								swoim domu inteligentny system grzewczy, który będzie
-								jednocześnie niezawodny i energooszczędny. W celu uzyskania
-								optymalnego komfortu termicznego warto zastosować wysokiej klasy
-								termostat z czujnikiem podłogowym.
+								Wat betreft interieurdesign bieden elektrische vloermatten vele
+								extra inrichtingsopties. Door te kiezen voor dit soort
+								oplossingen, kunt u - zonder ingewikkelde aanpassingen aan het
+								verwarmingssysteem - een intelligent en tegelijkertijd
+								betrouwbaar en energiezuinig verwarmingssysteem in huis creëren.
+								Voor optimaal thermisch comfort is het aan te raden een
+								hoogwaardige thermostaat met vloersensor te gebruiken.
 							</Card.Text>
 							<Card.Text>
-								Termoregulatory elektryczne z programowaniem czasowym
-								umożliwiają z kolei precyzyjne określenie pory włączenia i
-								wyłączenia ogrzewania podłogowego. Dzięki temu, że w mieszkaniu
-								zainstalowana zostanie mata podłogowa ogrzewanie zawsze będzie
-								wydajne, a koszty eksploatacyjne pozostaną pod pełną kontrolą.
+								Elektrische thermostaten met tijdsprogrammering maken
+								nauwkeurige instellingen van de verwarmingstijd mogelijk.
+								Hierdoor blijft de vloerverwarming altijd efficiënt en blijven
+								de operationele kosten onder controle.
 							</Card.Text>
 							<Card.Text>
-								Przeszkodą, aby zainstalować jako ogrzewanie podłogowe maty
-								elektryczne, nie jest również konstrukcja budynku. System może
-								być montowany zarówno bezpośrednio na starej posadzce (w trakcie
-								remontu), jak i w nowo budowanych domach, przed wykończeniem
-								podłogi terakotą, parkietem czy płytkami ceramicznymi.
-								Elektryczne maty grzejne podnoszą komfort termiczny budynku,
-								jednocześnie nie stanowiąc dodatkowego obciążenia stropu,
-								dlatego mogą być układane zarówno na poziomie parteru, jak i na
-								poddaszu oraz na dowolnych kondygnacjach budynku.
+								De installatie van elektrische vloermatten als vloerverwarming
+								wordt niet belemmerd door de constructie van het gebouw. Het
+								systeem kan zowel direct op een oude vloer worden geplaatst
+								(tijdens renovatie) als in nieuw gebouwde huizen, vóór de
+								afwerking met tegels, parket of keramische tegels. Elektrische
+								verwarmingsmatten verbeteren het thermisch comfort van het
+								gebouw zonder extra belasting voor het plafond, waardoor ze
+								zowel op de begane grond als op zolder of op elke verdieping van
+								het gebouw kunnen worden gelegd.
 							</Card.Text>
 						</Card.Body>
 					</Card>
-				</Col>{" "}
+				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogrzewanie5.png"
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="verwarming5"
 					/>
 				</Col>{" "}
 			</Row>

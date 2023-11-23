@@ -81,17 +81,17 @@ function Testowy() {
 			className=" mt-5 pt-1 align-items-center bg-light justify-content-center "
 		>
 			<Row className="text-dark text-center my-3 align-items-center  justify-content-center ">
-				<h1 className="text-bold my-3">DG Bouwgroep</h1>
-				<h4 className="py-1 text-bold">
+				<h1 className=" my-3">DG Bouwgroep</h1>
+				<h4 className="py-1 ">
 					Ongeacht of je een renovatie, afwerking, huis of gebouwconstructie
 					plant, binnen onze groep vind je specialisten die je zullen helpen bij
 					de realisatie van jouw project.
 				</h4>
-				<h4 className="py-1 text-bold">
+				<h4 className="py-1 ">
 					DG Bouwgroep is een initiatief van lokale bedrijven die zich hebben
 					verenigd in de bouwsector, samen met ondersteunende bedrijven.
 				</h4>
-				<h4 className="py-1 text-bold">
+				<h4 className="py-1 ">
 					Wij opereren met een allesomvattende aanpak voor investeringen vanaf
 					de fase van hun ontstaan. Betrouwbaarheid, een hoge standaard van
 					dienstverlening en de kwaliteit van aangeboden producten zijn de
@@ -105,7 +105,7 @@ function Testowy() {
 						<Row className="justify-content-center  align-items-center">
 							<Col className="">
 								{" "}
-								<Link href="okna" className="">
+								<Link href="ramen" className="">
 									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-1 cards">
 										{/* Zdjęcie jako tło */}
 
@@ -121,7 +121,7 @@ function Testowy() {
 						<Row className="justify-content-center  align-items-center">
 							<Col className="">
 								{" "}
-								<Link href="termo" className="">
+								<Link href="isolatie" className="">
 									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-2 cards">
 										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
 											Thermische isolatie van uw woning
@@ -135,7 +135,7 @@ function Testowy() {
 						<Row className="justify-content-center  align-items-center">
 							<Col className="">
 								{" "}
-								<Link href="tynki" className="">
+								<Link href="pleisterwerk" className="">
 									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-3 cards">
 										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
 											Professionele pleister diensten
@@ -151,7 +151,7 @@ function Testowy() {
 						<Row className="justify-content-center  align-items-center">
 							<Col className="">
 								{" "}
-								<Link href="glazura" className="">
+								<Link href="glazuur" className="">
 									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-4 cards">
 										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
 											Glazuur op het hoogste niveau
@@ -164,7 +164,7 @@ function Testowy() {
 					<Col lg={4} className=" mb-3 ">
 						<Row className="justify-content-center  align-items-center">
 							<Col className="">
-								<Link href="ogolne" className="">
+								<Link href="bouwwerkzaamheden" className="">
 									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-5 cards">
 										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
 											Jarenlange ervaring in bouwwerkzaamheden
@@ -177,7 +177,7 @@ function Testowy() {
 					<Col lg={4} className=" mb-3  ">
 						<Row className="justify-content-center  align-items-center">
 							<Col className="">
-								<Link href="ogrzewanie" className="">
+								<Link href="vloerverwarming" className="">
 									<Card className="border-sm shadow-lg p-2 border-0 bg-transparent align-items-center position-relative card-imgs card-6 cards">
 										<h3 className="text-bold text-white position-absolute top-50 start-50 translate-middle">
 											Infrarood vloerverwarming

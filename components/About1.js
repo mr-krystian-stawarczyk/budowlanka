@@ -122,7 +122,7 @@ function About1() {
 							width={400}
 							height={400}
 							className="responsive-image shadow-lg rounded"
-							alt="Sanity Image"
+							alt="overons"
 						/>
 					</Col>
 				</Row>

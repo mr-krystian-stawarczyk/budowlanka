@@ -78,7 +78,7 @@ function Tynki2() {
 		<Container
 			fluid
 			className="d-flex bg-light text-dark py-3 align-items-center justify-content-center "
-			id="tynki2"
+			id="pleisterwerk2"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 text-center ">
@@ -88,7 +88,7 @@ function Tynki2() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="pleister5"
 					/>
 				</Col>{" "}
 				<Col lg={5} className="mx-auto my-2 ">

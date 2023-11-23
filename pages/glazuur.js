@@ -8,11 +8,11 @@ import Testimonials from "@/components/Testimonials";
 import Glazura5 from "@/components/Glazura5";
 import Header5 from "@/components/Header5";
 
-function glazura() {
+function glazuur() {
 	return (
 		<div className="">
 			<Head>
-				<title>Glazura</title>
+				<title>Glazuur</title>
 				<meta name="" content="" />
 				<meta name="robots" content="index, follow" />
 			</Head>
@@ -27,4 +27,4 @@ function glazura() {
 	);
 }
 
-export default glazura;
+export default glazuur;

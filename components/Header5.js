@@ -96,23 +96,23 @@ function Header5() {
 						width={400}
 						height={400}
 						className="responsive-image rounded shadow-lg"
-						alt="Sanity Image"
+						alt="tegelwerk"
 					/>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
+					<Card className="border-0 bg-transparent">
 						<Card.Body>
-							<h1 className="text-bold">Przepiekna Glazura</h1>
+							<h1 className="text-bold">Prachtig Tegelwerk</h1>
 							<Card.Text>
-								Bez względu na wielkość powierzchni czy specyfikę projektu,
-								podejmujemy się zarówno prostych jak i bardziej wymagających
-								zadań związanych z glazurowaniem. Dzięki zastosowaniu
-								najlepszych materiałów i technik układania, zapewniamy nie tylko
-								estetyczne i eleganckie wykończenie, ale także trwałość i
-								solidność wykonania. Naszym celem jest nie tylko zadowolenie
-								klienta, lecz także dostarczenie rozwiązań, które spełnią
-								oczekiwania estetyczne i funkcjonalne, tworząc powierzchnię
-								wyjątkową pod względem wyglądu i jakości.
+								Ongeacht de grootte van het oppervlak of de specificiteit van
+								het project, nemen we zowel eenvoudige als meer veeleisende
+								tegelwerkzaamheden aan. Door het gebruik van de beste materialen
+								en legtechnieken zorgen we niet alleen voor een esthetische en
+								elegante afwerking, maar ook voor duurzaamheid en stevigheid van
+								het werk. Ons doel is niet alleen de tevredenheid van de klant,
+								maar ook het leveren van oplossingen die zowel esthetische als
+								functionele verwachtingen vervullen, door een oppervlak te
+								creëren dat uniek is in uiterlijk en kwaliteit.
 							</Card.Text>
 							<div className="text-center">
 								<Link href="#glazura2" className="m-1">

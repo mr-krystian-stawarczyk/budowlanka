@@ -13,9 +13,7 @@ function Ogrzewanie7() {
 		<Container className="bg-light  py-5" fluid id="web-design-faq">
 			<Row className="justify-content-center align-items-center">
 				<Col lg={4} md={6} xs={12} className="py-5 text-center">
-					<h1 className="text-dark text-uppercase">
-						Najczęsciej Zadawane Pytania : Ogrzewanie
-					</h1>
+					<h1 className="text-dark text-uppercase">Veel Gestelde Vragen</h1>
 				</Col>
 			</Row>
 			<Row className="justify-content-center align-items-center">
@@ -23,85 +21,86 @@ function Ogrzewanie7() {
 					<Accordion className="shadow-lg" defaultActiveKey="0">
 						<Accordion.Item eventKey="0">
 							<Accordion.Header>
-								Dlaczego warto zdecydować się na ogrzewanie podłogowe matą?
+								Waarom zou je kiezen voor een vloerverwarmingsmat?
 							</Accordion.Header>
 							<Accordion.Body>
-								Spośród wielu rozwiązań obejmujących ogrzewanie podłogowe mata
-								grzejna jest tym, które ma zdecydowanie najwięcej zalet. W
-								sezonie zimowym domownicy mogą chodzić po domu bez obuwia, przy
-								zapewnieniu optymalnego komfortu cieplnego. Jednocześnie,
-								inwestycja w podłogówkę umożliwia usunięcie z domu wykładzin
-								oraz dywanów, będących siedliskiem alergenów i drobnoustrojów.
-								Posiadanie systemu grzewczego pod podłogą pozwala również na
-								swobodne sterowanie ogrzewaniem całego domu, poprzez włączanie
-								lub wyłączanie jego poszczególnych elementów. Folie grzejne i
-								maty grzewcze pod panele oraz płytki ceramiczne, doskonale
-								sprawdzają się w domach, gdzie mieszkają osoby uczulone na kurz.
-								W odróżnieniu od tradycyjnych systemów ogrzewania podłogowego,
-								mata grzewcza nie powoduje gromadzenia się zanieczyszczeń na
-								posadzkach, co daje również możliwość rzadszego sprzątania
-								podłóg.
+								Van alle vloerverwarmingsopties heeft de verwarmingsmat
+								duidelijk de meeste voordelen. In de winter kunnen bewoners
+								comfortabel op blote voeten door het huis lopen. Tegelijkertijd
+								maakt de investering in vloerverwarming het mogelijk om tapijten
+								en vloerbedekkingen, die broeinesten zijn van allergenen en
+								micro-organismen, uit huis te verwijderen. Het hebben van een
+								verwarmingssysteem onder de vloer maakt ook een vrij instelbare
+								controle mogelijk over de verwarming van het hele huis door
+								afzonderlijke elementen in of uit te schakelen.
+								Verwarmingsfolies en verwarmingsmatten onder laminaat of
+								keramische tegels zijn ideaal in woningen waar mensen allergisch
+								zijn voor stof. In tegenstelling tot traditionele systemen voor
+								vloerverwarming veroorzaakt een verwarmingsmat geen ophoping van
+								vuil op de vloeren, wat ook minder vaak schoonmaken mogelijk
+								maakt.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="1">
 							<Accordion.Header>
-								Czy możliwy jest montaż maty pod brodzikiem lub wanną?
+								Kan de verwarmingsmat onder een douchebak of bad worden
+								geplaatst?
 							</Accordion.Header>
 							<Accordion.Body>
-								Niestety, maty grzewcze na podczerwień nie mogą być instalowane
-								pod wanną lub brodzikiem.
+								Helaas kunnen infrarood verwarmingsmatten niet onder een bad of
+								douchebak worden geïnstalleerd.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="2">
 							<Accordion.Header>
-								Czy ogrzewanie podłogowe matą o mocy 150W/m2 wpływa na
-								zwiększenie kosztów użytkowania?
+								Heeft vloerverwarming met een vermogen van 150 W/m2 invloed op
+								de verhoogde gebruikskosten?
 							</Accordion.Header>
 							<Accordion.Body>
-								Zastosowanie maty o wyższej mocy znamionowej powoduje skrócenie
-								czasu nagrzewania się instalacji.
+								Het gebruik van een hoger nominale vermogen mat verkort de
+								opwarmtijd van de installatie.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="3">
 							<Accordion.Header>
-								Czy matę można ciąć w trakcie montażu?
+								Kan de mat tijdens de installatie worden gesneden?
 							</Accordion.Header>
 							<Accordion.Body>
-								Zabronione jest przecinanie przewodów, matę można skrócić
-								wyłącznie poprzez nacinanie siatki.
+								Het is verboden om de draden te snijden; de mat kan alleen
+								worden ingekort door in het gaas te snijden.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="4">
 							<Accordion.Header>
-								Czy mata podłogowa grzewcza może zostać zainstalowana pod
-								zabudowę stałą?
+								Kan een verwarmingsmat onder permanente inrichting worden
+								geïnstalleerd?
 							</Accordion.Header>
 							<Accordion.Body>
-								Nie ma możliwości montażu maty grzejnej pod stałą zabudową. W
-								miejscu, gdzie zainstalowana jest mata, można ustawić wyłącznie
-								meble na nóżkach, z zachowaniem minimum 3 cm wysokości od
-								posadzki.
+								Het is niet mogelijk om een verwarmingsmat te installeren onder
+								permanente inrichting. Waar de mat is geïnstalleerd, kunnen
+								alleen meubels op poten worden geplaatst, met een minimale
+								hoogte van 3 cm boven de vloer.
 							</Accordion.Body>
 						</Accordion.Item>
-
 						<Accordion.Item eventKey="5">
 							<Accordion.Header>
-								Czy istnieje możliwość krzyżowania lub nakładania na siebie
-								przewodów grzewczych?
+								Is het mogelijk om de verwarmingsdraden kruislings te leggen of
+								over elkaar heen te leggen?
 							</Accordion.Header>
 							<Accordion.Body>
-								Nie, mata podłogowa grzewcza nie może być instalowana w sposób,
-								który wymaga nakładania lub krzyżowania się przewodów. Minimalny
-								odstęp pomiędzy przewodami powinien wynosić 8 cm.
+								Nee, een verwarmingsmat kan niet worden geïnstalleerd op een
+								manier waarbij de draden elkaar kruisen of elkaar overlappen. De
+								minimale afstand tussen de draden moet 8 cm zijn.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="6">
 							<Accordion.Header>
-								Czy do podłączenia maty konieczne jest zatrudnienie elektryka?
+								Is het noodzakelijk om een elektricien in te huren om de mat aan
+								te sluiten?
 							</Accordion.Header>
 							<Accordion.Body>
-								Podłączenie maty może wykonać jedynie elektryk posiadający
-								aktualne uprawnienia SEP.
+								Alleen een elektricien met actuele SEP-bevoegdheden kan de mat
+								aansluiten.
 							</Accordion.Body>
 						</Accordion.Item>
 					</Accordion>

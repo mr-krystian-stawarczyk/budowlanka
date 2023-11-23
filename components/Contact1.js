@@ -40,7 +40,7 @@ const Contact1 = ({ onSubmit }) => {
 			<Container className="bg-light text-dark" fluid>
 				<div className="py-5">
 					<Row className=" justify-content-center text-center align-items-center py-5">
-						<h1 className="py-3 text-bold">Kontakt</h1>
+						<h1 className="py-3 text-bold">Contact</h1>
 						<Col lg={5} md={8} sm={8} className="mx-auto my-3 ">
 							<Card
 								style={{ minWidth: "18rem" }}
@@ -81,7 +81,12 @@ const Contact1 = ({ onSubmit }) => {
 								className="bg-light border-0 shadow-lg"
 							>
 								<Card.Body>
-									<Image src="/assets/kontakt1.png" height={200} width={200} />
+									<Image
+										src="/assets/kontakt1.png"
+										alt="locatie"
+										height={200}
+										width={200}
+									/>
 
 									<Card.Title>
 										<HiOutlineLocationMarker style={{ fontSize: "4rem" }} />

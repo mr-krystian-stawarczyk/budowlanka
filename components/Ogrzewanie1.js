@@ -89,30 +89,31 @@ function Ogrzewanie1() {
 						width={400}
 						height={400}
 						className="responsive-image rounded shadow-lg"
-						alt="Sanity Image"
+						alt="verwarming"
 					/>
 				</Col>
 				<Col lg={6} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold"> MATA GRZEWCZA</h1>
+							<h1 className="text-bold">VLOERVERWARMINGSMAT</h1>
 							<Card.Text>
-								Ekonomiczne i łatwe w montażu rozwiązanie, jakim jest mata
-								podłogowa grzewcza, to nowoczesny sposób na ciepłą podłogę w
-								całym domu. Rosnąca popularność tego typu systemów grzewczych
-								wynika z uniwersalnego charakteru instalacji oraz
-								gwarantowanego, szybkiego rozgrzania podłogi pokrytej gresem,
-								płytkami ceramicznymi, terakotą czy marmurem.
+								Een economische en gemakkelijk te installeren oplossing, zoals
+								een vloerverwarmingsmat, is een moderne manier om een warme
+								vloer door het hele huis te hebben. De toenemende populariteit
+								van dit soort verwarmingssystemen komt door de universele aard
+								van de installatie en de gegarandeerde, snelle opwarming van
+								vloeren bedekt met tegels, keramische tegels, terracotta of
+								marmer.
 							</Card.Text>
 							<Card.Text>
-								Stała moc na poziomie 150W/m2 zapewnia optymalne parametry
-								cieplne, a sam system w żaden sposób nie jest zależny od
-								posiadanej instalacji centralnego ogrzewania, dlatego można w
-								dowolny sposób nim sterować.
+								Een constante vermogensniveau van 150W/m2 zorgt voor optimale
+								warmteparameters, en het systeem is op geen enkele manier
+								afhankelijk van het bestaande centrale verwarmingssysteem,
+								waardoor het op verschillende manieren kan worden aangestuurd.
 							</Card.Text>
 
 							<div className="text-center">
-								<Link href="#ogrzewanie2" className="m-1">
+								<Link href="#vloerverwarming2" className="m-1">
 									<Button className="btn-nav btn-lg">
 										{" "}
 										<MdDoubleArrow

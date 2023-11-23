@@ -5,7 +5,7 @@ import Head from "next/head";
 import Link from "next/link";
 function error() {
 	return (
-		<Container className="mt-5 pt-5">
+		<Container className="mt-5 pt-5 bg-white">
 			<Head>
 				<title>404 Error </title>
 				<meta
@@ -16,8 +16,8 @@ function error() {
 			<Row className="text-center align-items-center justify-content-center">
 				<Col lg={6}>
 					<h1>Error</h1>
-					<Link href="/">
-						<Button className="btn-nav">Home</Button>
+					<Link href="">
+						<Button className="btn-nav text-dark">Home</Button>
 					</Link>
 				</Col>
 				<Col lg={6}>
@@ -26,7 +26,7 @@ function error() {
 						width={500}
 						height={500}
 						className="responsive-image py-3"
-						alt="webagentur-nettetal-pixel-genie-404"
+						alt="error 404"
 						priority
 					/>
 				</Col>

@@ -92,26 +92,28 @@ function Ogrzewanie3() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">ZASTOSOWANIE MATY ELEKTRYCZNEJ</h1>
+							<h1 className="text-bold">
+								TOEPASSING VAN HET ELEKTRISCHE MATSysteem
+							</h1>
 							<Card.Text>
-								Sprawdzające się doskonale jako ogrzewanie podłogowe maty
-								grzejne stanowią wygodną alternatywę dla klasycznej „podłogówki”
-								zintegrowanej z instalacją C.O. Można je wykorzystywać zarówno
-								do podstawowego, jak i dodatkowego dogrzewania łazienek, kuchni,
-								salonów, przedpokojów oraz wielu innych pomieszczeń w domach,
-								biurach czy obiektach użytkowych. Mata podłogowa grzewcza składa
-								się z systemu przewodów układanych na specjalnej siatce z włókna
-								szklanego. Jej instalacja nie powoduje podniesienia poziomu
-								posadzki, zapewniając przyjemne uczucie ciepłej podłogi, które
-								dodatkowo podniesie komfort użytkowania każdego wnętrza.
+								De elektrische vloermatten zijn een uitstekende keuze als
+								vloerverwarming en bieden een handig alternatief voor de
+								klassieke, met de cv-installatie geïntegreerde vloerverwarming.
+								Ze kunnen zowel worden gebruikt voor primaire als aanvullende
+								verwarming in badkamers, keukens, woonkamers, gangen en vele
+								andere ruimtes in huizen, kantoren en commerciële panden. De
+								verwarmingsmat bestaat uit een systeem van kabels die op een
+								speciaal glasvezelnetwerk zijn geplaatst. De installatie ervan
+								verhoogt de vloer niet, wat een aangenaam gevoel van een warme
+								vloer oplevert en het comfort van elke ruimte verhoogt.
 							</Card.Text>
 							<Card.Text>
-								Dostępne w naszej ofercie maty grzewcze TERMOFOL sprzedawane są
-								w gotowych zestawach montażowych do samodzielnej instalacji.
-								Montaż systemu jest intuicyjny i można przeprowadzić go w domu
-								we własnym zakresie. Dzięki czytelnej i przejrzystej instrukcji
-								dołączonej do elementów grzejnych możliwe jest wykonanie
-								wszystkich czynności bez angażowania fachowca.
+								De verwarmingsmatten TERMOFOL in ons assortiment worden verkocht
+								in complete installatiekits voor zelfinstallatie. Het systeem is
+								intuïtief te monteren en kan thuis door uzelf worden
+								geïnstalleerd. Dankzij de duidelijke en overzichtelijke
+								instructies bijgevoegd bij de verwarmingselementen kunnen alle
+								stappen worden uitgevoerd zonder de noodzaak van een specialist.
 							</Card.Text>
 						</Card.Body>
 					</Card>

@@ -96,37 +96,37 @@ const NavbarComp = ({ toggleTheme }) => {
 							menuVariant="light"
 							style={{ fontSize: "1.1rem" }}
 						>
-							<NavDropdown.Item as={Link} href="/okna">
+							<NavDropdown.Item as={Link} href="/ramen">
 								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
 									Ramen
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item as={Link} href="/termo">
+							<NavDropdown.Item as={Link} href="/isolatie">
 								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
 									Warmte isolatie
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item as={Link} href="/tynki">
+							<NavDropdown.Item as={Link} href="/pleisterwerk">
 								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
 									Pleisterwerk
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item as={Link} href="/glazura">
+							<NavDropdown.Item as={Link} href="/glazuur">
 								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
 									Glazuur
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
-							<NavDropdown.Item as={Link} href="/ogolne">
+							<NavDropdown.Item as={Link} href="/bouwwerkzaamheden">
 								<Button className="w-100 border-0 bg-transparent text-black  text-capitalize">
 									Bouwwerkzaamheden
 								</Button>
 							</NavDropdown.Item>{" "}
 							<NavDropdown.Divider />
-							<NavDropdown.Item as={Link} href="/ogrzewanie">
+							<NavDropdown.Item as={Link} href="/vloerverwarming">
 								<Button className="w-100 border-0 bg-transparent text-black  text-capitalize">
 									Vloerverwarming
 								</Button>
@@ -147,7 +147,7 @@ const NavbarComp = ({ toggleTheme }) => {
 								className="btn-md py-2 border-0 bg-transparent text-black  shadow-md "
 								style={{ textTransform: "capitalize" }}
 							>
-								Kontakt
+								Contact
 							</Button>
 						</Nav.Link>
 					</Nav>

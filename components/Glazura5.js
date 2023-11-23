@@ -14,7 +14,7 @@ function Glazura5() {
 			<Row className="justify-content-center align-items-center">
 				<Col lg={4} md={6} xs={12} className="py-5 text-center">
 					<h1 className="text-dark text-uppercase text-bold">
-						Najczęsciej Zadawane Pytania : Glazura
+						Meest Gestelde Vragen
 					</h1>
 				</Col>
 			</Row>
@@ -23,83 +23,87 @@ function Glazura5() {
 					<Accordion className="shadow-lg" defaultActiveKey="0">
 						<Accordion.Item eventKey="0">
 							<Accordion.Header>
-								Jakie są główne korzyści z wykorzystania glazury w domu?
+								Wat zijn de belangrijkste voordelen van het gebruik van tegels
+								in huis?
 							</Accordion.Header>
 							<Accordion.Body>
-								Glazura jest nie tylko estetycznym dodatkiem do wnętrz. Jej
-								główne zalety to trwałość, łatwość utrzymania w czystości,
-								odporność na wilgoć i ścieranie. Dodatkowo, dzięki szerokiej
-								gamie wzorów i kolorów, glazura pozwala na kreatywne aranżacje
-								przestrzeni.
+								Tegels zijn niet alleen een esthetische toevoeging aan het
+								interieur. Hun belangrijkste voordelen zijn duurzaamheid, gemak
+								in onderhoud, bestendigheid tegen vocht en slijtage. Bovendien
+								biedt het brede scala aan patronen en kleuren creatieve
+								mogelijkheden voor ruimte-indelingen.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="1">
 							<Accordion.Header>
-								Czy istnieje różnica pomiędzy glazurą ceramiczną a porcelanową?
+								Is er een verschil tussen keramische en porseleinen tegels?
 							</Accordion.Header>
 							<Accordion.Body>
-								Tak, główna różnica polega na procesie produkcji. Glazura
-								ceramiczna jest mniej gęsta, z kolei glazura porcelanowa jest
-								bardziej gęsta i bardziej odporna na uszkodzenia. Oba rodzaje są
-								używane w wykończeniu wnętrz, ale ich właściwości różnią się pod
-								względem trwałości i absorpcji wody.
+								Ja, het belangrijkste verschil ligt in het productieproces.
+								Keramische tegels zijn minder compact, terwijl porseleinen
+								tegels dichter en beter bestand tegen beschadigingen zijn. Beide
+								soorten worden gebruikt voor interieurafwerking, maar
+								verschillen qua duurzaamheid en waterabsorptie.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="2">
 							<Accordion.Header>
-								Jakie są najważniejsze kroki przygotowawcze przed układaniem
-								glazury?
+								Wat zijn de belangrijkste voorbereidende stappen vóór het
+								plaatsen van tegels?
 							</Accordion.Header>
 							<Accordion.Body>
-								Kluczowe jest przygotowanie powierzchni, na której będzie
-								układana glazura. To oczyszczenie, wygładzenie i wyrównanie
-								powierzchni, usunięcie ewentualnych pozostałości, a także
-								prawidłowe przygotowanie podłoża.
+								Het is essentieel om het oppervlak waar de tegels worden
+								geplaatst voor te bereiden. Dit omvat het reinigen, egaliseren
+								en nivelleren van het oppervlak, het verwijderen van eventuele
+								resten, en het correct voorbereiden van de ondergrond.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="3">
 							<Accordion.Header>
-								{" "}
-								Czy glazura jest trudna w utrzymaniu?
+								Is tegelwerk moeilijk te onderhouden?
 							</Accordion.Header>
 							<Accordion.Body>
-								Glazura jest stosunkowo łatwa w utrzymaniu, ponieważ jest
-								odporna na plamy i wilgoć. Wystarczy regularne mycie wodą z
-								detergentem, by utrzymać ją w dobrym stanie. Jednakże należy
-								unikać nieodpowiednich środków czyszczących, które mogą
-								uszkodzić powierzchnię.
+								Tegelwerk is relatief eenvoudig te onderhouden omdat het bestand
+								is tegen vlekken en vocht. Regelmatig schoonmaken met water en
+								een mild schoonmaakmiddel is voldoende om het in goede staat te
+								houden. Het is echter belangrijk om agressieve
+								schoonmaakmiddelen te vermijden die het oppervlak kunnen
+								beschadigen.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="4">
 							<Accordion.Header>
-								Czy istnieje możliwość dopasowania kolorów i wzorów glazury do
-								mojego wnętrza?
+								Kan tegelwerk worden aangepast aan de kleuren en patronen van
+								mijn interieur?
 							</Accordion.Header>
 							<Accordion.Body>
-								Tak, glazura jest dostępna w różnorodnych kolorach, wzorach i
-								rozmiarach. Można ją dopasować do indywidualnych potrzeb
-								projektowych, by idealnie komponowała się z wystrojem wnętrza.
+								Ja, tegelwerk is verkrijgbaar in verschillende kleuren, patronen
+								en formaten. Het kan worden aangepast aan individuele
+								ontwerpbehoeften om perfect te passen bij de
+								interieurinrichting.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="5">
 							<Accordion.Header>
-								Czy układanie glazury jest czasochłonnym procesem?
+								Is het leggen van tegels een tijdrovend proces?
 							</Accordion.Header>
 							<Accordion.Body>
-								Czas układania glazury zależy od rozmiaru i złożoności projektu.
-								Zazwyczaj zajmuje to kilka dni, ale może być dłuższe w przypadku
-								większych obszarów lub skomplikowanych wzorów.
+								De tijd die nodig is om tegels te leggen, hangt af van de
+								grootte en complexiteit van het project. Over het algemeen duurt
+								dit enkele dagen, maar kan langer duren bij grotere oppervlakken
+								of complexe patronen.
 							</Accordion.Body>
 						</Accordion.Item>
 						<Accordion.Item eventKey="6">
 							<Accordion.Header>
-								Jakie są czynniki wpływające na koszt układania glazury?
+								Welke factoren beïnvloeden de kosten van tegelwerk?
 							</Accordion.Header>
 							<Accordion.Body>
-								Koszt zależy od wielkości powierzchni, rodzaju glazury, jej
-								jakości, wzoru, a także skomplikowania prac instalacyjnych.
-								Różne metody układania oraz dodatkowe prace przygotowawcze mogą
-								również wpłynąć na ostateczny koszt.
+								De kosten zijn afhankelijk van de oppervlaktegrootte, het type
+								tegel, de kwaliteit, het patroon en de complexiteit van de
+								installatiewerkzaamheden. Verschillende legmethoden en extra
+								voorbereidende werkzaamheden kunnen ook van invloed zijn op de
+								uiteindelijke kosten.
 							</Accordion.Body>
 						</Accordion.Item>
 					</Accordion>

@@ -87,7 +87,7 @@ function Tynki4() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="pleister7"
 					/>
 				</Col>{" "}
 				<Col lg={5} className="mx-auto my-2 ">

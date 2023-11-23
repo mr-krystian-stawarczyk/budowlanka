@@ -89,7 +89,7 @@ function Header3() {
 						width={400}
 						height={400}
 						className="responsive-image rounded shadow-lg"
-						alt="Sanity Image"
+						alt="isolatie3"
 					/>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 ">
@@ -121,7 +121,7 @@ function Header3() {
 							</Card.Text>
 
 							<div className="text-center">
-								<Link href="#termo2" className="m-1">
+								<Link href="#isolatie2" className="m-1">
 									<Button className="btn-nav btn-lg">
 										{" "}
 										<MdDoubleArrow

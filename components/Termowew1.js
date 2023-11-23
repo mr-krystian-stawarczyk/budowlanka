@@ -117,7 +117,7 @@ function Termowew1() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="binnenisolatie1"
 					/>
 				</Col>
 			</Row>

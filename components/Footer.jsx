@@ -54,10 +54,12 @@ const Footer = () => {
 				<Col lg={12} xs={12} className="text-center">
 					<div className="d-flex justify-content-center align-items-center">
 						<Image
+							alt="logo"
 							src="/assets/logo-footer1.png"
 							width={400}
 							height={50}
-							className="footer-logo-mobile" // Dodaj klasę do obrazka dla urządzeń mobilnych
+							className="footer-logo-mobile"
+							priority
 						/>
 					</div>
 				</Col>
@@ -69,23 +71,23 @@ const Footer = () => {
 					>
 						<Card.Body className="">
 							<h3 className="my-3 text-bold">Diensten</h3>
-							<Link href="termo" className="footer-links ">
+							<Link href="isolatie" className="footer-links ">
 								<Card.Text className="py-2 hover">Warmte Isolatie</Card.Text>
 							</Link>
-							<Link href="okna" className="footer-links">
+							<Link href="ramen" className="footer-links">
 								<Card.Text className="py-2 hover ">Ramen</Card.Text>
 							</Link>
-							<Link href="tynki" className="footer-links">
+							<Link href="pleisterwerk" className="footer-links">
 								<Card.Text className="py-2 hover ">Pleister</Card.Text>
 							</Link>
-							<Link href="glazura" className="footer-links ">
+							<Link href="glazuur" className="footer-links ">
 								<Card.Text className="py-2 hover">Glazuur</Card.Text>
 							</Link>
 
-							<Link href="ogolne" className="footer-links ">
+							<Link href="bouwwerkzaamheden" className="footer-links ">
 								<Card.Text className="py-2 hover">Bouwwerkzaamheden</Card.Text>
 							</Link>
-							<Link href="ogrzewanie" className="footer-links ">
+							<Link href="vloerverwarming" className="footer-links ">
 								<Card.Text className="py-2 hover">Vloerverwarming</Card.Text>
 							</Link>
 						</Card.Body>
@@ -99,7 +101,7 @@ const Footer = () => {
 								<Card.Text className="py-2 hover ">Over Ons</Card.Text>
 							</Link>
 							<Link href="/contact" className="footer-links">
-								<Card.Text className="py-2 hover ">Kontakt</Card.Text>
+								<Card.Text className="py-2 hover ">Contact</Card.Text>
 							</Link>
 
 							<Link href="/contact" className="footer-links">
@@ -130,7 +132,7 @@ const Footer = () => {
 						className="bg-white rounded border-0   pt-3 "
 						style={{ maxWidth: "21rem" }}
 					>
-						<h3 className="my-3 text-bold">Kontakt</h3>
+						<h3 className="my-3 text-bold">Contact</h3>
 						<h4 className="py-3 footer-links hover">
 							<MdOutlinePhoneInTalk /> Greg: +31 684665722
 						</h4>
@@ -166,7 +168,7 @@ const Footer = () => {
 								width={50}
 								height={50}
 								className="p-2"
-								alt="webentwicklung-nettetal-fragen1"
+								alt="webdesign-nettetal-pixel-genie"
 							/>
 						</a>
 					</h6>

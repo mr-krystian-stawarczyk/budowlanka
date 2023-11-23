@@ -106,7 +106,7 @@ function Termozew3() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="buitenisolatie4"
 					/>
 				</Col>
 			</Row>

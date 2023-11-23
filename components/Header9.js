@@ -94,22 +94,22 @@ function Header9() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">Wszystko Dla Twojego Domu</h1>
+							<h1 className="text-bold">Alles Voor Jouw Huis</h1>
 							<Card.Text>
-								Nasz doświadczony zespół składa się z wysoko wykwalifikowanych
-								fachowców, gotowych podjąć się różnorodnych zadań, od drobnych
-								napraw po kompleksowe remonty. Jesteśmy przygotowani do
-								realizacji różnorodnych projektów budowlanych, oferując fachową
-								wiedzę, precyzję wykonania i dbałość o szczegóły. Bez względu na
-								skomplikowanie czy charakter prac, nasza oferta obejmuje
-								kompleksową obsługę, starając się sprostać oczekiwaniom klientów
-								poprzez profesjonalizm i solidność wykonywanych usług. Naszym
-								celem jest nie tylko spełnienie wymagań technicznych, ale
-								również stworzenie przestrzeni, która odpowiada potrzebom i
-								oczekiwaniom naszych klientów.
+								Ons ervaren team bestaat uit hooggekwalificeerde vakmensen die
+								klaar staan voor diverse taken, van kleine reparaties tot
+								uitgebreide renovaties. We zijn voorbereid om verschillende
+								bouwprojecten uit te voeren met professionele kennis, precisie
+								in uitvoering en aandacht voor detail. Ongeacht de complexiteit
+								of aard van het werk, ons aanbod omvat een allesomvattende
+								service, waarbij we proberen aan de verwachtingen van klanten te
+								voldoen door professionaliteit en betrouwbaarheid in onze
+								diensten. Ons doel is niet alleen om aan technische eisen te
+								voldoen, maar ook om ruimtes te creëren die voldoen aan de
+								behoeften en verwachtingen van onze klanten.
 							</Card.Text>
 							<div className="text-center">
-								<Link href="#ogolne2" className="m-1">
+								<Link href="#bouwwerkzaamheden2" className="m-1">
 									<Button className="btn-nav btn-lg">
 										{" "}
 										<MdDoubleArrow
@@ -126,13 +126,14 @@ function Header9() {
 						</Card.Body>
 					</Card>
 				</Col>
+
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogolne3.jpg"
 						width={400}
 						height={400}
 						className="responsive-image rounded shadow-lg"
-						alt="Sanity Image"
+						alt="allesvoorhuis"
 					/>
 				</Col>
 			</Row>

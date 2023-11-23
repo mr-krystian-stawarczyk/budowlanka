@@ -114,7 +114,7 @@ function Dienste1() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg rounded "
-						alt="Sanity Image"
+						alt="werk1"
 					/>
 				</Col>
 			</Row>

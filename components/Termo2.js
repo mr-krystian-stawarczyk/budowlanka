@@ -86,7 +86,7 @@ function Termo2() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="termoisolatie4"
 					/>
 				</Col>{" "}
 				<Col lg={5} className="mx-auto my-2 ">

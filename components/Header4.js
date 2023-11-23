@@ -85,24 +85,25 @@ function Header4() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold"> Tynki Dla Twojego Domu</h1>
+							<h1 className="text-bold"> Pleisterwerk voor uw huis</h1>
 							<Card.Text>
-								Oferujemy kompleksowe usługi tynkowania, które obejmują szeroki
-								zakres prac związanych z wykończeniem ścian zarówno wewnątrz,
-								jak i na zewnątrz budynków. Nasz doświadczony zespół
-								specjalistów gwarantuje precyzję wykonania oraz wysoką jakość
-								świadczonych usług. Dzięki różnorodności technik i materiałów,
-								których używamy, jesteśmy w stanie sprostać różnym oczekiwaniom
-								klientów, dostosowując się zarówno do tradycyjnych, jak i
-								nowoczesnych preferencji w aranżacji wnętrz. Dbamy nie tylko o
-								estetykę wykończenia, ale również o trwałość i funkcjonalność
-								naszych tynków, aby zapewnić długotrwałe efekty i zadowolenie
-								naszych klientów.
+								Wij bieden uitgebreide pleisterwerkdiensten aan die een breed
+								scala aan werkzaamheden omvatten met betrekking tot het afwerken
+								van muren, zowel binnen als buiten gebouwen. Ons ervaren team
+								van specialisten staat garant voor nauwkeurigheid en hoge
+								kwaliteit van de geleverde diensten. Dankzij de verscheidenheid
+								aan technieken en materialen die we gebruiken, kunnen we voldoen
+								aan verschillende verwachtingen van klanten door zowel
+								traditionele als moderne interieurvoorkeuren aan te passen. We
+								zorgen niet alleen voor de esthetiek van de afwerking, maar ook
+								voor de duurzaamheid en functionaliteit van onze pleisters, om
+								langdurige resultaten en tevredenheid van onze klanten te
+								garanderen.
 							</Card.Text>
 						</Card.Body>
 					</Card>
 					<div className="text-center">
-						<Link href="#tynki2" className="m-1">
+						<Link href="#pleisterwerk2" className="m-1">
 							<Button className="btn-nav btn-lg">
 								{" "}
 								<MdDoubleArrow
@@ -123,7 +124,7 @@ function Header4() {
 						width={400}
 						height={400}
 						className="responsive-image rounded shadow-lg"
-						alt="Sanity Image"
+						alt="pleisterwerk1"
 					/>
 				</Col>
 			</Row>

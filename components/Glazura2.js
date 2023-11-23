@@ -86,22 +86,22 @@ function Glazura2() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="glazuur2"
 					/>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
+					<Card className="border-0 bg-transparent">
 						<Card.Body>
-							<h1 className="text-bold">Precyzyjne Układanie Glazury</h1>
+							<h1 className="text-bold">Nauwkeurige Tegelplaatsing</h1>
 							<Card.Text>
-								Nasz zespół to doświadczeni glazurnicy, dla których praca to
-								wyraz pasji. Nieustannie dążymy do perfekcji, by zapewnić nie
-								tylko najwyższą jakość usług, ale także stworzyć wnętrza, które
-								zachwycają swoją estetyką. Każdy detal jest dla nas ważny, a
-								precyzja i troska o detale to fundamenty, na których budujemy
-								nasze projekty. Pozwól nam nadać Twoim pomieszczeniom
-								niepowtarzalny wygląd, który w pełni odzwierciedli Twój gust i
-								styl życia.
+								Ons team bestaat uit ervaren tegelzetters voor wie werk een
+								uitdrukking van passie is. We streven voortdurend naar perfectie
+								om niet alleen de hoogste kwaliteit van dienstverlening te
+								garanderen, maar ook interieurs te creëren die indruk maken met
+								hun esthetiek. Elk detail is belangrijk voor ons, en precisie en
+								zorg voor details zijn de fundamenten waarop we onze projecten
+								bouwen. Laat ons je ruimtes een unieke uitstraling geven die
+								volledig jouw smaak en levensstijl weerspiegelt.
 							</Card.Text>
 							<Card.Text></Card.Text>
 							<Card.Text></Card.Text>

@@ -81,20 +81,21 @@ function Glazura3() {
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 ">
-					<Card className="border-0 bg-transparent ">
+					<Card className="border-0 bg-transparent">
 						<Card.Body>
-							<h1 className="text-bold">Glazura Bez Kompromisów</h1>
+							<h1 className="text-bold">Tegelwerk Zonder Compromissen</h1>
 							<Card.Text>
-								Nasza praca to nie tylko układanie kafelków - to wyjątkowy
-								proces, w którym dbamy o każdy detal. Nasz zespół to nie tylko
-								fachowcy, lecz pasjonaci, którzy wkładają serce w każdy projekt.
-								Rozumiemy, że glazura to nie tylko element wykończenia, ale
-								kluczowy składnik, który nadaje charakter pomieszczeniom.
-								Dlatego nasze podejście opiera się na solidności,
-								profesjonalizmie i nieustannej trosce o jakość wykonania. Z DG
-								BOUWGROEP otrzymujesz nie tylko usługę, lecz prawdziwe dzieło
-								sztuki rzemieślniczej, które odzwierciedla Twoje oczekiwania i
-								nadaje unikalny charakter Twoim przestrzeniom.
+								Ons werk is niet alleen het leggen van tegels - het is een uniek
+								proces waarin we elk detail koesteren. Ons team bestaat niet
+								alleen uit vakmensen, maar uit gepassioneerde individuen die hun
+								hart en ziel in elk project steken. We begrijpen dat tegelwerk
+								niet alleen een afwerkingsdetail is, maar een essentieel element
+								dat karakter geeft aan ruimtes. Daarom is onze aanpak gebaseerd
+								op betrouwbaarheid, professionaliteit en voortdurende aandacht
+								voor kwaliteit in uitvoering. Met DG BOUWGROEP krijg je niet
+								alleen een dienst, maar een echt ambachtelijk kunstwerk dat jouw
+								verwachtingen weerspiegelt en een uniek karakter aan jouw
+								ruimtes geeft.
 							</Card.Text>
 							<Card.Text></Card.Text>
 							<Card.Text></Card.Text>
@@ -107,7 +108,7 @@ function Glazura3() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="glazuur3"
 					/>
 				</Col>
 			</Row>

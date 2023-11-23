@@ -118,7 +118,7 @@ function Tynki3() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="pleister6"
 					/>
 				</Col>{" "}
 			</Row>

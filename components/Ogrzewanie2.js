@@ -78,19 +78,21 @@ function Ogrzewanie2() {
 		<Container
 			fluid
 			className="d-flex bg-white text-dark py-3 align-items-center justify-content-center"
-			id="ogrzewanie2"
+			id="vloerverwarming2"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">SCHEMAT MONTAŻU MATY GRZEWCZEJ</h1>
-							<Card.Text>1.Wylewka cementowa</Card.Text>
-							<Card.Text>2.Mata grzewcza</Card.Text>{" "}
+							<h1 className="text-bold">
+								INSTALLATIESCHEMA VAN DE VLOERVERWARMINGSMAT
+							</h1>
+							<Card.Text>1. Cementdekvloer</Card.Text>
+							<Card.Text>2. Vloerverwarmingsmat</Card.Text>{" "}
 							<Card.Text>
-								3.Klej do ogrzewania podłogowego lub masa samopoziomująca
+								3. Vloerverwarmingslijm of zelfnivellerende mortel
 							</Card.Text>{" "}
-							<Card.Text>4.Płytki ceramiczne/parkiet/kamień</Card.Text>
+							<Card.Text>4. Tegels/parketvloer/natuursteen</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>{" "}
@@ -100,7 +102,7 @@ function Ogrzewanie2() {
 						width={400}
 						height={400}
 						className="responsive-image shadow-lg"
-						alt="Sanity Image"
+						alt="verwarming2"
 					/>
 				</Col>{" "}
 			</Row>
