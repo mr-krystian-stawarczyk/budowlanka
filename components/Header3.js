@@ -78,9 +78,7 @@ function Header3() {
 	return (
 		<Container
 			fluid
-			className={`d-flex mt-4 align-items-center bg-light text-dark justify-content-center ${
-				isMobile ? "min-vh-100" : "vh-100"
-			}`}
+			className="mt-5 py-5 align-items-center bg-light text-dark justify-content-center "
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 text-center ">

@@ -85,9 +85,7 @@ function Header5() {
 	return (
 		<Container
 			fluid
-			className={`d-flex py-3 align-items-center bg-light text-dark justify-content-center ${
-				isMobile ? "min-vh-100" : "vh-100"
-			}`}
+			className="mt-5 py-3 align-items-center bg-light text-dark justify-content-center "
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 text-center ">
@@ -120,7 +118,7 @@ function Header5() {
 								creëren dat uniek is in uiterlijk en kwaliteit.
 							</Card.Text>
 							<div className="text-center">
-								<Link href="#glazura2" className="m-1">
+								<Link href="#glazuur2" className="m-1">
 									<Button className="btn-nav btn-lg">
 										{" "}
 										<MdDoubleArrow

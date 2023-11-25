@@ -78,7 +78,7 @@ function Glazura1() {
 		<Container
 			fluid
 			className="d-flex py-3 bg-light text-dark align-items-center justify-content-center"
-			id="glazuur"
+			id="glazuur2"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 ">
