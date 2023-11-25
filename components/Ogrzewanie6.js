@@ -64,7 +64,7 @@ function Ogrzewanie6() {
 	return (
 		<Container
 			fluid
-			className="  text-dark blur-bg  align-items-center  p-2 border-0  "
+			className="text-dark blur-bg  align-items-center overflow-hidden  p-2 border-0  "
 			ref={sectionRef}
 		>
 			<Row
@@ -78,9 +78,9 @@ function Ogrzewanie6() {
 				<Row className="py-3 text-center ">
 					<Col>
 						{" "}
-						<h1 className="my-5 text-bold">
+						<h5 className="my-5 text-bold">
 							VOORDELEN VAN HET GEBRUIK VAN VLOERVERWARMINGSMATTEN
-						</h1>
+						</h5>
 					</Col>
 				</Row>{" "}
 				<Row className="text-center justify-content-center align-items-center align-self-center">

@@ -88,20 +88,27 @@ function Ogolne2() {
 							</h1>
 							<Card.Text>
 								Jouw huis moet een plek zijn die jouw unieke leven en stijl
-								weerspiegelt. Bij DG BOUWGROEP begrijpen we die behoefte heel
-								goed. Ons werk gaat niet alleen over renovaties of het
-								schilderen van muren. Het is het verhaal van elk project waarin
-								we uniciteit en potentieel vinden.
+								weerspiegelt.
 							</Card.Text>
+
+							<Card.Text>
+								Bij DG BOUWGROEP begrijpen we die behoefte heel goed. Ons werk
+								gaat niet alleen over renovaties of het schilderen van muren.
+								Het is het verhaal van elk project waarin we uniciteit en
+								potentieel vinden.
+							</Card.Text>
+							<Card.Text></Card.Text>
 							<Card.Text>
 								Daarom betrekt ons team van specialisten zich bij elke fase van
 								het werk, altijd met zorg voor jouw behoeften. Onze precisie
 								gaat hand in hand met het voortdurend zoeken naar de beste
-								oplossingen. Laat ons veranderingen aanbrengen die niet alleen
-								de uitstraling van jouw huis vernieuwen, maar er ook voor zorgen
-								dat het perfect past bij jouw leven.
+								oplossingen.
 							</Card.Text>
-							<Card.Text></Card.Text>
+							<Card.Text>
+								Laat ons veranderingen aanbrengen die niet alleen de uitstraling
+								van jouw huis vernieuwen, maar er ook voor zorgen dat het
+								perfect past bij jouw leven.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
@@ -109,8 +116,8 @@ function Ogolne2() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogolne5.jpg"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="bouw3"
 					/>

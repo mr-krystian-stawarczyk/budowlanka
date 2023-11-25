@@ -77,16 +77,16 @@ function Ogrzewanie2() {
 	return (
 		<Container
 			fluid
-			className="d-flex bg-white text-dark py-3 align-items-center justify-content-center"
+			className=" bg-white text-dark py-3 align-items-center justify-content-center"
 			id="vloerverwarming2"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">
+							<h2 className="text-bold">
 								INSTALLATIESCHEMA VAN DE VLOERVERWARMINGSMAT
-							</h1>
+							</h2>
 							<Card.Text>1. Cementdekvloer</Card.Text>
 							<Card.Text>2. Vloerverwarmingsmat</Card.Text>{" "}
 							<Card.Text>
@@ -99,8 +99,8 @@ function Ogrzewanie2() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogrzewanie3.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="verwarming2"
 					/>

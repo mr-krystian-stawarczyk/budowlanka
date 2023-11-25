@@ -84,8 +84,8 @@ function Termozew2() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termozew2.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="buitenisolatie2"
 					/>
@@ -98,15 +98,19 @@ function Termozew2() {
 								De kosten voor het isoleren van een gevel aan de buitenzijde
 								zijn afhankelijk van een aantal factoren. Denk onder andere aan
 								de isolatiewaarde, het type isolatie en het gewenste type
-								afwerking van de gevel. Naast de kosten voor de
-								buitengevelisolatie zijn er vaak ook nog bijkomende kosten
-								inzake het verleggen van de raamdorpelstenen, zetwerk en
-								afwerking rondom kozijnen en het aanpassen van de
-								hemelwaterafvoer en dakgoot. In de prakijkt zien wij een
-								gemiddelde kostprijs van circa € 200,- tot € 300,- per m2
-								inclusief btw. Het is aan te bevelen de werkzaamheden inzake een
-								buitengevelisolatie door een gespecialiseerd bedrijf te laten
-								verrichten. 
+								afwerking van de gevel.
+							</Card.Text>
+							<Card.Text>
+								Naast de kosten voor de buitengevelisolatie zijn er vaak ook nog
+								bijkomende kosten inzake het verleggen van de raamdorpelstenen,
+								zetwerk en afwerking rondom kozijnen en het aanpassen van de
+								hemelwaterafvoer en dakgoot. 
+							</Card.Text>
+							<Card.Text>
+								In de prakijkt zien wij een gemiddelde kostprijs van circa €
+								200,- tot € 300,- per m2 inclusief btw. Het is aan te bevelen de
+								werkzaamheden inzake een buitengevelisolatie door een
+								gespecialiseerd bedrijf te laten verrichten. 
 							</Card.Text>
 						</Card.Body>
 					</Card>

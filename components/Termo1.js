@@ -78,7 +78,7 @@ function Termo1() {
 		<Container
 			fluid
 			className="d-flex bg-light text-dark py-3 align-items-center justify-content-center"
-			id="termo2"
+			id="isolatie2"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 ">
@@ -109,8 +109,8 @@ function Termo1() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termo3.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="termoisolatie3"
 					/>

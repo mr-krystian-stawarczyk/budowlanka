@@ -91,15 +91,19 @@ function Termowew1() {
 								maatregel, maar het kan je energieverbruik flink terugdringen.
 								Een gemiddeld huis verliest 20% tot 40% warmte via de muren.
 								Daarmee is de muur, na het dak, de grootste factor in het
-								bepalen van de energiezuinigheid van uw huis. Dit betekent bij
-								een gemiddeld gasverbruik van 1.900 m3 gas een verlies van €550
-								tot ongeveer €1.100 per jaar (€1,45 per m3, prijspeil januari
-								2023). Dat is een flink bedrag wat u kunt besparen door
-								muurisolatie toe te passen. Daarnaast verhoogt u het comfort in
-								de woning. Koude muren en daarbijbehorende koudeval zijn
-								verleden tijd. Koudeval is een belangrijke veroorzaker van tocht
-								in huis.
+								bepalen van de energiezuinigheid van uw huis.
 							</Card.Text>
+							<Card.Text>
+								{" "}
+								Dit betekent bij een gemiddeld gasverbruik van 1.900 m3 gas een
+								verlies van €550 tot ongeveer €1.100 per jaar (€1,45 per m3,
+								prijspeil januari 2023). Dat is een flink bedrag wat u kunt
+								besparen door muurisolatie toe te passen. Daarnaast verhoogt u
+								het comfort in de woning. Koude muren en daarbijbehorende
+								koudeval zijn verleden tijd. Koudeval is een belangrijke
+								veroorzaker van tocht in huis.
+							</Card.Text>
+
 							<Card.Text>
 								Het isoleren aan de binnenkant van de woning wordt steeds vaker
 								toegepast. Door van binnenuit te isoleren kun je prima
@@ -114,8 +118,8 @@ function Termowew1() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termowew1.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="binnenisolatie1"
 					/>

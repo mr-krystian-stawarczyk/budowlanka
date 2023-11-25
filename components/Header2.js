@@ -89,14 +89,20 @@ function Header2() {
 							<h1 className="text-bold"> Professionele Ramen</h1>
 							<Card.Text>
 								Onze ervaren specialisten bieden deskundig advies in elke fase
-								van het kiezen en installeren van ramen. Dankzij onze toewijding
-								aan kwaliteit en precisie in uitvoering, kun je er zeker van
-								zijn dat je niet alleen producten van topklasse ontvangt, maar
-								ook professionele service. We zorgen voor elk detail om onze
-								klanten niet alleen uitstekende functionaliteit te bieden, maar
-								ook duurzaamheid en esthetiek voor jaren. Met ons is het
-								vervangen van ramen niet alleen een investering in het comfort
-								van je huis, maar ook in de waarde ervan.
+								van het kiezen en installeren van ramen.
+							</Card.Text>
+							<Card.Text>
+								{" "}
+								Dankzij onze toewijding aan kwaliteit en precisie in uitvoering,
+								kun je er zeker van zijn dat je niet alleen producten van
+								topklasse ontvangt, maar ook professionele service.
+							</Card.Text>
+							<Card.Text>
+								We zorgen voor elk detail om onze klanten niet alleen
+								uitstekende functionaliteit te bieden, maar ook duurzaamheid en
+								esthetiek voor jaren. Met ons is het vervangen van ramen niet
+								alleen een investering in het comfort van je huis, maar ook in
+								de waarde ervan.{" "}
 							</Card.Text>
 							<Card.Text className="text-center">
 								<span className="text-uppercase text-bold ">
@@ -125,8 +131,8 @@ function Header2() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/okna3.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg rounded"
 						alt="ramen3"
 					/>

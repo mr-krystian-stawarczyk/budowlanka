@@ -83,8 +83,8 @@ function Glazura2() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/glazura6.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="glazuur2"
 					/>
@@ -95,16 +95,19 @@ function Glazura2() {
 							<h1 className="text-bold">Nauwkeurige Tegelplaatsing</h1>
 							<Card.Text>
 								Ons team bestaat uit ervaren tegelzetters voor wie werk een
-								uitdrukking van passie is. We streven voortdurend naar perfectie
-								om niet alleen de hoogste kwaliteit van dienstverlening te
-								garanderen, maar ook interieurs te creëren die indruk maken met
-								hun esthetiek. Elk detail is belangrijk voor ons, en precisie en
-								zorg voor details zijn de fundamenten waarop we onze projecten
-								bouwen. Laat ons je ruimtes een unieke uitstraling geven die
-								volledig jouw smaak en levensstijl weerspiegelt.
+								uitdrukking van passie is.
 							</Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
+							<Card.Text>
+								We streven voortdurend naar perfectie om niet alleen de hoogste
+								kwaliteit van dienstverlening te garanderen, maar ook interieurs
+								te creëren die indruk maken met hun esthetiek.{" "}
+							</Card.Text>
+							<Card.Text>
+								Elk detail is belangrijk voor ons, en precisie en zorg voor
+								details zijn de fundamenten waarop we onze projecten bouwen.
+								Laat ons je ruimtes een unieke uitstraling geven die volledig
+								jouw smaak en levensstijl weerspiegelt.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>

@@ -13,8 +13,11 @@ function pleisterwerk() {
 	return (
 		<div className="">
 			<Head>
-				<title>Pleisterwerk</title>
-				<meta name="" content="" />
+				<title>Kunst van Stukadoorswerk | DG Bouwgroep</title>
+				<meta
+					name="description"
+					content="Ontdek de kunst van stukadoorswerk bij DG Bouwgroep. Wij bieden hoogwaardige pleisterdiensten aan voor uw woning, met vakmanschap en precisie, om uw muren te transformeren en een perfecte afwerking te garanderen."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 

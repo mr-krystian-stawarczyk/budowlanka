@@ -83,8 +83,8 @@ function Okna4() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/okna44.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="ramen44"
 					/>
@@ -96,15 +96,20 @@ function Okna4() {
 							<Card.Text>
 								Een aantal jaar geleden waren houten kozijnen de meest verkochte
 								kozijnen in Nederland. Inmiddels zijn de houten kozijnen
-								ingehaald door de kunststof kozijnen. De laatste jaren
-								ondervinden de kunststof kozijnen een enorme opmars. Kunststof
-								is een materiaal met een aantal belangrijke eigenschappen. Het
-								materiaal is niet elektrostatisch wat tot gevolg heeft dat
-								stofdeeltjes en vuildeeltjes niet worden aangetrokken. Daarnaast
-								heeft het materiaal een goede isolatiewaarde. Een kunststof
-								kozijn in combinatie met de juiste beglazing kan er tevens voor
-								zorgen dat uw energierekening flink om laag gaat. De voordelen
-								van kunststof kozijnen
+								ingehaald door de kunststof kozijnen.
+							</Card.Text>
+							<Card.Text>
+								De laatste jaren ondervinden de kunststof kozijnen een enorme
+								opmars. Kunststof is een materiaal met een aantal belangrijke
+								eigenschappen. Het materiaal is niet elektrostatisch wat tot
+								gevolg heeft dat stofdeeltjes en vuildeeltjes niet worden
+								aangetrokken.{" "}
+							</Card.Text>
+							<Card.Text>
+								Daarnaast heeft het materiaal een goede isolatiewaarde. Een
+								kunststof kozijn in combinatie met de juiste beglazing kan er
+								tevens voor zorgen dat uw energierekening flink om laag gaat. De
+								voordelen van kunststof kozijnen.
 							</Card.Text>
 							<Card.Text>
 								- Zeer onderhoudsarm en tevens onderhoudsvriendelijk

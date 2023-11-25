@@ -14,15 +14,12 @@ import { Nav } from "react-bootstrap";
 import Link from "next/link";
 const Werk8 = () => {
 	const [products, setProducts] = useState([
-		"/assets/1.jpeg",
-		"/assets/2.jpg",
-		"/assets/3.jpeg",
-		"/assets/4.jpg",
-		"/assets/5.jpg",
-		"/assets/6.jpeg",
-		"/assets/7.jpeg",
-		"/assets/8.jpg",
-		"/assets/9.jpg",
+		"/assets/ogolne11.jpg",
+		"/assets/ogolne12.jpg",
+		"/assets/ogolne14.jpg",
+		"/assets/ogolne15.jpg",
+		"/assets/ogolne1.jpg",
+		"/assets/ogolne2.jpg",
 	]);
 	const [productsPerSlide, setProductsPerSlide] = useState(3);
 	const [showModal, setShowModal] = useState(false);
@@ -138,7 +135,7 @@ const Werk8 = () => {
 											<Image
 												width={250}
 												height={350}
-												className="d-block w-100 p-4"
+												className="d-block w-100 p-4 "
 												src={product}
 												alt={`Product ${index * productsPerSlide + idx}`}
 												style={{ cursor: "pointer" }}

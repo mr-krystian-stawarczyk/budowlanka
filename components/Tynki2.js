@@ -85,8 +85,8 @@ function Tynki2() {
 					{" "}
 					<Image
 						src="/assets/tynki5.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="pleister5"
 					/>
@@ -94,24 +94,30 @@ function Tynki2() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Spuit pleisterwerk</h1>
+							<h1 className="text-bold">Spuit pleisterwerk</h1>
 							<Card.Text>
 								Spuitpleister, ook wel pleisterwerk genoemd, is een dunne laag
 								gips die op de ondergrond wordt gespoten. Het zorgt voor een
 								gladde afwerking van wanden, waardoor deze gereed zijn voor
 								verdere behandeling zoals verven, spack aanbrengen of behangen.
+							</Card.Text>
+							<Card.Text>
 								Het heeft diverse voordelen, zoals kostenefficiëntie,
 								gemakkelijke reparatie van scheurtjes en de mogelijkheid om
 								oneffenheden niet vooraf te hoeven herstellen, waardoor het
 								onderhoudsvriendelijk is.
 							</Card.Text>
 							<Card.Text>
+								{" "}
 								Bovendien kan spuitpleister in elke gewenste kleur worden
 								aangebracht en geverfd, waardoor het aan jouw voorkeuren kan
-								worden aangepast. Ook biedt het de mogelijkheid om verschillende
-								afwerkingen te kiezen, zoals een gladde verflaag met latex of
-								een korrelige structuur met spack, waarbij je kunt variëren
-								tussen grove en fijne structuren.
+								worden aangepast.
+							</Card.Text>
+							<Card.Text>
+								Ook biedt het de mogelijkheid om verschillende afwerkingen te
+								kiezen, zoals een gladde verflaag met latex of een korrelige
+								structuur met spack, waarbij je kunt variëren tussen grove en
+								fijne structuren.
 							</Card.Text>
 						</Card.Body>
 					</Card>

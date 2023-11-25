@@ -83,16 +83,18 @@ function Tynki6() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Spuitpleister prijs</h1>
+							<h1 className="text-bold">Spuitpleister prijs</h1>
 							<Card.Text>
 								Pleister spuiten is een van de goedkoopste stucwerkopties,
 								doorgaans tussen €15 en €25 per vierkante meter voor plafonds of
 								wanden. De locatie van toepassing heeft weinig invloed op de
 								prijs. Zelf doen kan goedkoper zijn, maar als het om plafonds
-								gaat, is het raadzaam een professional in te huren. Bij ernstige
-								oneffenheden wordt vaak voor raapwerk gekozen, waarbij tot wel
-								€15 tot €35 per vierkante meter kan worden berekend voor een
-								dikkere laag en extra afwerking.
+								gaat, is het raadzaam een professional in te huren.
+							</Card.Text>{" "}
+							<Card.Text>
+								Bij ernstige oneffenheden wordt vaak voor raapwerk gekozen,
+								waarbij tot wel €15 tot €35 per vierkante meter kan worden
+								berekend voor een dikkere laag en extra afwerking.
 							</Card.Text>
 							<Card.Text>
 								Speciale opties, zoals sierpleister of unieke afwerkingen zoals
@@ -109,8 +111,8 @@ function Tynki6() {
 					{" "}
 					<Image
 						src="/assets/tynki8.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="pleister8"
 					/>

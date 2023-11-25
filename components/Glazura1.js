@@ -88,24 +88,26 @@ function Glazura1() {
 							<Card.Text>
 								Onze tegelmeesters zijn ware kunstenaars in hun vak. Hun werk is
 								niet alleen het leggen van tegels, maar het creëren van
-								composities waarin details tot leven komen. Elke stap in het
-								tegelzetten is uiterst belangrijk voor ons. We streven naar
-								perfectie in uitvoering, zodat het eindresultaat niet alleen
-								esthetisch, maar ook functioneel is. Met DG BOUWGROEP krijg je
-								een service waar precisie en zorg hand in hand gaan met de
-								passie voor het creëren van ruimtes die zich onderscheiden door
-								hun unieke karakter.
+								composities waarin details tot leven komen.
 							</Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
+							<Card.Text>
+								Elke stap in het tegelzetten is uiterst belangrijk voor ons. We
+								streven naar perfectie in uitvoering, zodat het eindresultaat
+								niet alleen esthetisch, maar ook functioneel is.{" "}
+							</Card.Text>
+							<Card.Text>
+								Met DG BOUWGROEP krijg je een service waar precisie en zorg hand
+								in hand gaan met de passie voor het creëren van ruimtes die zich
+								onderscheiden door hun unieke karakter.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/glazura7.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="glazuur1"
 					/>

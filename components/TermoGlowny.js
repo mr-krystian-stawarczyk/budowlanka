@@ -17,11 +17,11 @@ function TermoGlowny() {
 			fluid
 			className="py-3 my-2 bg-light text-dark align-items-center justify-content-center"
 		>
-			<Row className="text-center mt-5 pt-5">
+			<Row className="text-center mt-2  pt-5">
 				<h1 className="text-bold text-uppercase">
 					Wij zijn isolatiespecialisten
 				</h1>
-				<h5 className="py-3">
+				<h5 className="py-1">
 					Dankzij onze producten kunt u genieten van een gelijkmatig verdeelde
 					temperatuur in de kamers, wat een aanzienlijke impact heeft op het
 					dagelijkse welzijn van de leden van het huishouden. Bovendien
@@ -38,7 +38,7 @@ function TermoGlowny() {
 						src="/assets/termo2.jpg"
 						width={300}
 						height={300}
-						className="responsive-image shadow-lg termo-hover"
+						className="responsive-image shadow-lg "
 						alt="termoisolatie2"
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
@@ -58,7 +58,7 @@ function TermoGlowny() {
 						src="/assets/termowew2.png"
 						width={300}
 						height={300}
-						className="responsive-image shadow-lg termo-hover"
+						className="responsive-image shadow-lg "
 						alt="binnenisolatie2"
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
@@ -78,7 +78,7 @@ function TermoGlowny() {
 						src="/assets/termozew2.png"
 						width={300}
 						height={300}
-						className="responsive-image shadow-lg termo-hover"
+						className="responsive-image shadow-lg "
 						alt="buitenisolatie"
 					/>{" "}
 					<Card className="border-0 bg-transparent ">

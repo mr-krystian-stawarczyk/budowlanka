@@ -97,7 +97,7 @@ const Footer = () => {
 					<Card style={{ maxWidth: "21rem" }} className=" rounded  border-0  ">
 						<Card.Body className="">
 							<h3 className="my-3 text-bold">Ons Bedrijf</h3>
-							<Link href="/about" className="footer-links">
+							<Link href="/overons" className="footer-links">
 								<Card.Text className="py-2 hover ">Over Ons</Card.Text>
 							</Link>
 							<Link href="/contact" className="footer-links">
@@ -156,7 +156,7 @@ const Footer = () => {
 
 				<Col>
 					<Link href="/policy" className="footer-links ">
-						<h6 className="hover">Politiek & Impressium</h6>
+						<h6 className="hover">Politik & Impressium</h6>
 					</Link>
 				</Col>
 				<Col className="hover">

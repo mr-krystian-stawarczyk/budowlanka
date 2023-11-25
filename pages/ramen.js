@@ -13,8 +13,11 @@ function ramen() {
 	return (
 		<div className="">
 			<Head>
-				<title>Ramen</title>
-				<meta name="" content="" />
+				<title>Verkoop en Installatie van Ramen | DG Bouwgroep</title>
+				<meta
+					name="description"
+					content="Zoek niet verder voor hoogwaardige ramen. DG Bouwgroep biedt professionele verkoop en installatie van ramen aan. Ontdek ons assortiment hoogwaardige ramen en profiteer van vakkundige plaatsing en service op maat."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Header2 />

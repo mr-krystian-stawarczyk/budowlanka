@@ -90,16 +90,21 @@ function Ogolne4() {
 								Bij DG BOUWGROEP leggen we de nadruk op harmonie tussen moderne
 								technologieën en traditioneel vakmanschap. Elk project waar we
 								aan werken is een mix van innovatie en klassieke stijl, wat
-								unieke interieurs creëert. Onze passie voor perfectie betekent
-								dat we geen ruimte laten voor willekeurigheid.
+								unieke interieurs creëert.
 							</Card.Text>
+							<Card.Text>
+								Onze passie voor perfectie betekent dat we geen ruimte laten
+								voor willekeurigheid.
+							</Card.Text>{" "}
 							<Card.Text>
 								Ons team bestaat uit mensen die gepassioneerd zijn over het
 								creëren van ruimtes die niet alleen visueel aantrekkelijk zijn,
-								maar bovenal functioneel aansluiten bij jouw behoeften. Sta ons
-								toe deel uit te maken van het creatieproces - van concept tot
-								het laatste detail - en laten we samen het potentieel van jouw
-								huis ontdekken.
+								maar bovenal functioneel aansluiten bij jouw behoeften.
+							</Card.Text>
+							<Card.Text>
+								Sta ons toe deel uit te maken van het creatieproces - van
+								concept tot het laatste detail - en laten we samen het
+								potentieel van jouw huis ontdekken.
 							</Card.Text>
 							<Card.Text></Card.Text>
 						</Card.Body>
@@ -109,8 +114,8 @@ function Ogolne4() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogolne8.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="bouw8"
 					/>

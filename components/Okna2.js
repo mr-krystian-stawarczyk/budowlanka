@@ -92,8 +92,8 @@ function Okna2() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/okna33.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="ramen33"
 					/>
@@ -109,8 +109,10 @@ function Okna2() {
 								Of het vervangen van de kozijnen de juiste stap is om mee te
 								beginnen is afhankelijk van een aantal factoren. Wij raden het
 								aan om de kozijnen direct te vervangen op het moment dat je nog
-								in het bezit bent van oude kozijnen met enkele beglazing. Je
-								gaat dit gelijk merken in het comfort en op de energienota.
+								in het bezit bent van oude kozijnen met enkele beglazing.
+							</Card.Text>
+							<Card.Text>
+								Je gaat dit gelijk merken in het comfort en op de energienota.
 								Daarnaast zorgt het ook voor een betere woningwaarde. Als de
 								kozijnen nog in een goede staat zijn adviseren wij om eerst te
 								kijken naar andere isolerende maatregelen of enkel het vervangen
@@ -120,6 +122,8 @@ function Okna2() {
 								Met het oog op een gasloze woning adviseren wij om te kiezen
 								voor kozijnen met driedubbele beglazing. Met de keuze voor
 								drievoudige beglazing beperk je de energievraag in de woning.
+							</Card.Text>
+							<Card.Text>
 								Dit zorgt er voor dat je minder energie nodig hebt om de woning
 								op de juiste temperatuur te krijgen. Een goed geïsoleerde woning
 								zorgt er voor dat je op termijn ook met lagere temperaturen de

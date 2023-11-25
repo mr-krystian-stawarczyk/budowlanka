@@ -12,8 +12,11 @@ function bouwwerkzaamheden() {
 	return (
 		<div className="">
 			<Head>
-				<title>Bouwwerkzaamheden</title>
-				<meta name="" content="" />
+				<title>Vakmanschap in Bouwwerkzaamheden | DG Bouwgroep</title>
+				<meta
+					name="description"
+					content="Ontdek vakmanschap in bouwwerkzaamheden bij DG Bouwgroep. Wij bieden hoogwaardige bouwdiensten, waar expertise en toewijding samenkomen om uw projecten te realiseren met aandacht voor detail en kwaliteit."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Header9 />

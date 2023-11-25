@@ -92,8 +92,8 @@ function Termozew5() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termo3.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="buitenisolatie3"
 					/>

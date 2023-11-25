@@ -89,13 +89,16 @@ function Okna3() {
 							<Card.Text>
 								De kosten voor het vervangen van kozijnen in combinatie met het
 								vervangen van glas zijn van zeer veel factoren afhankelijk. Laat
-								de kozijnen ter plaatse inmeten voor de definitieve opdracht. De
-								belangrijkste invloed factoren op de prijs zijn onder andere het
-								type materiaal van het kozijn (hout, kunststof of aluminium),
-								type beglazing (HR++ of HR+++ glas), ventilatievoorzieningen in
-								het kozijn, schuifpui, vaste of draaiende delen en uiteraard de
-								afmeting van het kozijn. In de praktijk zien we daarnaast ook
-								grote verschillen tussen aanbieders in prijs.{" "}
+								de kozijnen ter plaatse inmeten voor de definitieve opdracht.
+							</Card.Text>
+							<Card.Text>
+								De belangrijkste invloed factoren op de prijs zijn onder andere
+								het type materiaal van het kozijn (hout, kunststof of
+								aluminium), type beglazing (HR++ of HR+++ glas),
+								ventilatievoorzieningen in het kozijn, schuifpui, vaste of
+								draaiende delen en uiteraard de afmeting van het kozijn. In de
+								praktijk zien we daarnaast ook grote verschillen tussen
+								aanbieders in prijs.
 							</Card.Text>
 							<Card.Text>
 								Over het algemeen is het daarom niet mogelijk een eenduidige
@@ -104,12 +107,15 @@ function Okna3() {
 								vierkante meter kozijnoppervlak uitgaande van toepassing van
 								HR++ glas. Echter, wanneer je nu voor de keuze staat om de
 								kozijnen te vervangen adviseren wij ten zeerste om de kozijnen
-								met HR+++ glas (triple glas) uit te voeren. De meerkosten
-								hiervan liggen rond de 20%, maar hierdoor is een extra besparing
-								van 25% mogelijk op de stookkosten ten opzichte van HR++ glas.Om
-								te anticiperen op strengere regelgeving op het gebied van
-								isolatie en de woning tevens geschikt te maken om van het
-								aardgas af te sluiten adviseren wij triple glas toe te passen.
+								met HR+++ glas (triple glas) uit te voeren.
+							</Card.Text>{" "}
+							<Card.Text>
+								De meerkosten hiervan liggen rond de 20%, maar hierdoor is een
+								extra besparing van 25% mogelijk op de stookkosten ten opzichte
+								van HR++ glas.Om te anticiperen op strengere regelgeving op het
+								gebied van isolatie en de woning tevens geschikt te maken om van
+								het aardgas af te sluiten adviseren wij triple glas toe te
+								passen.
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -117,8 +123,8 @@ function Okna3() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/okna34.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="ramen34"
 					/>

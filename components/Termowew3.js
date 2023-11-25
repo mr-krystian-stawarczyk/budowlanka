@@ -90,13 +90,19 @@ function Termowew3() {
 								woning is dat vooraf de wanden rond de te isoleren delen worden
 								vrijgemaakt. Het gaat hierbij om het verwijderen van eventuele
 								plinten, verwarmingselementen, wand- en contactdozen, gordijnen
-								inclusief de rails et cetera. Je kunt dit het beste zelf doen,
-								zodat de uitvoerende partij minder arbeidsuren maakt. Het is
-								tevens de overweging waard om meteen lage temperatuur radiatoren
-								toe te passen (of vloerverwarming). Deze radiatoren zijn dan
-								direct geschikt om in de toekomst bijvoorbeeld ook de woning te
-								verwarmen met een lagere temperatuur als je bijvoorbeeld ooit
-								een warmtepomp wilt toepassen.
+								inclusief de rails et cetera.
+							</Card.Text>
+							<Card.Text>
+								Je kunt dit het beste zelf doen, zodat de uitvoerende partij
+								minder arbeidsuren maakt. Het is tevens de overweging waard om
+								meteen lage temperatuur radiatoren toe te passen (of
+								vloerverwarming).{" "}
+							</Card.Text>
+							<Card.Text>
+								Deze radiatoren zijn dan direct geschikt om in de toekomst
+								bijvoorbeeld ook de woning te verwarmen met een lagere
+								temperatuur als je bijvoorbeeld ooit een warmtepomp wilt
+								toepassen.
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -104,8 +110,8 @@ function Termowew3() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termowew3.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image "
 						alt="binnenisolatie3"
 					/>

@@ -53,7 +53,7 @@ const NavbarComp = ({ toggleTheme }) => {
 					href="/"
 					className=" rounded  py-0 d-flex align-items-center blur"
 				>
-					<Image src="/assets/logo1.png" alt="logo" width={50} height={50} />
+					<Image src="/assets/logo1.png" alt="logo" width={40} height={40} />
 					<span>
 						<span className="mx-2 nazwa-firmy text-bold">
 							<span style={{ color: "#004E7D" }}>DG </span>
@@ -64,16 +64,10 @@ const NavbarComp = ({ toggleTheme }) => {
 				<Navbar.Toggle
 					aria-controls="responsive-navbar-nav"
 					aria-label="Toggle navigation"
-					onClick={toggleMenu}
-				>
-					{" "}
-					{menuOpen ? <FiX /> : <span>&#9776;</span>}
-				</Navbar.Toggle>
+				></Navbar.Toggle>
 				<Navbar.Collapse
 					id="basic-navbar-nav"
-					className={`${
-						menuOpen ? "show" : ""
-					} rounded justify-content-end text-center m-1 navbar-toggler border-0`}
+					className="rounded justify-content-end text-center m-1 navbar-toggler border-0"
 				>
 					<Nav className="navbar-collapse py-3 justify-content-end align-items-center text-center rounded ">
 						<Nav.Link as={Link} href="/" className="m-1">
@@ -81,7 +75,7 @@ const NavbarComp = ({ toggleTheme }) => {
 								<MdHome className="mb-1" />
 							</Button>
 						</Nav.Link>
-						<Nav.Link as={Link} href="/about" className="m-1">
+						<Nav.Link as={Link} href="/overons" className="m-1">
 							<Button
 								className="btn-md py-2 bg-transparent text-black  border-0 shadow-md "
 								style={{ textTransform: "capitalize" }}

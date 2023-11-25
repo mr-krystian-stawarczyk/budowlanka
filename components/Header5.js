@@ -93,8 +93,8 @@ function Header5() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/glazura3.jpg"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image rounded shadow-lg"
 						alt="tegelwerk"
 					/>
@@ -106,11 +106,16 @@ function Header5() {
 							<Card.Text>
 								Ongeacht de grootte van het oppervlak of de specificiteit van
 								het project, nemen we zowel eenvoudige als meer veeleisende
-								tegelwerkzaamheden aan. Door het gebruik van de beste materialen
-								en legtechnieken zorgen we niet alleen voor een esthetische en
-								elegante afwerking, maar ook voor duurzaamheid en stevigheid van
-								het werk. Ons doel is niet alleen de tevredenheid van de klant,
-								maar ook het leveren van oplossingen die zowel esthetische als
+								tegelwerkzaamheden aan.
+							</Card.Text>
+							<Card.Text>
+								Door het gebruik van de beste materialen en legtechnieken zorgen
+								we niet alleen voor een esthetische en elegante afwerking, maar
+								ook voor duurzaamheid en stevigheid van het werk.{" "}
+							</Card.Text>
+							<Card.Text>
+								Ons doel is niet alleen de tevredenheid van de klant, maar ook
+								het leveren van oplossingen die zowel esthetische als
 								functionele verwachtingen vervullen, door een oppervlak te
 								creëren dat uniek is in uiterlijk en kwaliteit.
 							</Card.Text>

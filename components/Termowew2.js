@@ -84,8 +84,8 @@ function Termowew2() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termowew2.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image "
 						alt="binnenisolatie2"
 					/>
@@ -97,12 +97,17 @@ function Termowew2() {
 							<Card.Text>
 								Op het moment dat je er voor kiest om de gevel aan de
 								binnenzijde te laten isoleren, komt de uitvoerende partij eerst
-								langs voor een inspectie. Tijdens deze inspectie wordt de
-								binnengevel gecontroleerd, de maatvoering opgenomen en je
-								persoonlijke wensen worden besproken. Op basis van deze
-								informatie maakt de uitvoerende partij een offerte. Als deze
-								offerte door jou is goedgekeurd, wordt een datum met
-								je afgesproken om de werkzaamheden uit te voeren.
+								langs voor een inspectie.
+							</Card.Text>
+							<Card.Text>
+								Tijdens deze inspectie wordt de binnengevel gecontroleerd, de
+								maatvoering opgenomen en je persoonlijke wensen
+								worden besproken.
+							</Card.Text>
+							<Card.Text>
+								Op basis van deze informatie maakt de uitvoerende partij een
+								offerte. Als deze offerte door jou is goedgekeurd, wordt een
+								datum met je afgesproken om de werkzaamheden uit te voeren.
 							</Card.Text>
 						</Card.Body>
 					</Card>

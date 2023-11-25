@@ -86,27 +86,30 @@ function Glazura3() {
 							<h1 className="text-bold">Tegelwerk Zonder Compromissen</h1>
 							<Card.Text>
 								Ons werk is niet alleen het leggen van tegels - het is een uniek
-								proces waarin we elk detail koesteren. Ons team bestaat niet
-								alleen uit vakmensen, maar uit gepassioneerde individuen die hun
-								hart en ziel in elk project steken. We begrijpen dat tegelwerk
-								niet alleen een afwerkingsdetail is, maar een essentieel element
-								dat karakter geeft aan ruimtes. Daarom is onze aanpak gebaseerd
-								op betrouwbaarheid, professionaliteit en voortdurende aandacht
-								voor kwaliteit in uitvoering. Met DG BOUWGROEP krijg je niet
-								alleen een dienst, maar een echt ambachtelijk kunstwerk dat jouw
-								verwachtingen weerspiegelt en een uniek karakter aan jouw
-								ruimtes geeft.
+								proces waarin we elk detail koesteren.
 							</Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
+							<Card.Text>
+								Ons team bestaat niet alleen uit vakmensen, maar uit
+								gepassioneerde individuen die hun hart en ziel in elk project
+								steken. We begrijpen dat tegelwerk niet alleen een
+								afwerkingsdetail is, maar een essentieel element dat karakter
+								geeft aan ruimtes.{" "}
+							</Card.Text>
+							<Card.Text>
+								Daarom is onze aanpak gebaseerd op betrouwbaarheid,
+								professionaliteit en voortdurende aandacht voor kwaliteit in
+								uitvoering. Met DG BOUWGROEP krijg je niet alleen een dienst,
+								maar een echt ambachtelijk kunstwerk dat jouw verwachtingen
+								weerspiegelt en een uniek karakter aan jouw ruimtes geeft.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/glazura5.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="glazuur3"
 					/>

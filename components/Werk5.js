@@ -14,15 +14,12 @@ import Link from "next/link";
 import { MdDoubleArrow } from "react-icons/md";
 const Werk5 = () => {
 	const [products, setProducts] = useState([
-		"/assets/1.jpeg",
-		"/assets/2.jpg",
-		"/assets/3.jpeg",
-		"/assets/4.jpg",
-		"/assets/5.jpg",
-		"/assets/6.jpeg",
-		"/assets/7.jpeg",
-		"/assets/8.jpg",
-		"/assets/9.jpg",
+		"/assets/thermo21.jpg",
+		"/assets/thermo22.jpg",
+		"/assets/thermo23.jpg",
+		"/assets/thermo24.jpg",
+		"/assets/thermo3.png",
+		"/assets/termo3.png",
 	]);
 	const [productsPerSlide, setProductsPerSlide] = useState(3);
 	const [showModal, setShowModal] = useState(false);

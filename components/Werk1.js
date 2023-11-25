@@ -101,7 +101,7 @@ function Dienste1() {
 
 							<div className="text-center">
 								<Link href="#realizacje" className="m-1">
-									<Button className="btn-nav btn-lg">Werk</Button>
+									<Button className="btn-nav ">Werk</Button>
 								</Link>
 							</div>
 						</Card.Body>
@@ -111,8 +111,8 @@ function Dienste1() {
 					{" "}
 					<Image
 						src="/assets/werk1.jpg"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg rounded "
 						alt="werk1"
 					/>

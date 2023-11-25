@@ -83,30 +83,39 @@ function Tynki3() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Hoe werkt pleister spuiten</h1>
+							<h1 className="text-bold">Hoe werkt pleister spuiten</h1>
 							<Card.Text>
 								Voordat het pleisteren begint, is voorbereiding van de
 								ondergrond nodig, hoewel spuitpleister het voordeel heeft dat er
-								minder voorbereiding vereist is. Belangrijk is vooral het
-								verstevigen van naden tussen gipsplaten of zwakkere plekken in
-								nieuwbouwwoningen. De ondergrond kan variëren van gasbeton,
-								gips, verschillende betonsoorten tot metselwerk.
+								minder voorbereiding vereist is.
+							</Card.Text>
+							<Card.Text>
+								Belangrijk is vooral het verstevigen van naden tussen gipsplaten
+								of zwakkere plekken in nieuwbouwwoningen. De ondergrond kan
+								variëren van gasbeton, gips, verschillende betonsoorten tot
+								metselwerk.
 							</Card.Text>
 							<Card.Text>
 								Pleister wordt aangebracht door vakmensen met een spuitmachine
 								onder hoge druk, wat aanzienlijk sneller gaat dan handmatig
 								aanbrengen. Vooraf dienen ramen, kozijnen en andere delen
-								afgeplakt te worden. De pleister wordt onverdund in een egale
-								laag gespoten en vervolgens gladgestreken met speciale
-								pleistermessen voordat het droogt.
+								afgeplakt te worden.
+							</Card.Text>
+							<Card.Text>
+								De pleister wordt onverdund in een egale laag gespoten en
+								vervolgens gladgestreken met speciale pleistermessen voordat het
+								droogt.
 							</Card.Text>
 							<Card.Text>
 								Na deze eerste laag spuitpleister zijn de wanden gereed voor
 								behang en hebben ze een gladde afwerking. Soms wordt er nog een
-								tweede laag aangebracht voor een optimaal resultaat. In
-								nieuwbouw wordt vaak spack spuitwerk op het plafond toegepast.
-								De muren zijn dan klaar voor behang of latexverf, maar kunnen
-								ook afgewerkt worden met een grove of fijne korrelstructuur.
+								tweede laag aangebracht voor een optimaal resultaat.
+							</Card.Text>
+							<Card.Text>
+								In nieuwbouw wordt vaak spack spuitwerk op het plafond
+								toegepast. De muren zijn dan klaar voor behang of latexverf,
+								maar kunnen ook afgewerkt worden met een grove of fijne
+								korrelstructuur.
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -115,8 +124,8 @@ function Tynki3() {
 					{" "}
 					<Image
 						src="/assets/tynki6.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="pleister6"
 					/>

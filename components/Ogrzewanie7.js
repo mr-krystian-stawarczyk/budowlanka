@@ -12,8 +12,10 @@ function Ogrzewanie7() {
 	return (
 		<Container className="bg-light  py-5" fluid id="web-design-faq">
 			<Row className="justify-content-center align-items-center">
-				<Col lg={4} md={6} xs={12} className="py-5 text-center">
-					<h1 className="text-dark text-uppercase">Veel Gestelde Vragen</h1>
+				<Col lg={4} md={6} className="py-5 text-center">
+					<h1 className="text-dark text-uppercase text-bold">
+						Veel Gestelde Vragen
+					</h1>
 				</Col>
 			</Row>
 			<Row className="justify-content-center align-items-center">

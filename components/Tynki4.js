@@ -84,8 +84,8 @@ function Tynki4() {
 					{" "}
 					<Image
 						src="/assets/tynki7.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="pleister7"
 					/>
@@ -93,7 +93,7 @@ function Tynki4() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Meest voordelige afwerking</h1>
+							<h1 className="text-bold">Meest voordelige afwerking</h1>
 							<Card.Text>
 								Pleister spuiten is voordelig vanwege minder arbeidskosten en
 								het levert stevig en glad pleisterwerk op, waardoor het veel

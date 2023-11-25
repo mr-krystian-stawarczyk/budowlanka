@@ -84,8 +84,8 @@ function Termowew5() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termowew4.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="binnenisolatie4"
 					/>
@@ -103,13 +103,19 @@ function Termowew5() {
 								van houten- of metalen profielen waartussen isolatie (platen)
 								worden geplaatst, waarover vervolgens een dampremmende folie en
 								afwerkingsplaat wordt gemonteerd. Er zijn ook verschillende
-								alles-in-één producten verkrijgbaar. Dit is isolatieplaat
-								bekleedt met een gipsplaat afwerking. Deze materialen kunnen met
-								een kleine luchtspouw of rechtstreeks tegen de gevel geplaatst
-								worden en zijn dan isolatie en afwerking in één. Hierbij zijn
-								ook speciale profielen beschikbaar voor afwerking rondom
-								kozijnen. Andere veelgebruikte materialen zijn houtvezelplaten,
-								extra isolerend cellenbeton of reflecterende folie.
+								alles-in-één producten verkrijgbaar.
+							</Card.Text>
+							<Card.Text>
+								Dit is isolatieplaat bekleedt met een gipsplaat afwerking. Deze
+								materialen kunnen met een kleine luchtspouw of rechtstreeks
+								tegen de gevel geplaatst worden en zijn dan isolatie en
+								afwerking in één.{" "}
+							</Card.Text>
+							<Card.Text>
+								Hierbij zijn ook speciale profielen beschikbaar voor afwerking
+								rondom kozijnen. Andere veelgebruikte materialen zijn
+								houtvezelplaten, extra isolerend cellenbeton of reflecterende
+								folie.
 							</Card.Text>
 							<Card.Text>
 								- De binnenkant van de muur dient droog te zijn en er mogen geen

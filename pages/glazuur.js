@@ -12,8 +12,11 @@ function glazuur() {
 	return (
 		<div className="">
 			<Head>
-				<title>Glazuur</title>
-				<meta name="" content="" />
+				<title>Kunst van Tegelwerk | DG Bouwgroep</title>
+				<meta
+					name="description"
+					content="Ontdek de kunst van tegelwerk bij DG Bouwgroep. Wij bieden hoogwaardige diensten voor het leggen van tegels, waar vakmanschap en precisie samenkomen om uw vloeren en wanden te transformeren en een prachtige afwerking te garanderen."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Header5 />

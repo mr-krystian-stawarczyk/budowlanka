@@ -13,8 +13,11 @@ function buitenisolatie() {
 	return (
 		<div className="">
 			<Head>
-				<title>Buitengevelisolatie</title>
-				<meta name="" content="" />
+				<title>Buitengevelisolatie | DG Bouwgroep</title>
+				<meta
+					name="description"
+					content="Transformeer de uitstraling en energie-efficiëntie van uw huis met onze professionele diensten voor isolatie van buitenmuren. DG Bouwgroep biedt hoogwaardige isolatiediensten voor buitenmuren, die niet alleen de energie-efficiëntie verbeteren, maar ook de esthetiek van uw huis verhogen."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Termozew1 />

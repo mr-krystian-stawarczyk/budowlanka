@@ -77,7 +77,7 @@ function Header4() {
 	return (
 		<Container
 			fluid
-			className={`d-flex py-3 align-items-center bg-white text-dark justify-content-center ${
+			className={`d-flex mt-5 align-items-center bg-white text-dark justify-content-center ${
 				isMobile ? "min-vh-100" : "vh-100"
 			}`}
 		>
@@ -91,13 +91,18 @@ function Header4() {
 								scala aan werkzaamheden omvatten met betrekking tot het afwerken
 								van muren, zowel binnen als buiten gebouwen. Ons ervaren team
 								van specialisten staat garant voor nauwkeurigheid en hoge
-								kwaliteit van de geleverde diensten. Dankzij de verscheidenheid
-								aan technieken en materialen die we gebruiken, kunnen we voldoen
-								aan verschillende verwachtingen van klanten door zowel
-								traditionele als moderne interieurvoorkeuren aan te passen. We
-								zorgen niet alleen voor de esthetiek van de afwerking, maar ook
-								voor de duurzaamheid en functionaliteit van onze pleisters, om
-								langdurige resultaten en tevredenheid van onze klanten te
+								kwaliteit van de geleverde diensten.
+							</Card.Text>
+							<Card.Text>
+								Dankzij de verscheidenheid aan technieken en materialen die we
+								gebruiken, kunnen we voldoen aan verschillende verwachtingen van
+								klanten door zowel traditionele als moderne interieurvoorkeuren
+								aan te passen.{" "}
+							</Card.Text>
+							<Card.Text>
+								We zorgen niet alleen voor de esthetiek van de afwerking, maar
+								ook voor de duurzaamheid en functionaliteit van onze pleisters,
+								om langdurige resultaten en tevredenheid van onze klanten te
 								garanderen.
 							</Card.Text>
 						</Card.Body>
@@ -121,8 +126,8 @@ function Header4() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/tynki3.jpg"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image rounded shadow-lg"
 						alt="pleisterwerk1"
 					/>

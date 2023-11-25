@@ -93,14 +93,20 @@ function Termozew1() {
 							<Card.Text>
 								Buitengevelisolatie zorgt voor isolatie én een nieuwe look van
 								de buitenmuur. Dit is interessant wanneer spouwmuurisolatie geen
-								mogelijkheid is, of voldoende resultaat geeft. Ook als de gevel
-								in slechte staat is, biedt gevelisolatie een uitkomt. Als
-								isolatiemateriaal gebruikt men meestal kunststof platen van
-								polystyreen hardschuim(XPS). Dit materiaal heeft een hoge
-								isolatiewaarde en is goed bestand tegen vocht. De isolatieplaten
-								worden vervolgens gepleisterd, afgewerkt met steen strips,
-								houten gevelbekleding of voorzien van metalen of kunststof
-								gevelpanelen.
+								mogelijkheid is, of voldoende resultaat geeft.
+							</Card.Text>
+							<Card.Text>
+								{" "}
+								Ook als de gevel in slechte staat is, biedt gevelisolatie een
+								uitkomt. Als isolatiemateriaal gebruikt men meestal kunststof
+								platen van polystyreen hardschuim(XPS). Dit materiaal heeft een
+								hoge isolatiewaarde en is goed bestand tegen vocht.{" "}
+							</Card.Text>
+							<Card.Text>
+								{" "}
+								De isolatieplaten worden vervolgens gepleisterd, afgewerkt met
+								steen strips, houten gevelbekleding of voorzien van metalen of
+								kunststof gevelpanelen.
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -108,8 +114,8 @@ function Termozew1() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termozew1.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="buitenisolatie1"
 					/>

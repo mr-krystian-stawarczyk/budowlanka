@@ -77,7 +77,7 @@ function Ogrzewanie4() {
 	return (
 		<Container
 			fluid
-			className="d-flex bg-white text-dark py-3 align-items-center justify-content-center"
+			className=" bg-white text-dark py-3 align-items-center justify-content-center"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 ">
@@ -90,25 +90,31 @@ function Ogrzewanie4() {
 								oplossingen, kunt u - zonder ingewikkelde aanpassingen aan het
 								verwarmingssysteem - een intelligent en tegelijkertijd
 								betrouwbaar en energiezuinig verwarmingssysteem in huis creëren.
+							</Card.Text>
+							<Card.Text>
 								Voor optimaal thermisch comfort is het aan te raden een
 								hoogwaardige thermostaat met vloersensor te gebruiken.
 							</Card.Text>
+
 							<Card.Text>
 								Elektrische thermostaten met tijdsprogrammering maken
 								nauwkeurige instellingen van de verwarmingstijd mogelijk.
 								Hierdoor blijft de vloerverwarming altijd efficiënt en blijven
 								de operationele kosten onder controle.
 							</Card.Text>
+
 							<Card.Text>
 								De installatie van elektrische vloermatten als vloerverwarming
 								wordt niet belemmerd door de constructie van het gebouw. Het
 								systeem kan zowel direct op een oude vloer worden geplaatst
 								(tijdens renovatie) als in nieuw gebouwde huizen, vóór de
-								afwerking met tegels, parket of keramische tegels. Elektrische
-								verwarmingsmatten verbeteren het thermisch comfort van het
-								gebouw zonder extra belasting voor het plafond, waardoor ze
-								zowel op de begane grond als op zolder of op elke verdieping van
-								het gebouw kunnen worden gelegd.
+								afwerking met tegels, parket of keramische tegels.
+							</Card.Text>
+							<Card.Text>
+								Elektrische verwarmingsmatten verbeteren het thermisch comfort
+								van het gebouw zonder extra belasting voor het plafond, waardoor
+								ze zowel op de begane grond als op zolder of op elke verdieping
+								van het gebouw kunnen worden gelegd.
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -116,8 +122,8 @@ function Ogrzewanie4() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogrzewanie5.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="verwarming5"
 					/>

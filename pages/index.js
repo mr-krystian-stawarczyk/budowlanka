@@ -13,8 +13,14 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>DG BOUWGROEP</title>
-				<meta name="" content="" />
+				<title>
+					Hoogwaardige Bouwdiensten | Ramen, Isolatie, Pleisterwerk | DG
+					Bouwgroep
+				</title>
+				<meta
+					name="description"
+					content="Wij bieden hoogwaardige diensten aan, waaronder installatie en verkoop van ramen, thermische isolatie voor uw woning, professionele pleisterdiensten, hoogwaardig glaswerk, jarenlange ervaring in bouwwerkzaamheden, en infrarode vloerverwarming."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 

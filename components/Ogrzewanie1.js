@@ -78,33 +78,34 @@ function Ogrzewanie1() {
 	return (
 		<Container
 			fluid
-			className={`d-flex py-3 align-items-center bg-light text-dark justify-content-center ${
-				isMobile ? "min-vh-100" : "vh-100"
-			}`}
+			className="mt-5 pt-4 align-items-center bg-light text-dark justify-content-center"
 		>
 			<Row className="justify-content-center  align-items-center">
-				<Col lg={6} className="mx-auto my-2 text-center ">
+				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/ogrzewanie1.png"
-						width={400}
-						height={400}
+						src="/assets/ogrzewanie5.png"
+						width={500}
+						height={500}
 						className="responsive-image rounded shadow-lg"
 						alt="verwarming"
 					/>
 				</Col>
-				<Col lg={6} className="mx-auto my-2 ">
+				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1 className="text-bold">VLOERVERWARMINGSMAT</h1>
+							<h1 className="text-bold">Vloerverwarming</h1>
 							<Card.Text>
 								Een economische en gemakkelijk te installeren oplossing, zoals
 								een vloerverwarmingsmat, is een moderne manier om een warme
-								vloer door het hele huis te hebben. De toenemende populariteit
-								van dit soort verwarmingssystemen komt door de universele aard
-								van de installatie en de gegarandeerde, snelle opwarming van
-								vloeren bedekt met tegels, keramische tegels, terracotta of
-								marmer.
+								vloer door het hele huis te hebben.
 							</Card.Text>
+							<Card.Text>
+								De toenemende populariteit van dit soort verwarmingssystemen
+								komt door de universele aard van de installatie en de
+								gegarandeerde, snelle opwarming van vloeren bedekt met tegels,
+								keramische tegels, terracotta of marmer.
+							</Card.Text>
+
 							<Card.Text>
 								Een constante vermogensniveau van 150W/m2 zorgt voor optimale
 								warmteparameters, en het systeem is op geen enkele manier

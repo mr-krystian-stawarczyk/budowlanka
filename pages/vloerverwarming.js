@@ -12,8 +12,11 @@ function vloerverwarming() {
 	return (
 		<div className="">
 			<Head>
-				<title>Vloerverwarming</title>
-				<meta name="" content="" />
+				<title>Vloerverwarming | DG Bouwgroep</title>
+				<meta
+					name="description"
+					content="Ervaar comfort en efficiënte verwarming met vloerverwarmingssystemen van DG Bouwgroep. Ontdek innovatieve oplossingen die gelijkmatige warmteverdeling bieden, energie besparen en het comfort in uw huis verbeteren."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Ogrzewanie1 />

@@ -78,7 +78,7 @@ function Header3() {
 	return (
 		<Container
 			fluid
-			className={`d-flex py-3 align-items-center bg-light text-dark justify-content-center ${
+			className={`d-flex mt-4 align-items-center bg-light text-dark justify-content-center ${
 				isMobile ? "min-vh-100" : "vh-100"
 			}`}
 		>
@@ -86,8 +86,8 @@ function Header3() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/thermo3.jpg"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image rounded shadow-lg"
 						alt="isolatie3"
 					/>

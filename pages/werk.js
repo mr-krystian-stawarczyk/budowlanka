@@ -1,8 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Werk1 from "@/components/Werk1";
-import Werk3 from "@/components/Werk3";
-import Werk2 from "@/components/Werk2";
+
 import Werk4 from "@/components/Werk4";
 import Werk5 from "@/components/Werk5";
 import Werk6 from "@/components/Werk6";
@@ -14,8 +13,11 @@ function werk() {
 	return (
 		<div className="">
 			<Head>
-				<title>Werk</title>
-				<meta name="" content="" />
+				<title>Onze Realisaties | DG Bouwgroep</title>
+				<meta
+					name="description"
+					content="Bekijk onze gerealiseerde projecten en ontdek de hoogwaardige bouw- en renovatiewerkzaamheden uitgevoerd door DG Bouwgroep. Wij tonen trots onze voltooide projecten en vakmanschap op het gebied van ramen, isolatie, pleisterwerk en meer."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Werk1 />

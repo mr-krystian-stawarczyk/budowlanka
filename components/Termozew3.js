@@ -88,14 +88,17 @@ function Termozew3() {
 							<Card.Text>
 								Met het isoleren aan de buitenkant van de gevel verander je het
 								uiterlijk van de woning. Deze verandering dient door de
-								welstandscommissie van de gemeente getoetst te worden. Je
-								zal daarom voor het isoleren aan de buitenkant van de gevel
+								welstandscommissie van de gemeente getoetst te worden.
+							</Card.Text>
+							<Card.Text>
+								Je zal daarom voor het isoleren aan de buitenkant van de gevel
 								altijd een omgevingsvergunning aan moeten vragen bij
-								de gemeente.  Meer informatie over vergunningsaanvragen is te
-								vinden op www.omgevingsloket.nl. Let er wel op dat na het
-								isoleren van de buitenkant van de gevel je aan de minimale eisen
-								moet voldoen van het bouwbesluit. Het uitvoerende bedrijf
-								kan je hierover informeren.
+								de gemeente. {" "}
+							</Card.Text>
+							<Card.Text>
+								Let er wel op dat na het isoleren van de buitenkant van de gevel
+								je aan de minimale eisen moet voldoen van het bouwbesluit. Het
+								uitvoerende bedrijf kan je hierover informeren.
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -103,8 +106,8 @@ function Termozew3() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termozew4.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="buitenisolatie4"
 					/>

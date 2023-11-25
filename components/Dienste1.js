@@ -161,8 +161,8 @@ function Dienste1() {
 						{image && (
 							<Image
 								src={image}
-								width={400}
-								height={400}
+								width={500}
+								height={500}
 								className="responsive-image shadow-lg"
 								alt="Sanity Image"
 								priority

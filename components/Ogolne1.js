@@ -84,8 +84,8 @@ function Ogolne1() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogolne7.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="bouw2"
 					/>
@@ -98,11 +98,14 @@ function Ogolne1() {
 							</h1>
 							<Card.Text>
 								Wil je dat jouw huis niet alleen een woonplek is, maar een ware
-								weerspiegeling van jouw persoonlijkheid? Bij DG BOUWGROEP
-								geloven we dat elke ruimte het potentieel heeft om een uniek
-								kunstwerk te worden. Wat ons onderscheidt, is de passie voor
-								creatie.
+								weerspiegeling van jouw persoonlijkheid?
 							</Card.Text>
+							<Card.Text>
+								Bij DG BOUWGROEP geloven we dat elke ruimte het potentieel heeft
+								om een uniek kunstwerk te worden. Wat ons onderscheidt, is de
+								passie voor creatie.
+							</Card.Text>
+							<Card.Text></Card.Text>
 							<Card.Text>
 								Ons team van ervaren vakmensen bundelt hun kennis en
 								creativiteit om zelfs de kleinste details om te zetten in

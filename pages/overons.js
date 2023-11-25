@@ -5,15 +5,16 @@ import About2 from "@/components/About2";
 import About3 from "@/components/About3";
 import About4 from "@/components/About4";
 
-function about() {
+function overons() {
 	return (
 		<div className=" ">
 			<Head>
-				<title>Over Ons</title>
+				<title>Over Ons DG Bouwgroep Geschiedenis</title>
 				<meta
 					name="description"
-					content="Pixel-Genie: Erfahren Sie mehr über unser Team und unsere Erfahrung in Webdesign und Online-Marketing in Nettetal. Erfahren Sie mehr über unsere Philosophie und unsere Arbeitsweise."
+					content="Ontdek meer over de geschiedenis van DG Bouwgroep - onze activiteiten, prestaties en ontwikkeling. Wij zijn een team van gepassioneerde bouwprofessionals."
 				/>
+
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<About1 />
@@ -25,4 +26,4 @@ function about() {
 	);
 }
 
-export default about;
+export default overons;

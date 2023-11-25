@@ -13,8 +13,11 @@ function binnenisolatie() {
 	return (
 		<div className="">
 			<Head>
-				<title>Binnenisolatie</title>
-				<meta name="" content="" />
+				<title>Isolatie van Binnenmuren | DG Bouwgroep</title>
+				<meta
+					name="description"
+					content="Verbeter het comfort van uw huis met isolatie van binnenmuren door DG Bouwgroep. Ontdek onze hoogwaardige isolatiediensten voor binnenmuren, die helpen bij geluidsreductie, temperatuurregulatie en het verbeteren van de energie-efficiëntie van uw woning."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Termowew1 />

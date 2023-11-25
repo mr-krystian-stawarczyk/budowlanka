@@ -82,9 +82,9 @@ function Glazura4() {
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
-						src="/assets/glazura6.png"
-						width={400}
-						height={400}
+						src="/assets/glazura8.png"
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="Sanity Image"
 					/>
@@ -92,21 +92,28 @@ function Glazura4() {
 				<Col lg={5} className="mx-auto my-2 ">
 					<Card className="border-0 bg-transparent">
 						<Card.Body>
-							<h1 className="text-bold">Tegelwerk van Topniveau</h1>
+							<h1 className="text-bold">Hulp bij Materiaalkeuze </h1>
 							<Card.Text>
-								Wanneer we het hebben over tegelwerk, denken we aan perfectie in
-								elk detail. Ons team bestaat niet alleen uit professionals in
-								hun vakgebied, maar uit gepassioneerde individuen die van werk
-								kunst maken. Voor ons is het leggen van tegels niet alleen een
-								techniek, maar een kans om creativiteit en vaardigheid uit te
-								drukken. Onze aanpak draait om zorgvuldigheid, waarbij elke
-								tegel op zijn juiste plek wordt geplaatst om een harmonieus
-								geheel te vormen. Met DG BOUWGROEP krijg je niet alleen een
-								service, maar een ervaring die de verwachtingen overstijgt,
-								waardoor jouw ruimtes ware kunstwerken worden.
+								Ons team van deskundigen beschikt over uitgebreide kennis van
+								materialen en hun toepassingen. We luisteren naar uw behoeften
+								en voorkeuren om samen met u de beste keuzes te maken voor een
+								optimaal resultaat.
 							</Card.Text>
-							<Card.Text></Card.Text>
-							<Card.Text></Card.Text>
+							<Card.Text>
+								Van hoogwaardige tegelsoorten tot andere benodigdheden, we zijn
+								er om u te adviseren en te helpen bij het selecteren van
+								materialen die passen bij uw smaak en de vereisten van uw
+								project. Ieder project is uniek en verdient een op maat gemaakt
+								advies.{" "}
+							</Card.Text>
+							<Card.Text>
+								Onze toewijding aan het leveren van hoogwaardige materialen gaat
+								hand in hand met onze wens om u te helpen bij het realiseren van
+								uw visie. Wij bieden niet alleen een breed scala aan opties,
+								maar ook persoonlijk advies om ervoor te zorgen dat de gekozen
+								materialen perfect aansluiten bij uw specifieke behoeften en
+								esthetiek.
+							</Card.Text>
 						</Card.Body>
 					</Card>
 				</Col>

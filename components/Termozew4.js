@@ -84,8 +84,8 @@ function Termozew4() {
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/termozew3.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="buitenisolatie3"
 					/>
@@ -100,15 +100,23 @@ function Termozew4() {
 								en koelingskosten. Dankzij het professioneel isoleren van het
 								dak, dat we aanbieden, kunnen we aanzienlijk warmteverlies
 								vanuit het gebouw tijdens de wintermaanden verminderen en de
-								blootstelling aan zonnestraling in de zomer beperken. Dit
-								betekent minder energieverbruik om het hele jaar door een
-								optimale temperatuur in huis te behouden. Onze
-								isolatieoplossingen vormen een beschermende barrière die
+								blootstelling aan zonnestraling in de zomer beperken.
+							</Card.Text>
+							<Card.Text>
+								Dit betekent minder energieverbruik om het hele jaar door een
+								optimale temperatuur in huis te behouden.{" "}
+							</Card.Text>
+							<Card.Text>
+								Onze isolatieoplossingen vormen een beschermende barrière die
 								warmteverliezen effectief vermindert en een betere
-								energie-efficiëntie mogelijk maakt. Het verbeteren van de
-								isolatie van het dak kan aanzienlijke financiële voordelen
-								opleveren door het verminderen van energieverbruik en kosten
-								voor het handhaven van een comfortabele temperatuur in huis.
+								energie-efficiëntie mogelijk maakt.
+							</Card.Text>
+							<Card.Text>
+								{" "}
+								Het verbeteren van de isolatie van het dak kan aanzienlijke
+								financiële voordelen opleveren door het verminderen van
+								energieverbruik en kosten voor het handhaven van een
+								comfortabele temperatuur in huis.
 							</Card.Text>
 						</Card.Body>
 					</Card>

@@ -77,14 +77,14 @@ function Ogrzewanie3() {
 	return (
 		<Container
 			fluid
-			className="d-flex bg-white text-dark py-3 align-items-center justify-content-center"
+			className="bg-white text-dark py-3 align-items-center justify-content-center"
 		>
 			<Row className="justify-content-center  align-items-center">
 				<Col lg={5} className="mx-auto my-2 text-center ">
 					<Image
 						src="/assets/ogrzewanie4.png"
-						width={400}
-						height={400}
+						width={500}
+						height={500}
 						className="responsive-image shadow-lg"
 						alt="Sanity Image"
 					/>
@@ -101,19 +101,25 @@ function Ogrzewanie3() {
 								klassieke, met de cv-installatie geïntegreerde vloerverwarming.
 								Ze kunnen zowel worden gebruikt voor primaire als aanvullende
 								verwarming in badkamers, keukens, woonkamers, gangen en vele
-								andere ruimtes in huizen, kantoren en commerciële panden. De
-								verwarmingsmat bestaat uit een systeem van kabels die op een
+								andere ruimtes in huizen, kantoren en commerciële panden.
+							</Card.Text>
+							<Card.Text>
+								De verwarmingsmat bestaat uit een systeem van kabels die op een
 								speciaal glasvezelnetwerk zijn geplaatst. De installatie ervan
 								verhoogt de vloer niet, wat een aangenaam gevoel van een warme
 								vloer oplevert en het comfort van elke ruimte verhoogt.
 							</Card.Text>
 							<Card.Text>
+								{" "}
 								De verwarmingsmatten TERMOFOL in ons assortiment worden verkocht
 								in complete installatiekits voor zelfinstallatie. Het systeem is
 								intuïtief te monteren en kan thuis door uzelf worden
-								geïnstalleerd. Dankzij de duidelijke en overzichtelijke
-								instructies bijgevoegd bij de verwarmingselementen kunnen alle
-								stappen worden uitgevoerd zonder de noodzaak van een specialist.
+								geïnstalleerd.
+							</Card.Text>
+							<Card.Text>
+								Dankzij de duidelijke en overzichtelijke instructies bijgevoegd
+								bij de verwarmingselementen kunnen alle stappen worden
+								uitgevoerd zonder de noodzaak van een specialist.
 							</Card.Text>
 						</Card.Body>
 					</Card>

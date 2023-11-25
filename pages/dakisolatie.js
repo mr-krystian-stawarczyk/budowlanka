@@ -13,8 +13,11 @@ function dakisolatie() {
 	return (
 		<div className="">
 			<Head>
-				<title>Dakisolatie</title>
-				<meta name="" content="" />
+				<title>Dakisolatie | DG Bouwgroep</title>
+				<meta
+					name="description"
+					content="Ontdek de voordelen van dakisolatie door DG Bouwgroep. Wij bieden hoogwaardige isolatiediensten voor uw dak, met professionele installatie voor een betere energie-efficiëntie en temperatuurregeling in uw woning."
+				/>
 				<meta name="robots" content="index, follow" />
 			</Head>
 			<Header3 />

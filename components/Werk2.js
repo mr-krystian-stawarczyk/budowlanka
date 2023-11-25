@@ -120,7 +120,7 @@ const Werk2 = () => {
 				<Col md={4} className="py-5">
 					<Nav.Link as={Link} href="/werk">
 						<Button className="btn-md py-2  border-0 shadow-md btn-nav">
-							<span className="text-bold">Werk</span>
+							<span className="">Werk</span>
 						</Button>
 					</Nav.Link>
 				</Col>
@@ -152,14 +152,14 @@ const Werk2 = () => {
 					<Nav.Link as={Link} href="/werk">
 						<Button
 							className="btn-md py-2 btn-nav  border-0 shadow-md btn-nav text-bold"
-							style={{ width: "200px", fontWeight: "bold" }}
+							style={{ width: "200px" }}
 						>
 							Werk
 						</Button>
 					</Nav.Link>
 					<Button
 						className="btn-md py-2 btn-nav  border-0 shadow-md btn-nav text-bold"
-						style={{ width: "200px", fontWeight: "bold" }}
+						style={{ width: "200px" }}
 						onClick={handleModalClose}
 					>
 						Sluiten
