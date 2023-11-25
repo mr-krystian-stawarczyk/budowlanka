@@ -4,51 +4,23 @@ import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import Image from "next/image";
 
-import emailjs from "@emailjs/browser";
-import { init } from "@emailjs/browser";
-init(process.env.NEXT_PUBLIC_REACT_APP_PUBLIC_KEY);
-const Contact1 = () => {
-	const [alertContent, setAlertContent] = useState({});
-	const [showAlert, setShowAlert] = useState(false);
+const Contact1 = ({ onSubmit }) => {
 	const [formData, setFormData] = useState({
 		email: "",
 		name: "", // Zmienione z "firstName" na "name"
 		phone: "", // Dodane pole "phone"
 		description: "", // Zmienione z "message" na "description"
 	});
+	const [formSubmitted, setFormSubmitted] = useState(false);
 
 	const handleChange = (e) =>
 		setFormData({ ...formData, [e.target.id]: e.target.value });
 
 	const sendEmail = (e) => {
 		e.preventDefault();
-		emailjs
-			.sendForm(
-				"service_y1k37xn",
-				"template_i4ptcrc",
-				e.target,
-				process.env.NEXT_PUBLIC_REACT_APP_PUBLIC_KEY
-			)
-			.then(
-				(result) => {
-					// Handle success
-					console.log("Email sent!", result.text);
-					<div>
-						<h3>Bedankt dat u contact met ons opneemt!</h3>
-						{/* Display additional content or redirect users */}
-					</div>;
-					// Show success message or any further action
-				},
-				(error) => {
-					// Handle error
-					console.error("Error sending email:", error.text);
-					<div>
-						<h3>Error!</h3>
-						{/* Display additional content or redirect users */}
-					</div>;
-					// Show error message or any further action
-				}
-			);
+		onSubmit(formData);
+		setFormSubmitted(true);
+		// Dodaj logikę do wysyłania maila z EmailJS tutaj
 	};
 
 	{
