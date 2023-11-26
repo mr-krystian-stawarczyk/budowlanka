@@ -16,7 +16,7 @@ function About3() {
 			id="story"
 		>
 			<Row className="text-center">
-				<h1 className="py-3">Ontdek Onze Geschiedenis</h1>
+				<h1 className="py-3 text-bold">Ontdek Onze Geschiedenis</h1>
 			</Row>
 			<VerticalTimeline lineColor="rgb(250, 179, 0)" className="text-dark">
 				<VerticalTimelineElement

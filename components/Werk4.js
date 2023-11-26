@@ -14,12 +14,15 @@ import Link from "next/link";
 import { MdDoubleArrow } from "react-icons/md";
 const Werk4 = () => {
 	const [products, setProducts] = useState([
+		"/assets/okna2.jpg",
+		"/assets/5.jpg",
 		"/assets/okna21.jpg",
 		"/assets/okna22.jpg",
 		"/assets/okna23.jpg",
 		"/assets/okna1-1.png",
-		"/assets/okna2.jpg",
-		"/assets/5.jpg",
+		"/assets/okna66.jpg",
+		"/assets/okna67.jpg",
+		"/assets/okna68.jpg",
 	]);
 	const [productsPerSlide, setProductsPerSlide] = useState(3);
 	const [showModal, setShowModal] = useState(false);
@@ -133,8 +136,8 @@ const Werk4 = () => {
 									{row.map((product, idx) => (
 										<Col key={idx}>
 											<Image
-												width={250}
-												height={350}
+												width={550}
+												height={400}
 												className="d-block w-100  "
 												src={product}
 												alt={`Product ${index * productsPerSlide + idx}`}

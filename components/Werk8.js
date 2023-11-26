@@ -20,6 +20,9 @@ const Werk8 = () => {
 		"/assets/ogolne15.jpg",
 		"/assets/ogolne1.jpg",
 		"/assets/ogolne2.jpg",
+		"/assets/ogolne66.jpg",
+		"/assets/ogolne68.jpg",
+		"/assets/ogolne69.jpg",
 	]);
 	const [productsPerSlide, setProductsPerSlide] = useState(3);
 	const [showModal, setShowModal] = useState(false);
@@ -133,8 +136,8 @@ const Werk8 = () => {
 									{row.map((product, idx) => (
 										<Col key={idx}>
 											<Image
-												width={250}
-												height={350}
+												width={550}
+												height={400}
 												className="d-block w-100 p-4 "
 												src={product}
 												alt={`Product ${index * productsPerSlide + idx}`}

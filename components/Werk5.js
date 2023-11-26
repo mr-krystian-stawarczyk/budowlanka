@@ -20,6 +20,9 @@ const Werk5 = () => {
 		"/assets/thermo24.jpg",
 		"/assets/thermo3.png",
 		"/assets/termo3.png",
+		"/assets/izo66.jpg",
+		"/assets/izo67.jpg",
+		"/assets/izo69.jpg",
 	]);
 	const [productsPerSlide, setProductsPerSlide] = useState(3);
 	const [showModal, setShowModal] = useState(false);
@@ -133,8 +136,8 @@ const Werk5 = () => {
 									{row.map((product, idx) => (
 										<Col key={idx}>
 											<Image
-												width={250}
-												height={350}
+												width={550}
+												height={400}
 												className="d-block w-100 p-4"
 												src={product}
 												alt={`Product ${index * productsPerSlide + idx}`}

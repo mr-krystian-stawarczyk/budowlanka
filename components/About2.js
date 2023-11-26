@@ -123,7 +123,7 @@ function About2() {
 			className={`d-flex flex-column bg-white text-dark justify-content-center align-items-center min-vh-100`}
 		>
 			<Row className="text-center d-row my-2">
-				<h1>Uitvoeringsproces</h1>
+				<h1 className="text-bold">Uitvoeringsproces</h1>
 				<h3>Wij bieden service van begin tot eind</h3>
 			</Row>
 			<Row className="text-center">

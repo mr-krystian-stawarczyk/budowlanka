@@ -109,12 +109,13 @@ const Contact1 = ({ onSubmit }) => {
 							lg={5}
 							md={8}
 							sm={8}
+							xs={11}
 							className=" mx-auto my-3 parent-container bg-white py-4 shadow-lg rounded"
 						>
 							{!formSubmitted ? (
 								<Col>
 									{" "}
-									<h3 className="my-3 text-bold ">Snel Kontakt</h3>
+									<h3 className="my-3 text-bold ">Snel Contact</h3>
 									<Form className="px-2" onSubmit={sendEmail}>
 										{" "}
 										<Row>

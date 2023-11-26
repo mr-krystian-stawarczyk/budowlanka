@@ -64,7 +64,7 @@ function TermoPlus() {
 	return (
 		<Container
 			fluid
-			className="  text-dark blur-bg  align-items-center  p-2 border-0  "
+			className="  text-dark blur-bg  align-items-center overflow-hidden  p-2 border-0  "
 			ref={sectionRef}
 		>
 			<Row

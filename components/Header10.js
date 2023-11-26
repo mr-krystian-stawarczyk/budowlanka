@@ -20,7 +20,7 @@ const Header10 = () => {
 	}, [inView2, inView3]);
 
 	return (
-		<Container fluid className="blur-bg  py-3">
+		<Container fluid className="blur-bg  py-5 mt-5">
 			<Row className="justify-content-center text-center  py-3">
 				<Col md={6} className="mx-auto">
 					<Card className="bg-dark m-5 mx-auto bg-transparent border-0 text-dark">
@@ -34,7 +34,7 @@ const Header10 = () => {
 				<Col md={4} className="mx-auto">
 					<Card
 						ref={ref2}
-						className="btn-nav-drop m-5 mx-auto   border-lgtext-uppercase text-dark"
+						className="btn-nav-drop my-2 mx-auto   border-lgtext-uppercase text-dark"
 					>
 						<Card.Body className="shadow-lg">
 							<h4>Tevreden klanten:</h4>
@@ -56,7 +56,7 @@ const Header10 = () => {
 				<Col md={4} className="mx-auto">
 					<Card
 						ref={ref3}
-						className="btn-nav-drop m-5 mx-auto  border-lg text-uppercase text-dark"
+						className="btn-nav-drop  mx-auto my-2  border-lg text-uppercase text-dark"
 					>
 						<Card.Body className="shadow-lg">
 							<h4>Projecten:</h4>

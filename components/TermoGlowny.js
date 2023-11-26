@@ -15,7 +15,7 @@ function TermoGlowny() {
 	return (
 		<Container
 			fluid
-			className="py-3 my-2 bg-light text-dark align-items-center justify-content-center"
+			className="pt-4 mt-2 bg-light text-dark align-items-center justify-content-center"
 		>
 			<Row className="text-center mt-2  pt-5">
 				<h1 className="text-bold text-uppercase">
@@ -43,13 +43,10 @@ function TermoGlowny() {
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Dakisolatie</h1>
-
-							<Card.Text></Card.Text>
+							<Link href="dakisolatie">
+								<Button className="btn-nav btn-lg">Dakisolatie</Button>
+							</Link>
 						</Card.Body>{" "}
-						<Link href="dakisolatie">
-							<Button className="btn-nav ">Dakisolatie</Button>
-						</Link>
 					</Card>
 				</Col>{" "}
 				<Col lg={4} className="mx-auto my-2 text-center ">
@@ -58,18 +55,15 @@ function TermoGlowny() {
 						src="/assets/termowew2.png"
 						width={300}
 						height={300}
-						className="responsive-image shadow-lg "
+						className="responsive-image  "
 						alt="binnenisolatie2"
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Binnenisolatie</h1>
-
-							<Card.Text></Card.Text>
+							<Link href="binnenisolatie">
+								<Button className="btn-nav btn-lg">Binnenisolatie</Button>
+							</Link>
 						</Card.Body>{" "}
-						<Link href="binnenisolatie">
-							<Button className="btn-nav ">Binnenisolatie</Button>
-						</Link>
 					</Card>
 				</Col>{" "}
 				<Col lg={4} className="mx-auto my-2 text-center ">
@@ -83,13 +77,10 @@ function TermoGlowny() {
 					/>{" "}
 					<Card className="border-0 bg-transparent ">
 						<Card.Body>
-							<h1>Buitenisolatie</h1>
-
-							<Card.Text></Card.Text>
+							<Link href="buitenisolatie">
+								<Button className="btn-nav btn-lg ">Buitenisolatie</Button>
+							</Link>
 						</Card.Body>
-						<Link href="buitenisolatie">
-							<Button className="btn-nav ">Buitenisolatie</Button>
-						</Link>
 					</Card>
 				</Col>{" "}
 			</Row>
