@@ -69,7 +69,7 @@ const Werk6 = () => {
 					}}
 					className="my-1"
 				/>{" "}
-				<h1 className="text-uppercase text-bold">Pleisterwerk </h1>{" "}
+				<h1 className="text-uppercase text-bold">Stukadoorswerk </h1>{" "}
 			</Row>
 
 			{mobileView ? (

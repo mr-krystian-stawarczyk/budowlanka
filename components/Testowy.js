@@ -81,7 +81,12 @@ function Testowy() {
 			className=" mt-5 pt-1 align-items-center bg-light justify-content-center "
 		>
 			<Row className="text-dark text-center my-3 align-items-center  justify-content-center ">
-				<h1 className=" my-3">DG Bouwgroep</h1>
+				<span className="my-3">
+					<h1 className="mx-2 nazwa-firmy text-bold">
+						<span style={{ color: "#004E7D" }}>DG </span>
+						<span style={{ color: "orange" }}>BOUWGROEP</span>
+					</h1>
+				</span>
 				<h4 className="py-1 ">
 					Ongeacht of je een renovatie, afwerking, huis of gebouwconstructie
 					plant, binnen onze groep vind je specialisten die je zullen helpen bij

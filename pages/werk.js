@@ -22,10 +22,7 @@ function werk() {
 			</Head>
 			<Werk1 />
 			<Werk4 />
-			<Werk5 />
-			<Werk6 />
-			<Werk7 />
-			<Werk8 />
+
 			<Testimonials />
 		</div>
 	);

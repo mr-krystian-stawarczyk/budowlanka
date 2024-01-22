@@ -114,14 +114,14 @@ const Footer = () => {
 						<Card.Text className="footer-links contact-links">
 							<a
 								target="_blank"
-								href="https://www.facebook.com/profile.php?id=100092994447854"
+								href="https://www.facebook.com/profile.php?id=61555414846169"
 								style={{ outline: "none", textDecoration: "none" }}
 							>
 								<AiOutlineFacebook
 									style={{ fontSize: "3rem" }}
 									className="contact-icons fb-icon"
 								/>{" "}
-								<span className="text-bold text-dark">SEBDA</span>
+								<span className="text-bold text-dark">DG BOUWGROEP</span>
 							</a>
 						</Card.Text>
 					</Card>
