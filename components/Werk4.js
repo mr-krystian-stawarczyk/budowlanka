@@ -5,7 +5,7 @@ import { MdDoubleArrow } from "react-icons/md";
 
 const Werk4 = () => {
 	const [products, setProducts] = useState({
-		ramen: [
+		kozijnen: [
 			"/assets/okna2.jpg",
 			"/assets/okna21.jpg",
 			"/assets/okna22.jpg",
@@ -14,6 +14,20 @@ const Werk4 = () => {
 			"/assets/okna66.jpg",
 			"/assets/okna67.jpg",
 			"/assets/okna68.jpg",
+			"/assets/70.jpg",
+			"/assets/71.jpg",
+			"/assets/72.jpg",
+			"/assets/73.jpg",
+			"/assets/74.jpg",
+			"/assets/75.jpg",
+			"/assets/76.jpg",
+			"/assets/77.jpg",
+			"/assets/78.jpg",
+			"/assets/79.jpg",
+			"/assets/80.jpg",
+			"/assets/81.jpg",
+			"/assets/82.jpg",
+			"/assets/83.jpg",
 		],
 		isolatie: [
 			"/assets/thermo21.jpg",
@@ -25,6 +39,12 @@ const Werk4 = () => {
 			"/assets/izo66.jpg",
 			"/assets/izo67.jpg",
 			"/assets/izo69.jpg",
+			"/assets/izo1.jpg",
+			"/assets/izo2.jpg",
+			"/assets/izo3.jpg",
+			"/assets/izo4.jpg",
+			"/assets/izo5.jpg",
+			"/assets/izo6.jpg",
 		],
 		stukadoorswerk: [
 			"/assets/tynki11.jpg",
@@ -36,6 +56,7 @@ const Werk4 = () => {
 			"/assets/tynki66.jpg",
 			"/assets/tynki67.jpg",
 			"/assets/tynki68.jpg",
+			"/assets/tynki99.jpg",
 		],
 		tegelwerk: [
 			"/assets/glazura11.jpg",
@@ -48,7 +69,7 @@ const Werk4 = () => {
 			"/assets/plytki69.jpg",
 			"/assets/glazura1.jpg",
 		],
-		bouwwerkzaamheden: [
+		verbouwing: [
 			"/assets/ogolne11.jpg",
 			"/assets/ogolne12.jpg",
 			"/assets/ogolne14.jpg",
@@ -58,12 +79,21 @@ const Werk4 = () => {
 			"/assets/ogolne66.jpg",
 			"/assets/ogolne68.jpg",
 			"/assets/ogolne69.jpg",
+			"/assets/90.jpg",
+			"/assets/91.jpg",
+			"/assets/92.jpg",
+			"/assets/93.jpg",
+			"/assets/94.jpg",
+			"/assets/95.jpg",
+			"/assets/96.jpg",
+			"/assets/97.jpg",
 		],
 	});
-	const [selectedCategory, setSelectedCategory] = useState("ramen");
+	const [selectedCategory, setSelectedCategory] = useState("kozijnen");
 	const [showModal, setShowModal] = useState(false);
 	const [selectedImage, setSelectedImage] = useState(null);
 	const [mobileView, setMobileView] = useState(false);
+	const [imagesToShow, setImagesToShow] = useState(6); // Number of images to show initially
 
 	const updateProductsPerSlide = () => {
 		setMobileView(window.innerWidth <= 768);
@@ -90,8 +120,16 @@ const Werk4 = () => {
 
 	const handleCategoryChange = (category) => {
 		setSelectedCategory(category);
+		setImagesToShow(6); // Reset the number of images to show when the category changes
 	};
 
+	const handleLoadMore = () => {
+		setImagesToShow((prevImagesToShow) => prevImagesToShow + 6); // Increase the number of images to show
+	};
+
+	const handleShowLess = () => {
+		setImagesToShow(6); // Reset the number of images to show to the initial value
+	};
 	return (
 		<Container fluid className="blur-bg py-5" id="realizacje">
 			<Row className="justify-content-center">
@@ -111,20 +149,46 @@ const Werk4 = () => {
 			</Row>
 
 			<Row className="justify-content-center">
-				{products[selectedCategory].map((product, index) => (
-					<Col key={index} xs={12} sm={6} md={4} lg={4} xl={3} className="mt-5">
-						<Image
-							width={250}
-							height={350}
-							className="d-block w-100 mx-auto my-3 shadow-lg"
-							src={product}
-							alt={`Product ${index}`}
-							style={{ cursor: "pointer" }}
-							onClick={() => handleImageClick(product)}
-						/>
-					</Col>
-				))}
+				{products[selectedCategory]
+					.slice(0, imagesToShow)
+					.map((product, index) => (
+						<Col
+							key={index}
+							xs={12}
+							sm={6}
+							md={4}
+							lg={4}
+							xl={3}
+							className="mt-5"
+						>
+							<Image
+								width={250}
+								height={350}
+								className="d-block w-100 mx-auto my-3 shadow-lg"
+								src={product}
+								alt={`Product ${index}`}
+								style={{ cursor: "pointer" }}
+								onClick={() => handleImageClick(product)}
+							/>
+						</Col>
+					))}
 			</Row>
+
+			{imagesToShow < products[selectedCategory].length && (
+				<Row className="justify-content-center mt-3">
+					<Col xs={12} className="text-center">
+						{imagesToShow === 6 ? (
+							<Button variant="dark" onClick={handleLoadMore}>
+								Meer
+							</Button>
+						) : (
+							<Button variant="dark" onClick={handleShowLess}>
+								Minder
+							</Button>
+						)}
+					</Col>
+				</Row>
+			)}
 
 			<Modal
 				show={showModal}
@@ -140,6 +204,8 @@ const Werk4 = () => {
 								maxWidth: "100%",
 								maxHeight: "80vh",
 								overflow: "auto",
+								display: "flex",
+								justifyContent: "center",
 							}}
 						>
 							<Image
@@ -173,7 +239,7 @@ export default Werk4;
 
 function getCategoryImage(category) {
 	switch (category) {
-		case "ramen":
+		case "kozijnen":
 			return "/assets/window.png";
 		case "isolatie":
 			return "/assets/termoplus1.png";
@@ -181,7 +247,7 @@ function getCategoryImage(category) {
 			return "/assets/plaster.png";
 		case "tegelwerk":
 			return "/assets/tiles.png";
-		case "bouwwerkzaamheden":
+		case "verbouwing":
 			return "/assets/house.png";
 		default:
 			return "";

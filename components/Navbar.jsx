@@ -84,15 +84,15 @@ const NavbarComp = ({ toggleTheme }) => {
 							</Button>
 						</Nav.Link>
 						<NavDropdown
-							title="Diensten"
+							title="Dienst"
 							id="basic-nav-dropdown"
 							className="btn-md shadow-md -drop rounded text-black  p-1 "
 							menuVariant="light"
-							style={{ fontSize: "1.1rem" }}
+							style={{ fontSize: "1rem" }}
 						>
 							<NavDropdown.Item as={Link} href="/ramen">
 								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
-									Ramen
+									Kozijnen
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
@@ -104,19 +104,19 @@ const NavbarComp = ({ toggleTheme }) => {
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/pleisterwerk">
 								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
-									Pleisterwerk
+									Stukadoorswerk
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/glazuur">
 								<Button className="w-100 border-0  bg-transparent text-black text-capitalize">
-									Glazuur
+									Tegelwerk
 								</Button>
 							</NavDropdown.Item>
 							<NavDropdown.Divider />
 							<NavDropdown.Item as={Link} href="/bouwwerkzaamheden">
 								<Button className="w-100 border-0 bg-transparent text-black  text-capitalize">
-									Bouwwerkzaamheden
+									Verbouwing
 								</Button>
 							</NavDropdown.Item>{" "}
 							<NavDropdown.Divider />
@@ -132,7 +132,7 @@ const NavbarComp = ({ toggleTheme }) => {
 								className="btn-md py-2 bg-transparent text-black   border-0 shadow-md "
 								style={{ textTransform: "capitalize" }}
 							>
-								Werk
+								Projecten
 							</Button>
 						</Nav.Link>
 

@@ -75,17 +75,17 @@ const Footer = () => {
 								<Card.Text className="py-2 hover">Warmte Isolatie</Card.Text>
 							</Link>
 							<Link href="ramen" className="footer-links">
-								<Card.Text className="py-2 hover ">Ramen</Card.Text>
+								<Card.Text className="py-2 hover ">Kozijnen</Card.Text>
 							</Link>
 							<Link href="pleisterwerk" className="footer-links">
-								<Card.Text className="py-2 hover ">Pleister</Card.Text>
+								<Card.Text className="py-2 hover ">Stukadoorswerk</Card.Text>
 							</Link>
 							<Link href="glazuur" className="footer-links ">
-								<Card.Text className="py-2 hover">Glazuur</Card.Text>
+								<Card.Text className="py-2 hover">Tegelwerk</Card.Text>
 							</Link>
 
 							<Link href="bouwwerkzaamheden" className="footer-links ">
-								<Card.Text className="py-2 hover">Bouwwerkzaamheden</Card.Text>
+								<Card.Text className="py-2 hover">Verbouwing</Card.Text>
 							</Link>
 							<Link href="vloerverwarming" className="footer-links ">
 								<Card.Text className="py-2 hover">Vloerverwarming</Card.Text>
@@ -108,7 +108,7 @@ const Footer = () => {
 								<Card.Text className="py-2 hover ">Vragen</Card.Text>
 							</Link>
 							<Link href="werk" className="footer-links ">
-								<Card.Text className="py-2 hover">Werk</Card.Text>
+								<Card.Text className="py-2 hover">Projecten</Card.Text>
 							</Link>
 						</Card.Body>
 						<Card.Text className="footer-links contact-links">
